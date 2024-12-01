@@ -1,9 +1,9 @@
-﻿# Problema 2: Controle de tráfego
-Autores: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
+﻿ **Problem 2 (Task): Traffic Control**
+Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
 
-Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
+Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
-## **Tarefa: Controle de tráfego**
+## **Task: Traffic Control**
 
 ### **1. Introdução**
 
