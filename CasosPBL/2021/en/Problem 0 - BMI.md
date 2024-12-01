@@ -1,53 +1,60 @@
-**Problema 0: IMC**
+**Problem 0 (Task): BMI**
 
 Autores: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
 
-## **Tarefa: IMC**
+## **Task: BMI**
 
-### **1. Introdução**
+### **1. Introduction**
 
-A academia Smart Health resolveu desenvolver uma solução para seus alunos calcularem seu Índice de Massa Corporal(IMC). A ideia surgiu quando um instrutor informou que todo dia um grande número de alunos desejava calcular seu IMC atual. Ele percebeu que um notebook poderia ser colocado à disposição dos alunos para que eles mesmo fizessem os cálculos. Como alguns de seus alunos estão cursando ciência da computação na UFBA, ele os encarregou de resolver tal demanda.
+Smart Health gym decided to develop a solution for its students to calculate their Body Mass Index (BMI). The idea came up when an instructor reported that every day a large number of students wanted to calculate their current BMI. He realized that a notebook could be made available to students so that they could do the calculations themselves. As some of his students are majoring in computer science at UFBA, he tasked them with solving this demand.
 
-O IMC é uma medida internacional usada para avaliar o índice de gordura de uma pessoa e estimar se ela está no peso ideal e é adotado pela Organização Mundial de Saúde (OMS) para a predição da obesidade. O IMC é determinado pela razão entre o peso do indivíduo (em quilogramas) e o quadrado de sua altura (em metros) e sua fórmula é a seguinte:  
+BMI is an international measure used to assess a person's body fat index and estimate whether they are at an ideal weight. It is adopted by the World Health Organization (WHO) to predict obesity. BMI is determined by the ratio of an individual's weight (in kilograms) to the square of their height (in meters) and its formula is as follows:
 
-$IMC = PESO / ALTURA^2$
+$BMI = weight / height²^2$
 
 
-|**IMC**|**Classificação**|
+|**BMI**|**Classification**|
 | :-: | :-: |
-|< 16|Magreza grave|
-|>= 16 e < 17 |Magreza moderada|
-|>= 17 e < 18,5|Magreza leve|
-|>= 18,5 e < 25|Saudável|
-|>= 25 e < 30|Sobrepeso|
-|>= 30 e < 35|Obesidade Grau I|
-|>= 35 e < 40|Obesidade Grau II|
-|>= 40|Obesidade Grau III (Mórbida)|
+|< 16|Underweight (Severe)|
+|>= 16 and < 17 |Underweight (Moderate)|
+|>= 17 and < 18,5|Underweight (Mild)|
+|>= 18,5 and < 25|Healthy Weight|
+|>= 25 and < 30|Overweight|
+|>= 30 and < 35|Obesity Class I|
+|>= 35 and < 40|Obesity Class II|
+|>= 40|Obesity Class III (Morbid)|
 
 
-**Tabela 1 - Limites do IMC.**
+**Table 1 - BMI Limits.**
 
-A classificação adotada pela OMS é feita de acordo com o valor do IMC calculado, conforme a Tabela 1.
+The classification adopted by the WHO is made according to the calculated BMI value, as shown in Table 1.
 
-Escreva um programa, na linguagem de programação de sua escolha, que leia o peso e a altura de uma pessoa, calcule seu IMC e retorne sua classificação de acordo com a Tabela 1. Proponha uma interface simples e intuitiva para a interação com os usuários. 
+Write a program, in the programming language of your choice, that reads a person's weight and height, calculates their BMI, and returns their classification according to Table 1. Propose a simple and intuitive interface for interaction with users.
 
-Pesquise se há outros cálculos mais precisos para o IMC e os aplique, apresentando a comparação entre os possíveis cálculos encontrados.
+Research whether there are other more accurate calculations for BMI and apply them, presenting a comparison between the possible calculations found.
 
-### **2. Processo** 
-Durante o processo de construção da solução será utilizada a metodologia de ensino e aprendizagem Problem Based Learning (PBL) que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a construção de conhecimentos acerca de um tema específico. O processo deve ser documentado através do quadro-branco PBL que é composto pelas colunas QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. A descrição desse processo fará parte da avaliação do grupo. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo, conforme demonstrado em um encontro síncrono.
 
-### **3. Produto** 
-Um integrante da equipe deverá postar no AVA UFBA até as 20:20 do dia 15/03/2023, no espaço apropriado para tal, um arquivo da linguagem de programação escolhida, um relatório no modelo de artigos da SBC (Sociedade Brasileira de Computação) que descreva com o máximo de detalhes o funcionamento da calculadora de Índice de Massa Corporal. O relatório deverá conter as operações executadas para funcionamento do sistema e, ao menos, 2 (dois) exemplos de funcionamento. Lembrando que esse relatório também deve contemplar os interesses/questionamentos do instrutor da academia em relação aos cálculos.
-### **4. Conhecimentos Envolvidos** 
-- Linguagens de programação 
-- Análise de requisitos
-- Matemática e Estatística
-- Interação humano-computador
+### **2. Process** 
+During the process of building the solution, the Problem Based Learning (PBL) teaching and learning methodology will be used. This methodology is characterized by the use of real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, in addition to contributing to the construction of knowledge about a specific topic. The process should be documented through the PBL whiteboard, which consists of the QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS columns. In each team meeting, a version of the whiteboard should be built, and thus we will have the documentation of the steps for building the solution. The description of this process will be part of the group's evaluation. In addition, a shared document will be made available for filling in the Logbook, as demonstrated in a synchronous meeting.
 
-### **5. Objetivo de Aprendizagem**
-#### **5.1 Objetivo Geral**
-Desenvolver um programa que calcule o IMC de uma pessoa a partir das medidas de peso e altura fornecidos pelo usuário.
-#### **5.2 Objetivos Específicos** 
-- Codificar, numa linguagem de programação livre, uma solução que calcule o IMC.
-- Criar uma interface simples para a interação com o usuário permitindo a entrada de dados e apresentação dos resultados.
-- Escrever um relatório técnico que apresente a solução criada.
+### **3. Product** 
+By 8:20 p.m. on March 15, 2023, a team member must post a file of the chosen programming language, a report in the SBC (Brazilian Computer Society) article model that describes in as much detail as possible the operation of the BMI calculator, to the appropriate space on the UFBA AVA. The report must contain the operations executed for the system to function and, at least, 2 (two) examples of how it works. Remembering that this report must also address the interests/questions of the gym instructor regarding the calculations.
+
+### **4. Knowledge Involved** 
+- Programming languages
+- Requirements analysis
+- Mathematics and Statistics
+- Human-computer interaction
+
+
+### **5.  Learning Objective**
+#### **5.1 General Objective**
+Develop a program that calculates a person's BMI from weight and height measurements provided by the user.
+
+#### **5.2 Specific Objectives** 
+- Code, in a free programming language, a solution that calculates BMI.
+- Create a simple interface for interaction with the user allowing data entry and presentation of results.
+- Write a technical report that presents the solution created.
+
+
+
