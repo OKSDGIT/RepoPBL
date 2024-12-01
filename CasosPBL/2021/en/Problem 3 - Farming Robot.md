@@ -31,22 +31,23 @@ A team member must post in AVA UFBA by 8:20 pm on 03/31/2021, in the appropriate
 
 1. Finite state machines
 2. Regular languages
-&nbsp; Formal languages and automata theory
+&nbsp;Formal languages and automata theory
 3. Regular Expressions
 
-### **5. Objetivos de Aprendizagem** 
+### **5. Learning objectives** 
 
-#### **5.1 Objetivo Geral** 
+#### **5.1 General objective** 
 
-Desenvolver um módulo de identificação de rebanhos para um protótipo de robô fazendeiro, utilizando conhecimentos em máquinas de estados finitos e expressões regulares.
+Develop a livestock identification module for a prototype farming robot, using knowledge in finite state machines and regular expressions.
 
-#### **5.2 Objetivos Específicos** 
-1. Identificar as funcionalidades do módulo de identificação do robô fazendeiro.
-2. Aplicar o conceito de máquinas de estados finitos para resolver o problema de identificação dos rebanhos.
-3. Pesquisar e utilizar expressões regulares como parte da documentação e solução do problema.
-4. Investigar a relação entre as quantidades mínimas de rebanhos a serem identificados e a quantidade mínima de estados e transições necessárias na máquina de estados finitos.
-5. Utilizar a ferramenta JFLAP para simular o processo de identificação do robô.
-6. Elaborar um relatório detalhado, no modelo de artigos da SBC, descrevendo o funcionamento do módulo de identificação do robô, incluindo as operações executadas e exemplos de funcionamento.
+#### **5.2 Specific objectives** 
+
+1\. **Identify** the functionalities of the farmer robot identification module.
+2\. **Apply** the concept of finite state machines to solve the herd identification problem.
+3\. **Research** and use regular expressions as part of the documentation and solution of the problem.
+4\. **Investigate** the relationship between the minimum number of herds to be identified and the minimum number of states and transitions required in the finite state machine.
+5\. **Use** the JFLAP tool to simulate the robot identification process.
+6\. **Prepare** a detailed report, in the SBC article model, describing the operation of the robot identification module, including the operations performed and examples of operation.
 
 
 
