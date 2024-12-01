@@ -1,6 +1,6 @@
 **Problem 0 (Task): BMI**
 
-Autores: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
+Authors: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
 
 ## **Task: BMI**
 
