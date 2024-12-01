@@ -1,13 +1,11 @@
 ﻿**Problem 1 (Task): The vending machine for sodas and snacks**
-
-## **Task: Machine for sodas and snacks**
-
 Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
 
 Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
 21 de September de 2020
 
+## **Task: Machine for sodas and snacks**
 
 ### **1.  Introduction**
 
