@@ -1,47 +1,53 @@
-﻿# Problema 4 (Tarefa): O retorno do Robô fazendeiro
+﻿ **Problem 4 (Task): The farmer robot returns**
  
- Autores: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
+ Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
  
- Colaboradores: Edeyson Gomes
+ Contributors: Edeyson Gomes
  
-## Tarefa: O retorno do robô fazendeiro
+## Task: The farmer robot returns
 
-### **1. Introdução**
+### **1. Introduction**
 
-A empresa Robô Fazendeiro ficou bastante satisfeita com a resolução proposta para o problema de sinalização para envio de alimentos e está animada com a implementação de uma nova funcionalidade: o robô, além de percorrer o rebanho e emitir o aviso de enviar alimentos, deve ser capaz de retornar ao ponto de partida e assim realizar outra tarefa. A empresa já possui kits de “sensores externos” que direcionam o caminho do robô aos rebanhos, o problema é como fazer o robô voltar ao ponto de partida. Como sabemos, já foi previamente acordado com o fazendeiro a quantidade mínima necessária de indivíduos do rebanho para emitir o aviso de enviar alimentos.
+The Farmer Robot company was very pleased with the proposed solution to the food delivery signaling problem and is excited to implement a new feature: the robot, in addition to going through the herd and issuing a food delivery alert, should be able to return to the starting point and thus perform another task. The company already has "external sensor" kits that direct the robot's path to the herds, the problem is how to get the robot back to the starting point. As we know, the minimum number of individuals in the herd required to issue a food delivery alert has already been agreed upon with the farmer.
 
-A equipe de estudantes da UFBA responsável pelo desenvolvimento do protótipo inicial, ao estudar este problema de navegação, percebeu que uma simples máquina de estados finitos não resolve o problema: como chegaram nessa conclusão é uma boa questão. Ao detalhar um pouco mais o estudo em relação ao problema do retorno ao ponto de partida, os alunos perceberam que, com o acoplamento de um dispositivo de memória auxiliar na máquina de estados, é possível modelar uma solução para apoio à navegação do robô fazendeiro.
+The UFBA student team responsible for developing the initial prototype, when studying this navigation problem, realized that a simple finite state machine does not solve the problem: how they reached this conclusion is a good question. By detailing a little more about the study in relation to the return to the starting point problem, the students realized that, with the coupling of an auxiliary memory device to the state machine, it is possible to model a solution to support the navigation of the farmer robot.
 
-Os alunos também perceberam que o módulo de Envio de Alimento do Problema do Robô Fazendeiro pode ser estendido com o módulo de navegação proposto neste novo problema ou os dois módulos podem ser soluções separadas que funcionam em paralelo, mas que podem se comunicar de alguma forma. A empresa também tem interesse em uma notação que especifique regras de geração de sequências de localização, para fins de documentação e aperfeiçoamento do módulo de navegação do robô.
+The students also realized that the Food Delivery module of the Farmer Robot Problem can be extended with the navigation module proposed in this new problem or the two modules can be separate solutions that work in parallel, but can communicate in some way. The company is also interested in a notation that specifies rules for generating location sequences, for documentation and improvement of the robot's navigation module.
 
-A ferramenta sugerida para simular o processo do módulo de navegação do robô e a geração de sequências de localização  é o JFLAP1
-
-### **2. Processo**
-Durante o processo de construção da soluçã̃o será utilizada a metodologia de ensino e aprendizagem Problem Based Learning (PBL) que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a constru̧cão de conhecimentos acerca de um tema específico.
-
-O processo deve ser documentado através do quadro-branco PBL que é composto pelas colunas QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo que deve conter as atas das reuniões com nomes dos participantes, pontos discutidos e desafios encontrados. A descrição desse processo fará parte da avaliaç̃ao do grupo. Nesse processo a participaç̃ao/contribuição de cada componente da equipe  é fundamental, assim cada estudante também será avaliado individualmente com base na observação dos tutores e no feedback dos colegas.
-
-### **3. Produto**
-Um integrante da equipe deverá postar no AVA UFBA até as 20:20 do dia 28/04/2021, no espaço apropriado para tal, um arquivo para o simulador JFLAP com módulo de navegação do robô, bem como, um relatório no modelo de artigos da SBC (Sociedade Brasileira de Computação) que descreva com o máximo de detalhes a idealização de funcionamento do módulo de navegaç̃ao do robô. O relatório deverá conter as operações executadas para funcionamento do sistema e, ao menos, 2 (dois) exemplos de funcionamento. Caso tenha sido desenvolvida uma notação baseada em regras, neste relatório também deve conter exemplos de geração de sequências de localização. Caso não tenha sido desenvolvida, apresentar no relatório as principais dificuldades.
+The suggested tool to simulate the robot's navigation module process and the generation of location sequences is JFLAP1
 
 
-### **4. Conhecimentos/Conceitos Envolvidos**
-1. Autômato de pilha
-2. Gramáticas livre de contexto
+### **2. Process**
+During the process of building the solution, the Problem Based Learning (PBL) teaching and learning methodology will be used. This methodology is characterized by the use of real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, in addition to contributing to the construction of knowledge about a specific topic.
+The process should be documented through the PBL whiteboard, which consists of the QUESTIONS, FACTS, IDEAS/HYPOTHESES and ACTIONS columns. In each team meeting, a version of the whiteboard should be built, and thus we will have the documentation of the steps for building the solution. In addition, a shared document will be made available for filling in the Logbook, which must contain the minutes of the meetings with the names of the participants, points discussed and challenges encountered. The description of this process will be part of the group's evaluation. In this process, the participation/contribution of each member of the team is essential, so each student will also be individually evaluated based on the observation of the tutors and the feedback of their colleagues.
+
+
+### **3. Product**
+By 8:20 p.m. on April 28, 2021, a team member must post to Virtual Learning Environment (VLE) UFBA, in the appropriate space, a file for the JFLAP simulator with the robot's navigation module, as well as a report in the SBC (Brazilian Computer Society) article model that describes in as much detail as possible the idealization of the robot's navigation module's operation. The report must contain the operations executed for the system to function and, at least, 2 (two) examples of how it works. If a rule-based notation has been developed, this report must also contain examples of generating location sequences. If it has not been developed, present the main difficulties in the report.
+
+
+### **4. Knowledge/Concepts Involved**
+1\. Pushdown automaton
+2\. Context-free grammars
+
    
-### **5. Objetivos de Aprendizagem** 
+### **5. Learning Objectives** 
 
-#### **5.1 Objetivo Geral**
+#### **5.1 General Objective**
 
-Desenvolver um módulo de navegação para o robô fazendeiro, que permita o retorno ao ponto de partida após a emissão do aviso de enviar alimento.
+Develop a navigation module for the farmer robot that allows it to return to the starting point after issuing the food delivery alert.
 
-#### **5.2 Objetivos Específicos**
+#### **5.2 Specific Objectives**
 
-1. Compreender as funcionalidades e desafios do problema de navegação do robô fazendeiro.
-2. Investigar o uso de dispositivos de memória auxiliar em uma máquina de estados finitos para modelar uma solução para o problema de retorno ao ponto de partida.
-3. Analisar a possibilidade de estender o módulo de envio de alimentos com o módulo de navegação proposto ou desenvolver soluções separadas que funcionem em paralelo e possam se comunicar.
-4. Pesquisar e propor uma notação que especifique regras de geração de sequências de localização para documentação e aperfeiçoamento do módulo de navegação.
-5. Utilizar a ferramenta JFLAP para simular o processo de navegação do robô e a geração de sequências de localização.
+1\. **Understand** the functionalities and challenges of the farmer robot's navigation problem
+
+2\. **Investigate** the use of auxiliary memory devices in a finite state machine to model a solution to the return to the starting point problem
+
+3\. **Analyze** the possibility of extending the food delivery module with the proposed navigation module or developing separate solutions that work in parallel and can communicate
+
+4\. **Research** and propose a notation that specifies rules for generating location sequences for documentation and improvement of the navigation module.
+
+5\. **Use** the JFLAP tool to simulate the robot's navigation process and the generation of location sequences.
 
 
 

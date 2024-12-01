@@ -1,56 +1,56 @@
-﻿# Problema 2: Controle de tráfego
-Autores: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
+﻿ **Problem 2 (Task): Traffic Control**
+  
+Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
 
-Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
+Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
-## **Tarefa: Controle de tráfego**
+## **Task: Traffic Control**
 
-### **1. Introdução**
+### **1. Introduction**
 
-Um dos problemas que afetam as rodovias brasileiras é o grande número de buracos. Muitas são as causas desse problema: a alternância de chuva e sol é uma delas. Outro motivo  é a pressão que os veículos pesados fazem sobre as estradas durante a noite, período em que os veículos pesados circulam nas rodovias mais livremente. Na estrada de Aratu, em Salvador, muitos buracos foram identificados pelos técnicos do Departamento de Infraestrutura de Transportes da Bahia (DERBA), o que tem causado vários incidentes e ocasionalmente acidentes graves.
+One of the problems affecting Brazilian highways is the large number of holes. There are many causes for this problem: one of them is the alternation of rain and sun. Another reason is the pressure that heavy vehicles put on the roads at night, when heavy vehicles circulate more freely on the highways. On the Aratu highway, in Salvador, many holes have been identified by technicians from the Bahia Department of Transportation Infrastructure (DERBA), which has caused several incidents and occasionally serious accidents.
 
-Os técnicos deste departamento acreditam que seja possível reduzir a pressão sobre o asfaltamento e, consequentemente, minimizar o problema dos buracos, se tiverem acesso a informativos diários com a quantidade de veículos que trafegam à noite na estrada.
+The technicians of this department believe that it is possible to reduce the pressure on the asphalt and, consequently, minimize the hole problem, if they have access to daily information on the number of vehicles that circulate at night on the highway.
 
-Com base nesses dados, a ideia é criar um plano de prevenção de desgaste do asfaltamento. Os técnicos classificam os veículos em três categorias: leves, pesados e muito pesados. Veículos de até 6 (seis) toneladas são categorizados como leves; acima de 6 (seis) e abaixo de 10 (dez) toneladas são categorizados como pesados; e de 10 (dez) ou mais toneladas são categorizados como muito pesados.
+Based on this data, the idea is to create a paving wear prevention plan. Technicians classify vehicles into three categories: light, heavy and very heavy. Vehicles up to 6 (six) tons are categorized as light; above 6 (six) and below 10 (ten) tons are categorized as heavy; and 10 (ten) or more tons are categorized as very heavy.
 
-Por sua vez, já há sensores na entrada e na saída da estrada de Aratu que permitem identificar e categorizar os véıculos. Os técnicos, então, gostariam de uma solução que, a partir das informações dos sensores já instalados na estrada, seja capaz de determinar quantos veículos de cada categoria trafegaram na noite anterior e qual categoria teve mais veículos.
+In turn, there are already sensors at the entrance and exit of the Aratu highway that allow vehicles to be identified and categorized. The technicians, then, would like a solution that, based on the information from the sensors already installed on the highway, is able to determine how many vehicles of each category circulated the night before and which category had the most vehicles.
 
-Os alunos da turma corrente de Teoria da Computação estão estudando Máquinas de Turing e entendem que podem idealizar um sistema com tais funcionalidades. Desta forma, entraram em contato com os técnicos do DERBA para oferecer algumas soluções para este problema.
+The students of the current class of Computer Theory are studying Turing Machines and understand that they can design a system with these functionalities. That way, they contacted DERBA technicians to offer some solutions to this problem.
 
-### 2. Processo
+### 2. Process
 
-Durante o processo de construção da soluçã̃o será utilizada a metodologia de ensino e aprendizagem Problem Based Learning (PBL) que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a constru̧cão de conhecimentos acerca de um tema específico.
+During the process of building the solution, the Problem Based Learning (PBL) teaching and learning methodology will be used. This methodology is characterized by the use of real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, in addition to contributing to the construction of knowledge about a specific topic.
 
-O processo deve ser documentado através do quadro-branco PBL que é composto pelas colunas QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo que deve conter as atas das reuniões com nomes dos participantes, pontos discutidos e desafios encontrados. A descrição desse processo fará parte da avaliaç̃ao do grupo. Nesse processo a participaç̃ao/contribuição de cada componente da equipe  é fundamental, assim cada estudante também será avaliado individualmente com base na observação dos tutores e no feedback dos colegas.
+The process should be documented through the PBL whiteboard, which consists of the QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS columns. In each team meeting, a version of the whiteboard should be built, and thus we will have the documentation of the steps for building the solution. In addition, a shared document will be made available for filling in the Logbook, which must contain the minutes of the meetings with the names of the participants, points discussed and challenges encountered. The description of this process will be part of the group's evaluation. In this process, the participation/contribution of each member of the team is essential, so each student will also be individually evaluated based on the observation of the tutors and the feedback of their colleagues.
 
-### **3. Produto**
+### **3. Product**
 
-Você deverá postar no Moodle UFBA até as 18:00h do dia 12/01/2020, no espaço apropriado para tal: (i) um ou mais arquivos com máquinas de Turing (formato JFLAP) que contenham a solução para o problema; e (ii) um relatório no modelo de artigos da SBC que descreva com o máximo de detalhes o funcionamento do sistema de controle de tráfego deste problema.
-
-
-### **4. Conhecimentos/Conceitos envolvidos**
-
-1\. Máquinas de Turing (nmT)
-
-2\. Variações de mT
-
-3\. Tese de Church-Turing
-
-### **5. Objetivos de aprendizagem**
-
-#### **5.1 Objetivo geral**
-Desenvolver máquinas de Turing para computar soluções de problemas “reais”, como é o caso do problema do DERBA.
-
-#### **5.2 Objetivos específicos:**
-1\. **Identificar** as funcionalidades do sistema idealizado pelo usuário
-
-2\. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades da máquina de Turing a ser desenvolvida
-
-3\. **Avaliar** a necessidade de se usar extensões na máquina de Turing a ser desenvolvida.
-
-4\. **Aplicar** a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
+You must post on Moodle UFBA until 6:00 p.m. on January 12, 2020, in the appropriate space: (i) one or more files with Turing machines (JFLAP format) that contain the solution to the problem; and (ii) a report in the SBC article model that describes in as much detail as possible the operation of the traffic control system for this problem.
 
 
+### **4. Knowledge/Concepts Involved**
 
-**Problema reformulado por Laís Salvador em jun/2019.**
+- Turing Machines (nmT)
+- mT Variations
+- Church-Turing Thesis
+
+
+### **5. Learning Objectives**
+
+#### **5.1 General Objective**
+Develop Turing machines to compute solutions to "real" problems, as is the case with the DERBA problem.
+
+#### **5.2 Specific Objectives:**
+
+1\. **Identify** the functionalities of the system idealized by the user
+
+2\. **Reconcile** the functionalities desired by the user with the functionalities of the Turing machine to be developed
+
+3\. **Evaluate** the need to use extensions in the Turing machine to be developed
+
+4\. **Apply**  the Church-Turing thesis to associate the formal concept of a Turing machine with the intuitive notion of an algorithm
+
+
+**Problem reformulated by Laís Salvador in June/2019.**
 
