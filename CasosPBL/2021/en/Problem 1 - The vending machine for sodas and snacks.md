@@ -1,4 +1,5 @@
 ﻿**Problem 1 (Task): The vending machine for sodas and snacks**
+
 Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
 
 Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
