@@ -43,10 +43,15 @@ Develop a livestock identification module for a prototype farming robot, using k
 #### **5.2 Specific objectives** 
 
 1\. **Identify** the functionalities of the farmer robot identification module.
+
 2\. **Apply** the concept of finite state machines to solve the herd identification problem.
+
 3\. **Research** and use regular expressions as part of the documentation and solution of the problem.
+
 4\. **Investigate** the relationship between the minimum number of herds to be identified and the minimum number of states and transitions required in the finite state machine.
+
 5\. **Use** the JFLAP tool to simulate the robot identification process.
+
 6\. **Prepare** a detailed report, in the SBC article model, describing the operation of the robot identification module, including the operations performed and examples of operation.
 
 
