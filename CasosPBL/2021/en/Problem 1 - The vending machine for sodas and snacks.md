@@ -2,11 +2,11 @@
 
 Task: Machine for sodas and snacks
 
-Autores: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
+Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
 
-Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
+Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
-21 de setembro de 2020
+21 de September de 2020
 
 
 ### **1.  Introduction**
