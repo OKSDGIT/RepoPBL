@@ -10,7 +10,7 @@ Smart Health gym decided to develop a solution for its students to calculate the
 
 BMI is an international measure used to assess a person's body fat index and estimate whether they are at an ideal weight. It is adopted by the World Health Organization (WHO) to predict obesity. BMI is determined by the ratio of an individual's weight (in kilograms) to the square of their height (in meters) and its formula is as follows:
 
-$BMI = weight / height²^2$
+$BMI = weight / height^2$
 
 
 |**BMI**|**Classification**|
