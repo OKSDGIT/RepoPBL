@@ -50,11 +50,11 @@ By fulfilling these requirements, the submission will provide the necessary tool
 
 
 ### **4 Knowledge/Concepts Involved** 
-    1\. Deterministic Finite Automata (DFA)
+    1. Deterministic Finite Automata (DFA)
 
-    2\. Non-Deterministic Finite Automata  (NFA ou NDFA)
+    2. Non-Deterministic Finite Automata  (NFA ou NDFA)
 
-    3\. Regular Expressions (RE)
+    3. Regular Expressions (RE)
 
 
 
