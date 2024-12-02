@@ -28,9 +28,9 @@ The report must contain the operations carried out by the system to receive paym
 
 
 ### **4 Knowledge/Concepts Involved** 
-- Deterministic Finite Automata (DFA)
-- Non-Deterministic Finite Automata  (NFA ou NDFA)
-- Regular Expressions (RE)
+1\. Deterministic Finite Automata (DFA)
+2\. Non-Deterministic Finite Automata  (NFA ou NDFA)
+3\. Regular Expressions (RE)
 
 
 ###
@@ -42,10 +42,15 @@ Develop finite automata and regular expressions to solve “real” problems, as
 #### **5.2 Specific objectives** 
 
 1\. **Identify** the functionalities of the system designed by the user.
+
 2\. **Reconcile** the functionalities desired by the user with the functionalities of the automaton to be developed.
+
 3\. **Evaluate** the use of non-determinism in the developed automaton.
+
 4\. **Associate** machine options, coins, notes with symbols of an alphabet.
+
 5\. **Specify** technical reports.
+
 6\. **Use** simulation tools for AF
 
 
