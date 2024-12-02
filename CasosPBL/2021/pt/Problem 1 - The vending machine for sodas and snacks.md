@@ -21,10 +21,10 @@ Os estudantes também comentaram sobre uma ferramenta chamada de JFLAP para test
 
 
 ### **2. Processo** 
-Durante o processo de construção da solução será utilizada a metodologia de ensino e aprendizagem Problem Based Learning (PBL) que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a construção de conhecimentos acerca de um tema específico. O processo deve ser documentado através do quadro-branco PBL que é composto pelas colunas QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. A descrição desse processo fará parte da avaliação do grupo. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo, conforme demonstrado em um encontro síncrono.
+Durante o processo de construção da solução será utilizada a metodologia de ensino e aprendizagem **Problem Based Learning (PBL)** que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a construção de conhecimentos acerca de um tema específico. O processo deve ser documentado através do **quadro-branco PBL** que é composto pelas colunas **QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES**. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. A descrição desse processo fará parte da avaliação do grupo. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo, conforme demonstrado em um encontro síncrono.
 
 ### **3.  Produto** 
-Você deverá postar no AVA UFBA até as 20:20 do dia 13/10/2020, no espaço apropriado para tal, um arquivo com um autômato que contenha uma máquina de vender refrigerantes e salgados de forma que a equipe de tecnologia da empresa *Refrigerantes e Salgados S.A.* possa testar/simular no JFLAP, bem como, um relatório no modelo de artigos da SBC (Sociedade Brasileira de Computação) que descreva com o máximo de detalhes a idealização de funcionamento do sistema da máquina de vender refrigerantes e salgados. 
+Você deverá postar no **AVA UFBA** até as 20:20 do dia 13/10/2020, no espaço apropriado para tal, um arquivo com um autômato que contenha uma máquina de vender refrigerantes e salgados de forma que a equipe de tecnologia da empresa *Refrigerantes e Salgados S.A.* possa testar/simular no JFLAP, bem como, um relatório no modelo de artigos da SBC (Sociedade Brasileira de Computação) que descreva com o máximo de detalhes a idealização de funcionamento do sistema da máquina de vender refrigerantes e salgados. 
 
 O relatório deverá constar quais as operações executadas pelo sistema para receber o pagamento pelo cliente e entregar o produto escolhido e, ao menos, 2 exemplos de funcionamento. Caso seja possível atender o pedido do técnico, nesse relatório também deve conter a expressão regular com o trecho do autômato analisado, além do método de construção da expressão. Caso não seja possível, apresentar no relatório uma justificativa para essa impossibilidade. 
 
@@ -47,15 +47,15 @@ Desenvolver autômatos finitos e expressões regulares para resolver problemas �
 
 1. **Identificar** as funcionalidades do sistema idealizado pelo usuário. 
 
-2. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades do autômato a ser desenvolvido 
+2. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades do autômato a ser desenvolvido. 
 
-3. **Avaliar** o uso de não-determinismo no autômato desenvolvido 
+3. **Avaliar** o uso de não-determinismo no autômato desenvolvido. 
 
-4. **Associar** opções da máquina, moedas, notas com símbolos de um alfabeto 
+4. **Associar** opções da máquina, moedas, notas com símbolos de um alfabeto. 
 
-5. **Especificar** relatórios de cunho técnico 
+5. **Especificar** relatórios de cunho técnico. 
 
-6. **Usar** ferramentas de simulação para AF 
+6. **Usar** ferramentas de simulação para AF. 
 
 
 ### </a> Referências 

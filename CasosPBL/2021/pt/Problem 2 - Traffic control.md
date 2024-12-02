@@ -31,11 +31,11 @@ Você deverá postar no Moodle UFBA até as 18:00h do dia 12/01/2020, no espaço
 
 ### **4. Conhecimentos/Conceitos envolvidos**
 
-1\. Máquinas de Turing (nmT)
+1. Máquinas de Turing (nmT)
 
-2\. Variações de mT
+2. Variações de mT
 
-3\. Tese de Church-Turing
+3. Tese de Church-Turing
 
 ### **5. Objetivos de aprendizagem**
 
@@ -43,15 +43,15 @@ Você deverá postar no Moodle UFBA até as 18:00h do dia 12/01/2020, no espaço
 Desenvolver máquinas de Turing para computar soluções de problemas “reais”, como é o caso do problema do DERBA.
 
 #### **5.2 Objetivos específicos:**
-1\. **Identificar** as funcionalidades do sistema idealizado pelo usuário
+1. **Identificar** as funcionalidades do sistema idealizado pelo usuário
 
-2\. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades da máquina de Turing a ser desenvolvida
+2. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades da máquina de Turing a ser desenvolvida
 
-3\. **Avaliar** a necessidade de se usar extensões na máquina de Turing a ser desenvolvida.
+3. **Avaliar** a necessidade de se usar extensões na máquina de Turing a ser desenvolvida.
 
-4\. **Aplicar** a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
+4. **Aplicar** a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
 
 
 
-**Problema reformulado por Laís Salvador em jun/2019.**
+### **Problema reformulado por Laís Salvador em jun/2019.**
 

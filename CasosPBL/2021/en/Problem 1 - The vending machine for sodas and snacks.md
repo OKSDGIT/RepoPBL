@@ -66,17 +66,17 @@ Develop finite automata and regular expressions to solve “real” problems, as
 #### **5.2 Specific objectives** 
 
 
-1\. **Identify** the functionalities of the system designed by the user.
+   1. **Identify** the functionalities of the system designed by the user.
 
-2\. **Reconcile** the functionalities desired by the user with the functionalities of the automaton to be developed.
+   2. **Reconcile** the functionalities desired by the user with the functionalities of the automaton to be developed.
 
-3\. **Evaluate** the use of non-determinism in the developed automaton.
+   3. **Evaluate** the use of non-determinism in the developed automaton.
 
-4\. **Associate** machine options, coins, notes with symbols of an alphabet.
+   4. **Associate** machine options, coins, notes with symbols of an alphabet.
 
-5\. **Specify** technical reports.
+   5. **Specify** technical reports.
 
-6\. **Use** simulation tools for AF
+   6. **Use** simulation tools for AF
 
 
 ### </a> References 
