@@ -1,65 +1,86 @@
-## Problema 1 : A máquina de vender refrigerantes e salgados
-Autores: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
+## **Problem 1 (Task): The vending machine for sodas and snacks**
 
-Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
+Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
 
-21 de setembro de 2020
+Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
-## **Tarefa:  A máquina de vender refrigerantes e salgados**
+21 de September de 2020
 
-### **1. Problema**
+## **Task: Machine for sodas and snacks**
 
-A empresa Refrigerantes e Salgados S.A. resolveu desenvolver novas soluções para as suas máquinas de vender refrigerantes e salgados, baseadas em projetos de hardware e software bem estruturados, acompanhados de uma documentação precisa e de fácil uso.
+### **1.  Problem**
 
-A ideia surgiu quando um técnico de informática da empresa estava conversando com um grupo de estudantes do Departamento de Ciência da Computação da UFBA. Eles perceberam que há algumas máquinas de estados, chamados autômatos, que atendem às funcionalidades das máquinas de venda, além de usarem pouca memória e serem de simples configuração.
+The company **Refrigerantes e Salgados S.A.** decided to develop new solutions for their vending machines for soft drinks and snacks, based on well-structured hardware and software designs, accompanied by precise and user-friendly documentation.
 
-As máquinas da empresa devem ser configuradas para vender no mínimo três (3) produtos e receber moedas e notas de R$1,00 e R$2,00, além de prever a funcionalidade de troco. No portfólio da empresa há opções para venda de refrigerantes de 3,00 e de 5,00 reais, e de salgados de 5,00 e 7,00 reais.
+The idea emerged during a conversation between one of the company’s IT technicians and a group of students from the Department of Computer Science at UFBA. They realized that certain state machines, known as automata, can support the functionalities of vending machines while requiring minimal memory and being simple to configure.
 
-Os estudantes também comentaram sobre uma ferramenta chamada de JFLAP para testar/simular soluções que utilizam esses autómatos. Eles falaram que a JFLAP apresenta uma interface gráfica que pode contribuir para a documentação dessas novas soluções para as máquinas de venda. Outro ponto interessante é que o técnico de informática já trabalhou com expressões regulares e ouviu dizer que expressões regulares têm relação com alguns dessas autômatos: ele gostaria de saber se essa informação procede (investigar); caso afirmativo, gostaria de ter pelo menos um exemplo de como isso funcionaria para um trecho do autômato construído para alguma máquina de venda. Ele acha que as expressões também podem ajudar na documentação dessas máquinas e de projetos futuros.
+The company’s machines need to be configured to sell at least three (3) products, accept coins and banknotes of R$1.00 and R$2.00, and provide change. The company’s product portfolio includes soft drinks priced at R$3.00 and R$5.00, as well as snacks priced at R$5.00 and R$7.00.
 
-**DESAFIO**: O técnico de informática prometeu um bônus adicional se eles conseguirem ajudar na divulgação das novas máquinas, ao implementar uma modificação que permita que as máquinas possam aleatoriamente dar um troco bônus de R$ 1,00, caso o valor inserido pelo cliente seja exatamente o preço do produto selecionado. 
+The students also mentioned a tool called **JFLAP** for testing/simulating solutions that use these automata. They explained that JFLAP provides a graphical interface that could contribute to the documentation of these new vending machine solutions. Another interesting point is that the IT technician, who has worked with regular expressions before, had heard that regular expressions are related to some types of automata. He would like to verify if this information is correct (investigate); if so, he would appreciate at least one example of how this could work for a portion of the automaton constructed for one of the vending machines. He also believes that regular expressions could help document these machines and future projects.
 
-
-### **2. Processo** 
-Durante o processo de construção da solução será utilizada a metodologia de ensino e aprendizagem Problem Based Learning (PBL) que se caracteriza pela utilização de problemas do mundo real para estimular o desenvolvimento do pensamento crítico, do trabalho em equipe e de habilidades para a resolução de problemas, além de contribuir para a construção de conhecimentos acerca de um tema específico. O processo deve ser documentado através do quadro-branco PBL que é composto pelas colunas QUESTÕES, FATOS, IDEIAS/HIPÓTESES e AÇÕES. Em cada reunião da equipe deve ser construída uma versão do quadro-branco e assim teremos a documentação dos passos para construção da solução. A descrição desse processo fará parte da avaliação do grupo. Além disso, será disponibilizado um documento compartilhado para o preenchimento do Diário de Bordo, conforme demonstrado em um encontro síncrono.
-
-### **3.  Produto** 
-Você deverá postar no AVA UFBA até as 20:20 do dia 13/10/2020, no espaço apropriado para tal, um arquivo com um autômato que contenha uma máquina de vender refrigerantes e salgados de forma que a equipe de tecnologia da empresa *Refrigerantes e Salgados S.A.* possa testar/simular no JFLAP, bem como, um relatório no modelo de artigos da SBC (Sociedade Brasileira de Computação) que descreva com o máximo de detalhes a idealização de funcionamento do sistema da máquina de vender refrigerantes e salgados. 
-
-O relatório deverá constar quais as operações executadas pelo sistema para receber o pagamento pelo cliente e entregar o produto escolhido e, ao menos, 2 exemplos de funcionamento. Caso seja possível atender o pedido do técnico, nesse relatório também deve conter a expressão regular com o trecho do autômato analisado, além do método de construção da expressão. Caso não seja possível, apresentar no relatório uma justificativa para essa impossibilidade. 
+**CHALLENGE**: The IT technician promised an additional bonus if the students could help promote the new machines by implementing a modification that allows the machines to randomly provide a bonus change of R$1.00 if the amount inserted by the customer matches the exact price of the selected product.
 
 
+### **2. Process**
 
-### **4 Conhecimentos/Conceitos Envolvidos** 
-    1\. Autômatos Finitos Determinísticos 
+The solution will be developed using the **Problem-Based Learning (PBL)** methodology, which leverages real-world problems to stimulate critical thinking, teamwork, and problem-solving skills. This approach also aids in the construction of knowledge on a specific topic. 
 
-    2\. Autômatos Finitos Não-Determinísticos
+The process must be documented using the **PBL Whiteboard**, composed of the following columns: **QUESTIONS**, **FACTS**, **IDEAS/HYPOTHESES**, and **ACTIONS**. During each team meeting, a new version of the whiteboard should be created, providing a step-by-step documentation of the solution development. The description of this process will be part of the group’s evaluation. 
 
-    3\. Expressões Regulares 
-
-
-### **5. Objetivos de aprendizagem** 
-
-#### **5.1 Objetivo geral** 
-Desenvolver autômatos finitos e expressões regulares para resolver problemas “reais”, como é o caso do projeto de máquinas da empresa *Refrigerantes e Salgados S.A.* 
-
-#### **5.2 Objetivos específicos** 
-
-1\. **Identificar** as funcionalidades do sistema idealizado pelo usuário. 
-
-2\. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades do autômato a ser desenvolvido 
-
-3\. **Avaliar** o uso de não-determinismo no autômato desenvolvido 
-
-4\. **Associar** opções da máquina, moedas, notas com símbolos de um alfabeto 
-
-5\. **Especificar** relatórios de cunho técnico 
-
-6\. **Usar** ferramentas de simulação para AF 
+Additionally, a shared document will be provided to record the **Logbook**, as demonstrated during a synchronous session. This log will serve as a complementary record of the team’s progress and decisions throughout the project.
 
 
-### </a> Referências 
-Este problema é baseado nas notas de aula do professor Martin Musicante 2</sup> do DIMAP - UFRN. <sup>2<https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=12212512></sup>
+### **3. Deliverable**
+
+You must submit your deliverable on the **UFBA LMS (Moodle)** platform by **20:20 on October 13, 2020**, in the designated space. The submission should include:
+
+1. **Automaton File**:  
+   An automaton representing a vending machine for soft drinks and snacks that can be tested/simulated using JFLAP. The automaton must reflect the intended functionalities and operations of the vending machine.
+
+2. **Detailed Report**:  
+   A report following the **Sociedade Brasileira de Computação (SBC)** article format, describing in detail the design and functionality of the vending machine system. The report should include:
+   - A clear explanation of the operations performed by the system to process payments and deliver the selected product.
+   - At least two examples illustrating the vending machine’s functionality.
+   - If applicable, the report should also include a **regular expression** for a portion of the automaton, along with the method used to construct this expression.
+   - If it is not feasible to include the regular expression, the report must provide a detailed justification explaining the reason for this limitation.
+
+By fulfilling these requirements, the submission will provide the necessary tools for the company’s technology team to evaluate and simulate the vending machine system effectively.
+
+
+
+
+### **4 Knowledge/Concepts Involved** 
+    1\. Deterministic Finite Automata (DFA)
+
+    2\. Non-Deterministic Finite Automata  (NFA ou NDFA)
+
+    3\. Regular Expressions (RE)
+
+
+
+### **5. Learning objectives** 
+
+#### **5.1 General objective** 
+Develop finite automata and regular expressions to solve “real” problems, as is the case with the machine project of the he company **Refrigerantes e Salgados S.A.*** 
+
+#### **5.2 Specific objectives** 
+
+
+1\. **Identify** the functionalities of the system designed by the user.
+
+2\. **Reconcile** the functionalities desired by the user with the functionalities of the automaton to be developed.
+
+3\. **Evaluate** the use of non-determinism in the developed automaton.
+
+4\. **Associate** machine options, coins, notes with symbols of an alphabet.
+
+5\. **Specify** technical reports.
+
+6\. **Use** simulation tools for AF
+
+
+### </a> References 
+This problem is based on the lecture notes of Professor Martin Musicante 2</sup> do DIMAP - UFRN. <sup>2<https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=12212512></sup>
 
 RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
 
