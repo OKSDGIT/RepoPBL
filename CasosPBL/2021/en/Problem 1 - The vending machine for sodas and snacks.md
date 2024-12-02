@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿## **Problem 1 (Task): The vending machine for sodas and snacks**
-=======
 ## **Problem 1 (Task): The vending machine for sodas and snacks**
->>>>>>> 1f8d2246a53bbcc03159a043e654a81c55cff2ec
 
 Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
 
