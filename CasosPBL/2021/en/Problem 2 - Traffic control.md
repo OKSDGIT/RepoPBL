@@ -1,4 +1,4 @@
-﻿ **Problem 2 (Task): Traffic Control**
+﻿# **Problem 2 (Task): Traffic Control**
   
 Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
 

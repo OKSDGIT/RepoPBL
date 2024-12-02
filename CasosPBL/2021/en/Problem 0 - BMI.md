@@ -1,4 +1,4 @@
-**Problem 0 (Task): BMI**
+# **Problem 0 (Task): BMI**
 
 Authors: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
 
