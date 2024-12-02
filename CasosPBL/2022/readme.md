@@ -12,7 +12,7 @@ Diversas ferramentas foram empregadas para criar uma experiência de aprendizado
 
 A integração dessas ferramentas garantiu flexibilidade e acessibilidade ao curso, promovendo um ambiente propício ao desenvolvimento de competências fundamentais em Teoria da Computação.
 
----
+
 
 ## **Ementa**
 
@@ -32,7 +32,7 @@ A integração dessas ferramentas garantiu flexibilidade e acessibilidade ao cur
 - A tese de Church.
 - Noções de Teoria da Complexidade.
 
----
+
 
 ## **Objetivos**
 

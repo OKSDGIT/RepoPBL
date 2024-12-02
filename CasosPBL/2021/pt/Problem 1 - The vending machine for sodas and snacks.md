@@ -31,13 +31,13 @@ O relatório deverá constar quais as operações executadas pelo sistema para r
 
 
 ### **4 Conhecimentos/Conceitos Envolvidos** 
-1\. Autômatos Finitos Determinísticos 
+    1\. Autômatos Finitos Determinísticos 
 
-2\. Autômatos Finitos Não-Determinísticos
+    2\. Autômatos Finitos Não-Determinísticos
 
-3\. Expressões Regulares 
+    3\. Expressões Regulares 
 
-###
+
 ### **5. Objetivos de aprendizagem** 
 
 #### **5.1 Objetivo geral** 
@@ -55,11 +55,12 @@ Desenvolver autômatos finitos e expressões regulares para resolver problemas �
 
 5\. **Especificar** relatórios de cunho técnico 
 
-6\. **Usar** ferramentas de simulação  para AF 
+6\. **Usar** ferramentas de simulação para AF 
 
 
 ### </a> Referências 
 Este problema é baseado nas notas de aula do professor Martin Musicante 2</sup> do DIMAP - UFRN. <sup>2<https://sigaa.ufrn.br/sigaa/public/docente/portal.jsf?siape=12212512></sup>
 
 RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
+
 MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.

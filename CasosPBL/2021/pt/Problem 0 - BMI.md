@@ -8,7 +8,7 @@ Autores: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
 
 ### **1. Introdução**
 
-A academia Smart Health resolveu desenvolver uma solução para seus alunos calcularem seu Índice de Massa Corporal(IMC). A ideia surgiu quando um instrutor informou que todo dia um grande número de alunos desejava calcular seu IMC atual. Ele percebeu que um notebook poderia ser colocado à disposição dos alunos para que eles mesmo fizessem os cálculos. Como alguns de seus alunos estão cursando ciência da computação na UFBA, ele os encarregou de resolver tal demanda.
+A academia Smart Health resolveu desenvolver uma solução para seus alunos calcularem seu Índice de Massa Corporal (IMC). A ideia surgiu quando um instrutor informou que todo dia um grande número de alunos desejava calcular seu IMC atual. Ele percebeu que um notebook poderia ser colocado à disposição dos alunos para que eles mesmo fizessem os cálculos. Como alguns de seus alunos estão cursando ciência da computação na UFBA, ele os encarregou de resolver tal demanda.
 
 O IMC é uma medida internacional usada para avaliar o índice de gordura de uma pessoa e estimar se ela está no peso ideal e é adotado pela Organização Mundial de Saúde (OMS) para a predição da obesidade. O IMC é determinado pela razão entre o peso do indivíduo (em quilogramas) e o quadrado de sua altura (em metros) e sua fórmula é a seguinte:  
 
