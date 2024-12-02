@@ -9,7 +9,7 @@ Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
 
 ### **1. Problema**
 
-A empresa Refrigerantes e Salgados S.A. resolveu desenvolver novas soluções para as suas máquinas de vender refrigerantes e salgados, baseadas em projetos de hardware e software bem estruturados, acompanhados de uma documentação precisa e de fácil uso.
+A empresa **Refrigerantes e Salgados S.A.** resolveu desenvolver novas soluções para as suas máquinas de vender refrigerantes e salgados, baseadas em projetos de hardware e software bem estruturados, acompanhados de uma documentação precisa e de fácil uso.
 
 A ideia surgiu quando um técnico de informática da empresa estava conversando com um grupo de estudantes do Departamento de Ciência da Computação da UFBA. Eles perceberam que há algumas máquinas de estados, chamados autômatos, que atendem às funcionalidades das máquinas de venda, além de usarem pouca memória e serem de simples configuração.
 
@@ -31,11 +31,11 @@ O relatório deverá constar quais as operações executadas pelo sistema para r
 
 
 ### **4 Conhecimentos/Conceitos Envolvidos** 
-    1\. Autômatos Finitos Determinísticos 
+    1. Autômatos Finitos Determinísticos 
 
-    2\. Autômatos Finitos Não-Determinísticos
+    2. Autômatos Finitos Não-Determinísticos
 
-    3\. Expressões Regulares 
+    3. Expressões Regulares 
 
 
 ### **5. Objetivos de aprendizagem** 
@@ -45,17 +45,17 @@ Desenvolver autômatos finitos e expressões regulares para resolver problemas �
 
 #### **5.2 Objetivos específicos** 
 
-1\. **Identificar** as funcionalidades do sistema idealizado pelo usuário. 
+1. **Identificar** as funcionalidades do sistema idealizado pelo usuário. 
 
-2\. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades do autômato a ser desenvolvido 
+2. **Conciliar** as funcionalidades desejadas pelo usuário com as funcionalidades do autômato a ser desenvolvido 
 
-3\. **Avaliar** o uso de não-determinismo no autômato desenvolvido 
+3. **Avaliar** o uso de não-determinismo no autômato desenvolvido 
 
-4\. **Associar** opções da máquina, moedas, notas com símbolos de um alfabeto 
+4. **Associar** opções da máquina, moedas, notas com símbolos de um alfabeto 
 
-5\. **Especificar** relatórios de cunho técnico 
+5. **Especificar** relatórios de cunho técnico 
 
-6\. **Usar** ferramentas de simulação para AF 
+6. **Usar** ferramentas de simulação para AF 
 
 
 ### </a> Referências 
