@@ -53,3 +53,5 @@ Desenvolver um programa que calcule o IMC de uma pessoa a partir das medidas de 
 - Codificar, numa linguagem de programação livre, uma solução que calcule o IMC.
 - Criar uma interface simples para a interação com o usuário permitindo a entrada de dados e apresentação dos resultados.
 - Escrever um relatório técnico que apresente a solução criada.
+
+

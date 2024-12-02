@@ -49,4 +49,7 @@ Desenvolver um módulo de identificação de rebanhos para um protótipo de rob�
 
 
 
+### </a> Referências 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
 
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.

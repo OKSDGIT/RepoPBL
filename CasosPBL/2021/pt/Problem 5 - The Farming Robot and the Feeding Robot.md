@@ -39,3 +39,7 @@ Desenvolver módulos de identificação e navegação para o robô fazendeiro e 
 2. Investigar a máquina abstrata com acesso sequencial de leitura e gravação a um dispositivo de memória ilimitada e sua aplicação nos módulos dos robôs.
 3. Revisar a solução proposta para o problema de sinalização para envio de alimentos, permitindo que o fazendeiro especifique as quantidades mínimas de indivíduos de cada rebanho como entradas para a máquina.
 
+### </a> Referências 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
+
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.

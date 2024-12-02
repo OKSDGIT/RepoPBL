@@ -8,49 +8,62 @@ Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
 ### **1. Introduction**
 
-One of the problems affecting Brazilian highways is the large number of holes. There are many causes for this problem: one of them is the alternation of rain and sun. Another reason is the pressure that heavy vehicles put on the roads at night, when heavy vehicles circulate more freely on the highways. On the Aratu highway, in Salvador, many holes have been identified by technicians from the Bahia Department of Transportation Infrastructure (DERBA), which has caused several incidents and occasionally serious accidents.
+One of the problems affecting Brazilian highways is the **large number of potholes.** There are many causes for this issue: **the alternation between rain and sun** is one of them. Another reason is **the pressure exerted by heavy vehicles** on the roads during the night, a period when these vehicles move more freely on the highways. On the Aratu Road in Salvador, many potholes have been identified by technicians from the **Bahia Department of Transport Infrastructure (DERBA),** causing various incidents and occasionally serious accidents.
 
-The technicians of this department believe that it is possible to reduce the pressure on the asphalt and, consequently, minimize the hole problem, if they have access to daily information on the number of vehicles that circulate at night on the highway.
+The technicians at this department believe it is possible to reduce pressure on the pavement and, consequently, minimize the problem of potholes if they have access to daily reports on the number of vehicles traveling on the road at night.
 
-Based on this data, the idea is to create a paving wear prevention plan. Technicians classify vehicles into three categories: light, heavy and very heavy. Vehicles up to 6 (six) tons are categorized as light; above 6 (six) and below 10 (ten) tons are categorized as heavy; and 10 (ten) or more tons are categorized as very heavy.
+Based on this data, the idea is to create **a pavement wear prevention plan.** The technicians classify vehicles into three categories: **light, heavy, and very heavy.** Vehicles weighing **up to six (6) tons** are categorized as **light;** those **above six (6) tons but below ten (10) tons** are categorized as **heavy;** and those weighing **ten (10) tons or more** are categorized as **very heavy.**
 
-In turn, there are already sensors at the entrance and exit of the Aratu highway that allow vehicles to be identified and categorized. The technicians, then, would like a solution that, based on the information from the sensors already installed on the highway, is able to determine how many vehicles of each category circulated the night before and which category had the most vehicles.
+Additionally, there are already sensors installed at the entrance and exit of the Aratu Road that allow vehicles to be identified and categorized. The technicians would like a solution that, based on the information from these sensors, **can determine how many vehicles from each category traveled during the previous night** and **identify which category had the most vehicles.**
 
-The students of the current class of Computer Theory are studying Turing Machines and understand that they can design a system with these functionalities. That way, they contacted DERBA technicians to offer some solutions to this problem.
+The current cohort of the Theory of Computation class is studying Turing Machines and believes **they can design a system with such functionalities.** As a result, they contacted DERBA technicians **to offer some solutions to this problem.**
 
 ### 2. Process
 
-During the process of building the solution, the Problem Based Learning (PBL) teaching and learning methodology will be used. This methodology is characterized by the use of real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, in addition to contributing to the construction of knowledge about a specific topic.
+During the solution development process, the **Problem-Based Learning (PBL)** methodology will be employed. This approach uses real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, while also contributing to the construction of knowledge about a specific topic.
 
-The process should be documented through the PBL whiteboard, which consists of the QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS columns. In each team meeting, a version of the whiteboard should be built, and thus we will have the documentation of the steps for building the solution. In addition, a shared document will be made available for filling in the Logbook, which must contain the minutes of the meetings with the names of the participants, points discussed and challenges encountered. The description of this process will be part of the group's evaluation. In this process, the participation/contribution of each member of the team is essential, so each student will also be individually evaluated based on the observation of the tutors and the feedback of their colleagues.
+The process must be documented using the **PBL whiteboard**, which is structured into the columns: **QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS.** At each team meeting, a new version of the whiteboard should be created, documenting the steps taken toward the solution. Additionally, a shared document will be provided for the completion of a **Logbook**, which must include meeting minutes with participant names, discussion points, and challenges encountered. 
 
-### **3. Product**
+The description of this process will be part of the group evaluation. During this process, the participation and contribution of each team member are fundamental. Each student will also be individually assessed based on tutor observations and peer feedback.
 
-You must post on Moodle UFBA until 6:00 p.m. on January 12, 2020, in the appropriate space: (i) one or more files with Turing machines (JFLAP format) that contain the solution to the problem; and (ii) a report in the SBC article model that describes in as much detail as possible the operation of the traffic control system for this problem.
+### **3. Deliverable**
+
+You are required to upload to Moodle UFBA by **6:00 PM on January 12, 2020**, in the designated area: 
+
+1. One or more files containing **Turing Machines** (in JFLAP format) that provide a solution to the problem.
+
+2. A detailed **report**, formatted according to the SBC article guidelines, thoroughly describing the functionality of the proposed traffic control system.
 
 
 ### **4. Knowledge/Concepts Involved**
 
-- Turing Machines (nmT)
-- mT Variations
-- Church-Turing Thesis
+    1. Turing Machines
+
+    2. Variations of Turing Machines
+
+    3. Church-Turing Thesis
 
 
 ### **5. Learning Objectives**
 
-#### **5.1 General Objective**
-Develop Turing machines to compute solutions to "real" problems, as is the case with the DERBA problem.
+#### **5.1 General Objective**  
+Develop Turing Machines to compute solutions for "real-world" problems, such as the DERBA problem.
 
-#### **5.2 Specific Objectives:**
+#### **5.2 Specific Objectives**  
+1. **Identify** the functionalities required by the system as envisioned by the user.  
 
-1\. **Identify** the functionalities of the system idealized by the user
+2. **Reconcile** the desired user functionalities with the capabilities of the Turing Machine to be developed.  
 
-2\. **Reconcile** the functionalities desired by the user with the functionalities of the Turing machine to be developed
+3. **Evaluate** the need for extensions or variations in the Turing Machine to meet the system's requirements.  
 
-3\. **Evaluate** the need to use extensions in the Turing machine to be developed
-
-4\. **Apply**  the Church-Turing thesis to associate the formal concept of a Turing machine with the intuitive notion of an algorithm
+4. **Apply** the Church-Turing thesis by associating the formal concept of a Turing Machine with the intuitive notion of an algorithm.  
 
 
-**Problem reformulated by Laís Salvador in June/2019.**
+### </a> References 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
+
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.
+
+
+### Problem reformulated by Laís Salvador in June/2019.
 

@@ -4,50 +4,67 @@
  
  Contributors: Edeyson Gomes
  
-## Task: The farmer robot returns
+## **Task: The Return of the Farmer Robot**
 
 ### **1. Introduction**
 
-The Farmer Robot company was very pleased with the proposed solution to the food delivery signaling problem and is excited to implement a new feature: the robot, in addition to going through the herd and issuing a food delivery alert, should be able to return to the starting point and thus perform another task. The company already has "external sensor" kits that direct the robot's path to the herds, the problem is how to get the robot back to the starting point. As we know, the minimum number of individuals in the herd required to issue a food delivery alert has already been agreed upon with the farmer.
+The company **Farmer Robot** was highly satisfied with the proposed solution for signaling food delivery and is now excited about implementing a new functionality: in addition to navigating through the herd and sending food delivery alerts, the robot must also be capable of returning to its starting point to perform another task. The company already has "external sensor" kits to guide the robot to the herds, but the challenge is figuring out how to make the robot return to its starting point. As previously agreed with the farmer, the robot should still issue food delivery alerts based on the minimum number of herd members detected.
 
-The UFBA student team responsible for developing the initial prototype, when studying this navigation problem, realized that a simple finite state machine does not solve the problem: how they reached this conclusion is a good question. By detailing a little more about the study in relation to the return to the starting point problem, the students realized that, with the coupling of an auxiliary memory device to the state machine, it is possible to model a solution to support the navigation of the farmer robot.
+The UFBA student team responsible for developing the initial prototype studied this navigation problem and realized that a simple finite state machine (FSM) is insufficient to solve it. Understanding how they reached this conclusion is an interesting question. Upon further exploration of the problem of returning to the starting point, the students observed that adding an **auxiliary memory device** to the FSM could model a solution to support the robot's navigation.
 
-The students also realized that the Food Delivery module of the Farmer Robot Problem can be extended with the navigation module proposed in this new problem or the two modules can be separate solutions that work in parallel, but can communicate in some way. The company is also interested in a notation that specifies rules for generating location sequences, for documentation and improvement of the robot's navigation module.
+The students also noted that the **Food Delivery Module** from the original Farmer Robot problem could be extended with the proposed navigation module. Alternatively, the two modules could operate as separate solutions running in parallel, with some form of communication between them. Additionally, the company expressed interest in a **notation system** to specify rules for generating location sequences, to aid in documenting and improving the robot's navigation module.
 
-The suggested tool to simulate the robot's navigation module process and the generation of location sequences is JFLAP1
+The suggested tool for simulating the robot's navigation module and generating location sequences is **JFLAP**.
 
+---
 
 ### **2. Process**
-During the process of building the solution, the Problem Based Learning (PBL) teaching and learning methodology will be used. This methodology is characterized by the use of real-world problems to stimulate the development of critical thinking, teamwork, and problem-solving skills, in addition to contributing to the construction of knowledge about a specific topic.
-The process should be documented through the PBL whiteboard, which consists of the QUESTIONS, FACTS, IDEAS/HYPOTHESES and ACTIONS columns. In each team meeting, a version of the whiteboard should be built, and thus we will have the documentation of the steps for building the solution. In addition, a shared document will be made available for filling in the Logbook, which must contain the minutes of the meetings with the names of the participants, points discussed and challenges encountered. The description of this process will be part of the group's evaluation. In this process, the participation/contribution of each member of the team is essential, so each student will also be individually evaluated based on the observation of the tutors and the feedback of their colleagues.
 
+During the solution development process, the **Problem-Based Learning (PBL)** methodology will be employed. This approach uses real-world problems to stimulate critical thinking, teamwork, and problem-solving skills while fostering knowledge construction on a specific topic.
 
-### **3. Product**
-By 8:20 p.m. on April 28, 2021, a team member must post to Virtual Learning Environment (VLE) UFBA, in the appropriate space, a file for the JFLAP simulator with the robot's navigation module, as well as a report in the SBC (Brazilian Computer Society) article model that describes in as much detail as possible the idealization of the robot's navigation module's operation. The report must contain the operations executed for the system to function and, at least, 2 (two) examples of how it works. If a rule-based notation has been developed, this report must also contain examples of generating location sequences. If it has not been developed, present the main difficulties in the report.
+The process must be documented using the **PBL Whiteboard**, which consists of the columns: QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS. In each team meeting, a version of the whiteboard must be created to document the steps taken to build the solution. Additionally, a shared document will be provided for filling out the **Logbook**, which must include meeting minutes, participant names, discussion points, and challenges encountered. This documentation will be an integral part of the group’s evaluation. Each team member's participation/contribution is crucial and will also be individually assessed based on observations by the tutors and feedback from peers.
 
+---
+
+### **3. Deliverables**
+
+A team member must submit the following by **8:20 PM on April 28, 2021**, via UFBA's virtual learning environment (AVA):  
+
+1. A file for the **JFLAP simulator** containing the robot's navigation module.  
+
+2. A **report**, written in the SBC (Brazilian Computing Society) article format, that thoroughly details the design and functionality of the robot's navigation module.  
+
+The report must describe the system's operations and include at least **two examples** of its functionality. If a rule-based notation system was developed, the report must also include examples of location sequence generation. If not developed, the report should detail the main difficulties encountered.
+
+---
 
 ### **4. Knowledge/Concepts Involved**
-1\. Pushdown automaton
-2\. Context-free grammars
 
-   
-### **5. Learning Objectives** 
+    1. Pushdown Automata 
+    
+    2. Context-Free Grammars  
+
+---
+
+### **5. Learning Objectives**
 
 #### **5.1 General Objective**
 
-Develop a navigation module for the farmer robot that allows it to return to the starting point after issuing the food delivery alert.
+Develop a navigation module for the Farmer Robot, enabling it to return to its starting point after issuing a food delivery alert.
 
 #### **5.2 Specific Objectives**
 
-1\. **Understand** the functionalities and challenges of the farmer robot's navigation problem
+1. Understand the functionalities and challenges of the Farmer Robot's navigation problem.  
 
-2\. **Investigate** the use of auxiliary memory devices in a finite state machine to model a solution to the return to the starting point problem
+2. Investigate the use of auxiliary memory devices in a finite state machine to model a solution for returning to the starting point.  
 
-3\. **Analyze** the possibility of extending the food delivery module with the proposed navigation module or developing separate solutions that work in parallel and can communicate
+3. Analyze the feasibility of extending the Food Delivery Module with the proposed navigation module or developing parallel solutions capable of communication.  
 
-4\. **Research** and propose a notation that specifies rules for generating location sequences for documentation and improvement of the navigation module.
+4. Research and propose a notation system to specify rules for generating location sequences for documentation and module improvement.  
 
-5\. **Use** the JFLAP tool to simulate the robot's navigation process and the generation of location sequences.
+5. Use the **JFLAP** tool to simulate the robot's navigation process and generate location sequences.  
 
+### </a> References 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
 
-
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.

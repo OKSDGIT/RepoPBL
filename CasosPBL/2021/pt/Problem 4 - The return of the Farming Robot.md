@@ -44,5 +44,8 @@ Desenvolver um módulo de navegação para o robô fazendeiro, que permita o ret
 4. Pesquisar e propor uma notação que especifique regras de geração de sequências de localização para documentação e aperfeiçoamento do módulo de navegação.
 5. Utilizar a ferramenta JFLAP para simular o processo de navegação do robô e a geração de sequências de localização.
 
+### </a> Referências 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
 
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.
 

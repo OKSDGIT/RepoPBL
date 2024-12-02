@@ -8,13 +8,13 @@ Colaboradores: Edeyson Gomes &nbsp;  Jéssica Santana
 
 ### **1. Introdução**
 
-Um dos problemas que afetam as rodovias brasileiras é o grande número de buracos. Muitas são as causas desse problema: a alternância de chuva e sol é uma delas. Outro motivo  é a pressão que os veículos pesados fazem sobre as estradas durante a noite, período em que os veículos pesados circulam nas rodovias mais livremente. Na estrada de Aratu, em Salvador, muitos buracos foram identificados pelos técnicos do Departamento de Infraestrutura de Transportes da Bahia (DERBA), o que tem causado vários incidentes e ocasionalmente acidentes graves.
+Um dos problemas que afetam as rodovias brasileiras é o **grande número de buracos**. Muitas são as causas desse problema: **a alternância de chuva e sol é uma delas**. Outro motivo  é a **pressão que os veículos pesados fazem sobre as estradas** durante a noite, período em que os veículos pesados circulam nas rodovias mais livremente. Na estrada de Aratu, em Salvador, muitos buracos foram identificados pelos técnicos do **Departamento de Infraestrutura de Transportes da Bahia (DERBA)**, o que tem causado vários incidentes e ocasionalmente acidentes graves.
 
 Os técnicos deste departamento acreditam que seja possível reduzir a pressão sobre o asfaltamento e, consequentemente, minimizar o problema dos buracos, se tiverem acesso a informativos diários com a quantidade de veículos que trafegam à noite na estrada.
 
-Com base nesses dados, a ideia é criar um plano de prevenção de desgaste do asfaltamento. Os técnicos classificam os veículos em três categorias: leves, pesados e muito pesados. Veículos de até 6 (seis) toneladas são categorizados como leves; acima de 6 (seis) e abaixo de 10 (dez) toneladas são categorizados como pesados; e de 10 (dez) ou mais toneladas são categorizados como muito pesados.
+Com base nesses dados, a ideia é criar um **plano de prevenção de desgaste do asfaltamento**. Os técnicos classificam os veículos em três categorias: **leves, pesados e muito pesados**. Veículos de **até 6 (seis) toneladas** são categorizados como **leves**; **acima de 6 (seis) e abaixo de 10 (dez) toneladas** são categorizados como **pesados**; e de **10 (dez) ou mais toneladas** são categorizados como **muito pesados**.
 
-Por sua vez, já há sensores na entrada e na saída da estrada de Aratu que permitem identificar e categorizar os véıculos. Os técnicos, então, gostariam de uma solução que, a partir das informações dos sensores já instalados na estrada, seja capaz de determinar quantos veículos de cada categoria trafegaram na noite anterior e qual categoria teve mais veículos.
+Por sua vez, já há sensores na entrada e na saída da estrada de Aratu que permitem identificar e categorizar os véıculos. Os técnicos, então, gostariam de uma solução que, a partir das informações dos sensores já instalados na estrada, seja capaz de **determinar quantos veículos de cada categoria trafegaram na noite anterior e qual categoria teve mais veículos**.
 
 Os alunos da turma corrente de Teoria da Computação estão estudando Máquinas de Turing e entendem que podem idealizar um sistema com tais funcionalidades. Desta forma, entraram em contato com os técnicos do DERBA para oferecer algumas soluções para este problema.
 
@@ -31,11 +31,13 @@ Você deverá postar no Moodle UFBA até as 18:00h do dia 12/01/2020, no espaço
 
 ### **4. Conhecimentos/Conceitos envolvidos**
 
-1. Máquinas de Turing (nmT)
+1. Máquinas de Turing
 
-2. Variações de mT
+2. Variações de Máquinas de Turing
 
 3. Tese de Church-Turing
+
+
 
 ### **5. Objetivos de aprendizagem**
 
@@ -52,6 +54,10 @@ Desenvolver máquinas de Turing para computar soluções de problemas “reais�
 4. **Aplicar** a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
 
 
+### </a> Referências 
+RAMOS, M. V. M.; JOSE NETO, J.; VEGA, I. S. **Linguagens Formais: Teoria, Modelagem e Implementação**. Editora Bookman, 2009.
+
+MENEZES, Paulo Blauth. **Linguagens formais e autômatos**. 6. ed. Bookman, 2011.
 
 ### **Problema reformulado por Laís Salvador em jun/2019.**
 
