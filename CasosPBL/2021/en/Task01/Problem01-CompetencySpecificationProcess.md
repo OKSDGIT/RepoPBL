@@ -133,7 +133,8 @@ By achieving these objectives, students will be equipped with both the **computa
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
 
 
-### **Competency 1: Designing Efficient Solutions with Automata**  
+---
+# **Competency 1**  
 
 #### **4.1 Competency Title**  
 **Designing Efficient Solutions with Automata**  
@@ -161,7 +162,7 @@ The following knowledge areas are critical for this competency:
   - Helps in aligning user requirements with technical feasibility while optimizing computational resources.  
 
 
-## 4.4 Attitude Specification  
+## 4.4 Disposition Specification  
 The **"Vending Machine for Sodas and Snacks"** task highlights key behavioral attributes necessary for problem-solving and effective team collaboration. These include:  
 
 ### **Collaboration**  
@@ -213,7 +214,7 @@ To accurately assess the required skills for this competency, each knowledge com
   - Ensures comprehension of **functional and non-functional system requirements** before implementation.  
   - Assesses the ability to **logically structure and organize** requirements for a formal computational model.  
 
----
+
 
 ### **4.5.3 Verb Annotation**  
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
@@ -226,11 +227,242 @@ To provide clarity on competency expectations, the following verb annotations de
 
 ### **4.5.4 Summary Table for Competency 1**  
 
-| **Competency** | **Attitudes (Dispositions)** | **Knowledge-Skill Mapping** |
-|---------------|-----------------------------|-----------------------------|
-| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | |
-| **Knowledge** | **Skill** | |
-| Automata over Infinite Objects | **Apply (Solve)** |
-| Requirements Analysis | **Understand (Interpret & Structure)** |
-| Analytical and Critical Thinking (FPK) | **Apply (Analyze & Synthesize)** |
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|------------|-----------|------------|----|
+|  |   | Automata over Infinite Objects | **Apply (Solve)** |
+| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Understand (Interpret & Structure)** |
+| | | Analytical and Critical Thinking (FPK) | **Apply (Analyze & Synthesize)** |
+
+
+
+---
+# **Competency 2**
+
+### **4.1 Competency Title**  
+**Determining When to Use Deterministic Finite Automata (DFA)**  
+
+### **4.2 Competency Description**  
+This competency focuses on **understanding determinism in finite automata** and **determining when to apply non-determinism**. Students must analyze system constraints and **decide whether a deterministic or non-deterministic automaton** is the optimal choice for solving a given problem.
+
+This competency requires the ability to:  
+- **Differentiate deterministic and non-deterministic automata** based on their properties and practical applications.  
+- **Assess problem requirements** to determine the most efficient automaton model.  
+- **Justify the choice** of automaton type with logical reasoning and computational constraints.
+
+
+
+### **4.3 Knowledge Specification**  
+The following knowledge areas are essential for this competency:  
+
+- **Automata over Infinite Objects**  
+  - Understanding the characteristics, limitations, and applications of **deterministic vs. non-deterministic models**.  
+  - Identifying scenarios where one model may be more advantageous than the other.  
+
+- **Analytical and Critical Thinking (FPK)**  
+  - Required for **evaluating system constraints and making informed decisions**.  
+  - Enables students to develop **strategic reasoning** when choosing between DFA and NFA models.  
+
+
+
+### **4.4 Disposition Specification**  
+Similar to **Competency 1**, this competency requires students to demonstrate key **behavioral attributes** that facilitate problem-solving and decision-making:  
+
+- **Investigative Thinking** – Encourages curiosity and **critical analysis** of automaton properties and their applications.  
+- **Collaboration** – Supports teamwork when discussing and justifying DFA vs. NFA choices.  
+- **Responsibility** – Ensures logical consistency and accuracy in decision-making.  
+- **Proactivity** – Promotes independent research and exploration of automata applications.  
+- **Creativity** – Encourages innovative approaches to problem-solving when dealing with complex system constraints.  
+
+
+
+## **4.5 Knowledge-Skill Pairing**  
+This step pairs **knowledge areas with the corresponding skills** required to demonstrate competency.
+
+### **4.5.1 Mapping Knowledge to Skills**  
+To achieve this competency, students must demonstrate the ability to:  
+- **Apply** Analytical and Critical Thinking to **differentiate deterministic and non-deterministic automata**.  
+- **Understand** Automata over Infinite Objects to **correctly identify scenarios where a deterministic or non-deterministic automaton is more appropriate**.  
+
+
+
+### **4.5.2 Bloom’s Taxonomy Alignment**  
+
+To accurately assess the required skills for this competency, each knowledge component is aligned with **Bloom’s Revised Taxonomy**, ensuring a structured learning progression and appropriate cognitive challenge.  
+
+- **Analytical and Critical Thinking (FPK) – Apply**  
+  - Assesses the student's ability to **evaluate problem constraints and justify the choice** between **Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)**.  
+  - Requires the ability to **analyze the differences between DFA and NFA** and determine which model is **more suitable for a given problem scenario**.  
+  - Ensures students can **logically argue their decisions** based on **computational efficiency, implementation complexity, and system constraints**.  
+
+- **Automata over Infinite Objects (DFA/NFA) – Understand**  
+  - Evaluates the student's **ability to differentiate and classify** deterministic and non-deterministic automata based on their properties.  
+  - Requires the ability to **correctly identify when each type of automaton should be used**, recognizing their advantages and limitations.  
+  - Ensures students develop **a conceptual understanding of the relationship between DFA, NFA, and problem constraints**, forming a solid foundation for decision-making.  
+
+
+### **4.5.3 Verb Annotation**  
+- **Understand** → Automata over Infinite Objects → **Compare** DFA and NFA concepts.  
+- **Apply** → Analytical and Critical Thinking → **Evaluate and decide** on the appropriate automaton model.  
+
+
+
+## **4.6 Summary Table for Competency 2**  
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------------|-----------------|--------------|-----------|
+| **Determine when to use a DFA or NFA** | **Investigative, Collaborative, Responsible, Proactive, Creative** | **Automata over Infinite Objects** | **Understand (Compare)** |
+| | | **Analytical and Critical Thinking (FPK)** | **Apply (Evaluate & Decide)** |
+
+
+
+---
+# **Competency 3**
+
+### **4.1 Competency Title**  
+**Testing Automata Using Simulators**  
+
+### **4.2 Competency Description**  
+This competency focuses on the ability to **test finite automata using simulation tools**. Students must develop proficiency in using **automaton simulators** to verify the correctness of their models, diagnose errors, and refine their solutions through iterative testing.  
+
+This competency requires the ability to:  
+- **Use simulation tools to validate automata functionality**.  
+- **Analyze automaton behavior** and compare it with expected outcomes.  
+- **Identify and correct errors in automaton design** through systematic troubleshooting.  
+- **Apply structured problem-solving strategies** to improve automaton performance.  
+
+
+
+### **4.3 Knowledge Specification**  
+The following knowledge areas are essential for this competency:  
+
+- **Automata over Infinite Objects**  
+  - Understanding automata behavior in simulated environments.  
+  - Using computational tools to test automaton properties and validate their execution.  
+
+- **Problem Solving and Troubleshooting (FPK)**  
+  - Required for **diagnosing and resolving errors** in automaton simulations.  
+  - Enables students to refine models iteratively, ensuring accuracy and robustness.  
+
+
+
+### **4.4 Disposition Specification**  
+Similar to **previous competencies**, this competency requires students to demonstrate essential **behavioral attributes** that facilitate testing, debugging, and improving automata:  
+
+- **Collaboration** – Encourages teamwork in analyzing automaton behavior and discussing debugging strategies.  
+- **Responsibility** – Ensures **methodical testing**, documentation of issues, and refinement of automaton designs.  
+- **Proactivity** – Promotes initiative in identifying weaknesses in automaton models and applying fixes.  
+- **Creativity** – Supports innovation in **troubleshooting techniques** and **experimenting with different simulation approaches**.  
+
+
+
+## **4.5 Knowledge-Skill Pairing**  
+This step maps **knowledge areas with the corresponding skills** required to demonstrate competency.
+
+### **4.5.1 Mapping Knowledge to Skills**  
+To achieve this competency, students must demonstrate the ability to:  
+- **Apply** Automata over Infinite Objects to **simulate and validate the designed automaton**.  
+- **Apply** Problem Solving and Troubleshooting (FPK) to **identify and resolve errors during simulation**.  
+
+
+
+### **4.5.2 Bloom’s Taxonomy Alignment**  
+
+The **knowledge areas** required for this competency are aligned with **Bloom’s Revised Taxonomy**, ensuring a structured learning process that progresses from understanding concepts to applying them in practical scenarios.  
+
+Students must **apply** their knowledge of **Automata over Infinite Objects** by experimenting with, relating, and simulating automata to validate system behavior. This ensures they can effectively **execute, test, and analyze automaton simulations**, verifying their correctness and identifying areas for improvement.  
+
+Similarly, students are expected to **apply** **Problem Solving and Troubleshooting (FPK)** by diagnosing and correcting errors in automaton design during simulation. This involves **identifying, debugging, and optimizing automaton behavior** based on the results of the simulations, ensuring that the system functions as expected.  
+
+By demonstrating proficiency in both areas, students will develop essential problem-solving skills that allow them to refine computational models iteratively.  
+
+---
+
+### **4.5.3 Verb Annotation**  
+
+To clarify the expected learning outcomes, the following verb annotations define the key actions students must demonstrate:  
+
+- **Apply knowledge of Automata over Infinite Objects** to **experiment with, relate, and simulate** automata.  
+- **Apply Problem Solving and 
+
+
+## **4.6 Summary Table for Competency 3**  
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------------|-----------------|--------------|-----------|
+| **Testing Automata Using Simulators** | **Collaborative, Responsible, Proactive, Creative** | **Automata over Infinite Objects** | **Apply (Experiment, Relate, Simulate)** |
+| | | **Problem Solving and Troubleshooting (FPK)** | **Apply (Diagnose, Debug, Refine)** |
+
+
+---
+# **Competency 4**  
+
+### **4.1 Competency Title**  
+**Determining Regular Expressions that Represent Automata**  
+
+### **4.2 Competency Description**  
+This competency focuses on the ability to **represent finite automata using regular expressions**. Students must demonstrate proficiency in translating **state-based computational models** into equivalent **formal language representations**, ensuring that the generated regular expressions accurately describe the automaton’s behavior.  
+
+To achieve this, students will:  
+- **Understand the relationship between finite automata and regular expressions**, ensuring correct transformation between models.  
+- **Apply formal language concepts** to construct appropriate regular expressions.  
+- **Test and refine** regular expressions to verify their correctness.  
+
+
+### **4.3 Knowledge Specification**  
+The following knowledge areas are essential for this competency:  
+
+- **Automata over Infinite Objects** - Provides foundational knowledge on automaton structure and behavior, serving as a prerequisite for expressing automata through regular languages.  
+- **Regular Languages** - Covers formal methods for defining and manipulating sets of strings using **regular expressions**, ensuring students can construct **accurate representations** of automata.  
+- **Problem Solving and Troubleshooting (FPK)** - Develops the ability to **identify, analyze, and correct errors** in the **transformation process from automata to regular expressions**.  
+
+---
+
+### **4.4 Disposition Specification**  
+As with previous competencies, **behavioral attributes** play a crucial role in successfully completing this task:  
+
+- **Investigative Thinking** – Encourages exploration of alternative approaches to defining **equivalent regular expressions** for automata.  
+- **Collaboration** - Supports teamwork in testing and validating regular expressions through peer review.  
+- **Responsibility** - Ensures accuracy in formal representations and adherence to theoretical principles.  
+- **Proactivity** - Promotes initiative in refining and optimizing regular expressions for efficiency.  
+- **Creativity** - Encourages innovative techniques for minimizing and restructuring regular expressions while maintaining correctness.  
+
+
+
+## **4.5 Knowledge-Skill Pairing**  
+This step pairs **knowledge areas with corresponding skills**, ensuring that students develop both **theoretical understanding** and **practical application**.  
+
+### **4.5.1 Mapping Knowledge to Skills**  
+To demonstrate this competency, students must be able to:  
+- **Understand** Automata over Infinite Objects to correctly **decompose** state-based systems into formal language representations.  
+- **Apply** knowledge of Regular Languages to **construct regular expressions that accurately represent finite automata**.  
+- **Apply** Problem Solving and Troubleshooting (FPK) to **test and refine regular expressions**, ensuring correctness and completeness.  
+
+
+### **4.5.2 Bloom’s Taxonomy Alignment**  
+The skills required for this competency align with **Bloom’s Revised Taxonomy**, ensuring a structured learning approach:  
+
+- **Understanding Automata over Infinite Objects** is essential, as **comprehension of automaton structure is a prerequisite** for correctly translating it into a regular expression.  
+- **Applying Regular Languages** is necessary because students must **construct regular expressions that accurately model automaton behavior**, demonstrating proficiency in formal language representation.  
+- **Applying Problem Solving and Troubleshooting** ensures students can **validate, test, and refine their regular expressions**, identifying and correcting errors to guarantee that the expressions truly represent the associated automata.  
+
+By mastering these skills, students gain **a deep understanding of formal language transformations**, enhancing their ability to work with **computational models and theoretical foundations** of automata.  
+
+
+
+### **4.5.3 Verb Annotation**  
+To clarify expected learning outcomes, the following action verbs define key student activities:  
+
+- **Understand** → Automata over Infinite Objects → **Decompose** automata into equivalent language representations.  
+- **Apply** → Regular Languages → **Construct, Model, Express** automata using regular expressions.  
+- **Apply** → Problem Solving and Troubleshooting → **Validate, Test, Refine** regular expressions to ensure accuracy.  
+
+
+## **4.6 Summary Table for Competency 4**  
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------------|-----------------|--------------|-----------|
+|  |  | **Automata over Infinite Objects** | **Understand** |
+| **Determining Regular Expressions that Represent Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | **Regular Languages** | **Apply** |
+| | | **Problem Solving and Troubleshooting (FPK)** | **Apply** |
+
 
