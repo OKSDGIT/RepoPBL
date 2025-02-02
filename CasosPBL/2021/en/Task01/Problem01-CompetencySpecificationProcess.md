@@ -136,10 +136,10 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 ---
 # **Competency 1**  
 
-#### **4.1 Competency Title**  
+## **4.1 Competency Title**  
 **Designing Efficient Solutions with Automata**  
 
-#### **4.2 Textual Description**  
+## **4.2 Textual Description**  
 This competency focuses on the ability to design and implement **effective and optimized solutions** using **finite automata**. It requires a **deep understanding of automata theory**, including the identification of functional requirements, translating those into **feasible technical implementations**, and ensuring that the **final automaton is efficient, reliable, and meets user expectations**.
 
 Students must **balance user-defined needs with automata constraints**, ensuring that the vending machine system performs correctly under different conditions. This competency also emphasizes the **importance of validation**, requiring students to **simulate, test, and refine their models** to guarantee accuracy and performance in **real-world applications**.
@@ -238,10 +238,10 @@ To provide clarity on competency expectations, the following verb annotations de
 ---
 # **Competency 2**
 
-### **4.1 Competency Title**  
+## **4.1 Competency Title**  
 **Determining When to Use Deterministic Finite Automata (DFA)**  
 
-### **4.2 Competency Description**  
+## **4.2 Competency Description**  
 This competency focuses on **understanding determinism in finite automata** and **determining when to apply non-determinism**. Students must analyze system constraints and **decide whether a deterministic or non-deterministic automaton** is the optimal choice for solving a given problem.
 
 This competency requires the ability to:  
@@ -251,7 +251,7 @@ This competency requires the ability to:
 
 
 
-### **4.3 Knowledge Specification**  
+## **4.3 Knowledge Specification**  
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects**  
@@ -264,7 +264,7 @@ The following knowledge areas are essential for this competency:
 
 
 
-### **4.4 Disposition Specification**  
+## **4.4 Disposition Specification**  
 Similar to **Competency 1**, this competency requires students to demonstrate key **behavioral attributes** that facilitate problem-solving and decision-making:  
 
 - **Investigative Thinking** – Encourages curiosity and **critical analysis** of automaton properties and their applications.  
@@ -318,10 +318,10 @@ To accurately assess the required skills for this competency, each knowledge com
 ---
 # **Competency 3**
 
-### **4.1 Competency Title**  
+## **4.1 Competency Title**  
 **Testing Automata Using Simulators**  
 
-### **4.2 Competency Description**  
+## **4.2 Competency Description**  
 This competency focuses on the ability to **test finite automata using simulation tools**. Students must develop proficiency in using **automaton simulators** to verify the correctness of their models, diagnose errors, and refine their solutions through iterative testing.  
 
 This competency requires the ability to:  
@@ -332,7 +332,7 @@ This competency requires the ability to:
 
 
 
-### **4.3 Knowledge Specification**  
+## **4.3 Knowledge Specification**  
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects**  
@@ -345,7 +345,7 @@ The following knowledge areas are essential for this competency:
 
 
 
-### **4.4 Disposition Specification**  
+## **4.4 Disposition Specification**  
 Similar to **previous competencies**, this competency requires students to demonstrate essential **behavioral attributes** that facilitate testing, debugging, and improving automata:  
 
 - **Collaboration** – Encourages teamwork in analyzing automaton behavior and discussing debugging strategies.  
@@ -396,7 +396,7 @@ To clarify the expected learning outcomes, the following verb annotations define
 ---
 # **Competency 4**  
 
-### **4.1 Competency Title**  
+## **4.1 Competency Title**  
 **Determining Regular Expressions that Represent Automata**  
 
 ### **4.2 Competency Description**  
@@ -408,7 +408,7 @@ To achieve this, students will:
 - **Test and refine** regular expressions to verify their correctness.  
 
 
-### **4.3 Knowledge Specification**  
+## **4.3 Knowledge Specification**  
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects** - Provides foundational knowledge on automaton structure and behavior, serving as a prerequisite for expressing automata through regular languages.  
@@ -417,7 +417,7 @@ The following knowledge areas are essential for this competency:
 
 ---
 
-### **4.4 Disposition Specification**  
+## **4.4 Disposition Specification**  
 As with previous competencies, **behavioral attributes** play a crucial role in successfully completing this task:  
 
 - **Investigative Thinking** – Encourages exploration of alternative approaches to defining **equivalent regular expressions** for automata.  
@@ -466,3 +466,134 @@ To clarify expected learning outcomes, the following action verbs define key stu
 | | | **Problem Solving and Troubleshooting (FPK)** | **Apply** |
 
 
+
+---
+# **Competency 5**  
+
+## **4.1 Competency Title**  
+**Relating Regular Expressions to Finite Automata**  
+
+## **4.2 Competency Description**  
+This competency focuses on the ability to **establish the relationship between finite automata and regular expressions**.  
+
+Students must demonstrate an understanding of how **finite automata can be represented using regular expressions** and vice versa, ensuring they can accurately transition between these two formal models.  
+
+To achieve this, students will:  
+- **Analyze the structural equivalence between finite automata and regular expressions**.  
+- **Identify the corresponding regular expression for a given finite automaton**.  
+- **Demonstrate comprehension of regular language properties** that connect these two representations.  
+
+
+## **4.3 Knowledge Specification**  
+The following knowledge areas are essential for this competency:  
+
+- **Automata over Infinite Objects** – Provides the theoretical foundation to **analyze and understand finite automata** and their structure.  
+- **Regular Languages** – Covers the principles of **formal language representations**, ensuring students can establish equivalences between finite automata and regular expressions.  
+
+
+## **4.4 Disposotion Specification**  
+To successfully achieve this competency, students must demonstrate key **behavioral attributes**, including:  
+
+- **Collaboration** – Engaging with peers to analyze different automata and their equivalent regular expressions.  
+- **Responsibility** – Ensuring accuracy in the identification of equivalences between formal models.  
+- **Proactivity** – Actively seeking multiple approaches to relate regular expressions and automata representations.  
+
+
+
+## **4.5 Knowledge-Skill Pairing**  
+This step maps **knowledge areas with corresponding skills**, ensuring a structured learning approach.
+
+### **4.5.1 Mapping Knowledge to Skills**  
+To demonstrate this competency, students must be able to:  
+- **Understand** Automata over Infinite Objects to correctly **analyze finite automata structures** and their transformation into regular expressions.  
+- **Understand** Regular Languages to **identify the equivalent regular expression for a given finite automaton**.  
+
+
+### **4.5.2 Bloom’s Taxonomy Alignment**  
+The knowledge areas required for this competency align with **Bloom’s Revised Taxonomy** at the **"Understand" level**, ensuring students:  
+- **Recognize and interpret** the relationship between **finite automata and regular expressions**.  
+- **Identify and classify** equivalent representations within **formal language theory**.  
+
+By achieving this level of comprehension, students develop a **solid conceptual foundation**, allowing them to apply this knowledge in more complex problem-solving scenarios.  
+
+
+### **4.5.3 Verb Annotation**  
+To clarify expected learning outcomes, the following action verbs define key student activities:  
+
+- **Understand** → Automata over Infinite Objects → **Interpret** automaton structures and their equivalence to regular expressions.  
+- **Understand** → Regular Languages → **Identify, Classify** corresponding regular expressions for given automata.  
+
+
+## **4.6 Summary Table for Competency 5**  
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------------|-----------------|--------------|-----------|
+| **Relating Regular Expressions to Finite Automata** | Collaborative, Responsible, Proactive | **Automata over Infinite Objects** | **Understand** |
+| | | **Regular Languages** | **Understand** |
+
+
+
+---
+
+## **Competency 6**  
+
+## **4.1 Competency Title**  
+**Collaborative Technical Report Writing**  
+
+## **4.2 Competency Description**  
+This competency focuses on the ability to **collaboratively produce a well-structured technical report**. It requires students to **apply technical writing principles** to synthesize findings, explain methodologies, and document results in a clear, logical, and professional manner.  
+
+To achieve this, students must:  
+- **Write a structured and coherent report**, integrating contributions from multiple team members.  
+- **Apply professional technical writing standards**, ensuring clarity, consistency, and logical flow.  
+- **Effectively communicate technical findings**, making complex concepts accessible to both technical and non-technical audiences.  
+- **Revise and refine content**, ensuring accuracy, readability, and adherence to formatting guidelines.  
+
+This competency emphasizes **practical application of writing skills**, requiring students to produce a polished and well-organized document that reflects their collective expertise.  
+
+
+## **4.3 Knowledge Specification**  
+The following knowledge area is essential for this competency:  
+
+- **Written Communication (FPK)** – Involves the ability to **apply structured writing techniques** to explain and document the solution process effectively.  
+
+
+## **4.4 Disposition Specification**  
+To successfully achieve this competency, students must demonstrate key **behavioral attributes**, including:  
+
+- **Collaboration** – Working effectively as a team to create a unified, well-organized document.  
+- **Meticulousness** – Ensuring accuracy, clarity, and consistency in the report’s content and structure.  
+- **Responsibility** – Taking ownership of assigned sections and contributing meaningfully to the final report.  
+
+
+
+## **4.5 Knowledge-Skill Pairing**  
+This step maps **knowledge areas with corresponding skills**, ensuring a structured learning approach.
+
+### **4.5.1 Mapping Knowledge to Skills**  
+To demonstrate this competency, students must be able to:  
+- **Apply** Written Communication (FPK) to **write, structure, and refine a technical report**, effectively explaining the solution process.  
+
+
+
+### **4.5.2 Bloom’s Taxonomy Alignment**  
+The **"Apply" level** of **Bloom’s Taxonomy** is the most appropriate for this competency because it requires students to:  
+- **Use technical writing skills in practice**.  
+- **Synthesize and communicate findings effectively**, ensuring clarity and coherence.  
+- **Format, revise, and refine** the document to meet professional standards.  
+
+By mastering this competency, students develop **practical writing skills essential for professional and academic communication**.  
+
+
+
+### **4.5.3 Verb Annotation**  
+To clarify expected learning outcomes, the following action verbs define key student activities:  
+
+- **Apply** → Written Communication (FPK) → **Write, Structure, Revise, Refine** technical documentation.  
+
+
+## **4.6 Summary Table for Competency 6**  
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|---------------|-----------------|--------------|-----------|
+| **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
