@@ -597,3 +597,5 @@ To clarify expected learning outcomes, the following action verbs define key stu
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
+
+
