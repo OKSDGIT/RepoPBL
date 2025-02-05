@@ -1,0 +1,1 @@
+# Competency Specification Review Report: Task1 - The Vending Machine for Sodas and Snacks
