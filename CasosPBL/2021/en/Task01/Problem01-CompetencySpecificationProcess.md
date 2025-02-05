@@ -204,7 +204,7 @@ To accurately assess the required skills for this competency, each knowledge com
   - Evaluates the ability to **analyze relationships, identify patterns, and formulate logical strategies** for problem-solving.  
   - Ensures students can effectively **bridge theoretical knowledge with practical implementation**.  
 
-- **Automata over Infinite Objects – Apply**  
+- **Automata over Infinite Objects – Create**  
   - Measures the student's capability to **design and implement automata-based solutions** for a defined problem.  
   - Assesses the ability to **translate real-world system constraints into automata models** using states and transitions.  
   - Ensures that students can effectively **apply computational modeling techniques** to solve vending machine transaction issues.  
@@ -219,7 +219,7 @@ To accurately assess the required skills for this competency, each knowledge com
 ### **4.5.3 Verb Annotation**  
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
 
-- **Apply** → Automata over Infinite Objects → **Solve** vending machine payment and change-related problems using automata.  
+- **Create** → Automata over Infinite Objects → **Construct, Develop, Design** a functional automaton that satisfies computational constraints.
 - **Understand** → Requirements Analysis → **Interpret and structure** system constraints to define an effective computational model.  
 
 
@@ -229,9 +229,9 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
-|  |   | Automata over Infinite Objects | **Apply (Solve)** |
-| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Understand (Interpret & Structure)** |
-| | | Analytical and Critical Thinking (FPK) | **Apply (Analyze & Synthesize)** |
+|  |   | Automata over Infinite Objects | **Create (Construct, Develop, Design)** |
+| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Understand (Interpret, Structure)** |
+| | | Analytical and Critical Thinking (FPK) | **Apply** |
 
 
 
