@@ -56,37 +56,37 @@ This structured review ensures that competency descriptions are **accurate, peda
 *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency B: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
 #### **P2:**  
-*"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.  
+*"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
 
-In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'  
+*In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
 
-Regarding **Competency D**, I suggest modifying the competency title from **'Determine Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.  
+*Regarding **Competency D**, I suggest modifying the competency title from **'Determine Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
 
-Additionally, I recommend merging **Competencies D and E**, as they are identical."*  
+*Additionally, I recommend merging **Competencies D and E**, as they are identical."*  
 
 
 
 ### **Knowledge Relevance and Appropriateness**  
 
 #### **P1:**  
-*"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.  
+*"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
 
-I recommend **removing the following knowledge elements**, as they are not reflected in the task description:  
+*I recommend **removing the following knowledge elements**, as they are not reflected in the task description:*  
 - Identifying the equivalence between **Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)**.  
 - Identifying the equivalence between **Finite Automata (FA) and Regular Expressions (RE)**.  
 - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
 
-Similarly, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
+*Similarly, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
 
 #### **P2:**  
-*"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.  
+*"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.*  
 
 Additionally, some of the **learning objectives include knowledge elements that are not addressed in the task description**. Therefore, I suggest removing the following knowledge elements:  
 - Identifying the equivalence between **DFA and NFA**.  
 - Identifying the equivalence between **FA and RE**.  
 - Applying the equivalence between **FA and RE** to develop **RE based on existing FA**.  
 
-Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
+*Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
 # **Summary of Review Suggestions**  
