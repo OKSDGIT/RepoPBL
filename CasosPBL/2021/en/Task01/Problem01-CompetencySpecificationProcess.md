@@ -197,7 +197,7 @@ To achieve this competency, students must demonstrate the ability to:
 
 
 ### **4.5.2 Bloom’s Taxonomy Alignment**  
-To accurately assess the required skills for this competency, each knowledge component is aligned with **Bloom’s Revised Taxonomy** to ensure a structured and progressive learning approach.
+To ensure a structured and progressive learning approach, each knowledge component is aligned with Bloom’s Revised Taxonomy, providing a clear framework for competency assessment.
 
 - **Analytical and Critical Thinking (FPK) – Apply**  
   - Assesses the student's ability to **decompose complex problems** into fundamental components.  
@@ -209,10 +209,11 @@ To accurately assess the required skills for this competency, each knowledge com
   - Assesses the ability to **translate real-world system constraints into automata models** using states and transitions.  
   - Ensures that students can effectively **apply computational modeling techniques** to solve vending machine transaction issues.  
 
-- **Requirements Analysis – Understand**  
-  - Evaluates the student's proficiency in **interpreting system constraints and user requirements**.  
-  - Ensures comprehension of **functional and non-functional system requirements** before implementation.  
-  - Assesses the ability to **logically structure and organize** requirements for a formal computational model.  
+- **Requirements Analysis – Apply**  
+  - Evaluates the student's ability to interpret and translate system constraints and user requirements into formal specifications.
+  - Assesses the capacity to apply structured analysis techniques in identifying functional and non-functional requirements.
+  - Ensures students can logically organize and integrate requirements into a coherent computational model.
+
 
 
 
@@ -220,7 +221,7 @@ To accurately assess the required skills for this competency, each knowledge com
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
 
 - **Create** → Automata over Infinite Objects → **Construct, Develop, Design** a functional automaton that satisfies computational constraints.
-- **Understand** → Requirements Analysis → **Interpret and structure** system constraints to define an effective computational model.  
+- **Apply** → Requirements Analysis → **Interpret, Implement, Organize** structured system requirements into a computational framework. 
 
 
 
@@ -230,7 +231,7 @@ To provide clarity on competency expectations, the following verb annotations de
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
 |  |   | Automata over Infinite Objects | **Create (Construct, Develop, Design)** |
-| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Understand (Interpret, Structure)** |
+| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Apply (Interpret, Implement, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply** |
 
 
