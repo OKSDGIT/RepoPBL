@@ -134,7 +134,7 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 
 
 ---
-# **Competency 1**  
+# **Competency A**  
 
 ## **4.1 Competency Title**  
 **Designing Efficient Solutions with Automata**  
@@ -225,7 +225,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 
 
-### **4.5.4 Summary Table for Competency 1**  
+### **4.5.4 Summary Table for Competency A**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
@@ -236,7 +236,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 
 ---
-# **Competency 2**
+# **Competency B**
 
 ## **4.1 Competency Title**  
 **Determining When to Use Deterministic Finite Automata (DFA)**  
@@ -306,7 +306,7 @@ To accurately assess the required skills for this competency, each knowledge com
 
 
 
-## **4.6 Summary Table for Competency 2**  
+## **4.6 Summary Table for Competency B**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -315,8 +315,7 @@ To accurately assess the required skills for this competency, each knowledge com
 
 
 
----
-# **Competency 3**
+# **Competency C**
 
 ## **4.1 Competency Title**  
 **Testing Automata Using Simulators**  
@@ -375,7 +374,6 @@ Similarly, students are expected to **apply** **Problem Solving and Troubleshoot
 
 By demonstrating proficiency in both areas, students will develop essential problem-solving skills that allow them to refine computational models iteratively.  
 
----
 
 ### **4.5.3 Verb Annotation**  
 
@@ -385,7 +383,7 @@ To clarify the expected learning outcomes, the following verb annotations define
 - **Apply Problem Solving and 
 
 
-## **4.6 Summary Table for Competency 3**  
+## **4.6 Summary Table for Competency C**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -393,8 +391,8 @@ To clarify the expected learning outcomes, the following verb annotations define
 | | | **Problem Solving and Troubleshooting (FPK)** | **Apply (Diagnose, Debug, Refine)** |
 
 
----
-# **Competency 4**  
+
+# **Competency D**  
 
 ## **4.1 Competency Title**  
 **Determining Regular Expressions that Represent Automata**  
@@ -415,7 +413,6 @@ The following knowledge areas are essential for this competency:
 - **Regular Languages** - Covers formal methods for defining and manipulating sets of strings using **regular expressions**, ensuring students can construct **accurate representations** of automata.  
 - **Problem Solving and Troubleshooting (FPK)** - Develops the ability to **identify, analyze, and correct errors** in the **transformation process from automata to regular expressions**.  
 
----
 
 ## **4.4 Disposition Specification**  
 As with previous competencies, **behavioral attributes** play a crucial role in successfully completing this task:  
@@ -457,7 +454,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 - **Apply** → Problem Solving and Troubleshooting → **Validate, Test, Refine** regular expressions to ensure accuracy.  
 
 
-## **4.6 Summary Table for Competency 4**  
+## **4.6 Summary Table for Competency D**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -467,8 +464,8 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
----
-# **Competency 5**  
+
+# **Competency E**  
 
 ## **4.1 Competency Title**  
 **Relating Regular Expressions to Finite Automata**  
@@ -524,7 +521,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 - **Understand** → Regular Languages → **Identify, Classify** corresponding regular expressions for given automata.  
 
 
-## **4.6 Summary Table for Competency 5**  
+## **4.6 Summary Table for Competency E**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -533,9 +530,8 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
----
 
-## **Competency 6**  
+## **Competency F**  
 
 ## **4.1 Competency Title**  
 **Collaborative Technical Report Writing**  
@@ -592,10 +588,14 @@ To clarify expected learning outcomes, the following action verbs define key stu
 - **Apply** → Written Communication (FPK) → **Write, Structure, Revise, Refine** technical documentation.  
 
 
-## **4.6 Summary Table for Competency 6**  
+## **4.6 Summary Table for Competency F**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
+
+
+
+
 
 
