@@ -79,9 +79,9 @@ By assigning unique and structured competency identifiers, this approach simplif
 # **Competency Specification Table**
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|---------|-----------------------------------|---------------------------------|--------------------------------|------------------------------------------------|
-| (A) **C05** | **Develop problem solutions using Automata.** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Solve)** |
-|         |                                   |                                 | Requirements Engineering | **Understand** |
+|---------|--------|-----------|-----------|-------------------|
+| (A) **C05** | **Develop problem solutions using Automata.** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
+|         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
 | (B) **C06** | **Justify the use of Deterministic Finite Automata (DFAs).** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
