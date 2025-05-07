@@ -1,30 +1,8 @@
 # Competency Specification Report: Task1 - The Vending Machine for Sodas and Snacks
 
-## 1. Introduction
+## Introduction
 
-This report presents the application of the **Competency Specification Process** to the **Task1 - The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions. The full description of the task can be accessed at:  
-[Task1 - The Vending Machine for Sodas and Snacks](https://github.com/EduKnowUFBA/RepoPBL/blob/main/CasosPBL/2021/en/Task01/Problem01-TheVendingMachine.md).
-
-The **Competency Specification Process** is a structured methodology designed to **identify, classify, and document competencies** embedded within an educational task. By analyzing the task description, required knowledge, learning objectives, and behavioral dispositions, this process enables educators to define a competency framework that aligns with **real-world problem-solving and educational objectives**.
-
-### **Objective of this Report**
-The primary goal of this report is to demonstrate how the **Competency Specification Process** is applied to **Task1** by systematically identifying:
-- The **knowledge components** required to solve the problem.
-- The **learning objectives** explicitly and implicitly embedded in the task.
-- The **skills and competencies** necessary for effective task resolution.
-- The **behavioral dispositions** that contribute to a successful learning experience.
-
-### **Structure of this Report**
-The document is structured as follows:
-1. **Task Analysis**: A breakdown of the task description, identifying its key elements.
-2. **Knowledge Enumeration**: Specification of the domain-specific knowledge required for task resolution.
-3. **Learning Objectives Identification**: Mapping explicit and implicit learning objectives from the task.
-4. **Competency Definition**: Classification and detailed description of the competencies involved.
-5. **Knowledge-Skill Pairing**: Association of knowledge components with specific skills using Bloom’s Taxonomy.
-6. **Conclusion**: Reflection on how the process enhances competency-based learning.
-
-By applying this structured approach, we aim to highlight the **alignment between problem-based learning and competency development**, ensuring that learners acquire both **technical expertise and essential cognitive and behavioral skills** needed for real-world applications.
-
+Building on the general structure defined in the CSP methodology, this report presents the application of the **Competency Specification Process** to the **Task1 – The Vending Machine for Sodas and Snacks**, a Problem-Based Learning (PBL) scenario that explores the use of **finite automata and regular expressions** in the design of vending machine software and hardware solutions.
 
 ## 1. Task Description Analysis
 
@@ -132,21 +110,19 @@ By achieving these objectives, students will be equipped with both the **computa
 
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
 
+### 4.1 Competency A Specification  
 
----
-# **Competency A**  
+### A.1 Competency Title
+    Designing Efficient Solutions with Automata
 
-## **4.1 Competency Title**  
-**Designing Efficient Solutions with Automata**  
-
-## **4.2 Textual Description**  
+### A.2 Textual Description  
 This competency focuses on the ability to design and implement **effective and optimized solutions** using **finite automata**. It requires a **deep understanding of automata theory**, including the identification of functional requirements, translating those into **feasible technical implementations**, and ensuring that the **final automaton is efficient, reliable, and meets user expectations**.
 
 Students must **balance user-defined needs with automata constraints**, ensuring that the vending machine system performs correctly under different conditions. This competency also emphasizes the **importance of validation**, requiring students to **simulate, test, and refine their models** to guarantee accuracy and performance in **real-world applications**.
 
 Additionally, the competency includes the **ability to handle additional constraints**, such as implementing the **bonus change mechanism** introduced as an extra challenge by the IT technician.
 
-## 4.3 Knowledge Specification  
+### A.3 Knowledge Specification
 The following knowledge areas are critical for this competency:  
 
 - **Automata over Infinite Objects**  
@@ -162,41 +138,41 @@ The following knowledge areas are critical for this competency:
   - Helps in aligning user requirements with technical feasibility while optimizing computational resources.  
 
 
-## 4.4 Disposition Specification  
+### A.4 Disposition Specification
 The **"Vending Machine for Sodas and Snacks"** task highlights key behavioral attributes necessary for problem-solving and effective team collaboration. These include:  
 
-### **Collaboration**  
+ **Collaboration**  
 - The task follows the **Problem-Based Learning (PBL) methodology**, requiring continuous team interaction.  
 - Essential for developing solutions collaboratively through **PBL whiteboard sessions**, maintaining the **logbook**, and **documenting each project phase**.  
 - Encourages **knowledge-sharing** and iterative improvements.  
 
-### **Responsibility**  
+ **Responsibility**  
 - Ensures adherence to **project deadlines**, accurate **documentation**, and a **functional automaton design**.  
 - Requires individual accountability for contributions, ensuring that the **final deliverable meets user expectations** and project standards.  
 
-### **Proactivity**  
+ **Proactivity**  
 - Encourages anticipating challenges, such as the **randomized bonus change feature (R$1.00 extra)**, which requires **additional research and technical adjustments**.  
 - Involves actively seeking knowledge, including the **relationship between regular expressions and finite automata**.  
 - Supports a proactive approach to debugging, refining, and improving the system.  
 
-### **Creativity**  
+ **Creativity**  
 - Necessary for adapting automata **functionalities to specific user requirements**.  
 - Encourages exploring **alternative implementations**, such as incorporating **randomized elements** in automata behavior.  
 - Enhances **technical documentation**, making system operations visually and conceptually engaging.  
 
 
-## 4.5 Knowledge-Skill Pairing  
+### A.5 Knowledge-Skill Pairing
 
 This step maps **knowledge areas to the corresponding skills** required to successfully demonstrate competency in this task.  
 
-### **4.5.1 Mapping Knowledge to Skills**  
+**A.5.1 Mapping Knowledge to Skills**  
 To achieve this competency, students must demonstrate the ability to:  
 
 - **Apply** Analytical and Critical Thinking along with knowledge of **Automata over Infinite Objects** to **solve the vending machine’s change calculation problem**.  
 - **Identify and interpret** system requirements, demonstrating proficiency in **Requirements Analysis**.  
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**A.5.2 Bloom’s Taxonomy Alignment**  
 To ensure a structured and progressive learning approach, each knowledge component is aligned with Bloom’s Revised Taxonomy, providing a clear framework for competency assessment.
 
 - **Analytical and Critical Thinking (FPK) – Apply**  
@@ -217,7 +193,7 @@ To ensure a structured and progressive learning approach, each knowledge compone
 
 
 
-### **4.5.3 Verb Annotation**  
+**A.5.3 Verb Annotation**  
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
 
 - **Create** → Automata over Infinite Objects → **Construct, Develop, Design** a functional automaton that satisfies computational constraints.
@@ -226,7 +202,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 
 
-### **4.5.4 Summary Table for Competency A**  
+### A.6 Summary Table for Competency A
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
@@ -236,13 +212,13 @@ To provide clarity on competency expectations, the following verb annotations de
 
 
 
----
-# **Competency B**
 
-## **4.1 Competency Title**  
-**Determining When to Use Deterministic Finite Automata (DFA)**  
+### **4.2 Competency B Specification**
 
-## **4.2 Competency Description**  
+### B.1 Competency Title  
+    Determining When to Use Deterministic Finite Automata (DFA)  
+
+### B.2 Competency Description  
 This competency focuses on **understanding determinism in finite automata** and **determining when to apply non-determinism**. Students must analyze system constraints and **decide whether a deterministic or non-deterministic automaton** is the optimal choice for solving a given problem.
 
 This competency requires the ability to:  
@@ -252,7 +228,7 @@ This competency requires the ability to:
 
 
 
-## **4.3 Knowledge Specification**  
+### B.3 Knowledge Specification  
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects**  
@@ -265,8 +241,8 @@ The following knowledge areas are essential for this competency:
 
 
 
-## **4.4 Disposition Specification**  
-Similar to **Competency 1**, this competency requires students to demonstrate key **behavioral attributes** that facilitate problem-solving and decision-making:  
+### B.4 Disposition Specification  
+Similar to **Competency A**, this competency requires students to demonstrate key **behavioral attributes** that facilitate problem-solving and decision-making:  
 
 - **Investigative Thinking** – Encourages curiosity and **critical analysis** of automaton properties and their applications.  
 - **Collaboration** – Supports teamwork when discussing and justifying DFA vs. NFA choices.  
@@ -276,17 +252,17 @@ Similar to **Competency 1**, this competency requires students to demonstrate ke
 
 
 
-## **4.5 Knowledge-Skill Pairing**  
+### B.5 Knowledge-Skill Pairing  
 This step pairs **knowledge areas with the corresponding skills** required to demonstrate competency.
 
-### **4.5.1 Mapping Knowledge to Skills**  
+ **B.5.1 Mapping Knowledge to Skills**  
 To achieve this competency, students must demonstrate the ability to:  
 - **Apply** Analytical and Critical Thinking to **differentiate deterministic and non-deterministic automata**.  
 - **Understand** Automata over Infinite Objects to **correctly identify scenarios where a deterministic or non-deterministic automaton is more appropriate**.  
 
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**B.5.2 Bloom’s Taxonomy Alignment**  
 
 To accurately assess the required skills for this competency, each knowledge component is aligned with **Bloom’s Revised Taxonomy**, ensuring a structured learning progression and appropriate cognitive challenge.  
 
@@ -301,13 +277,13 @@ To accurately assess the required skills for this competency, each knowledge com
   - Ensures students develop **a conceptual understanding of the relationship between DFA, NFA, and problem constraints**, forming a solid foundation for decision-making.  
 
 
-### **4.5.3 Verb Annotation**  
+ **B.5.3 Verb Annotation**  
 - **Understand** → Automata over Infinite Objects → **Compare** DFA and NFA concepts.  
 - **Apply** → Analytical and Critical Thinking → **Evaluate and decide** on the appropriate automaton model.  
 
 
 
-## **4.6 Summary Table for Competency B**  
+### B.6 Summary Table for Competency B  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -316,12 +292,12 @@ To accurately assess the required skills for this competency, each knowledge com
 
 
 
-# **Competency C**
+### **4.3 Competency C Specification**
 
-## **4.1 Competency Title**  
-**Testing Automata Using Simulators**  
+### C.1 Competency Title  
+    Testing Automata Using Simulators
 
-## **4.2 Competency Description**  
+### C.2 Competency Description
 This competency focuses on the ability to **test finite automata using simulation tools**. Students must develop proficiency in using **automaton simulators** to verify the correctness of their models, diagnose errors, and refine their solutions through iterative testing.  
 
 This competency requires the ability to:  
@@ -332,7 +308,7 @@ This competency requires the ability to:
 
 
 
-## **4.3 Knowledge Specification**  
+### C.3 Knowledge Specification  
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects**  
@@ -345,7 +321,7 @@ The following knowledge areas are essential for this competency:
 
 
 
-## **4.4 Disposition Specification**  
+### C.4 Disposition Specification  
 Similar to **previous competencies**, this competency requires students to demonstrate essential **behavioral attributes** that facilitate testing, debugging, and improving automata:  
 
 - **Collaboration** – Encourages teamwork in analyzing automaton behavior and discussing debugging strategies.  
@@ -355,17 +331,17 @@ Similar to **previous competencies**, this competency requires students to demon
 
 
 
-## **4.5 Knowledge-Skill Pairing**  
+### C.5 Knowledge-Skill Pairing  
 This step maps **knowledge areas with the corresponding skills** required to demonstrate competency.
 
-### **4.5.1 Mapping Knowledge to Skills**  
+ **C.5.1 Mapping Knowledge to Skills**  
 To achieve this competency, students must demonstrate the ability to:  
 - **Apply** Automata over Infinite Objects to **simulate and validate the designed automaton**.  
 - **Apply** Problem Solving and Troubleshooting (FPK) to **identify and resolve errors during simulation**.  
 
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**C.5.2 Bloom’s Taxonomy Alignment**  
 
 The **knowledge areas** required for this competency are aligned with **Bloom’s Revised Taxonomy**, ensuring a structured learning process that progresses from understanding concepts to applying them in practical scenarios.  
 
@@ -376,15 +352,15 @@ Similarly, students are expected to **apply** **Problem Solving and Troubleshoot
 By demonstrating proficiency in both areas, students will develop essential problem-solving skills that allow them to refine computational models iteratively.  
 
 
-### **4.5.3 Verb Annotation**  
+**C.5.3 Verb Annotation**  
 
 To clarify the expected learning outcomes, the following verb annotations define the key actions students must demonstrate:  
 
-- **Apply knowledge of Automata over Infinite Objects** to **experiment with, relate, and simulate** automata.  
-- **Apply Problem Solving and 
+- **Apply** knowledge of Automata over Infinite Objects to **experiment with, relate, and simulate** automata.  
+- **Apply** Problem Solving and Troubleshooting → Diagnose, Debug, Refine automaton simulations. 
 
 
-## **4.6 Summary Table for Competency C**  
+### **C.6 Summary Table for Competency C**  
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -393,12 +369,12 @@ To clarify the expected learning outcomes, the following verb annotations define
 
 
 
-# **Competency D**  
+### **4.4 Competency D Specification**  
 
-## **4.1 Competency Title**  
-**Determining Regular Expressions that Represent Automata**  
+### D.1 Competency Title
+    Determining Regular Expressions that Represent Automata
 
-### **4.2 Competency Description**  
+### D.2 Competency Description
 This competency focuses on the ability to **represent finite automata using regular expressions**. Students must demonstrate proficiency in translating **state-based computational models** into equivalent **formal language representations**, ensuring that the generated regular expressions accurately describe the automaton’s behavior.  
 
 To achieve this, students will:  
@@ -407,7 +383,7 @@ To achieve this, students will:
 - **Test and refine** regular expressions to verify their correctness.  
 
 
-## **4.3 Knowledge Specification**  
+### D.3 Knowledge Specification
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects** - Provides foundational knowledge on automaton structure and behavior, serving as a prerequisite for expressing automata through regular languages.  
@@ -415,7 +391,7 @@ The following knowledge areas are essential for this competency:
 - **Problem Solving and Troubleshooting (FPK)** - Develops the ability to **identify, analyze, and correct errors** in the **transformation process from automata to regular expressions**.  
 
 
-## **4.4 Disposition Specification**  
+### D.4 Disposition Specification  
 As with previous competencies, **behavioral attributes** play a crucial role in successfully completing this task:  
 
 - **Investigative Thinking** – Encourages exploration of alternative approaches to defining **equivalent regular expressions** for automata.  
@@ -426,17 +402,17 @@ As with previous competencies, **behavioral attributes** play a crucial role in 
 
 
 
-## **4.5 Knowledge-Skill Pairing**  
+### D.5 Knowledge-Skill Pairing
 This step pairs **knowledge areas with corresponding skills**, ensuring that students develop both **theoretical understanding** and **practical application**.  
 
-### **4.5.1 Mapping Knowledge to Skills**  
+**D.5.1 Mapping Knowledge to Skills**  
 To demonstrate this competency, students must be able to:  
 - **Understand** Automata over Infinite Objects to correctly **decompose** state-based systems into formal language representations.  
 - **Apply** knowledge of Regular Languages to **construct regular expressions that accurately represent finite automata**.  
 - **Apply** Problem Solving and Troubleshooting (FPK) to **test and refine regular expressions**, ensuring correctness and completeness.  
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**D.5.2 Bloom’s Taxonomy Alignment**  
 The skills required for this competency align with **Bloom’s Revised Taxonomy**, ensuring a structured learning approach:  
 
 - **Understanding Automata over Infinite Objects** is essential, as **comprehension of automaton structure is a prerequisite** for correctly translating it into a regular expression.  
@@ -447,7 +423,7 @@ By mastering these skills, students gain **a deep understanding of formal langua
 
 
 
-### **4.5.3 Verb Annotation**  
+**D.5.3 Verb Annotation**  
 To clarify expected learning outcomes, the following action verbs define key student activities:  
 
 - **Understand** → Automata over Infinite Objects → **Decompose** automata into equivalent language representations.  
@@ -455,7 +431,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 - **Apply** → Problem Solving and Troubleshooting → **Validate, Test, Refine** regular expressions to ensure accuracy.  
 
 
-## **4.6 Summary Table for Competency D**  
+### D.6 Summary Table for Competency D
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -466,12 +442,12 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
-# **Competency E**  
+### **4.5 Competency E Specification**  
 
-## **4.1 Competency Title**  
-**Relating Regular Expressions to Finite Automata**  
+### E.1 Competency Title
+    Relating Regular Expressions to Finite Automata
 
-## **4.2 Competency Description**  
+### E.2 Competency Description
 This competency focuses on the ability to **establish the relationship between finite automata and regular expressions**.  
 
 Students must demonstrate an understanding of how **finite automata can be represented using regular expressions** and vice versa, ensuring they can accurately transition between these two formal models.  
@@ -482,14 +458,14 @@ To achieve this, students will:
 - **Demonstrate comprehension of regular language properties** that connect these two representations.  
 
 
-## **4.3 Knowledge Specification**  
+### E.3 Knowledge Specification
 The following knowledge areas are essential for this competency:  
 
 - **Automata over Infinite Objects** – Provides the theoretical foundation to **analyze and understand finite automata** and their structure.  
 - **Regular Languages** – Covers the principles of **formal language representations**, ensuring students can establish equivalences between finite automata and regular expressions.  
 
 
-## **4.4 Disposotion Specification**  
+### E.4 Disposotion Specification
 To successfully achieve this competency, students must demonstrate key **behavioral attributes**, including:  
 
 - **Collaboration** – Engaging with peers to analyze different automata and their equivalent regular expressions.  
@@ -498,16 +474,16 @@ To successfully achieve this competency, students must demonstrate key **behavio
 
 
 
-## **4.5 Knowledge-Skill Pairing**  
+### E.5 Knowledge-Skill Pairing 
 This step maps **knowledge areas with corresponding skills**, ensuring a structured learning approach.
 
-### **4.5.1 Mapping Knowledge to Skills**  
+**E.5.1 Mapping Knowledge to Skills**  
 To demonstrate this competency, students must be able to:  
 - **Understand** Automata over Infinite Objects to correctly **analyze finite automata structures** and their transformation into regular expressions.  
 - **Understand** Regular Languages to **identify the equivalent regular expression for a given finite automaton**.  
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**E.5.2 Bloom’s Taxonomy Alignment**  
 The knowledge areas required for this competency align with **Bloom’s Revised Taxonomy** at the **"Understand" level**, ensuring students:  
 - **Recognize and interpret** the relationship between **finite automata and regular expressions**.  
 - **Identify and classify** equivalent representations within **formal language theory**.  
@@ -515,14 +491,14 @@ The knowledge areas required for this competency align with **Bloom’s Revised 
 By achieving this level of comprehension, students develop a **solid conceptual foundation**, allowing them to apply this knowledge in more complex problem-solving scenarios.  
 
 
-### **4.5.3 Verb Annotation**  
+**E.5.3 Verb Annotation**  
 To clarify expected learning outcomes, the following action verbs define key student activities:  
 
 - **Understand** → Automata over Infinite Objects → **Interpret** automaton structures and their equivalence to regular expressions.  
 - **Understand** → Regular Languages → **Identify, Classify** corresponding regular expressions for given automata.  
 
 
-## **4.6 Summary Table for Competency E**  
+### E.6 Summary Table for Competency E
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
@@ -532,12 +508,12 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
-## **Competency F**  
+### **4.6 Competency F Specification**  
 
-## **4.1 Competency Title**  
-**Collaborative Technical Report Writing**  
+### F.1 Competency Title
+    Collaborative Technical Report Writing
 
-## **4.2 Competency Description**  
+### F.2 Competency Description
 This competency focuses on the ability to **collaboratively produce a well-structured technical report**. It requires students to **apply technical writing principles** to synthesize findings, explain methodologies, and document results in a clear, logical, and professional manner.  
 
 To achieve this, students must:  
@@ -549,13 +525,13 @@ To achieve this, students must:
 This competency emphasizes **practical application of writing skills**, requiring students to produce a polished and well-organized document that reflects their collective expertise.  
 
 
-## **4.3 Knowledge Specification**  
+### F.3 Knowledge Specification
 The following knowledge area is essential for this competency:  
 
 - **Written Communication (FPK)** – Involves the ability to **apply structured writing techniques** to explain and document the solution process effectively.  
 
 
-## **4.4 Disposition Specification**  
+### F.4 Disposition Specification**  
 To successfully achieve this competency, students must demonstrate key **behavioral attributes**, including:  
 
 - **Collaboration** – Working effectively as a team to create a unified, well-organized document.  
@@ -564,16 +540,16 @@ To successfully achieve this competency, students must demonstrate key **behavio
 
 
 
-## **4.5 Knowledge-Skill Pairing**  
+### F.5 Knowledge-Skill Pairing
 This step maps **knowledge areas with corresponding skills**, ensuring a structured learning approach.
 
-### **4.5.1 Mapping Knowledge to Skills**  
+**F.5.1 Mapping Knowledge to Skills**  
 To demonstrate this competency, students must be able to:  
 - **Apply** Written Communication (FPK) to **write, structure, and refine a technical report**, effectively explaining the solution process.  
 
 
 
-### **4.5.2 Bloom’s Taxonomy Alignment**  
+**F.5.2 Bloom’s Taxonomy Alignment**  
 The **"Apply" level** of **Bloom’s Taxonomy** is the most appropriate for this competency because it requires students to:  
 - **Use technical writing skills in practice**.  
 - **Synthesize and communicate findings effectively**, ensuring clarity and coherence.  
@@ -583,20 +559,15 @@ By mastering this competency, students develop **practical writing skills essent
 
 
 
-### **4.5.3 Verb Annotation**  
+**F.5.3 Verb Annotation**  
 To clarify expected learning outcomes, the following action verbs define key student activities:  
 
 - **Apply** → Written Communication (FPK) → **Write, Structure, Revise, Refine** technical documentation.  
 
 
-## **4.6 Summary Table for Competency F**  
+### F.6 Summary Table for Competency F
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
-
-
-
-
-
 
