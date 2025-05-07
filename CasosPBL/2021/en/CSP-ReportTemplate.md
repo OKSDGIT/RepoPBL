@@ -1,4 +1,4 @@
-## Introduction
+## 1. Introduction
 
 This document is part of a series that applies the **Competency Specification Process (CSP)** to Problem-Based Learning (PBL) scenarios in computing education.
 
@@ -6,7 +6,7 @@ The **CSP** is a structured methodology designed to **identify, classify, and do
 
 By applying this structured approach, we aim to demonstrate the alignment between **PBL and competency development**, ensuring that learners acquire both **technical expertise** and **essential cognitive and behavioral skills** for practical application.
 
-## Objective
+## 2. Objective
 
 The purpose of this report is to illustrate how the **Competency Specification Process** is applied to PBL tasks by systematically identifying:
 
@@ -15,7 +15,7 @@ The purpose of this report is to illustrate how the **Competency Specification P
 - The **skills and competencies** required for effective task execution.
 - The **behavioral dispositions** that support meaningful learning experiences.
 
-## Report Structure
+## 3. Report Structure
 
 All reports based on the CSP methodology follow the same structure:
 
