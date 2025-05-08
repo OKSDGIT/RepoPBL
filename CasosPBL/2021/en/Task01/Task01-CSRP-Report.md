@@ -114,31 +114,25 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 ### 6.2 Controlled Vocabulary
 
-**P1:**  
-- *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
+**P1:** *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
 
-**P2:**  
-- *"When analyzing the described competencies, I noticed a lack of standardization in the terms used in the annotated resources. To ensure that they can be easily understood and reused, a term mapping system should be implemented."*  
+**P2:** *"When analyzing the described competencies, I noticed a lack of standardization in the terms used in the annotated resources. To ensure that they can be easily understood and reused, a term mapping system should be implemented."*  
 
 
 
 ### 6.3 Bloom’s Taxonomy Verbs
 
-**P1:**  
-- *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
+**P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
 
-**P2:**  
-- *"The selected verbs effectively enhance the clarity of skills and are well-aligned with the task and learning objectives."*  
+**P2:** *"The selected verbs effectively enhance the clarity of skills and are well-aligned with the task and learning objectives."*  
 
 
 
 ### 6.4 Textual Clarity in Competency Descriptions
 
-**P1:**  
-- *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency D: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
+**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency D: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
-**P2:**  
-- *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
+**P2:** *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
 
 - *In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
 
@@ -150,8 +144,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 ### 6.5 Knowledge Relevance and Appropriateness
 
-**P1:**  
-- *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
+**P1:** *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
 
 - *I recommend **removing the following knowledge elements**, as they are not reflected in the task description:*  
     - Identifying the equivalence between **Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)**.  
@@ -160,8 +153,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 - *Similarly, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge about DFAs and NFAs is not included in the task description. The other competencies are correctly aligned."*  
 
-**P2:**  
-- *"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.*  
+**P2:** *"When defining a competency or skill, it is essential to ensure that the associated knowledge is **relevant and applicable** to the educational context. However, in the knowledge elements listed in the task, there is a mention of **Non-Deterministic Finite Automata (NFA)**, but I could not find any reference to this knowledge in the problem to be solved.*  
 
 - Additionally, some of the **learning objectives include knowledge elements that are not addressed in the task description**. Therefore, I suggest removing the following knowledge elements:  
     - Identifying the equivalence between **DFA and NFA**.  
