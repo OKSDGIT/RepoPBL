@@ -79,7 +79,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
- |### 5.2 Competency C
+ ### 5.2 Competency C
 
 | **Subcomponent**            | **Assessment** | **Comments** |
 |----------------------------|----------------|--------------|
@@ -91,7 +91,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
- |### 5.3 Competency D and E (merged)
+ ### 5.3 Competency D and E (merged)
 
 | **Subcomponent**            | **Assessment** | **Comments** |
 |----------------------------|----------------|--------------|
