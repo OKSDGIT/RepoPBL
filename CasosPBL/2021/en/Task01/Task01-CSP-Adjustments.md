@@ -9,7 +9,7 @@ The review process, informed by the expert feedback from **P1 and P2**, identifi
 - **Bloom’s Taxonomy Verbs** → Improving clarity in skill descriptions.  
 - **Textual Clarity** → Refining descriptions to avoid ambiguities.  
 
-Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies. This process involved **revising knowledge granularity, adjusting terminology, standardizing vocabulary, and refining competency definitions** to enhance alignment with learning objectives and task requirements.  
+Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.  
 
 
 
@@ -66,10 +66,13 @@ To enhance clarity, consistency, and reusability, annotators S1 and S2 revised t
 
 The revised competency identification system serves the following key objectives:
 
-Improved Organizational Structure → Establishing a coherent and standardized framework for competency management.
-Facilitating Reusability → Enabling competencies to be referenced and applied consistently in various educational tasks.
-Alignment with the Competency Annotation Framework → Ensuring that competency definitions follow a structured and scalable approach.
-By assigning unique and structured competency identifiers, this approach simplifies competency tracking, retrieval, and integration into different learning environments. The new standardized competency codes, shown in Table 1, provide a clear reference system that supports structured competency development and seamless application in competency-based learning models.
+- Improved Organizational Structure → Establishing a coherent and standardized framework for competency management.
+
+- Facilitating Reusability → Enabling competencies to be referenced and applied consistently in various educational tasks.
+
+- Alignment with the Competency Annotation Framework → Ensuring that competency definitions follow a structured and scalable approach.
+
+By assigning unique and structured competency identifiers, this approach simplifies competency tracking, retrieval, and integration into different learning environments. The new standardized competency codes (Cn), shown in Table 1, provide a clear reference system that supports structured competency development and seamless application in competency-based learning models.
 
  
 
