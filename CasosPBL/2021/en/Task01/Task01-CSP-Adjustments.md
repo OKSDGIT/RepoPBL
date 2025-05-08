@@ -77,9 +77,11 @@ By assigning unique and structured competency identifiers, this approach simplif
  
 
 
-#### **Table 1 - New Competency Identification Codes**
+
 
 # **Competency Specification Table - Adjustments**
+
+ **Table 1 - Competency Adjustments and new Codes**
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------|--------|-----------|-----------|-------------------|
