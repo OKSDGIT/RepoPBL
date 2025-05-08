@@ -106,11 +106,9 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 ### 6.1 Knowledge Granularity
 
-**P1:**  
-- *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
+**P1:**  *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
 
-**P2:**  
-- *"The main issue for me is the granularity of knowledge. The taxonomy used is ACM CCS 2012, but the granularity level is too broad. When comparing the knowledge listed in the tasks, most of them are not explicitly listed in the taxonomy, making it impossible to annotate them properly. For example, in Task 1 ('The Vending Machine for Sodas and Snacks'), deterministic and non-deterministic finite automata, as well as regular expressions, are not included in the taxonomy—it only lists 'regular languages.' Thus, all these annotations need to be revised."*
+**P2:** *"The main issue for me is the granularity of knowledge. The taxonomy used is ACM CCS 2012, but the granularity level is too broad. When comparing the knowledge listed in the tasks, most of them are not explicitly listed in the taxonomy, making it impossible to annotate them properly. For example, in Task 1 ('The Vending Machine for Sodas and Snacks'), deterministic and non-deterministic finite automata, as well as regular expressions, are not included in the taxonomy—it only lists 'regular languages.' Thus, all these annotations need to be revised."*
 
 
 
