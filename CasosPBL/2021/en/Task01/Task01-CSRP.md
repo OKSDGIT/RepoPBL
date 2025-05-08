@@ -1,23 +1,10 @@
 # Competency Specification Review Report: Task1 - The Vending Machine for Sodas and Snacks
 
 
-## **Transcription and Notes from Guided Interviews with Professors**
 
-# **Introduction to the Transcription and Notes from Guided Interviews with Professors**  
 
-As part of the **Competency Specification Review Process**, a series of **guided interviews** were conducted with expert reviewers **P1 and P2** to evaluate the accuracy, clarity, and alignment of competency specifications within the **Problem-Based Learning (PBL) case "The Vending Machine for Sodas and Snacks."**  
 
-The primary goal of these interviews was to **identify inconsistencies, ambiguities, and areas for improvement** in the definition of competencies, ensuring that they align with **learning objectives, knowledge elements, and skill applications**. The discussions were structured around key aspects of the competency specification process, including:  
 
-- **Knowledge Granularity** → Assessing whether the level of detail in knowledge classifications was appropriate.  
-- **Controlled Vocabulary** → Ensuring consistency in terminology and competency descriptions.  
-- **Bloom’s Taxonomy Verbs** → Evaluating the effectiveness of action verbs in describing expected learning outcomes.  
-- **Textual Clarity in Competency Descriptions** → Identifying ambiguities and improving the precision of competency titles and descriptions.  
-- **Knowledge Relevance and Appropriateness** → Determining whether the listed knowledge elements were **relevant, applicable, and correctly mapped** to the task requirements.  
-
-The feedback gathered from these interviews was **instrumental in refining the competency specification process**, leading to **modifications in knowledge categorization, vocabulary standardization, competency restructuring, and textual improvements**. The following transcription presents **key excerpts from the reviewers' feedback**, categorized according to the main themes discussed during the evaluation.  
-
-This structured review ensures that competency descriptions are **accurate, pedagogically sound, and aligned with educational objectives**, ultimately contributing to a **more effective competency-based learning model**.  
 
 
 ### **Knowledge Granularity**  
@@ -53,7 +40,7 @@ This structured review ensures that competency descriptions are **accurate, peda
 ### **Textual Clarity in Competency Descriptions**  
 
 #### **P1:**  
-*"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency B: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
+*"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency D: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
 #### **P2:**  
 *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
@@ -89,9 +76,9 @@ Additionally, some of the **learning objectives include knowledge elements that 
 *Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
-# **Summary of Review Suggestions**  
+## **Summary of Review Suggestions**  
 
-## **P1 Suggestions**  
+### **P1 Suggestions**  
 - **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  
 - **Knowledge and Concepts**  
   - Remove **Non-Deterministic Finite Automata (NFA)** as it is not covered in the task description.  
@@ -104,7 +91,7 @@ Additionally, some of the **learning objectives include knowledge elements that 
   - Remove the **knowledge-skill pair "Equivalence of DFAs and NFAs - Understand (Compare)"**, as it is not relevant to the task.  
   - Remove references to **NFA knowledge**, as it is not addressed in the task.  
 
-## **P2 Suggestions**  
+### **P2 Suggestions**  
 - **Knowledge Granularity** → The level is too high and needs refinement.  
 - **Textual Refinement** → Some descriptions are **too directive**, while others are **too generic**. Adjustments should improve clarity and precision.  
 - **Competency B**  
@@ -119,7 +106,7 @@ Additionally, some of the **learning objectives include knowledge elements that 
 
 
 
-# **Conclusion: Future Improvements in the Competency Specification Review Process**  
+## **Conclusion: Future Improvements in the Competency Specification Review Process**  
 
 The **competency specification review process** has provided **critical insights into necessary adjustments**, highlighting issues in **knowledge granularity, textual clarity, and alignment with learning objectives**. Based on the reviewers' feedback, **several refinements will be incorporated** to enhance the accuracy, relevance, and clarity of competency specifications.  
 
@@ -132,5 +119,3 @@ Additionally, **several learning objectives and competency descriptions will be 
 Moving forward, the **adoption of a more structured knowledge taxonomy and standardized vocabulary will enhance the clarity, consistency, and applicability** of competency-based learning in PBL environments. The iterative review process **will continue to be applied** to ensure that competency specifications remain aligned with evolving educational needs.  
 
 By incorporating these refinements, the competency framework **will become more precise, structured, and aligned with educational objectives**, ultimately **supporting students, educators, and curriculum designers** in **competency-based computing education**. 
-
-
