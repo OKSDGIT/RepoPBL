@@ -102,7 +102,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-## 6. Review Recommendations
+## 6. Summary of Recommendations
 
 ### 6.1 Knowledge Granularity
 
@@ -173,7 +173,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 - *Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
-## 7. Summary of Review Suggestions
+## 6.6 Review Suggestions
 
 ### P1 Suggestions
 - **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  
@@ -203,7 +203,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-## 8. Conclusion
+## 7. Conclusion and Next Steps
 
 The **competency specification review process** has provided **critical insights into necessary adjustments**, highlighting issues in **knowledge granularity, textual clarity, and alignment with learning objectives**. Based on the reviewers' feedback, **several refinements will be incorporated** to enhance the accuracy, relevance, and clarity of competency specifications.  
 
