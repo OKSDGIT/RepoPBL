@@ -18,4 +18,11 @@ Seguindo as percepções dos revisores, **o sistema de classificação do conhec
 
 ### **Ajustes Específicos por Competência**
 
-**Competência A: Codificar, em grupo, uma tarefa simples, numa linguagem de programação.**
+- **Competência A: "Codificar, em grupo, uma tarefa simples, numa linguagem de programação"**
+  - O elemento de conhecimento **Linguagem de Programação** permaneceu **inalterado**.
+  - **"Lógica de Programação"** foi **redefinida** como **"Conceito de algoritmo"**
+  - **"Análise de Requisitos"** foi redefinida como **"Engenharia de Requisitos"**
+  - Foi acrescentado um novo conhecimento **"Pensamento analítico e crítico (FPK)"**
+  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
+
+
