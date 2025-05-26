@@ -25,7 +25,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 |---------------------------|----------------|--------------|
 | Comprehensiveness          | Maybe | Missing details on DFA; NFA not clearly included in taxonomy. |
 | Relevance                  | Maybe |Some listed knowledge not used in practice (e.g., equivalence concepts). |
-| Appropriateness            | Maybe | DFA/NFA and RE equivalence are present but not required by the task. |
+| Appropriateness            | No | DFA/NFA and RE equivalence are present but not required by the task. |
 
 > _Consider alignment with a structured taxonomy._
 
@@ -35,7 +35,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 | **Criterion**              | **Assessment** | **Comments** |
 |---------------------------|----------------|--------------|
 | Comprehensiveness          | Maybe | Some learning goals are misaligned or overly abstract. |
-| Relevance                  | Yes | Objectives involving DFA/NFA or RE equivalence must be grounded in the task. |
+| Relevance                  | Maybe | Objectives involving DFA/NFA or RE equivalence must be grounded in the task. |
 | Appropriateness            | Maybe | Some should be removed or reformulated to reflect actual task demands. |
 
 > _Ensure the LOs provide pedagogical direction and map meaningfully to competencies._
@@ -99,6 +99,14 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 | Description – Clarity       | Maybe | Remove repetition and improve focus. |
 | Description – Content Scope | Maybe | Overlaps entirely with D. |
 
+
+ ### 5.3 Competency F
+
+| **Subcomponent**            | **Assessment** | **Comments** |
+|----------------------------|----------------|--------------|
+| Competency Title            | No | Clarify title and objective. |
+| Description – Clarity       | Yes | Clear |
+| Description – Content Scope | Yes | Clear |
 
 
 
