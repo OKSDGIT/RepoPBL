@@ -18,4 +18,4 @@ Seguindo as percepções dos revisores, **o sistema de classificação do conhec
 
 ### **Ajustes Específicos por Competência**
 
-# **Competência A: Codificar, em grupo, uma tarefa simples, numa linguagem de programação.**
+**Competência A: Codificar, em grupo, uma tarefa simples, numa linguagem de programação.**
