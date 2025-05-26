@@ -75,10 +75,43 @@ Esta revisão estruturada garante que as descrições de competências sejam **p
 | Relevância | {Sim | Talvez | Não} | |
 | Adequação | {Sim | Talvez | Não} | |
 
-#### Especificação de Disposição
+#### Especificação de Atitudes
 
 | **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
 | Alinhamento com Competência | {Sim | Talvez | Não} | |
 | Cobertura e Relevância | {Sim | Talvez | Não} | |
 
+#### Pares Conhecimento-Habilidade
+
+| **Critério** | **Avaliação** | **Comentários** |
+|----------------------------------|----------------|--------------|
+| Alinhamento de Bloom | {Sim | Talvez | Não} | Nível cognitivo apropriado? |
+| Verbos Anotados – Clareza | {Sim | Talvez | Não} | Os verbos melhoram a interpretabilidade? |
+| Revisões Sugeridas | {Sim | Talvez | Não} | Os verbos ou pares devem ser alterados? |
+
+---
+
+## 6. Resumo das Recomendações
+
+Resuma as principais mudanças a serem feitas com base na revisão, tais como:
+- Adições/remoções em componentes de conhecimento
+- Objetivos de aprendizagem revisados
+- Competências mescladas ou renomeadas
+- Alinhamentos ajustados no nível Bloom
+
+---
+
+## 7. Conclusão e Próximos Passos
+
+Reflita sobre:
+- O impacto da revisão na clareza, na força pedagógica e no alinhamento do conjunto de competências.
+- Como as descobertas informarão futuras iterações do CSP ou tarefas semelhantes.
+- Ações recomendadas para finalizar o pacote de tarefas-competências.
+
+---
+## Apêndice (Opcional)
+
+- Comentários completos do revisor (anonimizados ou atribuídos)
+- Transcrições de entrevistas
+- Tabelas ou competências revisadas (antes e depois)
