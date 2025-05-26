@@ -17,3 +17,5 @@ Com base nessas recomendações, **vários refinamentos foram implementados** pa
 Seguindo as percepções dos revisores, **o sistema de classificação do conhecimento foi atualizado do CC2012 para o CS2013**, o que oferece uma taxonomia mais **refinada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas às tarefas educacionais**.
 
 ### **Ajustes Específicos por Competência**
+
+# **Competência A: Codificar, em grupo, uma tarefa simples, numa linguagem de programação.**
