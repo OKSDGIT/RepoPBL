@@ -1,1 +1,43 @@
+## 1. Introdução
 
+Este documento faz parte de uma série que aplica o **Processo de Especificação de Competências (PEC)** a cenários de Aprendizagem Baseada em Problemas (PBL) no ensino de computação.
+
+O **PEC** é uma metodologia estruturada projetada para **identificar, classificar e documentar competências** incorporadas em tarefas educacionais. Ao analisar a descrição da tarefa, o conhecimento necessário, os objetivos de aprendizagem e as disposições comportamentais, o processo permite a construção de uma estrutura de competências alinhada aos princípios da **resolução de problemas do mundo real** e da educação baseada em competências.
+
+Ao aplicar esta abordagem estruturada, pretendemos demonstrar o alinhamento entre o **PBL e o desenvolvimento de competências**, garantindo que os alunos adquiram tanto **conhecimento técnico** quanto **habilidades cognitivas e comportamentais essenciais** para aplicação prática.
+
+## 2. Objetivo
+
+O objetivo deste relatório é ilustrar como o **Processo de Especificação de Competências** é aplicado a tarefas de PBL, identificando sistematicamente:
+
+- Os **componentes de conhecimento** necessários para a execução da tarefa.
+
+- Os **objetivos de aprendizagem** — explícitos e implícitos — presentes no contexto da tarefa.
+- As **habilidades e competências** necessárias para a execução eficaz da tarefa.
+- As **disposições comportamentais** que sustentam experiências de aprendizagem significativas.
+
+## 3. Estrutura do Relatório
+
+Todos os relatórios baseados na metodologia PEC seguem a mesma estrutura:
+
+1. **Análise da Descrição da Tarefa**
+Apresenta o contexto e os objetivos da tarefa, enfatizando o papel do aluno e os resultados esperados.
+
+2. **Enumeração do Conhecimento**
+Identifica o conhecimento teórico e prático necessário, com base em taxonomias padronizadas, como o **Sistema de Classificação ACM** e o **ACM/IEEE CC2020**.
+
+3. **Identificação dos Objetivos de Aprendizagem**
+Extrai os objetivos de aprendizagem direta ou indiretamente implícitos na tarefa, estabelecendo vínculos com os resultados educacionais.
+
+4. **Definição de Competência**
+Especifica um conjunto de competências bem estruturadas derivadas da tarefa. Cada competência é descrita usando um modelo uniforme que inclui:
+
+- **Título e Descrição**: Define o escopo e o resultado esperado da competência.
+- **Especificação de Conhecimento**: Detalha o conhecimento conceitual ou profissional relevante.
+- **Especificação de Disposição**: Destaca atributos comportamentais como colaboração, proatividade e responsabilidade.
+- **Emparelhamento Conhecimento-Habilidade**: Mapeia áreas de conhecimento para habilidades usando a **Taxonomia Revisada de Bloom**, apoiada por:
+- Níveis cognitivos (por exemplo, *Aplicar*, *Compreender*, *Criar*)
+- Anotações verbais que esclarecem as ações esperadas do aluno.
+- **Tabela Resumo**: Sintetiza os componentes da competência — disposições, conhecimento e habilidades — em um formato tabular conciso.
+
+Essa estrutura garante **clareza**, **consistência** e **rastreabilidade** entre a tarefa de aprendizagem e as competências que ela visa cultivar.
