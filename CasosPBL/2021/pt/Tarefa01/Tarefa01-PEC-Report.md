@@ -406,4 +406,112 @@ Para alcançar isso, os estudantes:
 - **Identificarão a expressão regular correspondente para um autômato finito dado**.  
 - **Demonstrarão compreensão das propriedades de linguagens regulares** que conectam essas duas representações.  
 
-### E.3 Especificação de Conheccimentos
+### E.3 Especificação do Conhecimento
+As seguintes áreas de conhecimento são essenciais para esta competência:  
+
+- **Autômatos sobre Objetos Infinitos** – Fornece a base teórica para **analisar e compreender autômatos finitos** e sua estrutura.  
+- **Linguagens Regulares** – Aborda os princípios de **representações de linguagens formais**, garantindo que os estudantes consigam estabelecer equivalências entre autômatos finitos e expressões regulares.  
+
+
+### E.4 Especificação de Disposições
+Para alcançar com sucesso esta competência, os estudantes devem demonstrar atributos **comportamentais** fundamentais, incluindo:  
+
+- **Colaboração** – Interagir com colegas para analisar diferentes autômatos e suas expressões regulares equivalentes.  
+- **Responsabilidade** – Garantir precisão na identificação de equivalências entre modelos formais.  
+- **Proatividade** – Buscar ativamente múltiplas abordagens para relacionar expressões regulares e representações de autômatos.  
+
+
+### E.5 Pareamento Conhecimento-Habilidade 
+Esta etapa mapeia **áreas de conhecimento com as habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
+
+**E.5.1 Mapeamento do Conhecimento com as Habilidades**  
+Para demonstrar esta competência, os estudantes devem ser capazes de:  
+- **Compreender** Autômatos sobre Objetos Infinitos para **analisar corretamente estruturas de autômatos finitos** e sua transformação em expressões regulares.  
+- **Compreender** Linguagens Regulares para **identificar a expressão regular equivalente para um dado autômato finito**.  
+
+
+**E.5.2 Alinhamento com a Taxonomia de Bloom**  
+As áreas de conhecimento exigidas para esta competência estão alinhadas ao nível **"Compreender"** da **Taxonomia Revisada de Bloom**, garantindo que os estudantes:  
+- **Reconheçam e interpretem** a relação entre **autômatos finitos e expressões regulares**.  
+- **Identifiquem e classifiquem** representações equivalentes dentro da **teoria de linguagens formais**.  
+
+Ao atingir este nível de compreensão, os estudantes desenvolvem uma **base conceitual sólida**, permitindo aplicar esse conhecimento em cenários de resolução de problemas mais complexos.  
+
+
+**E.5.3 Anotação de Verbos**  
+Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos estudantes:  
+
+- **Compreender** → Autômatos sobre Objetos Infinitos → **Interpretar** estruturas de autômatos e sua equivalência com expressões regulares.  
+- **Compreender** → Linguagens Regulares → **Identificar, Classificar** expressões regulares correspondentes a autômatos dados.  
+
+
+### E.6 Tabela Resumo da Competência E
+
+| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
+|----------------|------------------|------------------|----------------|
+| **Relacionar Expressões Regulares com Autômatos Finitos** | Colaborativo, Responsável, Proativo | **Autômatos sobre Objetos Infinitos** | **Compreender** |
+| | | **Linguagens Regulares** | **Compreender** |
+
+
+
+
+### **4.6 Especificação da Competência F**  
+
+### F.1 Título da Competência
+    Escrita Colaborativa de Relatórios Técnicos
+
+### F.2 Descrição da Competência
+Esta competência foca na capacidade de **produzir colaborativamente um relatório técnico bem estruturado**. Requer que os estudantes **apliquem princípios da escrita técnica** para sintetizar descobertas, explicar metodologias e documentar resultados de forma clara, lógica e profissional.  
+
+Para isso, os estudantes devem:  
+- **Escrever um relatório estruturado e coerente**, integrando contribuições de diversos membros da equipe.  
+- **Aplicar padrões profissionais de escrita técnica**, garantindo clareza, consistência e fluidez lógica.  
+- **Comunicar efetivamente os resultados técnicos**, tornando conceitos complexos acessíveis a públicos técnicos e não técnicos.  
+- **Revisar e refinar o conteúdo**, assegurando precisão, legibilidade e conformidade com diretrizes de formatação.  
+
+Esta competência enfatiza a **aplicação prática das habilidades de escrita**, exigindo dos estudantes a produção de um documento polido e bem organizado que reflita sua expertise coletiva.  
+
+
+### F.3 Especificação do Conhecimento
+A seguinte área de conhecimento é essencial para esta competência:  
+
+- **Comunicação Escrita (FPK)** – Envolve a capacidade de **aplicar técnicas estruturadas de escrita** para explicar e documentar efetivamente o processo de solução.  
+
+
+### F.4 Especificação de Disposições  
+Para alcançar com sucesso esta competência, os estudantes devem demonstrar atributos **comportamentais** fundamentais, incluindo:  
+
+- **Colaboração** – Trabalhar efetivamente em equipe para criar um documento unificado e bem organizado.  
+- **Cuidado com os detalhes** – Garantir precisão, clareza e consistência no conteúdo e na estrutura do relatório.  
+- **Responsabilidade** – Assumir responsabilidade pelas seções atribuídas e contribuir significativamente para o relatório final.  
+
+
+### F.5 Pareamento Conhecimento-Habilidade
+Esta etapa mapeia **áreas de conhecimento com as habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
+
+**F.5.1 Mapeamento do Conhecimento com as Habilidades**  
+Para demonstrar esta competência, os estudantes devem ser capazes de:  
+- **Aplicar** Comunicação Escrita (FPK) para **escrever, estruturar e refinar um relatório técnico**, explicando efetivamente o processo de solução.  
+
+
+**F.5.2 Alinhamento com a Taxonomia de Bloom**  
+O nível **"Aplicar"** da **Taxonomia de Bloom** é o mais apropriado para esta competência, pois requer que os estudantes:  
+- **Utilizem habilidades de escrita técnica na prática**.  
+- **Sintetizem e comuniquem descobertas de forma eficaz**, garantindo clareza e coerência.  
+- **Formatem, revisem e refinem** o documento para atender a padrões profissionais.  
+
+Ao dominar esta competência, os estudantes desenvolvem **habilidades práticas de escrita essenciais para a comunicação acadêmica e profissional**.  
+
+
+**F.5.3 Anotação de Verbos**  
+Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos estudantes:  
+
+- **Aplicar** → Comunicação Escrita (FPK) → **Escrever, Estruturar, Revisar, Refinar** documentação técnica.  
+
+
+### F.6 Tabela Resumo da Competência F
+
+| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
+|----------------|------------------|------------------|----------------|
+| **Escrita Colaborativa de Relatórios Técnicos** | Colaborativo, Detalhista, Responsável | **Comunicação Escrita (FPK)** | **Aplicar (Escrever, Estruturar, Revisar, Refinar)** |
+
