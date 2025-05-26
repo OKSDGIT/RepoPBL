@@ -1,119 +1,84 @@
-# Competency Specification Review Report
+# Relatório de Revisão de Especificações de Competências
 
-## 1. Introduction
+## 1. Introdução
 
-As part of the **Competency Specification Review Process**, a series of **guided interviews** were conducted with expert reviewers to evaluate the accuracy, clarity, and alignment of competency specifications within the PBL cases.
+Como parte do **Processo de Revisão de Especificações de Competências**, uma série de **entrevistas guiadas** foi conduzida com revisores especialistas para avaliar a precisão, a clareza e o alinhamento das especificações de competências nos casos de PBL.
 
-The primary goal of these interviews was to **identify inconsistencies, ambiguities, and areas for improvement** in the definition of competencies, ensuring that they align with **learning objectives, knowledge elements, and skill applications**. The discussions were structured around key aspects of the competency specification process, including:  
+O objetivo principal dessas entrevistas foi **identificar inconsistências, ambiguidades e áreas de melhoria** na definição de competências, garantindo seu alinhamento com os **objetivos de aprendizagem, elementos de conhecimento e aplicações de habilidades**. As discussões foram estruturadas em torno de aspectos-chave do processo de especificação de competências, incluindo:
 
-- **Knowledge Granularity** → Assessing whether the level of detail in knowledge classifications was appropriate.  
-- **Controlled Vocabulary** → Ensuring consistency in terminology and competency descriptions.  
-- **Bloom’s Taxonomy Verbs** → Evaluating the effectiveness of action verbs in describing expected learning outcomes.  
-- **Textual Clarity in Competency Descriptions** → Identifying ambiguities and improving the precision of competency titles and descriptions.  
-- **Knowledge Relevance and Appropriateness** → Determining whether the listed knowledge elements were **relevant, applicable, and correctly mapped** to the task requirements.  
+- **Granularidade do Conhecimento** → Avaliar se o nível de detalhamento nas classificações de conhecimento era apropriado.
+- **Vocabulário Controlado** → Garantir a consistência na terminologia e nas descrições de competências.
+- **Verbos da Taxonomia de Bloom** → Avaliar a eficácia dos verbos de ação na descrição dos resultados de aprendizagem esperados.
 
-The feedback gathered from these interviews was **instrumental in refining the competency specification process**, leading to **modifications in knowledge categorization, vocabulary standardization, competency restructuring, and textual improvements**. The following transcription presents **key excerpts from the reviewers' feedback**, categorized according to the main themes discussed during the evaluation.  
+- **Clareza Textual nas Descrições de Competências** → Identificar ambiguidades e melhorar a precisão dos títulos e descrições de competências.
+- **Relevância e Adequação do Conhecimento** → Determinar se os elementos de conhecimento listados eram **relevantes, aplicáveis ​​e corretamente mapeados** aos requisitos da tarefa.
 
-This structured review ensures that competency descriptions are **accurate, pedagogically sound, and aligned with educational objectives**, ultimately contributing to a **more effective competency-based learning model**.  
+O feedback obtido nessas entrevistas foi **instrumental para refinar o processo de especificação de competências**, levando a **modificações na categorização do conhecimento, padronização do vocabulário, reestruturação de competências e melhorias textuais**. A transcrição a seguir apresenta **trechos-chave do feedback dos revisores**, categorizados de acordo com os principais temas discutidos durante a avaliação.
 
+Esta revisão estruturada garante que as descrições de competências sejam **precisas, pedagogicamente sólidas e alinhadas aos objetivos educacionais**, contribuindo, em última análise, para um **modelo de aprendizagem baseado em competências** mais eficaz.
 
+## 2. Análise da Descrição da Tarefa
 
-## 2. Task Description Analysis
-
-| **Aspect**               | **Assessment** | **Comments** |
+| **Aspecto** | **Avaliação** | **Comentários** |
 |--------------------------|----------------|---------------|
-| Task Title               | {Clear | Needs Revision} |  |
-| Problem Description      | {Clear | Needs Clarification} |  |
-| Solution Development     | {Appropriate | Incomplete} |  |
-| Expected Outcomes        | {Well Specified | Misaligned} |  |
+| Título da Tarefa | {Claro | Precisa de Revisão} | |
+| Descrição do Problema | {Claro | Precisa de Esclarecimento} | |
+| Desenvolvimento da Solução | {Apropriado | Incompleto} | |
+| Resultados Esperados | {Bem Especificado | Desalinhado} | |
 
-> _Provide notes on how the task description supports or constrains the competency specification._
+> _Forneça notas sobre como a descrição da tarefa apoia ou restringe a especificação de competência._
 
 ---
 
-## 3. Review of Enumerated Knowledge
+## 3. Revisão do Conhecimento Enumerado
 
-| **Criterion**              | **Assessment** | **Comments** |
+| **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Comprehensiveness          | {Yes | Maybe | No} | Are all essential knowledge areas included? |
-| Relevance                  | {Yes | Maybe | No} | Are all listed knowledge items needed? |
-| Appropriateness            | {Yes | Maybe | No} | Should any items be revised or removed? |
+| Abrangência | {Sim | Talvez | Não} | Todas as áreas de conhecimento essenciais estão incluídas? |
+| Relevância | {Sim | Talvez | Não} | Todos os itens de conhecimento listados são necessários? |
+| Adequação | {Sim | Talvez | Não} | Algum item deve ser revisado ou removido? |
 
-> _Consider alignment with a structured taxonomy (e.g., ACM CCS, CC2020)._
+> _Considere o alinhamento com uma taxonomia estruturada (por exemplo, ACM CCS, CC2020)._
 
 ---
 
-## 4. Review of Learning Objectives (LOs)
+## 4. Revisão dos Objetivos de Aprendizagem (OA)
 
-| **Criterion**              | **Assessment** | **Comments** |
+| **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Comprehensiveness          | {Yes | Maybe | No} | Are implicit and explicit objectives represented? |
-| Relevance                  | {Yes | Maybe | No} | Are all LOs pertinent to the task? |
-| Appropriateness            | {Yes | Maybe | No} | Should any LOs be revised or removed? |
+| Abrangência | {Sim | Talvez | Não} | Os objetivos implícitos e explícitos estão representados? |
+| Relevância | {Sim | Talvez | Não} | Todos os OA são pertinentes à tarefa? |
+| Adequação | {Sim | Talvez | Não} | Algum OA deve ser revisado ou removido? |
 
-> _Ensure the LOs provide pedagogical direction and map meaningfully to competencies._
+> _Garanta que os OA forneçam orientação pedagógica e mapeiem de forma significativa as competências._
 
 ---
 
-## 5. Review of Competency Definitions
+## 5. Revisão das Definições de Competência
 
-### 5.1 Competency [A/B/C...]
+### 5.1 Competência [A/B/C...]
 
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | {Yes | Maybe | No} | Clear and focused? |
-| Description – Clarity       | {Yes | Maybe | No} | Well-articulated and unambiguous? |
-| Description – Application   | {Yes | Maybe | No} | Does it explain how knowledge is mobilized? |
-| Description – Task Alignment| {Yes | Implicit | No} | Is it contextualized within the task? |
-| Description – Content Scope | {Yes | Maybe | No} | Covers all relevant content? |
-
-#### Knowledge Specification
-
-| **Criterion**              | **Assessment** | **Comments** |
+| **Subcomponente** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Use of Professional/Theoretical Knowledge | {Yes | Implicit | No} | |
-| Comprehensiveness          | {Yes | Maybe | No} | |
-| Relevance                  | {Yes | Maybe | No} | |
-| Appropriateness            | {Yes | Maybe | No} | |
+| Título da Competência | {Sim | Talvez | Não} | Claro e focado? |
+| Descrição – Clareza | {Sim | Talvez | Não} | Bem articulado e inequívoco? |
+| Descrição – Aplicação | {Sim | Talvez | Não} | Explica como o conhecimento é mobilizado? |
+| Descrição – Alinhamento da Tarefa| {Sim | Implícito | Não} | Está contextualizado dentro da tarefa? |
+| Descrição – Escopo do Conteúdo | {Sim | Talvez | Não} | Abrange todo o conteúdo relevante? |
 
-#### Disposition Specification
+#### Especificação de Conhecimento
 
-| **Criterion**              | **Assessment** | **Comments** |
+| **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Alignment with Competency  | {Yes | Maybe | No} | |
-| Coverage and Relevance     | {Yes | Maybe | No} | |
+| Uso do Conhecimento Profissional/Teórico | {Sim | Implícito | Não} | |
+| Abrangência | {Sim | Talvez | Não} | |
+| Relevância | {Sim | Talvez | Não} | |
+| Adequação | {Sim | Talvez | Não} | |
 
-#### Knowledge-Skill Pairs
+#### Especificação de Disposição
 
-| **Criterion**                     | **Assessment** | **Comments** |
-|----------------------------------|----------------|--------------|
-| Bloom Alignment                  | {Yes | Maybe | No} | Cognitive level appropriate? |
-| Annotated Verbs – Clarity        | {Yes | Maybe | No} | Do verbs improve interpretability? |
-| Suggested Revisions              | {Yes | Maybe | No} | Should verbs or pairings be changed? |
+| **Critério** | **Avaliação** | **Comentários** |
+|---------------------------|----------------|--------------|
+| Alinhamento com Competência | {Sim | Talvez | Não} | |
+| Cobertura e Relevância | {Sim | Talvez | Não} | |
 
----
-
-## 6. Summary of Recommendations
-
-Summarize the major changes to be made based on the review, such as:
-- Additions/removals in knowledge components
-- Revised learning objectives
-- Merged or renamed competencies
-- Adjusted Bloom-level alignments
-
----
-
-## 7. Conclusion and Next Steps
-
-Reflect on:
-- The impact of the review on the clarity, pedagogical strength, and alignment of the competency set.
-- How the findings will inform future iterations of the CSP or similar tasks.
-- Recommended actions for finalizing the task-competency package.
-
----
-
-## Appendix (Optional)
-
-- Full reviewer comments (anonymized or attributed)
-- Interview transcriptions
-- Revised tables or competencies (before and after)
