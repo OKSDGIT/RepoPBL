@@ -53,9 +53,9 @@ A padronização seguiu os mesmos passos que foram descritos na Máquina de Vend
 | ID  | Declaração                                                   | Atitudes                             | Conhecimento                      | Habilidade                   |
 |------|-------------------------------------------------------------|------------------------------------|---------------------------------|-----------------------------|
 | (A) **C01**  | **Codificar uma tarefa com operações matemáticas fundamentais numa linguagem de programação**. | Colaborativo, Meticuloso, Responsável, Proativo | Linguagens de Programação       | **Aplicar**                     |
-|      |                                                             |                                    | Conceito de algoritmo            | Aplicar                     |
-|      |                                                             |                                    | Engenharia de Requisitos         | Compreender                 |
-|      |                                                             |                                    | Pensamento analítico e crítico (FPK) | Aplicar                 |
+|      |                                                             |                                    | Conceito de algoritmo            | **Aplicar**                     |
+|      |                                                             |                                    | Engenharia de Requisitos         | **Compreender**                 |
+|      |                                                             |                                    | Pensamento analítico e crítico (FPK) | **Aplicar**                 |
 | (B) **C02**  | **Aplicar cálculos de frações e exponenciação**.                | Colaborativo, Meticuloso, Responsável | Matemática e Estatística (FPK)  | **Aplicar**                     |
 | (C) **C03**  | **Implementar uma interface para interação com usuários**.      | Colaborativo, Meticuloso, Responsável, Inventivo | Interface Humano-Computador     | **Aplicar (implementar, desenvolver)** |
 | (D) **C04**  | **Escrever um relatório técnico**.                               | Colaborativo, Meticuloso, Responsável | Comunicação Escrita (FPK)       | **Aplicar**                     |
