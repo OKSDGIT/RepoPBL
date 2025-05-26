@@ -8,7 +8,7 @@
     xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
 
   <lom:learningObject rdf:about="https://eduknow.org/ROBO_FAZENDEIRO_ESTADOS_FINITOS">
-    <dc:title>Robô Fazendeiro usando Máquinas de Estados Finitos</dc:title>
+    <dc:title>O robô fazendeiro e o robô alimentador</dc:title>
     <dc:language>pt</dc:language>
     <dc:date>2023-10-15</dc:date>
     <lom:educationalContext>higher education</lom:educationalContext>

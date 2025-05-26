@@ -1,4 +1,4 @@
-# Problema 0: IMC**
+# Problema 0: Calcular o Índice de Massa Corporal (IMC) de um indivíduo.**
 
 Autores: Edeyson Gomes  &nbsp;  Jéssica Santana &nbsp;    Lais Salvador
 

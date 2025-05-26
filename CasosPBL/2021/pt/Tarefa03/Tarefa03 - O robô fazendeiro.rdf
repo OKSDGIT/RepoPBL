@@ -7,7 +7,7 @@
     xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
 
   <lom:learningObject rdf:about="https://eduknow.org/ROBO_FAZENDEIRO.md">
-    <dc:title>Problema : O robo fazendeiro</dc:title>
+    <dc:title>O robô fazendeiro</dc:title>
     <dc:language>pt</dc:language>
     <dc:date>2022/09/21</dc:date>
     <dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>

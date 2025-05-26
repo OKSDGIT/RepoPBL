@@ -8,7 +8,7 @@
     xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
   <lom:learningObject rdf:about="https://eduknow.org/IMC.md">
     <dc:contributor>Luiz Gavaza</dc:contributor>
-    <dc:title>Problema : Calcular o Índice de Massa Corporal de um indivíduo.</dc:title>
+    <dc:title>Calcular o Índice de Massa Corporal (IMC) de um indivíduo.</dc:title>
     <lomc:educationalCompetency>
       <lomc:AtomicCompetence rdf:about="https://eduknow.org/IMC.md#C2">
         <lomc:knowledgeSkill>

@@ -14,7 +14,7 @@
       <vcard:ORG>http://www.ufba.br</vcard:ORG>
       <vcard:FN>Edeyson Gomes</vcard:FN>
     </dc:creator>
-    <dc:title>Problema : A máquina de vender refrigerantes e salgados.</dc:title>
+    <dc:title>A máquina de vender refrigerantes e salgados.</dc:title>
     <dc:creator rdf:parseType="Resource">
       <vcard:EMAIL>laisns@ufba.br</vcard:EMAIL>
       <vcard:ORG>http://www.ufba.br</vcard:ORG>

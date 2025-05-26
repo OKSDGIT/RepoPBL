@@ -8,7 +8,7 @@
     xmlns:lom="http://ltsc.ieee.org/rdf/lomv1p0/lom#">
 
   <lom:learningObject rdf:about="https://eduknow.org/RETORNO_ROBO_FAZENDEIRO_PDA">
-    <dc:title>Retorno do Robô Fazendeiro usando Autômatos de Pilha</dc:title>
+    <dc:title>O retorno do robô fazendeiro</dc:title>
     <dc:language>pt</dc:language>
     <dc:date>2023-10-15</dc:date>
     <lom:educationalContext>higher education</lom:educationalContext>
