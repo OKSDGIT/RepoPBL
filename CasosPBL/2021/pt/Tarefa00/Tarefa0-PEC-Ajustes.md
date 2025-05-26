@@ -52,12 +52,16 @@ A padronização seguiu os mesmos passos que foram descritos na Máquina de Vend
 
 | ID  | Declaração                                                   | Atitudes                             | Conhecimento                      | Habilidade                   |
 |------|-------------------------------------------------------------|------------------------------------|---------------------------------|-----------------------------|
-| C01  | Codificar uma tarefa com operações matemáticas fundamentais numa linguagem de programação. | Colaborativo, Meticuloso, Responsável, Proativo | Linguagens de Programação       | Aplicar                     |
+| (A) **C01**  | **Codificar uma tarefa com operações matemáticas fundamentais numa linguagem de programação**. | Colaborativo, Meticuloso, Responsável, Proativo | Linguagens de Programação       | **Aplicar**                     |
 |      |                                                             |                                    | Conceito de algoritmo            | Aplicar                     |
 |      |                                                             |                                    | Engenharia de Requisitos         | Compreender                 |
 |      |                                                             |                                    | Pensamento analítico e crítico (FPK) | Aplicar                 |
-| C02  | Aplicar cálculos de frações e exponenciação.                | Colaborativo, Meticuloso, Responsável | Matemática e Estatística (FPK)  | Aplicar                     |
-| C03  | Implementar uma interface para interação com usuários.      | Colaborativo, Meticuloso, Responsável, Inventivo | Interface Humano-Computador     | Aplicar (implementar, desenvolver) |
-| C04  | Escrever um relatório técnico.                               | Colaborativo, Meticuloso, Responsável | Comunicação Escrita (FPK)       | Aplicar                     |
+| (B) **C02**  | **Aplicar cálculos de frações e exponenciação**.                | Colaborativo, Meticuloso, Responsável | Matemática e Estatística (FPK)  | **Aplicar**                     |
+| (C) **C03**  | **Implementar uma interface para interação com usuários**.      | Colaborativo, Meticuloso, Responsável, Inventivo | Interface Humano-Computador     | **Aplicar (implementar, desenvolver)** |
+| (D) **C04**  | **Escrever um relatório técnico**.                               | Colaborativo, Meticuloso, Responsável | Comunicação Escrita (FPK)       | **Aplicar**                     |
 
+A utilização de códigos padronizados para identificar competências promove maior consistência, rastreabilidade e interoperabilidade em contextos educacionais variados. Essa prática facilita a definição clara, adaptação e reutilização das competências, tornando o processo de anotação mais escalável e sustentável, e contribuindo para uma educação baseada em competências mais organizada e modular.
 
+## **Conclusão**  
+
+O processo de revisão das especificações de competências promoveu melhorias significativas, incorporando recomendações de especialistas para refinar definições, padronizar termos e aumentar a clareza. Com o uso de uma taxonomia mais detalhada (CS2013) e vocabulário controlado, as competências se tornaram mais precisas, consistentes e reutilizáveis. A fusão de competências redundantes e ajustes nas habilidades resultaram em uma estrutura mais coerente, enquanto identificadores revisados melhoraram a organização. Futuras revisões iterativas e avaliações por pares serão essenciais para manter a qualidade e a eficácia do modelo, garantindo competências claras e alinhadas aos objetivos educacionais.
