@@ -108,3 +108,24 @@ As seguintes áreas de conhecimento são críticas para essa competência:
 
   - Essencial para a documentação clara e estruturada do processo e dos resultados.
   - Assegura a transparência e compreensão das soluções implementadas.
+
+## A.4 Especificação de disposição
+
+A tarefa "Índice de Massa Corporal" destaca os principais atributos comportamentais necessários para a resolução de problemas e a colaboração eficaz em equipe. Entre eles estão:
+
+## Colaboração
+
+  - A tarefa segue a metodologia de Aprendizagem Baseada em Problemas (ABP) , exigindo interação contínua da equipe.
+  - Essencial para desenvolver soluções de forma colaborativa por meio de sessões de quadro branco ABP, manutenção do diário de bordo e documentação de cada fase do projeto .
+  - Incentiva o compartilhamento de conhecimento e melhorias iterativas.
+
+## Responsabilidade
+
+  - Garante o cumprimento dos prazos do projeto , documentação precisa e um projeto de automação funcional .
+  - Exige responsabilidade individual pelas contribuições, garantindo que o produto final atenda às expectativas do usuário e aos padrões do projeto.
+
+## Proatividade
+
+  - Incentiva a antecipação de desafios, que exige pesquisa adicional e ajustes técnicos .
+  - Envolve a busca ativa de conhecimento.
+  - Oferece suporte a uma abordagem proativa para depuração, refinamento e melhoria do sistema.
