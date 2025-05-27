@@ -30,6 +30,7 @@ Para os **conhecimentos profissionais (FPK)**, foi utilizado como referência o 
 Com base na **descrição da tarefa**, foram identificados os seguintes componentes de conhecimento necessários:  
 
 ### **Conhecimentos em Computação**  
+
 - **Linguagem de Programação** - Envolve o estudo e aplicação de Linguagem de Programação para criar conjuntos de passos lógicos para a resolução da tarefa de implementação da solução do cálculo de Índice Corporal.
 
 - **Análise de Requisitos** - Avalia a capacidade de compreender e definir os requisitos de um sistema ou projeto, o que é essencial para garantir que as soluções sejam alinhadas com as necessidades do usuário para resolução do cálculo IMC, além de demandar um processo sistemático de coleta, análise e especificação dos requisitos do sistema, garantindo que as necessidades e expectativas dos usuários sejam claramente compreendidas e documentadas.
@@ -38,11 +39,12 @@ Com base na **descrição da tarefa**, foram identificados os seguintes componen
 - **Interação Humano-Computador** - refere-se ao estudo e prática de como os usuários interagem com sistemas computacionais para que seja intuitivo e acessível.
 
 ### **Conhecimentos Profissionais (FPK)**  
+
 - **Pensamento Analítico e Crítico**  
   - Capacidade de **dividir problemas complexos em componentes fundamentais**, avaliar resultados e tomar decisões bem fundamentadas com base em análise rigorosa.
-  - 
+    
 - **Matemática e Estatística** -  Referem-se à aplicação de métodos matemáticos para realizar cálculos e análises do IMC. Incluem conceitos matemáticos essenciais que sustentam a análise de dados e a tomada de decisões com base em fórmulas e modelos quantitativos.
-- 
+  
 - **Pensamento Analítico e Crítico (FPK)** - envolve o processo mental de decompor informações complexas em componentes básicos, avaliar os resultados e tomar decisões fundamentadas, baseadas em uma análise criteriosa.
   
 - **Comunicação Escrita**  
@@ -61,6 +63,15 @@ Para alcançar esse objetivo geral, os alunos devem demonstrar capacidade de:
 **1**. Codificar, numa linguagem de programação livre, uma solução que calcule o IMC; 
 **2**. Criar uma interface para a interação com o usuário, permitindo a entrada de dados e apresentação dos resultados; 
 **3**. Escrever um relatório técnico que apresente a solução criada. 
+
+## Importância destes objetivos
+Esses objetivos de aprendizagem fornecem um caminho estruturado para o desenvolvimento de competências, garantindo que os alunos adquiram:
+
+  - Desenvolvimento técnico: codificar o cálculo do IMC em linguagem de programação livre promove a aplicação prática de lógica e estruturas básicas de programação.
+
+  - Foco no usuário: criar uma interface interativa reforça a importância da usabilidade e da experiência do usuário na construção de sistemas funcionais e acessíveis.
+
+  - Comunicação e documentação: escrever um relatório técnico desenvolve a habilidade de registrar, justificar e comunicar soluções de forma clara e estruturada.
 
 ## 4. Definição de Competência
 
@@ -129,3 +140,35 @@ A tarefa "Índice de Massa Corporal" destaca os principais atributos comportamen
   - Incentiva a antecipação de desafios, que exige pesquisa adicional e ajustes técnicos .
   - Envolve a busca ativa de conhecimento.
   - Oferece suporte a uma abordagem proativa para depuração, refinamento e melhoria do sistema.
+
+## Meticuloso 
+
+  - Exige atenção cuidadosa aos detalhes em todas as etapas da tarefa.
+  - Garante precisão nos dados, nos cálculos do IMC e na clareza da documentação final.
+
+## A.5 Mapeamento conhecimento-habilidade
+
+Esta etapa mapeia as áreas de conhecimento para as habilidades correspondentes necessárias para demonstrar com sucesso a competência nesta tarefa.
+
+**A.5.1 Mapeando conhecimento para habilidades**
+Para atingir essa competência, os alunos devem demonstrar a capacidade de:
+
+  - **Aplique o pensamento analítico e crítico** juntamente com o conhecimento da Linguagem de Programação para resolver o problema de cálculo de mudanças.
+  - **Identifique os requisitos de sistema necessários**, demonstrando uma **compreensão** clara da **Análise de Requisitos**
+  -
+**A.5.2 Alinhamento da Taxonomia de Bloom**
+Para garantir uma abordagem de aprendizagem estruturada e progressiva, cada componente de conhecimento é alinhado com a Taxonomia Revisada de Bloom, fornecendo uma estrutura clara para avaliação de competências.
+
+**Linguagem de Programação - Aplicar**
+  - Avalia a capacidade de implementar o cálculo do IMC utilizando conceitos teóricos de forma prática.
+  - Envolve variáveis, operadores, estruturas condicionais e depuração de código para garantir um sistema funcional, preciso e eficiente.
+
+**Análise de Requisitos - Compreender** 
+  - Avalia a capacidade de interpretar e organizar os requisitos do problema.
+  - Garante a coleta precisa das necessidades do sistema e a tradução de requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
+
+## A.5.3 Anotação verbal
+Para esclarecer as expectativas de competência, as seguintes anotações verbais definem as ações necessárias:
+
+  - Não possui outros verbos associados.
+
