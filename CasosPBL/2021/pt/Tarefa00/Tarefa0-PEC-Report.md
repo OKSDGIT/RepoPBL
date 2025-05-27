@@ -81,36 +81,30 @@ As seguintes áreas de conhecimento são críticas para essa competência:
 
 - **Linguagem de Programação**
 
- - Essencial para a implementação do cálculo do IMC.
-
- - Envolve variáveis, operadores, estruturas condicionais e depuração de código.
+  - Essencial para a implementação do cálculo do IMC.
+  - Envolve variáveis, operadores, estruturas condicionais e depuração de código.
 
 - **Análise de Requisitos**
 
- - Garante a coleta e especificação precisa das necessidades do sistema.
-
- - Traduz requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
+  - Garante a coleta e especificação precisa das necessidades do sistema.
+  - Traduz requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
 
 - **Matemática e Estatística**
 
- - Fundamenta o cálculo do IMC e a interpretação dos resultados.
-
- - Utiliza fórmulas matemáticas e categorização estatística conforme padrões definidos.
+  - Fundamenta o cálculo do IMC e a interpretação dos resultados.
+  - Utiliza fórmulas matemáticas e categorização estatística conforme padrões definidos.
 
 - **Interação Humano-Computador**
 
- - Foca na criação de interfaces acessíveis e intuitivas.
-
- - Facilita a entrada de dados, exibição de resultados e proporciona boa experiência ao usuário.
+  - Foca na criação de interfaces acessíveis e intuitivas.
+  - Facilita a entrada de dados, exibição de resultados e proporciona boa experiência ao usuário.
 
 - **Pensamento Analítico e Crítico (FPK)**
 
- - Necessário para a divisão lógica do problema e tomada de decisões informadas.
-
- - Garante precisão nos cálculos e nas classificações baseadas em padrões estabelecidos.
+  - Necessário para a divisão lógica do problema e tomada de decisões informadas.
+  - Garante precisão nos cálculos e nas classificações baseadas em padrões estabelecidos.
 
 - **Comunicação Escrita (FPK)**
 
- - Essencial para a documentação clara e estruturada do processo e dos resultados.
-
- - Assegura a transparência e compreensão das soluções implementadas.
+  - Essencial para a documentação clara e estruturada do processo e dos resultados.
+  - Assegura a transparência e compreensão das soluções implementadas.
