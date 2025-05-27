@@ -177,7 +177,6 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
 |  |   | Linguagem de Programação  | **Criar (Construir, Desenvolver, Projetar)** |
-| **Codificar, em grupo, uma tarefa simples numa linguagem de programação.
-** | **Colaborativo, Meticuloso, Responsável, Proativo ** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
+| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo ** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
 | | | Pensamento Analítico e Crítico (FPK)) | **Aplicar** |
 
