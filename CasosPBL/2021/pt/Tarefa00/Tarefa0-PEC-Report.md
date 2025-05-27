@@ -90,32 +90,32 @@ Baseada no objetivo geral e nos Learning Objectives LO1, esta competência envol
 ### A.3 Especificação de Conhecimentos
 As seguintes áreas de conhecimento são críticas para essa competência:  
 
-- **Linguagem de Programação**
+ - **Linguagem de Programação**
 
   - Essencial para a implementação do cálculo do IMC.
   - Envolve variáveis, operadores, estruturas condicionais e depuração de código.
 
-- **Análise de Requisitos**
+ - **Análise de Requisitos**
 
   - Garante a coleta e especificação precisa das necessidades do sistema.
   - Traduz requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
 
-- **Matemática e Estatística**
+ - **Matemática e Estatística**
 
   - Fundamenta o cálculo do IMC e a interpretação dos resultados.
   - Utiliza fórmulas matemáticas e categorização estatística conforme padrões definidos.
 
-- **Interação Humano-Computador**
+ - **Interação Humano-Computador**
 
   - Foca na criação de interfaces acessíveis e intuitivas.
   - Facilita a entrada de dados, exibição de resultados e proporciona boa experiência ao usuário.
 
-- **Pensamento Analítico e Crítico (FPK)**
+ - **Pensamento Analítico e Crítico (FPK)**
 
   - Necessário para a divisão lógica do problema e tomada de decisões informadas.
   - Garante precisão nos cálculos e nas classificações baseadas em padrões estabelecidos.
 
-- **Comunicação Escrita (FPK)**
+ - **Comunicação Escrita (FPK)**
 
   - Essencial para a documentação clara e estruturada do processo e dos resultados.
   - Assegura a transparência e compreensão das soluções implementadas.
@@ -124,24 +124,24 @@ As seguintes áreas de conhecimento são críticas para essa competência:
 
 A tarefa "Índice de Massa Corporal" destaca os principais atributos comportamentais necessários para a resolução de problemas e a colaboração eficaz em equipe. Entre eles estão:
 
-## Colaboração
+ - ## Colaboração
 
   - A tarefa segue a metodologia de Aprendizagem Baseada em Problemas (ABP) , exigindo interação contínua da equipe.
   - Essencial para desenvolver soluções de forma colaborativa por meio de sessões de quadro branco ABP, manutenção do diário de bordo e documentação de cada fase do projeto .
   - Incentiva o compartilhamento de conhecimento e melhorias iterativas.
 
-## Responsabilidade
+ - ## Responsabilidade
 
   - Garante o cumprimento dos prazos do projeto , documentação precisa e um projeto de automação funcional .
   - Exige responsabilidade individual pelas contribuições, garantindo que o produto final atenda às expectativas do usuário e aos padrões do projeto.
 
-## Proatividade
+ - ## Proatividade
 
   - Incentiva a antecipação de desafios, que exige pesquisa adicional e ajustes técnicos .
   - Envolve a busca ativa de conhecimento.
   - Oferece suporte a uma abordagem proativa para depuração, refinamento e melhoria do sistema.
 
-## Meticuloso 
+ - ## Meticuloso 
 
   - Exige atenção cuidadosa aos detalhes em todas as etapas da tarefa.
   - Garante precisão nos dados, nos cálculos do IMC e na clareza da documentação final.
@@ -174,10 +174,13 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 
 ## A.6 Tabela Resumo da Competência A
 
+
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (FPK)  | **Aplicar ** |
-| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo**|
+|  |   | Linguagem de Programação  | **Criar (Construir, Desenvolver, Projetar)** |
+| **Aplicar cálculos de frações e exponenciação.** | **Colaborativo, Meticuloso, Responsável** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
+| | | Pensamento Analítico e Crítico (FPK)) | **Aplicar** |
+
 
 
 ## 4.2 Especificação da Competência B
@@ -224,6 +227,5 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Linguagem de Programação  | **Criar (Construir, Desenvolver, Projetar)** |
-| **Aplicar cálculos de frações e exponenciação.** | **Colaborativo, Meticuloso, Responsável** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
-| | | Pensamento Analítico e Crítico (FPK)) | **Aplicar** |
+|  |   | Matemática e Estatística (FPK)  | **Aplicar** |
+| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo**|
