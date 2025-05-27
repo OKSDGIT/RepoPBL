@@ -43,7 +43,7 @@ Com base na **descrição da tarefa**, foram identificados os seguintes componen
 - **Pensamento Analítico e Crítico**  
   - Capacidade de **dividir problemas complexos em componentes fundamentais**, avaliar resultados e tomar decisões bem fundamentadas com base em análise rigorosa.
     
-- **Matemática e Estatística** -  Referem-se à aplicação de métodos matemáticos para realizar cálculos e análises do IMC. Incluem conceitos matemáticos essenciais que sustentam a análise de dados e a tomada de decisões com base em fórmulas e modelos quantitativos.
+- **Matemática e Estatística** - Referem-se à aplicação de métodos matemáticos para realizar cálculos e análises do IMC. Incluem conceitos matemáticos essenciais que sustentam a análise de dados e a tomada de decisões com base em fórmulas e modelos quantitativos.
   
 - **Pensamento Analítico e Crítico (FPK)** - envolve o processo mental de decompor informações complexas em componentes básicos, avaliar os resultados e tomar decisões fundamentadas, baseadas em uma análise criteriosa.
   
@@ -92,33 +92,33 @@ As seguintes áreas de conhecimento são críticas para essa competência:
 
  - **Linguagem de Programação**
 
-  - Essencial para a implementação do cálculo do IMC.
-  - Envolve variáveis, operadores, estruturas condicionais e depuração de código.
+    - Essencial para a implementação do cálculo do IMC.
+    - Envolve variáveis, operadores, estruturas condicionais e depuração de código.
 
  - **Análise de Requisitos**
 
-  - Garante a coleta e especificação precisa das necessidades do sistema.
-  - Traduz requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
+    - Garante a coleta e especificação precisa das necessidades do sistema.
+    - Traduz requisitos como entrada de dados e classificação segundo a OMS em funcionalidades técnicas.
 
  - **Matemática e Estatística**
 
-  - Fundamenta o cálculo do IMC e a interpretação dos resultados.
-  - Utiliza fórmulas matemáticas e categorização estatística conforme padrões definidos.
+    - Fundamenta o cálculo do IMC e a interpretação dos resultados.
+    - Utiliza fórmulas matemáticas e categorização estatística conforme padrões definidos.
 
  - **Interação Humano-Computador**
 
-  - Foca na criação de interfaces acessíveis e intuitivas.
-  - Facilita a entrada de dados, exibição de resultados e proporciona boa experiência ao usuário.
+    - Foca na criação de interfaces acessíveis e intuitivas.
+    - Facilita a entrada de dados, exibição de resultados e proporciona boa experiência ao usuário.
 
  - **Pensamento Analítico e Crítico (FPK)**
 
-  - Necessário para a divisão lógica do problema e tomada de decisões informadas.
-  - Garante precisão nos cálculos e nas classificações baseadas em padrões estabelecidos.
+    - Necessário para a divisão lógica do problema e tomada de decisões informadas.
+    - Garante precisão nos cálculos e nas classificações baseadas em padrões estabelecidos.
 
  - **Comunicação Escrita (FPK)**
 
-  - Essencial para a documentação clara e estruturada do processo e dos resultados.
-  - Assegura a transparência e compreensão das soluções implementadas.
+    - Essencial para a documentação clara e estruturada do processo e dos resultados.
+    - Assegura a transparência e compreensão das soluções implementadas.
 
 ## A.4 Especificação de disposição
 
@@ -132,19 +132,19 @@ A tarefa "Índice de Massa Corporal" destaca os principais atributos comportamen
 
  - ## Responsabilidade
 
-  - Garante o cumprimento dos prazos do projeto , documentação precisa e um projeto de automação funcional .
-  - Exige responsabilidade individual pelas contribuições, garantindo que o produto final atenda às expectativas do usuário e aos padrões do projeto.
+    - Garante o cumprimento dos prazos do projeto , documentação precisa e um projeto de automação funcional .
+    - Exige responsabilidade individual pelas contribuições, garantindo que o produto final atenda às expectativas do usuário e aos padrões do projeto.
 
  - ## Proatividade
 
-  - Incentiva a antecipação de desafios, que exige pesquisa adicional e ajustes técnicos .
-  - Envolve a busca ativa de conhecimento.
-  - Oferece suporte a uma abordagem proativa para depuração, refinamento e melhoria do sistema.
+    - Incentiva a antecipação de desafios, que exige pesquisa adicional e ajustes técnicos .
+    - Envolve a busca ativa de conhecimento.
+    - Oferece suporte a uma abordagem proativa para depuração, refinamento e melhoria do sistema.
 
  - ## Meticuloso 
 
-  - Exige atenção cuidadosa aos detalhes em todas as etapas da tarefa.
-  - Garante precisão nos dados, nos cálculos do IMC e na clareza da documentação final.
+    - Exige atenção cuidadosa aos detalhes em todas as etapas da tarefa.
+    - Garante precisão nos dados, nos cálculos do IMC e na clareza da documentação final.
 
 ## A.5 Mapeamento conhecimento-habilidade
 
@@ -227,5 +227,4 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (FPK)  | **Aplicar** |
-| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo**|
+|  |   | Matemática e Estatística (FPK)  | **Aplicar** |**Codificar, em grupo, uma tarefa simples numa linguagem de programação**|  **Colaborativo, Meticuloso, Responsável, Proativo**|
