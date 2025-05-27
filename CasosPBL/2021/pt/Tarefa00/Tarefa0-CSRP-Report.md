@@ -34,9 +34,9 @@ Esta revisão estruturada garante que as descrições de competências sejam **p
 
 | **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Abrangência | {Sim | Talvez | Não} | Todas as áreas de conhecimento essenciais estão incluídas? |
-| Relevância | {Sim | Talvez | Não} | Todos os itens de conhecimento listados são necessários? |
-| Adequação | {Sim | Talvez | Não} | Algum item deve ser revisado ou removido? |
+| Abrangência |  Talvez | Falta detalhamento em alguns conceitos ou tarefas |
+| Relevância | Sim | As competências e conhecimentos listados são relevantes|
+| Adequação |  Talvez | Remover a palavra "simples" do título, pois direciona demais. |
 
 > _Considere o alinhamento com uma taxonomia estruturada (por exemplo, ACM CCS, CC2020)._
 
