@@ -46,9 +46,9 @@ Esta revisão estruturada garante que as descrições de competências sejam **p
 
 | **Critério** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Abrangência | {Sim | Talvez | Não} | Os objetivos implícitos e explícitos estão representados? |
-| Relevância | {Sim | Talvez | Não} | Todos os OA são pertinentes à tarefa? |
-| Adequação | {Sim | Talvez | Não} | Algum OA deve ser revisado ou removido? |
+| Abrangência | Sim | Estão bem alinhadas. |
+| Relevância | Sim  | Todos os OA são pertinentes à tarefa |
+| Adequação |Talvez | Os OAS estão de acordo com o Texto. |
 
 > _Garanta que os OA forneçam orientação pedagógica e mapeiem de forma significativa as competências._
 
@@ -56,15 +56,15 @@ Esta revisão estruturada garante que as descrições de competências sejam **p
 
 ## 5. Revisão das Definições de Competência
 
-### 5.1 Competência [A/B/C...]
+### 5.1 Competência [A]
 
 | **Subcomponente** | **Avaliação** | **Comentários** |
 |---------------------------|----------------|--------------|
-| Título da Competência | {Sim | Talvez | Não} | Claro e focado? |
-| Descrição – Clareza | {Sim | Talvez | Não} | Bem articulado e inequívoco? |
-| Descrição – Aplicação | {Sim | Talvez | Não} | Explica como o conhecimento é mobilizado? |
-| Descrição – Alinhamento da Tarefa| {Sim | Implícito | Não} | Está contextualizado dentro da tarefa? |
-| Descrição – Escopo do Conteúdo | {Sim | Talvez | Não} | Abrange todo o conteúdo relevante? |
+| Título da Competência | Talvez | A Palavra simples direciona demais o que deve ser feito. |
+| Descrição – Clareza |Talvez| Muito específico |
+| Descrição – Aplicação |Sim | Explica como o conhecimento é mobilizado |
+| Descrição – Alinhamento da Tarefa| Sim | Está contextualizado dentro da tarefa|
+| Descrição – Escopo do Conteúdo |Sim  | Abrange todo o conteúdo relevante |
 
 #### Especificação de Conhecimento
 
