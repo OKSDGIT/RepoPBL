@@ -227,4 +227,4 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (FPK)  | **Aplicar** |**Codificar, em grupo, uma tarefa simples numa linguagem de programação**|  **Colaborativo, Meticuloso, Responsável, Proativo**|
+| | Matemática e Estatística (FPK)  | **Aplicar** |**Codificar, em grupo, uma tarefa simples numa linguagem de programação**|  **Colaborativo, Meticuloso, Responsável, Proativo**|
