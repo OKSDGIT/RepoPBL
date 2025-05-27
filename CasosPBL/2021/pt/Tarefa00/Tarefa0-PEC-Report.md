@@ -174,9 +174,56 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 
 ## A.6 Tabela Resumo da Competência A
 
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
+|------------|-----------|------------|----|
+|  |   | Matemática e Estatística (FPK)  | **Aplicar ** |
+| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo**|
+
+
+## 4.2 Especificação da Competência B
+
+
+ ## B.1 Título da Competência**
+Aplicar cálculos de frações e exponenciação.
+
+
+### B.2 Descrição Textual  
+BA declaração da competência “Aplicar cálculos de frações e exponenciação”, especifica que o aluno deve demonstrar que é capaz de “aplicar” (3º nível da Taxonomia de Bloom) cálculos de frações e exponenciação, pois o IMC é calculado pela razão do peso pelo quadrado da altura (IMC = peso / altura²). Desta forma, o conhecimento em Matemática e Estatística (FPK) é necessário.
+
+
+### B.3 Especificação de Conhecimentos
+As seguintes áreas de conhecimento são críticas para essa competência:  
+
+- **Matemática e Estatistica**
+
+  - Aplicação de Princípios Matemáticos
+  - Análise de dados obtidos a partir do cálculo do IMC
+
+
+## A.4 Especificação de disposição
+
+A especificação de Atitudes é similar à competência anterior. Avaliou-se que a competência tem uma boa cobertura de conteúdos, é reusável e atômica (sendo genérica e independente de contexto), podendo ser utilizada em outras situações que requeiram cálculos similares. 
+
+
+## B.5 Mapeamento conhecimento-habilidade
+
+Esta etapa mapeia as áreas de conhecimento para as habilidades correspondentes necessárias para demonstrar com sucesso a competência nesta tarefa.
+
+**B5.1 Mapeando conhecimento para habilidades**
+Para evidenciar a competência, o aluno deve demonstrar que é capaz de:
+  - O  aluno deve demonstrar que é capaz de **“Aplicar”** cálculos de frações e exponenciação no cálculo IMC.
+
+## B.5.2 Alinhamento da Taxonomia de Bloom
+   - **Matemática e Estatística (FPK)**: O nível **"Aplicar"** foi usado, pois deseja-se que o aluno seja capaz de **aplicar** cálculos de frações e exponenciação.
+
+## B.5.3 Anotação verbal
+Não possui outros verbos associados.
+
+## B.6 Tabela Resumo da Competência B
+
+
+| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
 |  |   | Linguagem de Programação  | **Criar (Construir, Desenvolver, Projetar)** |
-| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo ** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
+| **Aplicar cálculos de frações e exponenciação.** | **Colaborativo, Meticuloso, Responsável** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
 | | | Pensamento Analítico e Crítico (FPK)) | **Aplicar** |
-
