@@ -177,9 +177,9 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Linguagem de Programação  | **Criar (Construir, Desenvolver, Projetar)** |
-| **Aplicar cálculos de frações e exponenciação.** | **Colaborativo, Meticuloso, Responsável** | Análise de Requisitos| **Aplicar (interpretar, implementar, organizar)** |
-| | | Pensamento Analítico e Crítico (FPK)) | **Aplicar** |
+|  |   | Linguagem de Programação  | **Aplicar** |
+| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo** | Lógica de Programação  | **Aplicar** |
+| | | Análise de Requisitos | **Compreender** |
 
 
 
@@ -224,7 +224,8 @@ Não possui outros verbos associados.
 
 ## B.6 Tabela Resumo da Competência B
 
-
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-| | Matemática e Estatística (FPK)  | **Aplicar** |**Codificar, em grupo, uma tarefa simples numa linguagem de programação**|  **Colaborativo, Meticuloso, Responsável, Proativo**|
+|  |   | Matemática e Estatística (PFK)  | **Aplicar** |
+| **Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
+
