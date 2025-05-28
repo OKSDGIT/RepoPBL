@@ -84,11 +84,11 @@ As competências são especificadas com base nos **Objetivos de Aprendizagem (OA
 
 
 ### A.2 Descrição Textual  
-Baseada no objetivo geral e nos Learning Objectives LO1, esta competência envolve a capacidade em codificar o IMC.  assegurando que esses requisitos sejam corretamente compreendidos, analisados e documentados.
+Baseada no objetivo geral e nos Objetivos de Aprendizagem OA1, esta competência envolve a capacidade em codificar o IMC.  assegurando que esses requisitos sejam corretamente compreendidos, analisados e documentados.
 
 
 ### A.3 Especificação de Conhecimentos
-As seguintes áreas de conhecimento são críticas para essa competência:  
+As seguintes áreas de conhecimento são importantes para essa competência:  
 
  - **Linguagem de Programação**
 
@@ -228,4 +228,62 @@ Não possui outros verbos associados.
 |------------|-----------|------------|----|
 |  |   | Matemática e Estatística (PFK)  | **Aplicar** |
 | **Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
+
+
+
+#4.3 Especificação da Competência C
+
+**C.1 Título da Competência**
+Desenvolver, em grupo, uma interface simples para interação com usuários.
+
+**C.2 Descrição da Competência**
+
+Esta competência envolve a capacidade em criar uma interface para a interação com o usuário, permitindo a entrada de dados e apresentação dos resultados. 
+
+Esta competência requer a capacidade de:
+
+Aplicar uma interface básica de interação com o usuário permitindo a entrada de dados e apresentação dos resultados. 
+
+
+## C.3 Especificação de Conhecimento
+
+As seguintes áreas de conhecimento são essenciais para esta competência:
+
+ - Interação Humano COmputador:
+    - Implementar uma interface para a interação com o usuário
+    - Permitir a entrada de dados e apresentação dos resultados
+ 
+ ## C.4 Especificação de disposição
+
+ Para a especificação de Atitudes, como a tarefa requer a solução em grupo, foram selecionados **Colaborativo e Responsável** e, devido aos requisitos de interação com um usuário, **Inventivo e Meticuloso**.
+
+
+## C.5 Mapeamento conhecimento-habilidade
+
+Esta etapa mapeia áreas de conhecimento com as habilidades correspondentes necessárias para demonstrar competência.
+
+**C.5.1 Mapeando conhecimento para habilidades**
+
+Para demonstrar essa competência, o aluno deve mostrar a capacidade de:
+ - Aplicar uma interface básica de interação com o usuário permitindo a entrada de dados e apresentação dos resultados.
+
+**C.5.2 Alinhamento da Taxonomia de Bloom**
+
+As áreas de conhecimento necessárias para esta competência estão alinhadas com a Taxonomia Revisada de Bloom , garantindo um processo de aprendizagem estruturado que progride da compreensão dos conceitos para a aplicação deles em cenários práticos.
+
+  -  Interface Humano-Computador: O nível **Aplicar** é escolhido para implementação de uma interface para a interação com o usuário, permitindo a entrada de dados e apresentação dos resultados.
+
+Ao demonstrar proficiência em ambas as áreas, os alunos desenvolverão habilidades essenciais de resolução de problemas que lhes permitirão refinar modelos computacionais iterativamente.
+
+## C.5.3 Anotação verbal
+
+Não possui outros verbo associados.
+
+### **C.6Tabela Resumo da Competência C**  
+
+| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
+|---------------|-----------------|--------------|-----------|
+| **Desenvolver, em grupo, uma interface simples para interação com usuários** | **Colaborativo, Meticuloso, Responsável** | **Interação Humano-Computador** | **Aplicar)** |
+
+
 
