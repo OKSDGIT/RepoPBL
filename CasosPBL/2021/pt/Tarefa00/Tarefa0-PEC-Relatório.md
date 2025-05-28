@@ -226,7 +226,7 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (PFK)  | **Aplicar** | **Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
+|  |   | Matemática e Estatística (PFK)  | **Aplicar** | |**Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
 
 
 
