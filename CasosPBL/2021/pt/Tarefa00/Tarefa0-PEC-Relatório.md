@@ -226,11 +226,12 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (PFK)  | **Aplicar** | |**Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
+|  |   | Matemática e Estatística (PFK)  | **Aplicar** | 
+|**Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
 
 
 
-#4.3 Especificação da Competência C
+## 4.3 Especificação da Competência C
 
 **C.1 Título da Competência**
 Desenvolver, em grupo, uma interface simples para interação com usuários.
