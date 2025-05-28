@@ -226,8 +226,7 @@ Não possui outros verbos associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Matemática e Estatística (PFK)  | **Aplicar** |
-| **Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
+|  |   | Matemática e Estatística (PFK)  | **Aplicar** | **Aplicar cálculos de frações e exponenciação** | **Colaborativo, Meticuloso, Responsável** | 
 
 
 
@@ -283,7 +282,7 @@ Não possui outros verbo associados.
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |---------------|-----------------|--------------|-----------|
-| **Desenvolver, em grupo, uma interface simples para interação com usuários** | **Colaborativo, Meticuloso, Responsável** | **Interação Humano-Computador** | **Aplicar)** |
+| **Desenvolver, em grupo, uma interface simples para interação com usuários** | **Colaborativo, Meticuloso, Responsável** | **Interação Humano-Computador** | **Aplicar** |
 
 
 
