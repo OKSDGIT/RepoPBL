@@ -191,11 +191,11 @@ Aplicar cálculos de frações e exponenciação.
 
 
 ### B.2 Descrição Textual  
-BA declaração da competência “Aplicar cálculos de frações e exponenciação”, especifica que o aluno deve demonstrar que é capaz de “aplicar” (3º nível da Taxonomia de Bloom) cálculos de frações e exponenciação, pois o IMC é calculado pela razão do peso pelo quadrado da altura (IMC = peso / altura²). Desta forma, o conhecimento em Matemática e Estatística (FPK) é necessário.
+A declaração da competência “Aplicar cálculos de frações e exponenciação”, especifica que o aluno deve demonstrar que é capaz de “aplicar” (3º nível da Taxonomia de Bloom) cálculos de frações e exponenciação, pois o IMC é calculado pela razão do peso pelo quadrado da altura (IMC = peso / altura²). Desta forma, o conhecimento em Matemática e Estatística (FPK) é necessário.
 
 
 ### B.3 Especificação de Conhecimentos
-As seguintes áreas de conhecimento são críticas para essa competência:  
+As seguintes áreas de conhecimento são importantes para essa competência:  
 
 - **Matemática e Estatistica**
 
