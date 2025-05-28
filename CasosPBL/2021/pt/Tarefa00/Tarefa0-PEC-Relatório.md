@@ -279,11 +279,73 @@ Ao demonstrar proficiência em ambas as áreas, os alunos desenvolverão habilid
 
 Não possui outros verbo associados.
 
-### **C.6Tabela Resumo da Competência C**  
+### **C.6 Tabela Resumo da Competência C**  
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |---------------|-----------------|--------------|-----------|
 | **Desenvolver, em grupo, uma interface simples para interação com usuários** | **Colaborativo, Meticuloso, Responsável** | **Interação Humano-Computador** | **Aplicar** |
 
+
+
+### **4.6 Especificação de Competências D**  
+
+### D.1 Título da Competência
+    Escrever, em grupo, um relatório técnico.
+
+### F.2 Descrição da competência
+Esta competência concentra-se na capacidade de **produzir colaborativamente um relatório técnico bem estruturado**. Exige que os alunos **apliquem os princípios da escrita técnica** para sintetizar descobertas, explicar metodologias e documentar resultados de forma clara, lógica e profissiona  
+
+Para isso, os alunos devem:
+- **Escrever um relatório estruturado e coerente**, integrando as contribuições de vários membros da equipe.
+- **Aplicar padrões profissionais de redação técnica**, garantindo clareza, consistência e fluxo lógico.
+- **Comunicar descobertas técnicas com eficácia**, tornando conceitos complexos acessíveis a públicos técnicos e não técnicos.
+- **Revisar e refinar o conteúdo**, garantindo precisão, legibilidade e aderência às diretrizes de formatação.
+
+Esta competência enfatiza a **aplicação prática das habilidades de escrita**, exigindo que os alunos produzam um documento refinado e bem organizado que reflita sua expertise coletiva.
+
+
+### D.3 Especificação de Conhecimento
+A seguinte área de conhecimento é essencial para esta competência:
+
+- **Comunicação Escrita (FPK)** – Envolve a capacidade de **aplicar técnicas de escrita estruturada** para explicar e documentar o processo de solução de forma eficaz.
+
+
+### D.4 Especificação de disposição**  
+Para obter sucesso nesta competência, os alunos devem demonstrar **atributos comportamentais** essenciais, incluindo:
+
+- **Colaboração** – Trabalhar efetivamente em equipe para criar um documento unificado e bem organizado.
+- **Meticulosidade** – Garantir precisão, clareza e consistência no conteúdo e na estrutura do relatório.
+- **Responsabilidade** – Assumir a responsabilidade pelas seções atribuídas e contribuir significativamente para o relatório final.
+
+
+### D.5 Mapeamento Conhecimento-habilidade
+Esta etapa mapeia **áreas de conhecimento com habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
+
+**D.5.1 Mapeando Conhecimento para Habilidades**  
+Para demonstrar essa competência, os alunos devem ser capazes de:
+- **Aplicar** a Comunicação Escrita (FPK) para **escrever, estruturar e refinar um relatório técnico**, explicando efetivamente o processo de solução. 
+
+
+
+**D.5.2 Alinhamento da Taxonomia de Bloom**  
+O nível **"Aplicar"** da **Taxonomia de Bloom** é o mais apropriado para esta competência, pois exige que os alunos:
+- **Usem habilidades de escrita técnica na prática**.
+- **Sintetizem e comuniquem as descobertas de forma eficaz**, garantindo clareza e coerência.
+- **Formatem, revisem e refinem** o documento para atender aos padrões profissionais. 
+
+Ao dominar essa competência, os alunos desenvolvem **habilidades práticas de escrita essenciais para a comunicação profissional e acadêmica**.
+
+
+
+**D.5.3 Anotação Verbal**  
+Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos alunos:
+
+- **Aplicar** → Comunicação Escrita (FPK) → **Escrever, Estruturar, Revisar, Refinar** documentação técnica.
+
+### D.6 Tabela Resumo para Competência D
+
+| **Competência** | **Atitudes** | **Conhecimentos** | **Habilidades** |
+|---------------|-----------------|--------------|-----------|
+| **Escreva um relatório Técnico** | Colaborativo, Meticuloso, Responsável | **Comunicação Escrita (FPK)** | **Aplicar** |
 
 
