@@ -80,3 +80,76 @@ nas competências não são diretamente inferidos a partir da descrição do pro
 | Alinhamento Bloom | Sim | Os níveis são aceitáveis. |
 | Verbos Anotados – Clareza | Sim | Melhorar a clareza da descrição. |
 | Revisões Sugeridas | Sim | Remover o par conhecimento-habilidade envolvendo equivalência.
+
+
+### 5.2 Competência B, C e D
+Seguem a mesma explicação da Competência A
+
+
+# Análise de Adequação de Componentes Curriculares
+
+## Sugestão R1 - Ajuste de Granularidade
+
+### Problema Identificado
+- **Granularidade excessiva** nos descritores de competências e conhecimentos
+
+### Propostas de Modificação
+1. **Conhecimentos Envolvidos**:
+   - Eliminar itens não alinhados com o texto-base:
+     - Tese de Church-Turing (item 2)
+     - Hierarquia de Chomsky (item 4)
+
+2. **Matriz de Competências**:
+   - **Competência A**:
+     - Remover pares conhecimento-habilidade não desenvolvidos:
+       - Tese de Church-Turing → Compreender
+       - Hierarquia de Chomsky → Lembrar (reconhecer, relembrar)
+   
+   - **Competência B**:
+     - Excluir conhecimento não trabalhado:
+       - Tese de Church-Turing → Compreender
+
+   - **Competência C**:
+     - Suprimir par não desenvolvido:
+       - Tese de Church-Turing → Compreender
+
+   - **Competência D**:
+     - Remoção consensual (Marlo/Felipe):
+       - Tese de Church-Turing → Compreender
+
+## Sugestão R2 - Balanceamento Descritivo
+
+### Diagnóstico Geral
+- **Desequilíbrio na formulação**:
+  - Alternância entre direcionamento excessivo e generalização inadequada
+
+### Recomendações Específicas
+1. **Núcleo de Conhecimentos**:
+   - **Consenso avaliadores**: Exclusão de:
+     - Hierarquia de Chomsky (item 4)
+
+2. **Descritores de Competências**:
+   - **Competência A**:
+     - **Remoção concordada**:
+       - Tese de Church-Turing → Compreender
+       - Hierarquia de Chomsky → Lembrar
+
+   - **Competência B**:
+     - **Exclusões**:
+       - Conteúdo não abordado:
+         - Tese de Church-Turing → Compreender
+       - Descrição extensiva:
+         - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Compreender (comparar)"
+
+   - **Competência C**:
+     - **Supressão justificada**:
+       - Tese de Church-Turing → Compreender
+
+   - **Competência D**:
+     - **Reduções necessárias**:
+       1. Descrição operacional:
+          - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Aplicar (experimentar, relacionar, simular)"
+       2. Contextualização ampla:
+          - "Finalidade da modelagem e simulação incluindo otimização; [...] educação → Aplicar"
+       - **Remoção consensual**:
+         - Tese de Church-Turing → Compreender
