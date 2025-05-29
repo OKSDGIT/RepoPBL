@@ -311,7 +311,7 @@ Esta etapa mapeia áreas de conhecimento com as habilidades correspondentes nece
 |------------|-----------|------------|----|
 |  |   | Máquinas de Turing | **Aplicar (selecionar, utilizar)** | 
 |**Fazer uso das variações da Máquina de Turing** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | 
-| Pensamento analítico e crítico (FPK) | **Aplicar** |
+| | Pensamento analítico e crítico (FPK) | **Aplicar** |
 
 
 
