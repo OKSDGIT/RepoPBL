@@ -57,7 +57,7 @@ Desenvolver módulos de identificação e navegação para os robôs, utilizando
 ## A.1 Título da Competência:
 **Competência A: Desenvolver soluções de problemas usando a máquina de Turing**  
 
-#### **Descrição Textual**  
+#### A.2 **Descrição Textual**  
 Baseando-se no Objetivos de Aprendizagem (OA1), esta competência se concentra na capacidade de 
 “Compreender as novas demandas e funcionalidades relacionadas ao robô fazendeiro e ao robô alimentador”. 
 Pretende-se que o aluno demonstre que é capaz aplicar os conhecimentos sobre autômatos para resolver o 
