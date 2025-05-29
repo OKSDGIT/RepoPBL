@@ -307,11 +307,10 @@ Esta etapa mapeia áreas de conhecimento com as habilidades correspondentes nece
 
 ### **C.6 Tabela Resumo da Competência C**  
 
-| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
-|------------|-----------|------------|----|
-|  |   | Máquinas de Turing | **Aplicar (selecionar, utilizar)** | 
-|**Fazer uso das variações da Máquina de Turing** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | 
-| | Pensamento analítico e crítico (FPK) | **Aplicar** |
+| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
+|---------------|-----------------|--------------|-----------|
+|  |  | **Máquinas de Turing** | **Aplicar (selecionar, utilizar)** |
+|Fazer uso das variações da Máquina de Turing | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | **Pensamento analítico e crítico (FPK)** | **Aplicar** |
 
 
 
