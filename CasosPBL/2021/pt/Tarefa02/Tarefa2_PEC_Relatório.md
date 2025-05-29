@@ -1,56 +1,64 @@
-# Relatório de Especificação de Competências: Tarefa05 - Robô Fazendeiro e Robô Alimentador
+# Relatório de Especificação de Competências: Tarefa02 - Controle de Traáfego
 
 ## Introdução
 
-Este relatório aplica o Processo de Especificação de Competências (PEC) à tarefa "Robô Fazendeiro e Robô Alimentador", 
-um cenário de Aprendizagem Baseada em Problemas (PBL) que explora conceitos de Máquinas de Turing, Modelagem Computacional e 
-Engenharia de Requisitos. O objetivo é desenvolver módulos de navegação e comunicação para os robôs, utilizando máquinas abstratas e simuladores.
+O problema aborda a deterioração da Estrada de Aratu devido ao intenso fluxo de veículos, principalmente caminhões no período noturno. A tarefa exige uma solução computacional para analisar e controlar o tráfego, visando reduzir os danos à via.
 
 
 
 ## 1. Análise da Descrição da Tarefa
 
-A tarefa envolve a implementação de módulos para dois robôs em um ambiente agrícola, 
-utilizando uma máquina abstrata com acesso sequencial de leitura e gravação. Os alunos devem:  
+A tarefa envolve aplicar o conceito de Máquinas de Turing para modelar a solução, demonstrando como essa abordagem teórica pode simular o controle do fluxo de veículos (leve/pesado) e otimizar a distribuição horária (como desviar caminhões para horários diurnos).
 
-- **Modelar sistemas computacionais** usando Máquinas de Turing.  
-- **Simular o funcionamento** dos robôs em um ambiente controlado.  
-- **Documentar o processo** em um relatório técnico.  
+- **Modelar sistemas computacionais** usando Máquinas de Turing para representar o fluxo de veículos e as regras de controle de tráfego na estrada.
+- **Simular o funcionamento do sistema** em um ambiente controlado, testando cenários como restrição de horários para veículos pesados e distribuição otimizada do tráfego.
+- **Documentar** o processo em um relatório técnico, detalhando a modelagem, simulação e resultados obtidos.
 
 **Competências avaliadas:**  
-1. Capacidade de **aplicar teorias computacionais** (Máquinas de Turing, Tese de Church-Turing).  
-2. **Implementar soluções práticas** para navegação e comunicação entre robôs.  
-3. **Comunicar resultados** de forma clara e estruturada.  
 
+- 1. Capacidade de aplicar teorias computacionais, como Máquinas de Turing e a Tese de Church-Turing, para resolver um problema real de gestão de tráfego.
+- 2. Implementar soluções práticas por meio de modelagem abstrata, definindo estados, transições e regras que representem a dinâmica da estrada e dos veículos.
+- 3. Comunicar resultados de forma clara e estruturada, justificando as escolhas do modelo e sua eficácia na redução da deterioração da via.
 
 ## 2. Enumeração de Conhecimentos
 
-### **Conhecimentos em Computação**  
-- **Máquinas de Turing**: Modelagem de sistemas computacionais para navegação e comunicação.  
-- **Tese de Church-Turing**: Fundamentos teóricos da computabilidade.  
-- **Hierarquia de Chomsky**: Classificação de linguagens formais para comunicação entre robôs.  
-- **Engenharia de Requisitos**: Definição de funcionalidades dos robôs.  
+ - **Máquinas de Turing (nmT)**: Modelagem abstrata de computação para categorização de veículos, processando dados de sensores e determinando a distribuição por tipo (leve/pesado).
 
-### **Conhecimentos Profissionais (FPK)**  
-- **Pensamento Analítico e Crítico**: Decomposição de problemas e tomada de decisões.  
-- **Modelagem e Simulação**: Criação de representações computacionais do ambiente agrícola.  
-- **Comunicação Escrita**: Elaboração de relatórios técnicos.  
+- **Variações de Máquinas de Turing (nmT)**: Uso de múltiplas fitas ou versões não determinísticas para otimizar a análise do tráfego, aumentando a eficiência na classificação.
+
+- **Tese de Church-Turing (nmT)**: Fundamentação teórica da computabilidade, garantindo que o modelo adotado seja capaz de resolver o problema de controle de fluxo veicular.
+
+- **Engenharia de Requisitos**: Processo de identificação e especificação das funcionalidades do sistema (ex.: restrições horárias, limites de veículos pesados).
 
 
+- ## Conhecimentos Profissionais (FPK)
+
+- **Pensamento Analítico e Crítico (FPK)**: Decomposição do problema em etapas (coleta de dados, modelagem, simulação) e avaliação de soluções para tomada de decisão.
+
+- **Resolução de Problemas (FPK)**: Análise do cenário de tráfego, identificação de padrões (ex.: picos noturnos) e proposição de regras computacionais.
+
+- **Modelagem e Simulação (FPK)**: Criação de representações computacionais da estrada e do fluxo de veículos, validando cenários por simulação.
+
+- **Comunicação Escrita (FPK)**: Elaboração de relatório técnico claro, documentando a modelagem, critérios de otimização e resultados obtidos.
 
 ## 3. Identificação dos Objetivos de Aprendizagem
 
 ### **Objetivo Geral**  
-Desenvolver módulos de identificação e navegação para os robôs, utilizando Máquinas de Turing.  
+O objetivo geral desta tarefa é desenvolver uma solução que utilize os sensores já instalados na estrada para identificar e categorizar os veículos que trafegam a noite.
 
 ### **Objetivos Específicos**  
-  - Compreender as novas demandas e funcionalidades relacionadas ao robô fazendeiro e ao robô alimentador.
-  - Investigar a máquina abstrata com acesso sequencial de leitura e gravação a um dispositivo de memória ilimitada e sua aplicação nos módulos dos robôs.
-  - Revisar a solução proposta para o problema de sinalização para envio de alimentos, permitindo que o fazendeiro especifique as quantidades mínimas de
-    indivíduos de cada rebanho como entradas para a máquina.
-
+    -Identificar as funcionalidades do sistema idealizado pelo usuário.
+    -Conciliar as funcionalidades desejadas pelo usuário com as funcionalidades da máquina de Turing a ser desenvolvida.
+    -Avaliar a necessidade de se usar extensões na máquina de Turing a ser desenvolvida.
+    -Aplicar a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
 
 ## Importância destes objetivos
+Os objetivos listados são essenciais para garantir que a solução computacional baseada em Máquinas de Turing seja viável, eficiente e alinhada com as necessidades reais do problema de controle de tráfego. Sua importância pode ser detalhada da seguinte forma:
+
+    -Identificar as funcionalidades do sistema idealizado pelo usuário
+    -Conciliar as funcionalidades desejadas pelo usuário com as da Máquina de Turing
+    -Avaliar a necessidade de extensões na Máquina de Turing
+    -Aplicar a Tese de Church-Turing para associar o modelo formal à noção intuitiva de algoritmo
 
 ## 4. Definição de Competências
 
