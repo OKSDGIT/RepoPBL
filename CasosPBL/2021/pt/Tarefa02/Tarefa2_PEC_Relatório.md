@@ -72,7 +72,6 @@ Pretende-se que o aluno demonstre que é capaz aplicar os conhecimentos sobre au
 problema do Robô Fazendeiro e Robô alimentador.
 
 
-
 ### A.3 Especificação de Conhecimentos
 
  **-Máquinas de Turing:**
