@@ -218,8 +218,8 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-| **Identificar as variações da Máquina de Turing**  | Máquinas de Turing  | **Compreender (comparar)** | 
-| **Investigativo, Colaborativo, Responsável, Proativo** | 
+| **Identificar as variações da Máquina de Turing**  | | Máquinas de Turing  | **Compreender (comparar)** | 
+| |**Investigativo, Colaborativo, Responsável, Proativo** | 
 | |  | Pensamento analítico e crítico (FPK) | **Aplicar** |
 
 
