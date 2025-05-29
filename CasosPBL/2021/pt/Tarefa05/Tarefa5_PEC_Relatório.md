@@ -51,6 +51,7 @@ Desenvolver módulos de identificação e navegação para os robôs, utilizando
 
 
 ## Importância destes objetivos
+Estes objetivos são fundamentais para garantir que o sistema robótico agrícola seja eficiente, adaptável e alinhado com as necessidades reais da produção pecuária.
 
 ## 4. Definição de Competências
 
