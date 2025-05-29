@@ -84,16 +84,13 @@ Ao atribuir identificadores únicos e estruturados às competências, essa abord
 
  **Tabela 5 - Ajustes de Competências e novos Códigos**
 
- | ID  | Competência                                           | Atitudes                                      | Conhecimento                          | Nível      | Habilidade                                   | Nível      |
-|-----|-------------------------------------------------------|-----------------------------------------------|---------------------------------------|------------|----------------------------------------------|------------|
-| C05 | Desenvolver soluções de problemas usando a máquina de Turing. | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | Aplicar    | Engenharia de Requisitos                     | Compreender |
-|     |                                                       |                                               | Pensamento analítico e crítico (FPK)  | Aplicar    |                                              |            |
-| C10 | Identificar as variações da Máquina de Turing         | Investigativo, Colaborativo, Responsável, Proativo | Máquinas de Turing           | Compreender (comparar) | Pensamento analítico e crítico (FPK)         | Aplicar    |
-| C11 | Fazer uso das variações da Máquina de Turing          | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | Aplicar (selecionar, utilizar) | Pensamento analítico e crítico (FPK)         | Aplicar    |
-| C07 | Testar Máquina de Turing usando Simulador             | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | Compreender | Resolução de problemas (FPK)                 | Aplicar    |
-|     |                                                       |                                               | Modelagem e Simulação                 | Aplicar    |                                              |            |
-| C04 | Escrever, em grupo, um relatório técnico.             | Colaborativo, Meticuloso, Responsável         | Comunicação Escrita (FPK)             | Aplicar    |                                              |            |
-
+ | ID  | Competência                                              | Atitudes                                      | Conhecimento                                      | Habilidade                                           |
+|-----|----------------------------------------------------------|-----------------------------------------------|---------------------------------------------------|------------------------------------------------------|
+| C05 | Desenvolver soluções de problemas usando a máquina de Turing. | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing - Aplicar<br>Engenharia de Requisitos - Compreender | Pensamento analítico e crítico (FPK) - Aplicar       |
+| C10 | Identificar as variações da Máquina de Turing             | Investigativo, Colaborativo, Responsável, Proativo           | Máquinas de Turing - Compreender (comparar)      | Pensamento analítico e crítico (FPK) - Aplicar       |
+| C11 | Fazer uso das variações da Máquina de Turing              | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing - Aplicar (selecionar, utilizar) | Pensamento analítico e crítico (FPK) - Aplicar       |
+| C07 | Testar Máquina de Turing usando Simulador                 | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing - Compreender                 | Resolução de problemas (FPK) - Aplicar<br>Modelagem e Simulação - Aplicar |
+| C04 | Escrever um relatório técnico.                           | Colaborativo, Meticuloso, Responsável         | Comunicação Escrita (FPK) - Aplicar              | -                                                    |
 
 A implementação de códigos estruturados de identificação de competências melhora a consistência, rastreabilidade e interoperabilidade entre diferentes contextos educacionais. Essa abordagem garante que as competências permaneçam bem definidas, adaptáveis e reutilizáveis, permitindo fácil integração em futuras especificações de competências e novos cenários de aprendizagem.
 
