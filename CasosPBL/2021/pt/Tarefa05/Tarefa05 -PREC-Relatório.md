@@ -96,8 +96,8 @@ Seguem a mesma explicação da Competência A
 ### Propostas de Modificação
 1. **Conhecimentos Envolvidos**:
    - Eliminar itens não alinhados com o texto-base:
-     - Tese de Church-Turing (item 2)
-     - Hierarquia de Chomsky (item 4)
+     - Tese de Church-Turing 
+     - Hierarquia de Chomsky 
 
 2. **Matriz de Competências**:
    - **Competência A**:
@@ -110,11 +110,11 @@ Seguem a mesma explicação da Competência A
        - Tese de Church-Turing → Compreender
 
    - **Competência C**:
-     - Suprimir par não desenvolvido:
+     - Excluir 
        - Tese de Church-Turing → Compreender
 
    - **Competência D**:
-     - Remoção consensual (Marlo/Felipe):
+     - Ambos os revisores concordam com a Remoção:  
        - Tese de Church-Turing → Compreender
 
 ## Sugestão R2 - Balanceamento Descritivo
@@ -126,11 +126,11 @@ Seguem a mesma explicação da Competência A
 ### Recomendações Específicas
 1. **Núcleo de Conhecimentos**:
    - **Consenso avaliadores**: Exclusão de:
-     - Hierarquia de Chomsky (item 4)
+     - Hierarquia de Chomsky 
 
 2. **Descritores de Competências**:
    - **Competência A**:
-     - **Remoção concordada**:
+     - **Remoção**:
        - Tese de Church-Turing → Compreender
        - Hierarquia de Chomsky → Lembrar
 
@@ -141,15 +141,6 @@ Seguem a mesma explicação da Competência A
        - Descrição extensiva:
          - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Compreender (comparar)"
 
-   - **Competência C**:
-     - **Supressão justificada**:
-       - Tese de Church-Turing → Compreender
-
    - **Competência D**:
-     - **Reduções necessárias**:
-       1. Descrição operacional:
-          - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Aplicar (experimentar, relacionar, simular)"
-       2. Contextualização ampla:
-          - "Finalidade da modelagem e simulação incluindo otimização; [...] educação → Aplicar"
        - **Remoção consensual**:
          - Tese de Church-Turing → Compreender
