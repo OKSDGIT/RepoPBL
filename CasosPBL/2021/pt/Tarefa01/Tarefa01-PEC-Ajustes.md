@@ -45,7 +45,7 @@ Seguindo os insights dos revisores, **o sistema de classificação do conhecimen
     - **"Linguagens Regulares - Compreender"** foi **redefinido** como **"Expressões Regulares - Aplicar."**  
     - **"Pensamento Analítico e Crítico (FPK)"** permaneceu **inalterado**.  
 
-- **Competência F: "Escrita Colaborativa de Relatórios Técnicos"**  
+- **Competência F: "Escrever, em grupo, um Relatório Técnico"**  
   - A competência foi **redefinida** como **"Escrever um Relatório Técnico."**  
   - O conhecimento **"Relatório Técnico"** foi **redefinido** como **"Comunicação Escrita (FPK)."**  
   - O nível da Taxonomia de Bloom permaneceu **"Aplicar" (Escrever, Estruturar, Revisar, Refinar).**  
