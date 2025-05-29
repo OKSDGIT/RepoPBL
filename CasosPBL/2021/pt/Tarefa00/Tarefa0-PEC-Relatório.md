@@ -178,8 +178,9 @@ Para esclarecer as expectativas de competência, as seguintes anotações verbai
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
 |  |   | Linguagem de Programação  | **Aplicar** |
-| **Codificar, em grupo, uma tarefa simples numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo** | Lógica de Programação  | **Aplicar** |
-| | | Análise de Requisitos | **Compreender** |
+| **Codificar uma tarefa com operações matemáticas fundamentais numa linguagem de programação** | **Colaborativo, Meticuloso, Responsável, Proativo** | Lógica de Programação  | **Aplicar** |
+| | | Engenharia de Requisitos | **Compreender** |
+| | | Pensamento analítico e crítico (FPK) | **Aplicar** |
 
 
 
