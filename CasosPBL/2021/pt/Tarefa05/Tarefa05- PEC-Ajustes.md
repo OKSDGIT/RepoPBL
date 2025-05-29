@@ -84,13 +84,19 @@ Ao atribuir identificadores únicos e estruturados às competências, essa abord
 
  **Tabela 5 - Ajustes de Competências e novos Códigos**
 
-| ID  | Competência                                                                 | Atitudes                                           | Conhecimento                                                                 | Habilidade                                                                 |
-|-----|-----------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| C05 | Desenvolver soluções de problemas usando a máquina de Turing.               | Investigativo, Colaborativo, Responsável, Proativo, Criativo | - Máquinas de Turing (Aplicar)<br>- Engenharia de Requisitos (Compreender)<br>- Pensamento analítico e crítico (FPK - Aplicar) | Aplicar conhecimentos em cenários práticos                                |
-| C10 | Identificar as variações da Máquina de Turing                                | Investigativo, Colaborativo, Responsável, Proativo | - Máquinas de Turing (Compreender/Comparar)<br>- Pensamento analítico e crítico (FPK - Aplicar) | Comparar e analisar variações da Máquina de Turing                        |
-| C11 | Fazer uso das variações da Máquina de Turing                                 | Investigativo, Colaborativo, Responsável, Proativo, Criativo | - Máquinas de Turing (Aplicar: Selecionar/Utilizar)<br>- Pensamento analítico e crítico (FPK - Aplicar) | Implementar soluções com variações da Máquina de Turing                   |
-| C07 | Testar Máquina de Turing usando Simulador                                   | Investigativo, Colaborativo, Responsável, Proativo, Criativo | - Máquinas de Turing (Compreender)<br>- Resolução de problemas (FPK - Aplicar)<br>- Modelagem e Simulação (Aplicar) | Validar modelos através de simulação                                      |
-| C04 | Escrever um relatório técnico.                                               | Colaborativo, Meticuloso, Responsável              | - Comunicação Escrita (FPK - Aplicar)                                        | Documentar processos e resultados com clareza e precisão                 |
+| **ID**       | **Competência**                                      | **Disposições**                                  | **Conhecimento**                              | **Habilidade**                              |
+|--------------|------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|---------------------------------------------|
+| (A) **C05**  | **Desenvolver soluções de problemas usando a máquina de Turing.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Construir, Desenvolver, Projetar)** |
+|              |                                                      |                                                 | Engenharia de Requisitos | **Compreender (Interpretar, Organizar)** |
+|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
+| (B) **C10**  | **Identificar as variações da Máquina de Turing**    | Investigativo, Colaborativo, Responsável, Proativo | Máquinas de Turing | **Compreender (Comparar)** |
+|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
+| (C) **C11**  | **Fazer uso das variações da Máquina de Turing**     | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Selecionar, Utilizar)** |
+|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
+| (D) **C07**  | **Testar Máquina de Turing usando Simulador**        | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Experimentar, Simular)** |
+|              |                                                      |                                                 | Resolução de Problemas (FPK) | **Aplicar** |
+|              |                                                      |                                                 | Modelagem e Simulação | **Aplicar** |
+| (E) **C04**  | **Escrever um relatório técnico.**                   | Colaborativo, Meticuloso, Responsável          | Comunicação Escrita (FPK) | **Aplicar** |              |
 
 A implementação de códigos estruturados de identificação de competências melhora a consistência, rastreabilidade e interoperabilidade entre diferentes contextos educacionais. Essa abordagem garante que as competências permaneçam bem definidas, adaptáveis e reutilizáveis, permitindo fácil integração em futuras especificações de competências e novos cenários de aprendizagem.
 
