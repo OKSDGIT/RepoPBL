@@ -137,89 +137,81 @@ Para atingir essa competência, os alunos devem demonstrar a capacidade de:
 Para garantir uma abordagem de aprendizagem estruturada e progressiva, cada componente de conhecimento é alinhado
 com a Taxonomia Revisada de Bloom, fornecendo uma estrutura clara para avaliação de competências.
 
-   - Máquinas de Turing: Aplicar – Avaliar a capacidade do aluno de aplicar o conceito teórico de máquinas abstratas para criar módulos funcionais nos robôs.
-   - Tese de Church-Turing: Compreender – Avaliar se o aluno compreende os limites e possibilidades da computabilidade para assegurar a viabilidade técnica dos processos implementados.
-   - Hierarquia de Chomsky: Aplicar – Verificar se o aluno é capaz de usar o conhecimento sobre linguagens formais para projetar sistemas de comunicação eficazes entre os robôs.
-   - Engenharia de Requisitos: Compreender – Avaliar a habilidade do aluno de interpretar e organizar requisitos de maneira que garanta a funcionalidade esperada dos robôs.
-   - Pensamento analítico e crítico (FPK): Aplicar – Medir a capacidade do aluno de quebrar problemas complexos em partes manejáveis e de planejar soluções eficazes.
+   - **Máquinas de Turing:** Aplicar – Avaliar a capacidade do aluno de aplicar o conceito teórico de máquinas abstratas para criar módulos funcionais nos robôs.
+   - **Tese de Church-Turing:** Compreender – Avaliar se o aluno compreende os limites e possibilidades da computabilidade para assegurar a viabilidade técnica dos processos implementados.
+   - **Hierarquia de Chomsky:** Aplicar – Verificar se o aluno é capaz de usar o conhecimento sobre linguagens formais para projetar sistemas de comunicação eficazes entre os robôs.
+   - **Engenharia de Requisitos:** Compreender – Avaliar a habilidade do aluno de interpretar e organizar requisitos de maneira que garanta a funcionalidade esperada dos robôs.
+   - **Pensamento analítico e crítico (FPK):** Aplicar – Medir a capacidade do aluno de quebrar problemas complexos em partes manejáveis e de planejar soluções eficazes.
 
 ## A.5.3 Anotação verbal
    - **Lembrar da Hierarquia de Chomsky - Reconhecer, Relembrar** gramáticas formais
 
 
+## A.6 Tabela Resumo da Competência A
+
+| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
+|------------|-----------|------------|----|
+|  |   | Máquinas de Turing  | **Aplicar** |
+| **Desenvolver soluções de problemas usando a máquina de Turing. ** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | Engenharia de Requisitos  | **Compreender** |
+| | | Pensamento analítico e crítico (FPK)| **Aplicar** |
 
 
-| **Competência**          | **Atitudes**                              | **Conhecimento**               | **Habilidade**       |  
-|--------------------------|------------------------------------------|--------------------------------|----------------------|  
-| Desenvolver soluções...  | Investigativo, Colaborativo, Responsável | Máquinas de Turing             | Aplicar              |  
+## 4.2 Especificação da Competência B
 
----
+ ## B.1 Título da Competência**
+Identificar as variações da Máquina de Turing 
 
-### **Competência 2: Identificar as variações da Máquina de Turing**  
-#### **Descrição**  
-Explorar variações da Máquina de Turing e suas aplicações nos módulos dos robôs.  
+### B.2 Descrição Textual  
+Esta competência, alinhada ao OA2, concentra-se na investigação e aplicação de modelos computacionais abstratos, em especial a Máquina de Turing com acesso sequencial a uma memória ilimitada. Os principais pontos abordados incluem:
 
-#### **Conhecimentos**  
-- Tese de Church-Turing (**Compreender**).  
-- Máquinas de Turing (**Compreender**).  
+- ## Fundamentos teóricos:
+    - Compreensão da Tese de Church-Turing e das variações da Máquina de Turing.
+    - Análise das capacidades desses modelos e sua aplicação nos módulos do Robô Fazendeiro e Robô Alimentador.
 
-#### **Atitudes**  
-Investigativo, Colaborativo, Proativo.  
+- ## Requisitos e integração:
+    - Identificação e definição dos requisitos do sistema, alinhando necessidades dos usuários e restrições técnicas.
+    - Uso do Pensamento Analítico e Crítico (FPK) para desenvolver soluções inovadoras e eficientes.
 
-| **Competência**          | **Atitudes**              | **Conhecimento**       | **Habilidade**       |  
-|--------------------------|--------------------------|------------------------|----------------------|  
-| Identificar variações... | Investigativo, Proativo  | Máquinas de Turing     | Compreender          |  
+- ## Aplicação prática:
+    - Implementação desses conceitos abstratos em contextos reais, garantindo que as soluções atendam aos objetivos do projeto e resolvam desafios concretos.
 
----
 
-### **Competência 3: Fazer uso das variações da Máquina de Turing**  
-#### **Descrição**  
-Selecionar e utilizar variações da Máquina de Turing para resolver problemas específicos dos robôs.  
+### B.3 Especificação de Conhecimentos
+As seguintes áreas de conhecimento são importantes para essa competência:  
 
-#### **Conhecimentos**  
-- Máquinas de Turing (**Aplicar**).  
-- Pensamento Analítico e Crítico (**Aplicar**).  
 
-#### **Atitudes**  
+- ## Tese de Church-Turing
+    - Garante a viabilidade computacional dos módulos do Robô Fazendeiro e Robô Alimentador.
+    - Define os limites teóricos da computação, assegurando que as soluções propostas estejam dentro do escopo do que é resolvível por uma Máquina de Turing (e, por extensão, por sistemas computacionais reais).
 
-| **Competência**          | **Atitudes**              | **Conhecimento**               | **Habilidade**       |  
-|--------------------------|--------------------------|--------------------------------|----------------------|  
-| Fazer uso das variações da Máquina de Turing | Criativo, Responsável    | Máquinas de Turing             | Aplicar              |  
+- ## Máquinas de Turing
+  - Modelam processos abstratos aplicáveis aos robôs, como:
+    -   Navegação do Robô Fazendeiro (gerenciamento de suprimentos).
+    -     Comunicação do Robô Alimentador (atendimento de demandas).
+    - Utilizam acesso sequencial a memória ilimitada, permitindo a representação formal de algoritmos e a garantia de que as tarefas sejam computáveis.
 
----
+- ## Pensamento Analítico e Crítico (FPK)
+  - Auxilia na decomposição de problemas complexos em etapas menores.
+    - Permite avaliar soluções alternativas de forma estruturada, assegurando decisões:
+    - Fundamentadas (com base em dados e modelos). Eficazes (alinhadas aos objetivos do projeto).
 
-### **Competência 4: Testar Máquina de Turing usando Simulador**  
-#### **Descrição**  
-Configurar e validar o comportamento dos robôs em um simulador.  
+- ## Investigativa
+  - Exige análise aprofundada das variações da Máquina de Turing, buscando adaptações inovadoras para resolver os desafios do projeto.
 
-#### **Conhecimentos**  
-- Modelagem e Simulação (**Aplicar**).  
-- Resolução de Problemas (**Aplicar**).  
+- ## Colaborativa
+ –Requer trabalho em equipe para integrar conhecimentos, discutir soluções e documentar o processo de forma clara e consistente.
 
-#### **Atitudes**  
-Meticuloso, Investigativo, Proativo.  
+- ## Responsável
+  - Implica comprometimento com a qualidade técnica, cumprimento de prazos e documentação adequada dos requisitos e soluções.
 
-| **Competência**          | **Atitudes**              | **Conhecimento**       | **Habilidade**       |  
-|--------------------------|--------------------------|------------------------|----------------------|  
-| Testar autômatos usando simulador | Meticuloso, Proativo     | Modelagem e Simulação  | Aplicar              |  
+- ## Proativa
+  - Envolve antecipar problemas, explorar alternativas e propor melhorias contínuas no projeto.
 
----
+## B.5.3 Anotação verbal
+Para esclarecer as expectativas de competência, as seguintes anotações verbais definem as ações necessárias:
 
-### **Competência 5: Escrever, em grupo, um relatório técnico**  
-#### **Descrição**  
-Documentar o processo de desenvolvimento e os resultados obtidos.  
+ **- Compreender  Máquinas de Turing - comparar** as variações das Máquinas de Turing.
 
-#### **Conhecimentos**  
-- Comunicação Escrita (**Compreender**).  
+## B.6 Tabela Resumo da Competência B
 
-#### **Atitudes**  
-Colaborativo, Meticuloso, Responsável.  
 
-| **Competência**          | **Atitudes**              | **Conhecimento**       | **Habilidade**       |  
-|--------------------------|--------------------------|------------------------|----------------------|  
-| Escrever relatório Técnico    | Colaborativo, Meticuloso | Comunicação Escrita    | Compreender          |  
-
----
-
-## 5. Conclusão  
-Este relatório especifica as competências necessárias para a tarefa "Robô Fazendeiro e Robô Alimentador", alinhando conhecimentos teóricos, habilidades práticas e atitudes comportamentais. A estrutura garante que os alunos desenvolvam soluções inovadoras e documentem seu trabalho de forma profissional.  
