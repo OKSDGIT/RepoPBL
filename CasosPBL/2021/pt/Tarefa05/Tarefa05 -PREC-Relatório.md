@@ -142,5 +142,5 @@ Seguem a mesma explicação da Competência A
          - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Compreender (comparar)"
 
    - **Competência D**:
-       - **Remoção consensual**:
+       - **Remoção**:
          - Tese de Church-Turing → Compreender
