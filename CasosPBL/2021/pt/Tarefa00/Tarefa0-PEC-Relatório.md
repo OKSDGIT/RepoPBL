@@ -239,11 +239,8 @@ Desenvolver, em grupo, uma interface simples para interação com usuários.
 
 **C.2 Descrição da Competência**
 
-Esta competência envolve a capacidade em criar uma interface para a interação com o usuário, permitindo a entrada de dados e apresentação dos resultados. 
-
-Esta competência requer a capacidade de:
-
-Aplicar uma interface básica de interação com o usuário permitindo a entrada de dados e apresentação dos resultados. 
+- Esta competência envolve a capacidade em criar uma interface para a interação com o usuário, permitindo a entrada de dados e apresentação dos resultados. 
+- Aplicar uma interface básica de interação com o usuário permitindo a entrada de dados e apresentação dos resultados. 
 
 
 ## C.3 Especificação de Conhecimento
