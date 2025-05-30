@@ -5,7 +5,6 @@
 O problema aborda a deterioração da Estrada de Aratu devido ao intenso fluxo de veículos, principalmente caminhões no período noturno. A tarefa exige uma solução computacional para analisar e controlar o tráfego, visando reduzir os danos à via.
 
 
-
 ## 1. Análise da Descrição da Tarefa
 
 A tarefa envolve aplicar o conceito de Máquinas de Turing para modelar a solução, demonstrando como essa abordagem teórica pode simular o controle do fluxo de veículos (leve/pesado) e otimizar a distribuição horária (como desviar caminhões para horários diurnos).
@@ -66,61 +65,58 @@ Os objetivos listados são essenciais para garantir que a solução computaciona
 **Competência A: Desenvolver soluções de problemas usando a máquina de Turing**  
 
 #### **Descrição Textual**  
-Baseando-se no Objetivos de Aprendizagem (OA1), esta competência se concentra na capacidade de 
-“Compreender as novas demandas e funcionalidades relacionadas ao robô fazendeiro e ao robô alimentador”. 
-Pretende-se que o aluno demonstre que é capaz aplicar os conhecimentos sobre autômatos para resolver o 
-problema do Robô Fazendeiro e Robô alimentador.
+
+O projeto desenvolve soluções para controle de tráfego usando Máquinas de Turing, focando na classificação de veículos e análise de padrões a partir de dados de sensores. Os alunos aplicam conceitos teóricos para criar modelos computacionais precisos e confiáveis, validando seu desempenho na gestão rodoviária. A competência integra fundamentos da computação com problemas reais, garantindo soluções teoricamente embasadas e praticamente viáveis para otimizar o fluxo veicular.
 
 
 ### A.3 Especificação de Conhecimentos
 
- **-Máquinas de Turing:**
-    - Essenciais para implementar os módulos do robô fazendeiro e do robô alimentador.
-    - Permitem simular processos computacionais complexos, como navegação e comunicação entre robôs.
-    - Base teórica para modelar algoritmos e comportamentos dos robôs.
+**-Máquinas de Turing (nmT):** 
+  - Modelagem computacional para categorização e análise de tráfego
+  - Processamento de dados de sensores para classificação de veículos
 
-**-Tese de Church-Turing**
-  - Formaliza o conceito de computabilidade, garantindo que as funções dos robôs sejam viáveis computacionalmente.
-  - Assegura que qualquer processo implementado nos robôs pode ser resolvido por uma Máquina de Turing.
+**-Variações de Máquinas de Turing**:
+ - Máquinas de múltiplas fitas para otimização de desempenho
+ - Máquinas não determinísticas para tratamento de cenários complexos
 
-**-Hierarquia de Chomsky**
-   - Classifica linguagens formais por complexidade, sendo útil na comunicação entre robôs e no desenvolvimento de seus módulos.
-   - Ajuda a definir linguagens adequadas para a interação e processamento de comandos nos sistemas robóticos.
+**-Tese de Church-Turing:**
+   -Fundamentação teórica da solução proposta
+   - Garantia de computabilidade do problema
 
 **-Engenharia de Requisitos**
-   - Crucial para definir as funcionalidades dos robôs, como rotas do robô alimentador e comunicação de suprimentos pelo robô fazendeiro.
-   - Envolve coleta, análise e especificação detalhada das necessidades do projeto.
 
-**-Pensamento Analítico e Crítico (FPK)**
-   - Fundamental para decompor o problema, avaliar soluções e tomar decisões alinhadas aos objetivos da equipe.
-   - Permite uma abordagem estruturada no desenvolvimento e refinamento das soluções propostas.
-   - 
+  -Identificação e formalização das necessidades do DERBA
+  -Especificação de funcionalidades do sistema
+
+**-Pensamento Analítico e Crítico (FPK):**
+  - Análise de informações e estratégias de solução
+  - Equilíbrio entre precisão e eficiência operacional
+    
 #### **Atitudes**  
+A análise da tarefa "Controle de Tráfego na Estrada de Aratu" destaca atitudes comportamentais essenciais para a resolução do problema e a entrega de uma solução eficaz. As principais atitudes incluem:
 
-- ## Investigativo
-   - Atitude essencial para explorar o conceito de máquinas abstratas e aprimorar os módulos dos robôs.
-   - Requer pesquisa de soluções existentes, identificação de melhorias e análise da viabilidade de novas 
-  funcionalidades (como navegação e especificação de caminhos).
+-**Colaborativo**
+ - Trabalho em equipe integrado para desenvolvimento coeso da solução
+ - Compartilhamento contínuo de conhecimentos e descobertas
 
-- ## Colaboração
+-**Responsável**
+ - Comprometimento com prazos e qualidade dos resultados
+ - Garantia de atendimento aos requisitos do DERBA
 
-  - Trabalho em equipe seguindo a metodologia ABP.
-  - Colaboração para compartilhar ideias, resolver problemas e desenvolver soluções conjuntas.
-  - Documentação coletiva para garantir soluções bem fundamentadas.
- 
-- ## Responsabilidade
-    - Compromisso individual e coletivo para garantir o funcionamento dos módulos,
-    - a precisão da documentação e o cumprimento de prazos.
-     Cada membro deve assumir suas tarefas para que o produto final atenda aos requisitos técnicos e expectativas.
+-**Proativo**
 
- - ## Proatividade
-   - Necessidade de antecipar desafios, buscar informações extras e gerenciar possíveis problemas na integração dos robôs.
-   - Importante também para organizar a documentação e alinhar discussões nas reuniões com os objetivos do projeto.
+ - Antecipação de desafios na implementação
+ - Proposição de ajustes para melhorar a precisão do sistema
 
-- ## Criatividade
-  - Papel fundamental na adaptação de soluções técnicas às necessidades do projeto.
-  - Desenvolvimento de ideias inovadoras para navegação eficiente e comunicação entre robôs.
-  - Inclui apresentação clara e visual do sistema, além de exemplos práticos que demonstrem o funcionamento dos módulos.
+-**Investigativo**
+
+ - Exploração de diferentes modelos de Máquina de Turing
+ - Análise crítica das melhores abordagens para processamento de dados
+
+-**Criativo**
+
+ - Desenvolvimento de soluções inovadoras para análise do tráfego
+ - Adaptabilidade às necessidades específicas da infraestrutura rodoviária
 
  ## A.5 Mapeamento conhecimento-habilidade
 
@@ -128,38 +124,38 @@ problema do Robô Fazendeiro e Robô alimentador.
  
   
   **A.5.1 Mapeando conhecimento para habilidades**
+  
 Para atingir essa competência, os alunos devem demonstrar a capacidade de:
 
-- Aplicar o conhecimento de Máquinas de Turing e Tese de Church-Turing para implementar módulos computacionais que permitam aos robôs navegar,
-  comunicar e executar suas funções de forma integrada.
-- Compreender a Hierarquia de Chomsky para projetar linguagens formais adequadas à interação entre os robôs,
-  garantindo precisão e eficiência na troca de informações.
-- Compreender as necessidades e requisitos dos sistemas com base em Engenharia de Requisitos, assegurando que
-  as funcionalidades dos robôs atendam às especificações da tarefa.
-- Aplicar o Pensamento analítico e crítico para planejar soluções, identificar desafios e propor alternativas
-  alinhadas aos objetivos da tarefa.
-
+- **Aplicar o Pensamento Analítico e Crítico:** juntamente com o conhecimento sobre **Máquinas** de Turing para **desenvolver** uma solução computacional que processe e classifique os dados de tráfego. Isso envolve modelar o funcionamento dos sensores e a categorização dos veículos dentro da estrutura formal de uma Máquina de Turing.
   
+- **Utilizar** Máquinas de Turing: para representar e **simular** a lógica da contagem e categorização dos veículos, garantindo que o modelo seja capaz de processar as informações corretamente e oferecer uma solução eficiente para o problema proposto.
+  
+- **Identificar** e especificar corretamente os requisitos essenciais do sistema, demonstrando uma compreensão clara da Engenharia de Requisitos. O aluno deve ser capaz de levantar as necessidades dos técnicos do DERBA, interpretar as informações dos sensores e definir os critérios para análise dos dados.
+
+- **Relacionar** os requisitos com a modelagem computacional, garantindo que as necessidades dos usuários sejam traduzidas em funcionalidades práticas dentro da solução desenvolvida.
+
+
 **A.5.2 Alinhamento da Taxonomia de Bloom**
 Para garantir uma abordagem de aprendizagem estruturada e progressiva, cada componente de conhecimento é alinhado
 com a Taxonomia Revisada de Bloom, fornecendo uma estrutura clara para avaliação de competências.
 
-   - **Máquinas de Turing:** Aplicar – Avaliar a capacidade do aluno de aplicar o conceito teórico de máquinas abstratas para criar módulos funcionais nos robôs.
-   - **Tese de Church-Turing:** Compreender – Avaliar se o aluno compreende os limites e possibilidades da computabilidade para assegurar a viabilidade técnica dos processos implementados.
-   - **Hierarquia de Chomsky:** Aplicar – Verificar se o aluno é capaz de usar o conhecimento sobre linguagens formais para projetar sistemas de comunicação eficazes entre os robôs.
-   - **Engenharia de Requisitos:** Compreender – Avaliar a habilidade do aluno de interpretar e organizar requisitos de maneira que garanta a funcionalidade esperada dos robôs.
-   - **Pensamento analítico e crítico (FPK):** Aplicar – Medir a capacidade do aluno de quebrar problemas complexos em partes manejáveis e de planejar soluções eficazes.
+-**Máquinas de Turing**: O nível **Aplicar** é utilizado para avaliar a capacidade do aluno de empregar o conceito de Máquinas de Turing na modelagem e solução do problema de controle de tráfego.
+
+-**Engenharia de Requisitos**: O nível **Compreender** é empregado para verificar se o aluno consegue interpretar e estruturar corretamente os requisitos do sistema com base nas necessidades do problema.
+
+-**Pensamento Analítico e Crítico (FPK)**: O nível **Aplicar** é escolhido para avaliar a habilidade do aluno de decompor o problema em partes menores e desenvolver estratégias eficazes para sua solução.
 
 ## A.5.3 Anotação verbal
-   - **Lembrar da Hierarquia de Chomsky - Reconhecer, Relembrar** gramáticas formais
+  Não possui verbos associados.
 
 
 ## A.6 Tabela Resumo da Competência A
 
 | **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
 |------------|-----------|------------|----|
-|  |   | Máquinas de Turing  | **Aplicar** |
-| **Desenvolver soluções de problemas usando a máquina de Turing. ** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | Engenharia de Requisitos  | **Compreender** |
+|  |   | Máquinas de Turing  | **Aplicar (solucionar, desenvolver)** |
+| **Desenvolver soluções de problemas usando a máquina de Turing** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | Engenharia de Requisitos  | **Compreender** |
 | | | Pensamento analítico e crítico (FPK)| **Aplicar** |
 
 
@@ -173,7 +169,7 @@ Esta competência, alinhada ao OA2, concentra-se na investigação e aplicação
 
 - ## Fundamentos teóricos:
     - Compreensão da Tese de Church-Turing e das variações da Máquina de Turing.
-    - Análise das capacidades desses modelos e sua aplicação nos módulos do Robô Fazendeiro e Robô Alimentador.
+    - Análise das capacidades desses modelos e sua aplicação.
 
 - ## Requisitos e integração:
     - Identificação e definição dos requisitos do sistema, alinhando necessidades dos usuários e restrições técnicas.
