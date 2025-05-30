@@ -1,9 +1,8 @@
-# Relatório de Especificação de Competências: Tarefa05 - Robô Fazendeiro e Robô Alimentador
-
+# Relatório de Especificação de Competências: Tarefa 04 - O Retorno do Robô Fazendeiro
 ## Introdução
 
-Este relatório aplica o Processo de Especificação de Competências (PEC) à tarefa "Robô Fazendeiro e Robô Alimentador", 
-um cenário de Aprendizagem Baseada em Problemas (PBL) que explora conceitos de Máquinas de Turing, Modelagem Computacional e 
+Este relatório aplica o Processo de Especificação de Competências (PEC) à tarefa "O Retorno do Robô Fazendeiro", 
+um cenário de Aprendizagem Baseada em Problemas (ABP) que explora conceitos de Máquinas de Turing, Modelagem Computacional e 
 Engenharia de Requisitos. O objetivo é desenvolver módulos de navegação e comunicação para os robôs, utilizando máquinas abstratas e simuladores.
 
 
