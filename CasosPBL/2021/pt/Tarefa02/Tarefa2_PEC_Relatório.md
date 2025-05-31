@@ -29,14 +29,14 @@ A tarefa envolve aplicar o conceito de Máquinas de Turing para modelar a soluç
 
 - **Engenharia de Requisitos**: Processo de identificação e especificação das funcionalidades do sistema (ex.: restrições horárias, limites de veículos pesados).
 
+- **Modelagem e Simulação**: Criação de representações computacionais da estrada e do fluxo de veículos, validando cenários por simulação.
+
 
 - ## Conhecimentos Profissionais (FPK)
 
 - **Pensamento Analítico e Crítico (FPK)**: Decomposição do problema em etapas (coleta de dados, modelagem, simulação) e avaliação de soluções para tomada de decisão.
 
 - **Resolução de Problemas (FPK)**: Análise do cenário de tráfego, identificação de padrões (ex.: picos noturnos) e proposição de regras computacionais.
-
-- **Modelagem e Simulação (FPK)**: Criação de representações computacionais da estrada e do fluxo de veículos, validando cenários por simulação.
 
 - **Comunicação Escrita (FPK)**: Elaboração de relatório técnico claro, documentando a modelagem, critérios de otimização e resultados obtidos.
 
@@ -52,12 +52,7 @@ O objetivo geral desta tarefa é desenvolver uma solução que utilize os sensor
     -Aplicar a tese de Church-Turing ao associar o conceito formal de máquina de Turing com a noção intuitiva de algoritmo.
 
 ## Importância destes objetivos
-Os objetivos listados são essenciais para garantir que a solução computacional baseada em Máquinas de Turing seja viável, eficiente e alinhada com as necessidades reais do problema de controle de tráfego. Sua importância pode ser detalhada da seguinte forma:
-
-    -Identificar as funcionalidades do sistema idealizado pelo usuário
-    -Conciliar as funcionalidades desejadas pelo usuário com as da Máquina de Turing
-    -Avaliar a necessidade de extensões na Máquina de Turing
-    -Aplicar a Tese de Church-Turing para associar o modelo formal à noção intuitiva de algoritmo
+Os objetivos listados são essenciais para garantir que a solução computacional baseada em Máquinas de Turing seja viável, eficiente e alinhada com as necessidades reais do problema de controle de tráfego. 
 
 ## 4. Definição de Competências
 
