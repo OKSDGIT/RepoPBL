@@ -105,20 +105,27 @@ Together, they ensure that learners are equipped to bridge the gap between **abs
 
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
 
-As one of the deliverables required for this task is a technical report structured according to the **Brazilian Computer Society (SBC)** academic article template, students are expected to write a formal technical document that explains the problem-solving process in a clear, organized, and rigorous manner.
+### Competency Reuse 
 
-Given these requirements, we **reuse the previously defined competency in Task01**:
-**"Write a Technical Report."**
+To fulfill the objective to **"Use simulation tools for finite automata"**, we **reuse the competency "Test Computational Automata Using Simulators"** previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
 
-This competency remains fully applicable here. Its core learning outcomes—including structuring content, integrating team contributions, and communicating technical decisions effectively—are essential for this task as well.
+This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
 
-By reusing this competency, we:
+Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also **reuse the previously defined competency from Task01**:
 
-* Ensure **consistency in learning expectations** across tasks that involve technical documentation.
-* **Reinforce the importance of written communication** as a transversal skill in computing education.
-* Promote **competency traceability**, avoiding redundancy and ensuring that learning achievements can be accumulated and evidenced across different instructional contexts.
+> **Write a Technical Report**
 
-This reuse also aligns with the **competency-based education model**, in which a single well-defined competency can support multiple learning goals across diverse tasks, provided the context of application remains pedagogically consistent.
+This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
+
+The reuse of these competencies supports the following principles:
+
+* **Pedagogical consistency** in competency development across different learning tasks.
+* **Recognition and reinforcement of transversal skills**, such as documentation and tool-based validation.
+* **Avoidance of redundancy** through structured competency traceability.
+* **Alignment with competency-based education**, where a well-defined learning outcome may be demonstrated in multiple instructional contexts.
+
+By **reusing validated competencies**, we ensure that students build upon previously acquired abilities, promote cumulative learning, and facilitate assessment practices based on observable and transferable performance indicators.
+
 
 
 ### 4.1 Competency A Specification  
@@ -384,99 +391,6 @@ To provide clarity on competency expectations, the following verb annotations de
 | **Make Use of Turing Machine Variants** | Inventive, Responsible, Proactive, Collaborative, Creative | Turing Machine Variants                | **Apply (Use, Adapt, Implement)**    |
 |                                         |                                                                | Church-Turing Thesis                   | **Understand (Explain, Justify)**    |
 |                                         |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)** |
-
-
-
-
-### 4.4 Competency D Specification
-
-### D.1 Competency Title
-
-**Test Turing Machines Using Simulators**
-
-
-### D.2 Textual Description
-
-Use Turing Machine simulators (e.g., JFLAP) to test and validate the behavior of computational models developed for real-world tasks. This competency involves representing the problem using a formal model and conducting systematic simulations to verify that the machine performs as intended under different scenarios.
-
-Students must apply **Problem Solving (FPK)** to translate the requirements into functional models and use **Modeling and Simulation** techniques to test those models. Through this process, they ensure that the Turing Machine correctly processes the input data, classifies vehicles appropriately, and satisfies the system's functional constraints.
-
-
-### D.3 Knowledge Specification
-
-The following knowledge areas are critical for this competency:
-
-* **Turing Machines**
-  Required to interpret and understand the structure of the model being tested.
-
-* **Modeling and Simulation**
-  Essential for representing dynamic system behavior, executing test cases, and refining computational models based on simulation outcomes.
-
-* **Problem Solving and Troubleshooting (FPK)**
-  Applied to identify inconsistencies, debug errors, and refine the machine's logic to improve correctness and efficiency.
-
-
-
-### D.4 Disposition Specification
-
-As the *Traffic Control* task requires collaborative group work and iterative refinement, the following behavioral dispositions are essential:
-
-* **Collaborative**
-  Engage with teammates to design test cases, interpret results, and iteratively improve the model.
-
-* **Responsible**
-  Ensure accurate documentation of simulations and maintain the integrity of the testing process.
-
-* **Proactive**
-  Take initiative in identifying potential issues and proposing test scenarios that reveal edge cases or failures.
-
-* **Investigative**
-  Analyze simulation outcomes critically to understand failures and their underlying causes.
-
-* **Creative**
-  Design innovative testing strategies and simulation workflows to explore the full behavior of the Turing Machine under varied inputs.
-
-
-### D.5 Knowledge-Skill Pairing
-
-This step maps **knowledge areas to the corresponding skills** required to successfully demonstrate competency in this task.
-
-**D.5.1 Mapping Knowledge to Skills**
-To demonstrate this competency, students must show the ability to:
-
-* **Apply** knowledge of **Turing Machines** to interpret the logic implemented in simulation files and analyze expected behaviors.
-
-* **Apply** **Modeling and Simulation** techniques to systematically validate system behavior, verify functional correctness, and refine machine design based on test outcomes.
-
-* **Apply** **Problem Solving and Troubleshooting** skills to identify flaws, debug errors, and optimize the Turing Machine through iterative testing.
-
-
-
-**D.5.2 Bloom’s Taxonomy Alignment**
-
-* *Apply* level is used for all three knowledge areas, as students must demonstrate the capacity to execute, validate, and improve computational models through simulation.
-
-
-
-**D.5.3 Verb Annotation**
-To provide clarity on competency expectations, the following verb annotations define the required actions:
-
-* **Apply** → Turing Machines → *Simulate, Analyze, Evaluate*
-* **Apply** → Modeling and Simulation → *Validate, Refine, Interpret*
-* **Apply** → Problem Solving and Troubleshooting → *Diagnose, Debug, Improve*
-
-
-
-### D.6 Summary Table for Competency C
-
-| **Competency**                            | **Dispositions**                                               | **Knowledge**                             | **Skill**                               |
-| ----------------------------------------- | -------------------------------------------------------------- | ----------------------------------------- | --------------------------------------- |
-| **Test Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Investigative, Creative | Turing Machines                           | **Apply (Simulate, Analyze, Evaluate)** |
-|                                           |                                                                | Modeling and Simulation                   | **Apply (Validate, Refine, Interpret)** |
-|                                           |                                                                | Problem Solving and Troubleshooting (FPK) | **Apply (Diagnose, Debug, Improve)**    |
-
-
-
 
 
 

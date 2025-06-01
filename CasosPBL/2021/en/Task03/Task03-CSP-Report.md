@@ -1,72 +1,79 @@
-# Competency Specification Report: Task2 – Traffic Control
+# Competency Specification Report: Task3 –  The Farmer Robot
+
+Com base na descrição da tarefa **Task03 – The Farmer Robot**, aqui está a versão ajustada da **Introdução** e da **Seção 1 (Task Description Analysis)**, reformulada para refletir com precisão o novo contexto, mantendo a estrutura acadêmica e o alinhamento com o processo CSP:
+
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
+This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"The Farmer Robot"**, which engages students in developing a prototype system for **herd identification** in extensive livestock farming environments. The scenario is based on a real-world challenge proposed by the company *Farmer Robot*, which seeks a low-cost solution to automate the classification of animals—bovines, caprines, and swine—using a robotic system equipped with a visual identification module.
 
-Through the CSP methodology, competencies are extracted and structured based on the analysis of the task description, relevant knowledge domains, learning objectives, and behavioral dispositions. The goal is to define a robust competency framework aligned with both **technical skill development** and **collaborative problem solving**.
+Students are required to model and simulate the robot’s decision-making process using **Finite State Machines (FSMs)** and **Regular Expressions**, producing a functional prototype in the **JFLAP** environment. The task fosters the integration of formal languages, computational modeling, and analytical reasoning within a collaborative development setting.
 
+Through the CSP methodology, competencies are **derived and structured** from the analysis of the task description, required knowledge domains, specific learning objectives, and behavioral dispositions. The goal is to define a reusable and context-aware competency framework that supports both **technical development** and **educational relevance**.
 
 
 ## 1. Task Description Analysis
 
-The *Traffic Control* task challenges students to develop a formal computational solution that addresses a real-world issue identified by the **Bahia Department of Transport Infrastructure (DERBA)**: the deterioration of highways due to excessive pressure from nighttime heavy vehicle traffic.
+The *Farmer Robot* task challenges students to prototype a decision-making module capable of identifying the presence and quantity of specific herds (bovines, caprines, and swine) within farm enclosures. This capability is crucial for automating feed request logistics and optimizing farm management practices.
 
-To support pavement wear prevention efforts, students must design a system capable of:
+To meet the company's operational needs and budget constraints, students must design a **finite state machine** capable of:
 
-* **Processing sensor data** collected from vehicle entries and exits on the Aratu highway;
-* **Classifying vehicles** into three weight categories (light, heavy, and very heavy);
-* **Counting occurrences** for each category during the previous night; and
-* **Identifying the most frequent category**, enabling DERBA to prioritize interventions.
+* **Classifying animals** into distinct herd categories based on visual input;
+* **Detecting minimum herd thresholds**, which trigger feed delivery requests;
+* **Representing the module behavior** through a JFLAP simulation;
+* **Producing regular expressions** that formalize the system logic;
+* **Investigating correlations** between herd thresholds and the minimum number of states and transitions required.
 
-The system must be modeled using **Turing Machines**, reflecting a theoretical yet expressive model of computation. Deliverables include one or more **JFLAP-based Turing Machine files** and a **technical report** compliant with SBC formatting standards, clearly explaining the classification logic, design rationale, and simulation process.
+In addition to the technical solution, students are required to produce a **technical report** in the SBC article format. This report must explain the system design, provide usage examples, and address company inquiries related to **documentation clarity** and **cost estimation** based on machine complexity.
 
 This task requires learners to:
 
-* **Translate user-defined goals** into formal system specifications based on computability theory;
-* **Model real-world constraints** (e.g., sensor input structure, weight classification logic) using Turing Machines;
-* **Evaluate the use of Turing Machine variants** (e.g., multi-tape, non-deterministic) when standard models are insufficient;
-* **Simulate and test** the model using appropriate tools to ensure functional correctness;
-* **Collaborate effectively** during the problem-solving process, documenting all steps and decisions in a structured and reflective manner.
+* **Apply theoretical knowledge** of FSMs and regular expressions to design a computationally expressive and efficient solution;
+* **Translate stakeholder requirements** into formal specifications and logical representations;
+* **Analyze patterns and structure** within FSMs to optimize design;
+* **Simulate and validate** the solution using appropriate tools (JFLAP);
+* **Collaborate effectively**, documenting the design process through structured PBL artifacts such as logbooks and whiteboards.
 
-Through this problem-based learning scenario, students are expected to integrate **theoretical knowledge of computation** with **practical modeling and simulation**, producing a solution that is both educationally rigorous and socially relevant.
+Through this problem-based scenario, students are expected to integrate **computational theory**, **formal modeling**, and **practical reasoning** into a unified, functional prototype aligned with the needs of a real-world stakeholder.
+
+
 
 
 
 
 ## 2. Knowledge Enumeration
 
-To successfully complete the *Traffic Control* task, students must mobilize a set of interrelated theoretical and professional knowledge domains. These domains are aligned with recognized taxonomies: the **ACM Computing Classification System (2012)** for computing knowledge and the **ACM/IEEE CC2020** for professional competencies.
+To successfully complete the *Farmer Robot* task, students must draw upon a combination of theoretical and professional knowledge domains. These knowledge areas are aligned with the **ACM Computing Classification System (2012)** for core computing knowledge and the **ACM/IEEE CC2020** framework for foundational professional competencies (FPK).
 
-This knowledge foundation ensures that the problem is addressed not only from a technical perspective but also through analytical reasoning, formal specification, and effective communication.
+This interdisciplinary knowledge base supports the development of an effective and optimized decision-making system for animal classification and feed management.
 
 ### Computing Knowledge
 
-* **Turing Machines**
-  Fundamental for representing the computational process required to classify vehicles and compute frequency statistics. Students must understand the structure, behavior, and expressive power of Turing Machines to encode real-world operations in a formal model.
+* **Finite State Machines (FSMs)**
+  Fundamental for modeling the robot’s classification logic. FSMs allow students to design and simulate the decision process for herd detection using well-defined states and transitions.
 
-* **Turing Machine Variants**
-  Knowledge of multi-tape or non-deterministic Turing Machines is essential when standard models are insufficient for performance or expressiveness. Variants allow for more efficient data manipulation and system simulation under complex constraints.
+* **Regular Expressions**
+  Used to represent the behavior of the FSM and validate whether the robot’s input patterns match the expected animal classification formats.
 
-* **Church-Turing Thesis**
-  Provides the theoretical basis for the task, reinforcing the equivalence between algorithmic reasoning and Turing-computable functions. Students are expected to ground their solutions in this foundational concept.
+* **Formal Grammars and Language Classification**
+  Provides a conceptual foundation for understanding the expressive power of FSMs and regular expressions, supporting the abstraction and formalization of system behavior.
 
 * **Requirements Engineering**
-  Enables the identification, analysis, and formalization of user needs (e.g., DERBA’s demand for nighttime traffic classification) into computational requirements that guide system design.
+  Enables the interpretation and translation of the company’s functional demands (e.g., low cost, minimum thresholds, interpretability) into system specifications and modeling constraints.
 
 * **Modeling and Simulation**
-  Involves abstracting system behaviors into formal representations and validating them through tools such as **JFLAP**. This knowledge area supports iterative refinement and verification of the proposed solution.
+  Supports the creation, execution, and refinement of FSMs within tools such as **JFLAP**, allowing students to test the system’s behavior and validate outcomes against expected scenarios.
 
 ### Professional Knowledge (FPK)
 
 * **Analytical and Critical Thinking**
-  Required to deconstruct the problem context (e.g., traffic monitoring and classification) into actionable components, and to formulate logical models that meet stakeholder expectations.
+  Essential for decomposing the problem into solvable parts, identifying optimization opportunities (e.g., minimizing states), and interpreting system behavior through logical reasoning.
 
 * **Problem Solving and Troubleshooting**
-  Essential for addressing implementation issues, such as handling non-standard input formats, optimizing tape usage, or debugging Turing Machine simulations.
+  Required for resolving design and implementation challenges, such as ambiguous patterns, state explosion, or regular expression inconsistencies.
 
 * **Written Communication**
-  Needed to produce a well-structured and technically sound report that documents the design rationale, implementation decisions, and validation strategies. This ensures that results are effectively communicated to technical and non-technical audiences, such as DERBA.
+  Necessary for delivering a clear and well-structured technical report, providing rationale for design choices, and communicating solutions to stakeholders with varying technical backgrounds.
 
 
 
@@ -75,29 +82,33 @@ This knowledge foundation ensures that the problem is addressed not only from a 
 
 ### General Objective
 
-Develop and validate formal computational solutions to real-world problems by applying knowledge of **Turing Machines**, with a focus on modeling, classifying, and analyzing traffic data based on sensor input.
+Apply formal methods—specifically **Finite State Machines** and **Regular Expressions**—to design and simulate a decision-making system for herd classification in a robotic agricultural context.
 
-This objective highlights the practical application of theoretical computer science concepts, reinforcing the ability to design algorithmic solutions grounded in formal models.
 
-### Specific Objectives
 
-To achieve the general objective, students are expected to:
+### Specific Learning Objectives
 
-1. **Identify** system requirements and constraints based on stakeholder input, particularly the needs expressed by DERBA for traffic data analysis and classification.
-2. **Translate and align** these requirements with the computational capabilities and limitations of Turing Machines, ensuring a faithful and executable system design.
-3. **Evaluate** the adequacy of standard Turing Machines and determine when the use of **machine variants** (e.g., multi-tape, non-deterministic) is necessary to enhance expressiveness or performance.
-4. **Apply** the **Church-Turing Thesis** to justify the feasibility of the proposed system, connecting formal computation models with the intuitive concept of algorithmic problem solving.
+1. **Model** the behavior of a herd classification system using Finite State Machines.
+2. **Generate** Regular Expressions that represent or validate patterns accepted by the FSM.
+3. **Identify** the minimal number of states and transitions required for efficient system behavior.
+4. **Analyze** correlations between FSM complexity and real-world constraints such as classification thresholds and cost.
+5. **Translate** functional requirements into formal specifications using Requirements Engineering techniques.
+6. **Test and simulate** FSMs using tools such as JFLAP to validate correctness and effectiveness.
+7. **Document** the system behavior, logic, and implementation decisions using structured technical writing.
+
+
 
 ### Importance of These Objectives
 
-These learning objectives establish a **structured and progressive pathway** for competency development by integrating:
+These objectives serve as a **structured pathway for competency development**, enabling students to:
 
-* **Theoretical understanding** of formal computation models;
-* **Contextual analysis** of real-world problems;
-* **Modeling and simulation skills** for system implementation and validation;
-* **Critical reflection** on computational adequacy and design decisions.
+* Connect **abstract formal models** with **concrete real-world applications**;
+* Strengthen skills in **formal specification**, **pattern recognition**, and **computational reasoning**;
+* Develop autonomy in **evaluating trade-offs** between expressive power, complexity, and performance;
+* Improve **collaborative and reflective practices**, such as articulating rationale and sharing modeling decisions;
+* Reinforce core competencies aligned with **professional computing practices**, especially in the context of embedded systems and automation.
 
-Together, they ensure that learners are equipped to bridge the gap between **abstract theoretical concepts** and **practical problem-solving**, fostering a competency-based learning experience that is both rigorous and relevant to professional contexts in computing.
+
 
 
 
@@ -105,26 +116,29 @@ Together, they ensure that learners are equipped to bridge the gap between **abs
 
 Competencies are specified based on the **Learning Objectives (LOs)** identified in the task analysis.
 
-As one of the deliverables required for this task is a technical report structured according to the **Brazilian Computer Society (SBC)** academic article template, students are expected to write a formal technical document that explains the problem-solving process in a clear, organized, and rigorous manner.
 
-Given these requirements, we **reuse the previously defined competency in Task01**:
-**"Write a Technical Report."**
+### Competency Reuse 
 
-This competency remains fully applicable here. Its core learning outcomes—including structuring content, integrating team contributions, and communicating technical decisions effectively—are essential for this task as well.
+To fulfill **Objective 4 — Use simulation tools for finite automata**, we **reuse the competency "Test Computational Automata Using Simulators"** previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
 
-By reusing this competency, we:
+> **Testing Automata Using Simulators**
 
-* Ensure **consistency in learning expectations** across tasks that involve technical documentation.
-* **Reinforce the importance of written communication** as a transversal skill in computing education.
-* Promote **competency traceability**, avoiding redundancy and ensuring that learning achievements can be accumulated and evidenced across different instructional contexts.
+This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
 
-This reuse also aligns with the **competency-based education model**, in which a single well-defined competency can support multiple learning goals across diverse tasks, provided the context of application remains pedagogically consistent.
+Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also **reuse the previously defined competency from Task01**:
 
+> **Write a Technical Report**
 
+This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
 
+The reuse of these competencies supports the following principles:
 
+* **Pedagogical consistency** in competency development across different learning tasks.
+* **Recognition and reinforcement of transversal skills**, such as documentation and tool-based validation.
+* **Avoidance of redundancy** through structured competency traceability.
+* **Alignment with competency-based education**, where a well-defined learning outcome may be demonstrated in multiple instructional contexts.
 
-
+By **reusing validated competencies**, we ensure that students build upon previously acquired abilities, promote cumulative learning, and facilitate assessment practices based on observable and transferable performance indicators.
 
 
 
@@ -490,5 +504,8 @@ To provide clarity on competency expectations, the following verb annotations de
 | **Differentiate the Classifications of Formal Grammars** | Collaborative, Responsible, Proactive, Investigative | Formal Grammars and Language Classification | **Understand (Differentiate, Compare, Classify)** |
 |                                                          |                                                      | Requirements Engineering                    | **Apply (Specify, Translate, Align)**             |
 |                                                          |                                                      | Analytical and Critical Thinking (FPK)      | **Apply (Interpret, Justify, Evaluate)**          |
+
+
+
 
 

@@ -295,16 +295,17 @@ To accurately assess the required skills for this competency, each knowledge com
 ### **4.3 Competency C Specification**
 
 ### C.1 Competency Title  
-    Testing Automata Using Simulators
+    Test Computational Automata Using Simulators (Testing Automata Using Simulators)
 
 ### C.2 Competency Description
-This competency focuses on the ability to **test finite automata using simulation tools**. Students must develop proficiency in using **automaton simulators** to verify the correctness of their models, diagnose errors, and refine their solutions through iterative testing.  
+This competency refers to the ability to simulate and evaluate the behavior of computational models—such as Finite Automata, Pushdown Automata, and Turing Machines—using specialized tools like JFLAP or equivalent. It ensures that students can test automata-based solutions for correctness, completeness, and alignment with formal specifications.
 
-This competency requires the ability to:  
-- **Use simulation tools to validate automata functionality**.  
-- **Analyze automaton behavior** and compare it with expected outcomes.  
-- **Identify and correct errors in automaton design** through systematic troubleshooting.  
-- **Apply structured problem-solving strategies** to improve automaton performance.  
+This competency requires learners to demonstrate the ability to:
+
+* **Utilize simulation tools effectively** to test and validate the functionality of computational automata (e.g., Finite Automata, Pushdown Automata, Turing Machines).
+* **Interpret and evaluate automaton behavior** by comparing simulated outputs with expected outcomes based on formal specifications.
+* **Diagnose and correct design flaws** through systematic debugging and iterative refinement.
+* **Apply structured problem-solving approaches** to enhance the accuracy, efficiency, and robustness of the automaton model.
 
 
 
