@@ -1,118 +1,15 @@
-# Competency Specification Review Report: Task1 – The Vending Machine for Sodas and Snacks
+# CSRP-Based Competency Specification Review Report: Task1 – The Vending Machine for Sodas and Snacks
 
 ## 1. Introduction
 
-This report documents the review of the competency specifications associated with the Problem-Based Learning (PBL) task "The Vending Machine for Sodas and Snacks." The review follows the structured Competency Specification Review Process (CSRP) and aims to assess the accuracy, clarity, relevance, and pedagogical alignment of the defined competencies, including their knowledge, skill, and disposition components.
+This report documents the review of the competency specifications associated with the Problem-Based Learning (PBL) task "The Vending Machine for Sodas and Snacks." The review was conducted using the structured Competency Specification Review Process (CSRP), with the objective of evaluating the clarity, accuracy, pedagogical alignment, and relevance of the defined competencies, including their associated knowledge, skills, and dispositions.
 
-The review is based on the evaluators’ familiarity with Bloom’s Revised Taxonomy and is structured around the key stages outlined in the CSRP methodology.
-
-
-## 2. Task Description Analysis
-
-| **Aspect**               | **Assessment** | **Comments** |
-|--------------------------|----------------|---------------|
-| Task Title               | Clear  |  |
-| Problem Description      | Clear   |  The problem is well contextualized. |
-| Solution Development     | Appropriate  | Includes constraints and expected process. |
-| Expected Outcomes        | Well Specified  | Artifacts are defined, but not all competencies align. |
-
-> _The reviewers clearly understood the task, its goals, and the expected outcomes. However, some knowledge elements listed in the competencies are not directly inferable from the problem description._
+The analysis was informed by interviews conducted with two experienced instructors, using a structured interview protocol. Rather than presenting a full transcription of the interview guide, this report summarizes the structure of the instrument and synthesizes the reviewers’ insights. The review findings are organized according to the main stages of the CSRP, highlighting strengths, inconsistencies, and suggestions for improvement in the competency specification process.
 
 
-## 3. Review of Enumerated Knowledge
+## 2. Summary of Recommendations
 
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | Maybe | Missing details on DFA; NFA not clearly included in taxonomy. |
-| Relevance                  | Maybe |Some listed knowledge not used in practice (e.g., equivalence concepts). |
-| Appropriateness            | No | DFA/NFA and RE equivalence are present but not required by the task. |
-
-> _Consider alignment with a structured taxonomy._
-
-
-## 4. Review of Learning Objectives (LOs)
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | Maybe | Some learning goals are misaligned or overly abstract. |
-| Relevance                  | Maybe | Objectives involving DFA/NFA or RE equivalence must be grounded in the task. |
-| Appropriateness            | Maybe | Some should be removed or reformulated to reflect actual task demands. |
-
-> _Ensure the LOs provide pedagogical direction and map meaningfully to competencies._
-
-
-## 5. Review of Competency Definitions
-
-### 5.1 Competency B
-
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | Maybe | Needs rewording; current version references equivalence not covered. |
-| Description – Clarity       | Maybe | Overly generic. |
-| Description – Application   | No | Describes theory not required by task. |
-| Description – Task Alignment| No | Misaligned with what the task demands. |
-| Description – Content Scope | No | Includes unused theoretical concepts. |
-
-#### 5.1.1 Knowledge Specification
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Use of Professional/Theoretical Knowledge | Maybe | Includes valid concepts, but not applicable here. |
-| Comprehensiveness          | Yes | Complete, but not always relevant. |
-| Relevance                  | Maybe | Should remove NFA-related content.  |
-| Appropriateness            | No | Misclassified; exceeds task scope. |
-
-#### 5.1.2 Disposition Specification
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Alignment with Competency  | Yes | Appropriate. |
-| Coverage and Relevance     | Yes | Well chosen. |
-
-#### 5.1.3 Knowledge-Skill Pairs
-
-| **Criterion**                     | **Assessment** | **Comments** |
-|----------------------------------|----------------|--------------|
-| Bloom Alignment                  | Yes | Levels are acceptable. |
-| Annotated Verbs – Clarity        | Yes | Improve description clarity. |
-| Suggested Revisions              | Yes | Remove knowledge-skill pair involving equivalence.
-
-
-
- ### 5.2 Competency C
-
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | Yes | Clear  |
-| Description – Clarity       | Maybe | Simplify and focus on simulator use. |
-| Description – Application   | Yes | Clear. |
-| Description – Task Alignment| Yes | Accurately reflects task implementation phase. |
-| Description – Content Scope | Yes | Well defined, but could be more concise. |
-
-
-
- ### 5.3 Competency D and E (merged)
-
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | No | Merge D and E; clarify title and objective. |
-| Description – Clarity       | Maybe | Remove repetition and improve focus. |
-| Description – Content Scope | Maybe | Overlaps entirely with D. |
-
-
- ### 5.3 Competency F
-
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | No | Clarify title and objective. |
-| Description – Clarity       | Yes | Clear |
-| Description – Content Scope | Yes | Clear |
-
-
-
-## 6. Summary of Recommendations
-
-### 6.1 Knowledge Granularity
+### 2.1 Knowledge Granularity
 
 **P1:**  *"Regarding the knowledge covered in the task, it would be beneficial to adjust it to a lower level of granularity. The current granularity is too high, making comprehension difficult. For example, in the knowledge about finite automata, deterministic automata were not specified, only finite automata were mentioned, which created confusion. Therefore, I suggest modifying the knowledge taxonomy."*  
 
@@ -120,7 +17,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-### 6.2 Controlled Vocabulary
+### 2.2 Controlled Vocabulary
 
 **P1:** *"It is necessary to ensure the standardization of competency descriptions to maintain consistency in the documentation of educational competencies."*  
 
@@ -128,7 +25,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-### 6.3 Bloom’s Taxonomy Verbs
+### 2.3 Bloom’s Taxonomy Verbs
 
 **P1:** *"I found the use of multiple verbs interesting, as it allows for a clearer description of the expected actions for each knowledge-skill pair."*  
 
@@ -136,7 +33,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-### 6.4 Textual Clarity in Competency Descriptions
+### 2.4 Textual Clarity in Competency Descriptions
 
 **P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency D: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
@@ -150,7 +47,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-### 6.5 Knowledge Relevance and Appropriateness
+### 2.5 Knowledge Relevance and Appropriateness
 
 **P1:** *"The knowledge described in the task must be better aligned. The specific objectives mention certain knowledge elements that are expected to be applied, but I could not identify where students would actually use them. For example, knowledge about equivalence seems unnecessary, as students may only need to respond regarding deterministic automata.*  
 
@@ -171,7 +68,7 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 - *Likewise, in **Competency B ('Equivalence of DFAs and NFAs - Understand (Compare)'),** the knowledge suggested is not covered in the **PBL case description**, so it should be removed."*  
 
 
-## 6.6 Review Suggestions
+## 2.6 Review Suggestions
 
 ### P1 Suggestions
 - **Knowledge Granularity** → The current level is too high and should be adjusted to provide more specificity.  
@@ -201,16 +98,19 @@ The review is based on the evaluators’ familiarity with Bloom’s Revised Taxo
 
 
 
-## 7. Conclusion and Next Steps
+## 3. Conclusion and Next Steps
 
-The **competency specification review process** has provided **critical insights into necessary adjustments**, highlighting issues in **knowledge granularity, textual clarity, and alignment with learning objectives**. Based on the reviewers' feedback, **several refinements will be incorporated** to enhance the accuracy, relevance, and clarity of competency specifications.  
+The **competency specification review process** yielded critical insights into areas requiring improvement, particularly regarding **knowledge granularity, textual precision, and the alignment of competencies with the task's learning objectives**. Guided by reviewer feedback, a series of targeted refinements will be implemented to improve the **clarity, relevance, and educational value** of the competency specifications.
 
-A key takeaway is that **the level of knowledge granularity is too high**, making it difficult to accurately annotate competencies. To address this, **a more detailed and structured knowledge taxonomy will be implemented** to improve specificity and applicability. Consequently, **several knowledge elements will be revised or removed**, particularly those related to **NFA concepts**, as they are not explicitly used in the task.  
+A central takeaway from the review is that **the current level of knowledge granularity is excessively broad**, limiting the effectiveness of annotation and reducing conceptual precision. To address this, a **more structured and fine-grained knowledge taxonomy** will be adopted, allowing for greater specificity and better alignment with the actual scope of the task. As part of this adjustment, **concepts related to Non-Deterministic Finite Automata (NFA)**—which are not present in the PBL scenario—will be revised or removed.
 
-**Textual clarity will also be improved.** Some descriptions are **overly directive**, while others are **too vague**. To ensure better readability and alignment, **competency titles will be reworded, redundant descriptions will be removed, and unnecessary explanatory content will be eliminated**. Specifically, **Competency D and Competency E will be merged** to avoid redundancy, and **Competency B will be reformulated** to clarify its focus.  
+In addition, **textual clarity will be significantly improved** by refining vague formulations and eliminating overly prescriptive descriptions. Some competency statements were found to be either too generic or too directive. To enhance coherence and usability, **competency titles will be reformulated**, **redundant entries (e.g., Competencies D and E) will be merged**, and **explanatory content not anchored in the task will be removed**. Competency B, in particular, will be restructured to more accurately reflect its intended focus.
 
-Additionally, **several learning objectives and competency descriptions will be refined** to ensure alignment with the actual task requirements. Concepts that **are not directly addressed in the PBL case will be removed**, preventing inconsistencies between expected learning outcomes and the knowledge elements described.  
+Several **learning objectives and competency descriptions** will also be revised to ensure they map directly to the task's demands. Knowledge items that are not **explicitly required** by the PBL case will be removed, thus avoiding misalignment between expected outcomes and the actual competencies developed.
 
-Moving forward, the **adoption of a more structured knowledge taxonomy and standardized vocabulary will enhance the clarity, consistency, and applicability** of competency-based learning in PBL environments. The iterative review process **will continue to be applied** to ensure that competency specifications remain aligned with evolving educational needs.  
+Looking ahead, the integration of a **standardized vocabulary and a structured knowledge taxonomy** will support greater consistency, reusability, and alignment across PBL tasks. The **iterative nature of the CSRP** will continue to be a valuable tool for refining and validating competencies as learning contexts evolve.
 
-By incorporating these refinements, the competency framework **will become more precise, structured, and aligned with educational objectives**, ultimately **supporting students, educators, and curriculum designers** in **competency-based computing education**. 
+By implementing these enhancements, the competency framework will become **more robust, pedagogically sound, and reusable**, offering greater support to students, instructors, and curriculum designers engaged in **competency-based computing education**.
+
+> These revisions will ensure that the competency specification functions not only as a valid assessment instrument but also as a reusable and instructional model for future PBL-based learning experiences.
+

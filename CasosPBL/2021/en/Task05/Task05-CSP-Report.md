@@ -39,7 +39,7 @@ The successful execution of this task requires mobilizing knowledge from both th
 * **Turing Machines**
   Essential for modeling both the Farmer Robot and Feeder Robot modules, Turing Machines provide a universal foundation to represent logic that involves memory, control flow, and decision-making.
 
-* **Turing Machine Variants**
+* **Turing Machine (Variants)**
   Knowledge of variations, such as multi-tape or non-deterministic Turing Machines, may be necessary to optimize the coordination between the two robots or improve efficiency in navigation logic.
 
 * **Church-Turing Thesis**
@@ -51,11 +51,11 @@ The successful execution of this task requires mobilizing knowledge from both th
 * **Modeling and Simulation**
   Required for representing the robots’ behaviors formally and testing them through simulation environments like JFLAP.
 
+  * **Requirements Engineering**
+  Enables students to formalize and revise system specifications, such as enhancing existing modules and incorporating thresholds for herd sizes.
+
 
 ### Professional Knowledge (FPK)
-
-* **Requirements Engineering**
-  Enables students to formalize and revise system specifications, such as enhancing existing modules and incorporating thresholds for herd sizes.
 
 * **Analytical and Critical Thinking**
   Supports the analysis of functional dependencies between robots, exploration of abstract machine capabilities, and evaluation of design alternatives.
@@ -66,8 +66,6 @@ The successful execution of this task requires mobilizing knowledge from both th
 * **Written Communication**
   Students must produce a structured, technical report that documents the developed modules, justifies design decisions, and communicates results clearly to both technical and non-technical audiences.
 
-
-Com base no conteúdo do arquivo `Task05-TheFarmingRobotAndFeedingRobot.md` e nas suas instruções, seguem as seções 3 e 4 do relatório, em inglês e no formato apropriado:
 
 
 ## 3. Learning Objectives Identification

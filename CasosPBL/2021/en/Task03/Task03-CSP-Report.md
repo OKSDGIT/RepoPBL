@@ -52,11 +52,8 @@ This interdisciplinary knowledge base supports the development of an effective a
 * **Finite State Machines (FSMs)**
   Fundamental for modeling the robot’s classification logic. FSMs allow students to design and simulate the decision process for herd detection using well-defined states and transitions.
 
-* **Regular Expressions**
+* **Regular Expressions (Regular Languages)**
   Used to represent the behavior of the FSM and validate whether the robot’s input patterns match the expected animal classification formats.
-
-* **Formal Grammars and Language Classification**
-  Provides a conceptual foundation for understanding the expressive power of FSMs and regular expressions, supporting the abstraction and formalization of system behavior.
 
 * **Requirements Engineering**
   Enables the interpretation and translation of the company’s functional demands (e.g., low cost, minimum thresholds, interpretability) into system specifications and modeling constraints.

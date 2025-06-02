@@ -38,11 +38,8 @@ Aligned with ACM CCS (2012):
 * **Finite Automata – Pushdown Automata (PDA)**
   Used to model the robot’s navigation with memory, enabling stack-based return logic.
 
-* **Regular Languages – Context-Free Grammars**
+* **Regular Languages (Context-Free Grammars)**
   Supports the definition of formal rules and pattern generation for sequences of locations.
-
-* **Finite Automata – Formal Grammars and Language Classification**
-  Provides the theoretical basis for identifying the computational class of the problem and selecting suitable models.
 
 * **Requirements Engineering**
   Essential for identifying and formalizing the system’s functional requirements and constraints.

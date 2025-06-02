@@ -16,84 +16,7 @@ The feedback gathered from these interviews was **instrumental in refining the c
 
 This structured review ensures that competency descriptions are **accurate, pedagogically sound, and aligned with educational objectives**, ultimately contributing to a **more effective competency-based learning model**.  
 
-
-
-## 2. Task Description Analysis
-
-| **Aspect**               | **Assessment** | **Comments** |
-|--------------------------|----------------|---------------|
-| Task Title               | {Clear | Needs Revision} |  |
-| Problem Description      | {Clear | Needs Clarification} |  |
-| Solution Development     | {Appropriate | Incomplete} |  |
-| Expected Outcomes        | {Well Specified | Misaligned} |  |
-
-> _Provide notes on how the task description supports or constrains the competency specification._
-
----
-
-## 3. Review of Enumerated Knowledge
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | {Yes | Maybe | No} | Are all essential knowledge areas included? |
-| Relevance                  | {Yes | Maybe | No} | Are all listed knowledge items needed? |
-| Appropriateness            | {Yes | Maybe | No} | Should any items be revised or removed? |
-
-> _Consider alignment with a structured taxonomy (e.g., ACM CCS, CC2020)._
-
----
-
-## 4. Review of Learning Objectives (LOs)
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | {Yes | Maybe | No} | Are implicit and explicit objectives represented? |
-| Relevance                  | {Yes | Maybe | No} | Are all LOs pertinent to the task? |
-| Appropriateness            | {Yes | Maybe | No} | Should any LOs be revised or removed? |
-
-> _Ensure the LOs provide pedagogical direction and map meaningfully to competencies._
-
----
-
-## 5. Review of Competency Definitions
-
-### 5.1 Competency [A/B/C...]
-
-| **Subcomponent**            | **Assessment** | **Comments** |
-|----------------------------|----------------|--------------|
-| Competency Title            | {Yes | Maybe | No} | Clear and focused? |
-| Description – Clarity       | {Yes | Maybe | No} | Well-articulated and unambiguous? |
-| Description – Application   | {Yes | Maybe | No} | Does it explain how knowledge is mobilized? |
-| Description – Task Alignment| {Yes | Implicit | No} | Is it contextualized within the task? |
-| Description – Content Scope | {Yes | Maybe | No} | Covers all relevant content? |
-
-#### Knowledge Specification
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Use of Professional/Theoretical Knowledge | {Yes | Implicit | No} | |
-| Comprehensiveness          | {Yes | Maybe | No} | |
-| Relevance                  | {Yes | Maybe | No} | |
-| Appropriateness            | {Yes | Maybe | No} | |
-
-#### Disposition Specification
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Alignment with Competency  | {Yes | Maybe | No} | |
-| Coverage and Relevance     | {Yes | Maybe | No} | |
-
-#### Knowledge-Skill Pairs
-
-| **Criterion**                     | **Assessment** | **Comments** |
-|----------------------------------|----------------|--------------|
-| Bloom Alignment                  | {Yes | Maybe | No} | Cognitive level appropriate? |
-| Annotated Verbs – Clarity        | {Yes | Maybe | No} | Do verbs improve interpretability? |
-| Suggested Revisions              | {Yes | Maybe | No} | Should verbs or pairings be changed? |
-
----
-
-## 6. Summary of Recommendations
+## 2. Summary of Recommendations
 
 Summarize the major changes to be made based on the review, such as:
 - Additions/removals in knowledge components
@@ -101,19 +24,14 @@ Summarize the major changes to be made based on the review, such as:
 - Merged or renamed competencies
 - Adjusted Bloom-level alignments
 
----
 
-## 7. Conclusion and Next Steps
+
+## 3. Conclusion and Next Steps
 
 Reflect on:
 - The impact of the review on the clarity, pedagogical strength, and alignment of the competency set.
 - How the findings will inform future iterations of the CSP or similar tasks.
 - Recommended actions for finalizing the task-competency package.
 
----
 
-## Appendix (Optional)
 
-- Full reviewer comments (anonymized or attributed)
-- Interview transcriptions
-- Revised tables or competencies (before and after)

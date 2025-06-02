@@ -1,4 +1,4 @@
-# Competency Specification Report: Task1 - The Vending Machine for Sodas and Snacks
+# Competency Specification Report: Task01 - The Vending Machine for Sodas and Snacks
 
 ## Introduction
 
@@ -32,11 +32,16 @@ For **professional knowledge (FPK)**, we referenced the **ACM Computing Curricul
 Based on the **task description**, the following set of required knowledge components was identified:  
 
 ### **Computing Knowledge**  
-- **Automata over Infinite Objects (Deterministic Finite Automata - DFA)**  
+- **Automata over Infinite Objects**  
   - Involves the study and application of mathematical models that describe computational systems using **states and transitions**.  
   - Essential for designing **state-based vending machine logic**.  
 
-- **Regular Languages (Regular Expressions - RE)**  
+- **Nondeterministic Finite Automata (NFA)**
+  - Represents a class of automata that allows multiple possible transitions for a given input from a state.
+  - Important for understanding the expressive power and design flexibility of regular language recognizers.
+  - Provides foundational knowledge for modeling compact and versatile state machines, which may later be converted to deterministic forms for implementation.
+
+- **Regular Languages (Regular Expressions)**  
   - Requires understanding and applying **formal techniques** to represent and manipulate string sets.  
   - Used primarily in **text processing, lexical analysis, and pattern matching** within the vending machine’s operational logic.  
 
@@ -116,11 +121,14 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
     Designing Efficient Solutions with Automata
 
 ### A.2 Textual Description  
-This competency focuses on the ability to design and implement **effective and optimized solutions** using **finite automata**. It requires a **deep understanding of automata theory**, including the identification of functional requirements, translating those into **feasible technical implementations**, and ensuring that the **final automaton is efficient, reliable, and meets user expectations**.
 
-Students must **balance user-defined needs with automata constraints**, ensuring that the vending machine system performs correctly under different conditions. This competency also emphasizes the **importance of validation**, requiring students to **simulate, test, and refine their models** to guarantee accuracy and performance in **real-world applications**.
+This competency involves the ability to design and implement **functional, optimized solutions** using **finite automata** as a formal computational model. It requires a **solid understanding of automata theory**, enabling students to interpret system requirements, translate them into formal specifications, and construct automata that are both **logically correct and technically feasible**.
 
-Additionally, the competency includes the **ability to handle additional constraints**, such as implementing the **bonus change mechanism** introduced as an extra challenge by the IT technician.
+Learners must demonstrate the capacity to **model system behavior** through state transitions, taking into account both **explicit functional requirements** and potential operational constraints. The competency also entails the ability to **validate and refine the automaton** through simulation and systematic testing, ensuring that it performs accurately across expected scenarios.
+
+Furthermore, it includes the flexibility to incorporate **additional constraints or extensions**, reflecting a capacity for **adaptive problem-solving** and the integration of complex conditions into formal models. This ensures readiness for applying finite automata in a variety of real-world computational tasks.
+
+
 
 ### A.3 Knowledge Specification
 The following knowledge areas are critical for this competency:  
@@ -180,7 +188,7 @@ To ensure a structured and progressive learning approach, each knowledge compone
   - Evaluates the ability to **analyze relationships, identify patterns, and formulate logical strategies** for problem-solving.  
   - Ensures students can effectively **bridge theoretical knowledge with practical implementation**.  
 
-- **Automata over Infinite Objects – Create**  
+- **Automata over Infinite Objects – Apply**  
   - Measures the student's capability to **design and implement automata-based solutions** for a defined problem.  
   - Assesses the ability to **translate real-world system constraints into automata models** using states and transitions.  
   - Ensures that students can effectively **apply computational modeling techniques** to solve vending machine transaction issues.  
@@ -206,7 +214,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
-|  |   | Automata over Infinite Objects | **Create (Construct, Develop, Design)** |
+|  |   | Automata over Infinite Objects | **Apply (Construct, Develop, Design)** |
 | **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Apply (Interpret, Implement, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply** |
 
@@ -572,3 +580,47 @@ To clarify expected learning outcomes, the following action verbs define key stu
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
 
+---
+
+# Summary Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Apply (Construct, Develop, Design) |
+|  |  | Requirements Analysis | Apply (Interpret, Implement, Organize) |
+|  |  | Analytical and Critical Thinking (FPK) | Apply |
+
+---
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Determine when to use a DFA or NFA** | Investigative, Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Understand (Compare) |
+|  |  | Analytical and Critical Thinking (FPK) | Apply (Evaluate, Decide) |
+
+---
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Testing Automata Using Simulators** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Apply (Experiment, Relate, Simulate) |
+|  |  | Problem Solving and Troubleshooting (FPK) | Apply (Diagnose, Debug, Refine) |
+
+---
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Determining Regular Expressions that Represent Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Understand |
+|  |  | Regular Languages | Apply |
+|  |  | Problem Solving and Troubleshooting (FPK) | Apply |
+
+---
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Relating Regular Expressions to Finite Automata** | Collaborative, Responsible, Proactive | Automata over Infinite Objects | Understand |
+|  |  | Regular Languages | Understand |
+
+---
+
+| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
+|----------------|------------------|---------------|-----------|
+| **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply (Write, Structure, Revise, Refine) |

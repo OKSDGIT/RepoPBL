@@ -1,4 +1,4 @@
-# Competency Specification Report: Task2 – Traffic Control
+# Competency Specification Report: Task02 – Traffic Control
 
 ## Introduction
 
@@ -43,30 +43,30 @@ This knowledge foundation ensures that the problem is addressed not only from a 
 ### Computing Knowledge
 
 * **Turing Machines**
-  Fundamental for representing the computational process required to classify vehicles and compute frequency statistics. Students must understand the structure, behavior, and expressive power of Turing Machines to encode real-world operations in a formal model.
+  * Fundamental for representing the computational process required to classify vehicles and compute frequency statistics. Students must understand the structure, behavior, and expressive power of Turing Machines to encode real-world operations in a formal model.
 
-* **Turing Machine Variants**
-  Knowledge of multi-tape or non-deterministic Turing Machines is essential when standard models are insufficient for performance or expressiveness. Variants allow for more efficient data manipulation and system simulation under complex constraints.
+* **Turing Machine Variants (Turing Machines)**
+  * Knowledge of multi-tape or non-deterministic Turing Machines is essential when standard models are insufficient for performance or expressiveness. Variants allow for more efficient data manipulation and system simulation under complex constraints.
 
 * **Church-Turing Thesis**
-  Provides the theoretical basis for the task, reinforcing the equivalence between algorithmic reasoning and Turing-computable functions. Students are expected to ground their solutions in this foundational concept.
+  * Provides the theoretical basis for the task, reinforcing the equivalence between algorithmic reasoning and Turing-computable functions. Students are expected to ground their solutions in this foundational concept.
 
 * **Requirements Engineering**
-  Enables the identification, analysis, and formalization of user needs (e.g., DERBA’s demand for nighttime traffic classification) into computational requirements that guide system design.
+  * Enables the identification, analysis, and formalization of user needs (e.g., DERBA’s demand for nighttime traffic classification) into computational requirements that guide system design.
 
 * **Modeling and Simulation**
-  Involves abstracting system behaviors into formal representations and validating them through tools such as **JFLAP**. This knowledge area supports iterative refinement and verification of the proposed solution.
+  * Involves abstracting system behaviors into formal representations and validating them through tools such as **JFLAP**. This knowledge area supports iterative refinement and verification of the proposed solution.
 
 ### Professional Knowledge (FPK)
 
 * **Analytical and Critical Thinking**
-  Required to deconstruct the problem context (e.g., traffic monitoring and classification) into actionable components, and to formulate logical models that meet stakeholder expectations.
+  * Required to deconstruct the problem context (e.g., traffic monitoring and classification) into actionable components, and to formulate logical models that meet stakeholder expectations.
 
 * **Problem Solving and Troubleshooting**
-  Essential for addressing implementation issues, such as handling non-standard input formats, optimizing tape usage, or debugging Turing Machine simulations.
+  * Essential for addressing implementation issues, such as handling non-standard input formats, optimizing tape usage, or debugging Turing Machine simulations.
 
 * **Written Communication**
-  Needed to produce a well-structured and technically sound report that documents the design rationale, implementation decisions, and validation strategies. This ensures that results are effectively communicated to technical and non-technical audiences, such as DERBA.
+  * Needed to produce a well-structured and technically sound report that documents the design rationale, implementation decisions, and validation strategies. This ensures that results are effectively communicated to technical and non-technical audiences, such as DERBA.
 
 
 
@@ -107,11 +107,14 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 
 ### Competency Reuse 
 
-To fulfill the objective to **"Use simulation tools for finite automata"**, we **reuse the competency "Test Computational Automata Using Simulators"** previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
+To fulfill the objective to **"Use simulation tools for finite automata"**, we reuse the competency 
+  > **Test Computational Automata Using Simulators** 
+
+previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
 
 This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
 
-Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also **reuse the previously defined competency from Task01**:
+Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also reuse the previously defined competency from *Task01*:
 
 > **Write a Technical Report**
 
@@ -177,11 +180,11 @@ This step maps **knowledge areas to the corresponding skills** required to succe
 
 To achieve this competency, students must demonstrate the ability to: 
 
-- Apply Analytical and Critical Thinking along with knowledge of Turing Machines to develop a computational solution that processes and classifies traffic data. This includes modeling sensor behavior and vehicle categorization within the formal structure of a Turing Machine.
+- **Apply** *Analytical and Critical Thinking* along with knowledge of *Turing Machines* to develop a computational solution that processes and classifies traffic data. This includes modeling sensor behavior and vehicle categorization within the formal structure of a Turing Machine.
 
-- Use Turing Machines to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
+- **Use** *Turing Machines* to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
 
-- Apply Requirements Engineering to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
+- **Apply** *Requirements Engineering* to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
 
 
 **A.5.2 Bloom’s Taxonomy Alignment**  
@@ -200,14 +203,41 @@ To ensure a structured and progressive learning approach, each knowledge compone
 **A.5.3 Verb Annotation**  
 To provide clarity on competency expectations, the following verb annotations define the required actions:  
 
+#### **Turing Machines – Apply**
+
+* **Use** a Turing machine model to represent system behavior.
+* **Implement** configurations and transitions in a simulation environment.
+* **Execute** processes defined by the machine to solve structured problems.
+
+ **Verbs**: *Use*, *Implement*, *Execute*
+
+
+#### **Requirements Engineering – Apply**
+
+* **Interpret** the functional and non-functional needs described in the problem.
+* **Organize** those needs into formal specifications.
+* **Apply** principles of requirement modeling to guide system design.
+
+ **Verbs**: *Interpret*, *Organize*, *Apply*
+
+
+#### **Analytical and Critical Thinking (FPK) – Apply**
+
+* **Decompose** the system into manageable logical components.
+* **Identify** key variables and interactions.
+* **Apply** structured reasoning to map problem characteristics into formal models.
+
+ **Verbs**: *Decompose*, *Identify*, *Apply*
+
+
 
 ### A.6 Summary Table for Competency A
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
-|  |   | Turing Machines  | **Apply (Use)** |
-| **Develop Problem-Solving Solutions Using Turing Machines** | **Collaborative, Responsible, Proactive, Creative, Inventive** | Requirements Analysis | **Apply** |
-| | | Analytical and Critical Thinking (FPK) | **Apply (Perform)** |
+|  |   | Turing Machines  | **Apply (Use, Implement, Execute)** |
+| **Develop Problem-Solving Solutions Using Turing Machines** | **Collaborative, Responsible, Proactive, Creative, Inventive** | Requirements Analysis | **Apply (interpret, Organize)** |
+| | | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)** |
 
 ---
 
@@ -215,7 +245,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 ### B.1 Competency Title
 
-**Identify Turing Machine Variants**
+    Identify Turing Machine Variants
 
 
 ### B.2 Textual Description

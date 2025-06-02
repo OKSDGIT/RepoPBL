@@ -23,23 +23,20 @@ Following the reviewers' insights, **the knowledge classification system was upd
 - **Competency A: "Developing Problem Solutions Using Automata"**  
   - The knowledge element **"Finite Automaton"** was **redefined** as **"Finite State Machines"**.  
   - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
-  - The **"Analytical and Critical Thinking (FPK)"** knowledge component remained **unchanged**.  
-  - Skills associated with the above knowledge components **remained unchanged**.  
+ 
 
 - **Competency B: "Determining When to Use a DFA or an NFA"**  
-  - The competency title was **redefined** as **"Justifying the Use of Finite Automata"**.  
+  - The competency title was **redefined** as **"Justifying the Use of Deterministic Finite Automata (DFA)"**.  
   - The knowledge **"Finite Automaton"** was **redefined** as **"Deterministic Finite Automata (DFA)"**.  
   - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
   - A new **knowledge-skill pair** was added: **"Analytical and Critical Thinking (FPK) - Apply"**, enhancing the clarity and depth of the competency.  
 
 - **Competency C: "Testing Automata Using Simulators"**  
-  - The **knowledge element "Finite State Machines"** was **redefined** for improved clarity.  
-  - The **knowledge-skill pair "Problem Solving and Troubleshooting (FPK) - Apply"** remained unchanged.  
+  - The **knowledge element "Automata over Infinite Objects" was replaced with "Finite State Machines"** to improve clarity. 
   - A **new knowledge-skill pair was introduced** → **"Modeling and Simulation - Apply"**, ensuring that learners must apply their modeling knowledge when testing automata using simulators.  
 
 - **Competencies D and E: Merging and Refinement**  
-  - P2 recommended merging **Competencies D and E**, as they were redundant.  
-  - The competencies **"Determining Regular Expressions that Represent Automata"** and **"Relating Regular Expressions to Finite Automata"** were **merged** into a **single competency**: **"Defining Regular Expressions for Finite Automata."**  
+   - The competencies **"Determining Regular Expressions that Represent Automata"** and **"Relating Regular Expressions to Finite Automata"** were **merged** into a **single competency**: **"Defining Regular Expressions for Finite Automata."**  
   - Knowledge refinements included:  
     - **"Finite Automaton - Understand"** was **redefined** as **"Finite State Machines - Understand."**  
     - **"Regular Languages - Understand"** was **redefined** as **"Regular Expressions - Apply."**  
@@ -60,57 +57,130 @@ To further enhance clarity, a **structured vocabulary mapping** will be establis
 
 
 
-### **Standardizing Competency Identification for Reusability**  
 
-To enhance clarity, consistency, and reusability, annotators S1 and S2 revised the competency identification codes, implementing a structured renaming strategy. This adjustment ensures that competencies can be effectively reused across multiple tasks and educational contexts, reducing redundancy and improving organization.
+# **Competency Specification Adjustments**
 
-The revised competency identification system serves the following key objectives:
+## **Competency A Specification**
 
-- Improved Organizational Structure → Establishing a coherent and standardized framework for competency management.
+### A.1 Competency Title
 
-- Facilitating Reusability → Enabling competencies to be referenced and applied consistently in various educational tasks.
+    Develop problem solutions using Automata
 
-- Alignment with the Competency Annotation Framework → Ensuring that competency definitions follow a structured and scalable approach.
+### A.2 Competency Description
 
-By assigning unique and structured competency identifiers, this approach simplifies competency tracking, retrieval, and integration into different learning environments. The new standardized competency codes (Cn), shown in Table 1, provide a clear reference system that supports structured competency development and seamless application in competency-based learning models.
+This competency refers to the ability to **design, construct, and validate automaton-based solutions** that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using **finite state machines**, applying formal methods to ensure **logical consistency and operational correctness**.
 
- 
+Students must:
+
+* **Translate problem specifications into automaton models** using states and transitions.
+* **Implement automata using appropriate tools**, ensuring their behavior aligns with the intended system logic.
+* **Refine and test the automaton** through simulation, addressing edge cases and improving robustness.
+* **Integrate constraints or extensions** when needed, demonstrating flexibility and adaptive problem-solving.
 
 
 
+## **Competency B Specification**
 
-# **Competency Specification Table - Adjustments**
+### B.1 Competency Title
 
- **Table 1 - Competency Adjustments and new Codes**
+    Justify the use of Deterministic Finite Automata (DFAs)
+
+### B.2 Competency Description
+
+This competency focuses on students' ability to **distinguish between deterministic and non-deterministic finite automata**, and **evaluate which model is best suited** to a given problem. Emphasis is placed on understanding the implications of determinism in automata design and on making reasoned decisions based on system constraints and complexity.
+
+Students must be able to:
+
+* **Compare DFA and NFA models** based on structural and behavioral differences.
+* **Analyze task requirements** to identify whether determinism is essential or optional.
+* **Select and justify** the most appropriate model for implementation.
+
+
+
+## **Competency C Specification**
+
+### C.1 Competency Title
+
+    Test Automata Using Simulators
+
+### C.2 Competency Description
+
+This competency relates to the **use of simulation tools** (e.g., JFLAP) to verify the correctness and behavior of automata implementations. It emphasizes systematic testing and iterative refinement of state-machine models.
+
+Students must be able to:
+
+* **Operate automata simulators** to test input/output behavior and transitions.
+* **Interpret simulation outcomes**, identifying discrepancies between expected and observed behavior.
+* **Diagnose and correct errors** through debugging cycles.
+* **Apply problem-solving strategies** to refine automata until desired performance is achieved.
+
+
+
+## **Competency D+E Specification**
+
+### D+E.1 Competency Title
+
+    Define Regular Expressions for Finite Automata
+
+### D+E.2 Competency Description
+
+This competency focuses on the ability to **relate regular expressions to finite automata**, both theoretically and in practice.
+
+Students must be able to:
+
+* **Understand the equivalence** between regular expressions and finite automata.
+* **Construct regular expressions** that capture the same language accepted by a given finite automaton.
+* **Translate automaton structures into expressions**, using standard notation and simplification rules.
+* **Validate correctness** by comparing the behavior of both representations through testing or formal proof.
+
+
+## **Competency F Specification**
+
+### F.1 Competency Title
+
+    Write a Technical Report
+
+### F.2 Competency Description
+
+This competency involves the **collaborative production of a well-organized technical report** that effectively communicates the design, implementation, and evaluation of automaton-based solutions.
+
+Students must demonstrate the ability to:
+
+* **Write and structure a report** that synthesizes the team's work in a coherent narrative.
+* **Apply technical writing conventions**, ensuring clarity, precision, and logical flow.
+* **Document technical results and reasoning**, including diagrams, formal representations, and testing outcomes.
+* **Revise and polish the report collaboratively**, integrating peer feedback and adhering to presentation standards.
+
+
+
+ ## Competency Adjustments Table*
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------|--------|-----------|-----------|-------------------|
-| (A) **C05** | **Develop problem solutions using Automata.** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Create (Construct, Develop, Design)** |
+| (A) | **Develop problem solutions using Automata.** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Construct, Develop, Design)** |
 |         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
-| (B) **C06** | **Justify the use of Deterministic Finite Automata (DFAs).** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
+| (B) | **Justify the use of Deterministic Finite Automata (DFAs).** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
-| (C) **C07** | **Test automata using simulators.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
+| (C) | **Test automata using simulators.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
 |         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | **Apply** |
 |         |                                   |                                 | Modeling and Simulation | **Apply** |
-| (D+E) **C08** | **Define Regular Expressions for Finite Automata.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
+| (D+E) | **Define Regular Expressions for Finite Automata.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
 |         |                                   |                                 | Regular Expressions | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
-| (F) **C04** | **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
+| (F) | **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
 
 
-The implementation of structured competency identification codes enhances consistency, traceability, and interoperability across different educational contexts. This approach ensures that competencies remain well-defined, adaptable, and reusable, allowing them to be easily integrated into future competency specifications and new learning scenarios.
 
-By adopting standardized competency identifiers, the annotation process becomes more scalable and maintainable, laying the foundation for a more structured and modular competency-based education model.
 
 
 ## **Conclusion**  
 
-The **competency specification review process** has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, **increase specificity, standardize terminology, and improve textual clarity**.  
+The **competency specification review process** has resulted in **substantial improvements**, incorporating expert recommendations to refine competency definitions, increase specificity, standardize terminology, and improve textual clarity.  
 
-By **adopting a more fine-grained knowledge taxonomy (CS2013)**, competencies have become **more precise and reusable**. Additionally, the **introduction of controlled vocabulary and structured terminology mapping** ensures **greater consistency in competency descriptions**.  
+By adopting a more fine-grained knowledge taxonomy (CS2013), competencies have become more precise and reusable. Additionally, the introduction of controlled vocabulary and structured terminology mapping ensures greater consistency in competency descriptions.  
 
-The **merging of redundant competencies** and **adjustments to knowledge elements and skills** have led to **a more coherent and structured competency framework**. The **revised competency identifiers** further enhance **organization and reusability across educational contexts**.  
+The merging of redundant competencies and adjustments to knowledge elements and skills have led to a more coherent and structured competency framework.   
 
-Moving forward, **continuous iterative refinements** and **structured peer evaluations** will remain **essential** to maintaining a **high-quality competency specification model**. These refinements will contribute to **a more effective competency-based learning approach**, ensuring that competencies remain **clear, applicable, and aligned with educational objectives**. 🚀  
+Moving forward, *ontinuous iterative refinements and structured peer evaluations will remain essential to maintaining a high-quality competency specification model. These refinements will contribute to a more effective competency-based learning approach, ensuring that competencies remain clear, applicable, and aligned with educational objectives. 🚀  
