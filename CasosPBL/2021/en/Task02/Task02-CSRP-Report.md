@@ -6,45 +6,7 @@ This report documents the review of the competency specifications associated wit
 The review is based on the evaluators’ familiarity with Bloom’s Revised Taxonomy and is structured around the key stages outlined in the CSRP methodology.
 
 
-## 2. Task Description Analysis
-
-| **Aspect**               | **Assessment** | **Comments** |
-|--------------------------|----------------|---------------|
-| Task Title               | Clear          | The title is concise and reflects the core theme of traffic control using computational models. |
-| Problem Description      | Clear          | The problem scenario is detailed and authentic, grounded in a real-world context that justifies the use of Turing Machines. |
-| Solution Development     | Appropriate    | The task requires students to analyze, model, and implement a solution using Turing Machines, aligning well with educational goals. |
-| Expected Outcomes        | Well Specified | Deliverables include a working machine model and a structured report, clearly aligned with the objectives. |
-
-> _The task description supports competency specification by providing a practical, context-rich scenario and detailed expectations for technical implementation and documentation._
-
-
-
-## 3. Review of Enumerated Knowledge
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | Maybe          | Most relevant knowledge areas are present; however, some (e.g., Church-Turing Thesis) are not utilized in practice. |
-| Relevance                  | Maybe          | Some knowledge items are not directly mobilized in the task and could be excluded to improve focus. |
-| Appropriateness            | No             | Certain theoretical topics, although relevant conceptually, are not required for task completion and should be reconsidered. |
-
-> _Consider alignment with a structured taxonomy (e.g., ACM CCS, CC2020)._ 
-
-
-## 4. Review of Learning Objectives (LOs)
-
-| **Criterion**              | **Assessment** | **Comments** |
-|---------------------------|----------------|--------------|
-| Comprehensiveness          | Yes            | Both general and specific learning objectives are well represented. |
-| Relevance                  | Yes            | All objectives relate to modeling, implementation, and documentation using Turing Machines. |
-| Appropriateness            | Maybe          | Some objectives may need refinement to match the actual cognitive and procedural demands of the task. |
-
-> _Ensure the LOs provide pedagogical direction and map meaningfully to competencies._
-
-
-
-
-
-## 6. Summary of Recommendations
+## 2. Summary of Recommendations
 
 Based on the reviewer’s feedback, several key changes are recommended to improve the competency specification for Task 02. These recommendations address issues of overly fine detail, unnecessary theoretical content, and inconsistent tone in the current document:
 
@@ -58,7 +20,7 @@ Based on the reviewer’s feedback, several key changes are recommended to impro
 
 Implementing the above recommendations will result in a more concise and relevant set of competencies for Task 02. The changes focus the competency specification on essential skills and knowledge actually practiced in the task, and they improve the clarity of expectations for learners. These adjustments are detailed in the revised competency specification provided in the Appendix, and they should greatly enhance the alignment between Task 02’s objectives and its evaluation criteria.
 
-## 7. Conclusion and Next Steps
+## 2. Conclusion and Next Steps
 
 In conclusion, addressing the issues identified by the reviewer will significantly strengthen the Competency Specification for Task 02. By removing extraneous theoretical content and reducing the level of unnecessary detail, the competencies become more closely tailored to the task’s actual learning outcomes. Likewise, the reformulated wording provides clearer guidance without over-constraining how students achieve the task, thereby maintaining flexibility in implementation. Overall, these refinements ensure that Task 02’s competency definitions are **appropriately scoped, relevant, and clearly articulated**, which will help both instructors and students focus on the intended learning goals.
 

@@ -102,6 +102,7 @@ Students must be able to:
 ### C.1 Competency Title
 
     Test Automata Using Simulators
+    
 
 ### C.2 Competency Description
 

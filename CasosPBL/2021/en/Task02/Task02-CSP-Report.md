@@ -108,7 +108,7 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 ### Competency Reuse 
 
 To fulfill the objective to **"Use simulation tools for finite automata"**, we reuse the competency 
-  > **Test Computational Automata Using Simulators** 
+  > **Testing Automata Using Simulators** 
 
 previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
 
@@ -116,7 +116,7 @@ This competency remains fully relevant in the current task, where students are e
 
 Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also reuse the previously defined competency from *Task01*:
 
-> **Write a Technical Report**
+> **Collaborative Technical Report Writing**
 
 This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
 
@@ -197,7 +197,7 @@ To ensure a structured and progressive learning approach, each knowledge compone
 - **Requirements Engineering - Apply**
 - Apply level is used to evaluate whether students can interpret and structure system requirements based on the problem’s needs.
 
-- **Analytical and Critical Thinking (FPK)**
+- **Analytical and Critical Thinking (FPK) - Apply**
 - Apply level is selected to assess students’ ability to break down the problem into manageable components and develop effective strategies for solving it.
 
 **A.5.3 Verb Annotation**  
@@ -239,7 +239,7 @@ To provide clarity on competency expectations, the following verb annotations de
 | **Develop Problem-Solving Solutions Using Turing Machines** | **Collaborative, Responsible, Proactive, Creative, Inventive** | Requirements Analysis | **Apply (interpret, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)** |
 
----
+
 
 ### 4.2 Competency B Specification
 
