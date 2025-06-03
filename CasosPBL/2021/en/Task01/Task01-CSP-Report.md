@@ -580,7 +580,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 |---------------|-----------------|--------------|-----------|
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | **Written Communication (FPK)** | **Apply (Write, Structure, Revise, Refine)** |
 
----
+
 
 # Summary Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
 
