@@ -185,7 +185,7 @@ Representative action verbs associated with this competency include:
 
 #### B.1 Competency Title
 
-  Develop rule-based notation
+  Interpret rule-based notation
 
 #### B.2 Textual Description
 
