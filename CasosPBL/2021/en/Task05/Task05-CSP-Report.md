@@ -95,3 +95,5 @@ To support these learning objectives, the competencies defined for Task 05 are *
 * **Scalability**: Demonstrates how competencies can be applied across different but related domains, enhancing their generalizability and relevance.
 * **Traceability**: Supports a competency-based education model by making learning achievements persistent and verifiable across tasks.
 
+
+
