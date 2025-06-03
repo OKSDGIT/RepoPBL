@@ -1,4 +1,4 @@
-# Competency Specification Review Findings and Adjustments Report: Task1 - The Vending Machine for Sodas and Snacks
+# Competency Specification Review Findings and Adjustments Report: Task01 - The Vending Machine for Sodas and Snacks
 
 ## **Introduction**  
 
@@ -58,7 +58,7 @@ To further enhance clarity, a **structured vocabulary mapping** will be establis
 
 
 
-# **Competency Specification Adjustments**
+## **Competency Specification Adjustments**
 
 ## **Competency A Specification**
 
@@ -154,22 +154,26 @@ Students must demonstrate the ability to:
 
 
 
- ## Competency Adjustments Table*
+ ## Competency Adjustments Table
 
 | **ID**  | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |---------|--------|-----------|-----------|-------------------|
 | (A) | **Develop problem solutions using Automata.** | Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Construct, Develop, Design)** |
 |         |                                   |                                 | Requirements Engineering | **Apply (Interpret, Implement, Organize)** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
+|  |  |                                        |       |       
 | (B) | **Justify the use of Deterministic Finite Automata (DFAs).** | Investigative, Collaborative, Responsible, Proactive | Deterministic Finite Automata (DFAs) | **Understand (Compare)** |
 |         |                                   |                                 | Requirements Engineering | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
+|  |  |                                        |       |       
 | (C) | **Test automata using simulators.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
 |         |                                   |                                 | Problem Solving and Troubleshooting (FPK) | **Apply** |
 |         |                                   |                                 | Modeling and Simulation | **Apply** |
+|  |  |                                        |       |       
 | (D+E) | **Define Regular Expressions for Finite Automata.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Understand** |
 |         |                                   |                                 | Regular Expressions | **Apply** |
 |         |                                   |                                 | Analytical and Critical Thinking (FPK) | **Apply** |
+|  |  |                                        |       |       
 | (F) | **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
 
 

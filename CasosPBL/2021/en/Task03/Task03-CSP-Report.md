@@ -1,7 +1,4 @@
-# Competency Specification Report: Task3 –  The Farmer Robot
-
-Com base na descrição da tarefa **Task03 – The Farmer Robot**, aqui está a versão ajustada da **Introdução** e da **Seção 1 (Task Description Analysis)**, reformulada para refletir com precisão o novo contexto, mantendo a estrutura acadêmica e o alinhamento com o processo CSP:
-
+# Competency Specification Report: Task03 –  The Farmer Robot
 
 ## Introduction
 
@@ -38,9 +35,6 @@ Through this problem-based scenario, students are expected to integrate **comput
 
 
 
-
-
-
 ## 2. Knowledge Enumeration
 
 To successfully complete the *Farmer Robot* task, students must draw upon a combination of theoretical and professional knowledge domains. These knowledge areas are aligned with the **ACM Computing Classification System (2012)** for core computing knowledge and the **ACM/IEEE CC2020** framework for foundational professional competencies (FPK).
@@ -49,7 +43,7 @@ This interdisciplinary knowledge base supports the development of an effective a
 
 ### Computing Knowledge
 
-* **Finite State Machines (FSMs)**
+* **Finite State Machines (Finite Automata)**
   Fundamental for modeling the robot’s classification logic. FSMs allow students to design and simulate the decision process for herd detection using well-defined states and transitions.
 
 * **Regular Expressions (Regular Languages)**
@@ -80,7 +74,6 @@ This interdisciplinary knowledge base supports the development of an effective a
 ### General Objective
 
 Apply formal methods—specifically **Finite State Machines** and **Regular Expressions**—to design and simulate a decision-making system for herd classification in a robotic agricultural context.
-
 
 
 ### Specific Learning Objectives
@@ -116,15 +109,16 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 
 ### Competency Reuse 
 
-To fulfill **Objective 4 — Use simulation tools for finite automata**, we **reuse the competency "Test Computational Automata Using Simulators"** previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
+To address Objective 6, "Test and simulate FSMs using tools such as JFLAP to validate correctness and effectiveness," we reuse the competency previously defined in Task01 – The Vending Machine for Sodas and Snacks:
 
-> **Testing Automata Using Simulators**
+  > Testing Automata Using Simulators 
+
 
 This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
 
 Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also **reuse the previously defined competency from Task01**:
 
-> **Write a Technical Report**
+> Collaborative Technical Report Writing
 
 This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
 
@@ -143,14 +137,12 @@ By **reusing validated competencies**, we ensure that students build upon previo
 
 ### A.1 Competency Title
 
-**Develop Problem-Solving Solutions Using Finite State Machines**
+  Develop Problem-Solving Solutions Using Finite State Machines
 
 
 ### A.2 Textual Description
 
 Design and implement computational solutions using **Finite State Machines (FSMs)** to address real-world or instructional problems involving system modeling through states and transitions. This competency reflects the student's ability to apply theoretical knowledge of automata in constructing reliable and verifiable models that fulfill defined system requirements.
-
-Originally developed for a task involving livestock group identification, the competency has been generalized to promote **reusability** across different learning contexts. The verb was revised from “apply” to **“develop”** to emphasize creative construction, while maintaining the core knowledge domains required for effective implementation.
 
 Students are expected to demonstrate not only mastery of FSMs, but also the ability to analyze system requirements and apply logical reasoning to model behavior, ensuring that the solution is both theoretically sound and practically relevant.
 
@@ -160,7 +152,7 @@ Students are expected to demonstrate not only mastery of FSMs, but also the abil
 
 The following knowledge areas are critical for this competency:
 
-* **Finite State Machines (FSMs)**
+* **Finite Automata (Finite State Machines)**
   Understand and apply the structure, behavior, and applications of deterministic and non-deterministic automata to model sequential systems.
 
 * **Requirements Analysis**
@@ -199,7 +191,7 @@ This step maps **knowledge areas to the corresponding skills** required to succe
 **A.5.1 Mapping Knowledge to Skills**
 To demonstrate this competency, students must show the ability to:
 
-* **Apply** knowledge of **Finite State Machines** to design models that reflect real-world behaviors through structured state transitions.
+* **Apply** knowledge of **Finite Automata** to design models that reflect real-world behaviors through structured state transitions.
 
 * **Apply** **Requirements Analysis** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
 
@@ -210,17 +202,16 @@ To demonstrate this competency, students must show the ability to:
 **A.5.2 Bloom’s Taxonomy Alignment**
 
 * *Apply* is used for all three knowledge areas to assess students’ ability to transfer theoretical knowledge into practice.
-* *Create* is applied to evaluate the student's ability to design and construct original FSMs that meet specified requirements.
 
 
 
 **A.5.3 Verb Annotation**
 To provide clarity on competency expectations, the following verb annotations define the required actions:
 
-* **Apply** → Finite State Machines → *Use, Implement, Simulate*
+* **Apply** → Finite State Machines → *Use, Implement, Create*
 * **Apply** → Requirements Analysis → *Interpret, Specify, Translate*
 * **Apply** → Analytical and Critical Thinking → *Analyze, Justify, Evaluate*
-* **Create** → Finite State Machines → *Construct, Design, Develop*
+
 
 
 
@@ -228,7 +219,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
-| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply / Create**                        |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                  | **Apply (Use, Implement, Create)**                        |
 |                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**    |
 
@@ -239,111 +230,98 @@ To provide clarity on competency expectations, the following verb annotations de
 
 ### B.1 Competency Title
 
-**Determine Regular Expressions that Represent Automata**
+  Determine Regular Expressions that Represent Automata
+
+### **B.2 Textual Description**
+
+This competency focuses on understanding the relationship between **regular expressions** and **finite automata**, enabling students to interpret automaton structures and express their behavior using equivalent formal representations. It also involves applying **requirements analysis** to identify system needs and translate them into valid components of regular languages.
+
+Learners must demonstrate theoretical comprehension of **regular languages** and their expressive power, as well as the ability to apply systematic analysis to refine or validate the regular expressions corresponding to given automata.
 
 
+### **B.3 Knowledge Specification**
 
-### B.2 Textual Description
-
-Develop and refine **regular expressions** that represent the behavior of finite automata. This competency involves translating automata structures—either fully or partially—into equivalent formal language representations, demonstrating both theoretical understanding and practical modeling skills.
-
-Originally formulated to guide students in documenting a specific automaton segment, the competency was generalized to ensure **reusability** across different learning tasks. It now encompasses the ability to define regular expressions for any automaton, reinforcing its application in varied contexts involving formal language specification.
-
-
-
-### B.3 Knowledge Specification
-
-The following knowledge areas are critical for this competency:
+The following knowledge areas are essential for this competency:
 
 * **Regular Languages**
-  Understand the syntax, semantics, and expressive power of regular expressions and their equivalence to finite automata.
+  * Understand the syntax, semantics, and expressive limits of regular expressions and their formal equivalence to finite automata.
 
-* **Finite State Machines (FSMs)**
-  Provide the structural basis for identifying language patterns that regular expressions must represent.
+* **Requirements Analysis**
+  * Apply methods to identify, interpret, and translate system or task requirements into formal specifications suitable for FSM design.
 
-* **Problem Solving and Troubleshooting (FPK)**
-  Support the analysis of automaton behavior and the iterative refinement of regular expressions to ensure correctness.
+* **Analytical and Critical Thinking (FPK)**
+  * Apply analytical thinking to test and refine regular expressions for correctness, minimality, and functional adequacy.
 
 
+### **B.4 Disposition Specification**
 
-### B.4 Disposition Specification
-
-Given that the task involves formal modeling, precision, and teamwork, the following behavioral dispositions are essential:
+The following behavioral dispositions support the effective development of this competency:
 
 * **Inventive**
-  Explore different strategies to minimize or optimize regular expressions while preserving equivalence with automata.
+  * Explore alternative regular expressions that preserve equivalence while optimizing for clarity or minimality.
 
 * **Collaborative**
-  Work with peers to compare interpretations, validate equivalence, and improve expression quality.
+  * Cooperatively analyze and validate the correspondence between automata and regular expressions.
 
 * **Responsible**
-  Ensure theoretical correctness and clarity in the representation of automaton behavior.
+  * Ensure that constructed expressions are formally correct and aligned with task requirements.
 
 * **Proactive**
-  Take initiative to test, revise, and document the regular expressions developed.
+  * Take initiative in testing, iterating, and improving the regular expressions produced.
 
 * **Creative**
-  Construct clear and elegant expressions that balance simplicity and descriptive power.
+  * Demonstrate creativity in modeling approaches that balance simplicity, precision, and expressiveness.
+
+
+### **B.5 Knowledge-Skill Pairing**
+
+#### **B.5.1 Mapping Knowledge to Skills**
+
+To demonstrate this competency, students must:
+
+* **Understand** knowledge of **Regular Languages** to interpret automata and express equivalent behavior through regular expressions.
+* **Apply** knowledge of **Requirements Analysis** to decompose task descriptions and derive relevant regular language representations.
+* **Apply** knowledge of **Analytical and Critical Thinking (FPK)** to  iteratively refine regular expressions.
+
+#### **B.5.2 Bloom’s Taxonomy Alignment**
+
+* *Understand* → Regular Languages
+* *Apply* → Requirements Analysis
+* *Apply* → Analytical and Critical Thinking (FPK)
+
+#### **B.5.3 Verb Annotation**
+
+* **Understand** → Regular Languages → *Interpret, Relate, Represent*
+* **Apply** → Requirements Analysis → *Decompose, Translate, Compare*
+* **Apply** → Analytical and Critical Thinking (FPK) → *Analyze, Test, Refine*
 
 
 
-### B.5 Knowledge-Skill Pairing
-
-This step maps **knowledge areas to the corresponding skills** required to successfully demonstrate competency in this task.
-
-**B.5.1 Mapping Knowledge to Skills**
-To demonstrate this competency, students must show the ability to:
-
-* **Apply** knowledge of **Regular Languages** to construct expressions that accurately capture the behavior of finite automata.
-
-* **Apply** knowledge of **Finite State Machines** to decompose their behavior into regular language patterns.
-
-* **Apply** **Problem Solving and Troubleshooting (FPK)** to analyze, test, and refine regular expressions until they align with the intended automaton structure.
-
-
-
-**B.5.2 Bloom’s Taxonomy Alignment**
-
-* *Apply* level is used across all knowledge areas to assess the student's ability to use formal representations in practice, aligning automaton structures with regular expressions and iteratively validating their equivalence.
-
-
-
-**B.5.3 Verb Annotation**
-To provide clarity on competency expectations, the following verb annotations define the required actions:
-
-* **Apply** → Regular Languages → *Construct, Express, Represent*
-* **Apply** → Finite State Machines → *Decompose, Translate, Compare*
-* **Apply** → Problem Solving and Troubleshooting → *Analyze, Test, Refine*
-
-
-
-### B.6 Summary Table for Competency C
+### B.6 Summary Table for Competency B
 
 | **Competency**                                            | **Dispositions**                                           | **Knowledge**                             | **Skill**                                 |
 | --------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| **Determine Regular Expressions that Represent Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Regular Languages                         | **Apply (Construct, Express, Represent)** |
-|                                                           |                                                            | Finite State Machines                     | **Apply (Decompose, Translate, Compare)** |
-|                                                           |                                                            | Problem Solving and Troubleshooting (FPK) | **Apply (Analyze, Test, Refine)**         |
+| **Determine Regular Expressions that Represent Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Regular Languages                         | **Understand (Interpret, Relate, Represent)** |
+|                                                           |                                                            | Requirement Analisys                     | **Apply (Decompose, Translate, Compare)** |
+|                                                           |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Test, Refine)**         |
 
 
----
+
+
+
 
 ### 4.3 Competency C Specification
 
 ### C.1 Competency Title
 
-**Infer and Identify Patterns in Finite State Machines**
-
+  Infer and Identify Patterns in Finite State Machines
 
 
 ### C.2 Textual Description
 
 Analyze the structure and behavior of **Finite State Machines (FSMs)** to draw inferences and identify emerging patterns that influence model complexity and performance. This competency involves recognizing relationships between input classifications, state transitions, and the number of states required for effective modeling.
 
-Originally derived from a context involving herd identification and state minimization, the competency was generalized to ensure **reusability** across learning tasks where pattern recognition and structural analysis are essential to problem solving.
-
 Students are expected to demonstrate the ability to **analyze FSMs**, detect design regularities or redundancies, and apply **Analytical and Critical Thinking (FPK)** to refine and interpret system behavior.
-
 
 
 ### C.3 Knowledge Specification
@@ -351,10 +329,10 @@ Students are expected to demonstrate the ability to **analyze FSMs**, detect des
 The following knowledge areas are critical for this competency:
 
 * **Finite State Machines**
-  Understand structural properties of FSMs, including states, transitions, and minimization principles, and how these influence computational modeling.
+  * Understand structural properties of FSMs, including states, transitions, and minimization principles, and how these influence computational modeling.
 
 * **Analytical and Critical Thinking (FPK)**
-  Apply logical reasoning to identify hidden structures, draw meaningful conclusions, and justify design decisions based on pattern recognition and model analysis.
+  * Apply logical reasoning to identify hidden structures, draw meaningful conclusions, and justify design decisions based on pattern recognition and model analysis.
 
 
 
@@ -363,40 +341,40 @@ The following knowledge areas are critical for this competency:
 Given the abstract nature of the task and the cognitive demands of pattern recognition and inference, the following behavioral dispositions are essential:
 
 * **Inventive**
-  Approach FSM analysis with originality, exploring non-obvious or alternative interpretations of structural behavior.
+  * Approach FSM analysis with originality, exploring non-obvious or alternative interpretations of structural behavior.
 
 * **Creative**
-  Devise innovative methods to visualize, interpret, or generalize state-based patterns.
+  * Devise innovative methods to visualize, interpret, or generalize state-based patterns.
 
 * **Meticulous**
-  Pay careful attention to detail when identifying similarities, redundancies, or inefficiencies in state design and transitions.
+  * Pay careful attention to detail when identifying similarities, redundancies, or inefficiencies in state design and transitions.
+
+
+### **C.5 Knowledge-Skill Pairing**
+
+This section maps the **knowledge areas** to the corresponding **skills** required to successfully demonstrate this competency.
+
+#### **C.5.1 Mapping Knowledge to Skills**
+
+To demonstrate this competency, students must:
+
+* **Analyze** knowledge of **Finite Automata** to examine state structures, recognize patterns, and determine how input categories influence the number of states and transitions required.
+* **Apply** knowledge of **Analytical and Critical Thinking (FPK)** to make informed inferences, detect behavioral regularities, and refine FSM designs based on logical reasoning and task-specific constraints.
 
 
 
-### C.5 Knowledge-Skill Pairing
+#### **C.5.2 Bloom’s Taxonomy Alignment**
 
-This step maps **knowledge areas to the corresponding skills** required to successfully demonstrate competency in this task.
-
-**C.5.1 Mapping Knowledge to Skills**
-To demonstrate this competency, students must show the ability to:
-
-* **Apply** knowledge of **Finite State Machines** to analyze state structures and identify how input categories relate to the number of states and transitions required.
-
-* **Apply** **Analytical and Critical Thinking (FPK)** to make accurate inferences, recognize behavioral patterns, and refine FSM designs accordingly.
+The **Analyze** level of Bloom’s Taxonomy is used to assess learners' ability to examine components of FSMs, explain their functional behavior, and justify structural or behavioral improvements based on evidence and reasoning.
 
 
 
-**C.5.2 Bloom’s Taxonomy Alignment**
+#### **C.5.3 Verb Annotation**
 
-* *Apply* level is used to evaluate the ability to recognize and explain patterns in FSMs and justify design improvements based on evidence and reasoning.
+To clarify expectations, the following verbs are aligned with the knowledge areas at the Analyze level:
 
-
-
-**C.5.3 Verb Annotation**
-To provide clarity on competency expectations, the following verb annotations define the required actions:
-
-* **Apply** → Finite State Machines → *Analyze, Evaluate, Compare*
-* **Apply** → Analytical and Critical Thinking → *Infer, Justify, Interpret*
+* **Analyze** → Finite Automata → *Analyze, Evaluate, Compare*
+* **Apply** → Analytical and Critical Thinking (FPK) → *Infer, Justify, Interpret*
 
 
 
@@ -404,19 +382,18 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                                           | **Dispositions**                | **Knowledge**                          | **Skill**                              |
 | -------------------------------------------------------- | ------------------------------- | -------------------------------------- | -------------------------------------- |
-| **Infer and Identify Patterns in Finite State Machines** | Inventive, Creative, Meticulous | Finite State Machines                  | **Apply (Analyze, Evaluate, Compare)** |
+| **Infer and Identify Patterns in Finite State Machines** | Inventive, Creative, Meticulous | Finite Automata                  | **Analyze (Evaluate, Compare)** |
 |                                                          |                                 | Analytical and Critical Thinking (FPK) | **Apply (Infer, Justify, Interpret)**  |
 
 
-Abaixo está a **Competência D** elaborada em **inglês e Markdown**, no formato do CSP-Report, com foco na clareza conceitual, reusabilidade e estrutura pedagógica alinhada ao objetivo 3.
 
----
+
 
 ### 4.4 Competency D Specification
 
 ### D.1 Competency Title
 
-**Differentiate the Classifications of Formal Grammars**
+  Differentiate the Classifications of Formal Grammars
 
 
 
@@ -424,7 +401,7 @@ Abaixo está a **Competência D** elaborada em **inglês e Markdown**, no format
 
 Understand and differentiate the various **classes of formal grammars**—as defined by the Chomsky hierarchy—based on their generative power and relation to automata. This competency involves identifying characteristics that distinguish regular, context-free, context-sensitive, and unrestricted grammars, and recognizing their applicability to computational problem-solving.
 
-In the context of the *Robotic Farmer* task, this competency reinforces the theoretical foundation required to select and justify the appropriate computational model (e.g., Finite Automaton) based on system constraints and requirements. Although originally tied to a specific task, the competency has been generalized to promote **reusability** in any learning scenario involving formal languages and automata theory.
+In the context of the *Robotic Farmer* task, this competency reinforces the theoretical foundation required to select and justify the appropriate computational model (e.g., Finite Automaton) based on system constraints and requirements. 
 
 Students are expected to demonstrate a **conceptual understanding** of grammar classification and apply this understanding when specifying system behaviors, translating requirements into executable logic through **Requirements Engineering** and **Analytical and Critical Thinking (FPK).**
 
@@ -434,7 +411,7 @@ Students are expected to demonstrate a **conceptual understanding** of grammar c
 
 The following knowledge areas are critical for this competency:
 
-* **Formal Grammars and Language Classification**
+* **Regular Languages**
   Understand the hierarchical organization of grammars and their relationship to classes of automata and language recognition.
 
 * **Requirements Engineering**
@@ -470,7 +447,7 @@ This step maps **knowledge areas to the corresponding skills** required to succe
 **D.5.1 Mapping Knowledge to Skills**
 To demonstrate this competency, students must show the ability to:
 
-* **Understand** the classes of **Formal Grammars** and relate them to their corresponding automata and computational properties.
+* **Understand** the classes of **Regular Languages** and relate them to their corresponding automata and computational properties.
 
 * **Apply** **Requirements Engineering** to ensure that chosen formal models meet stakeholder needs and system constraints.
 
@@ -481,6 +458,7 @@ To demonstrate this competency, students must show the ability to:
 **D.5.2 Bloom’s Taxonomy Alignment**
 
 * *Understand* level is used to assess the student’s conceptual ability to classify grammars and associate them with the correct type of automaton.
+
 * *Apply* level is used to evaluate the student’s capacity to translate system requirements and theoretical knowledge into appropriate model selection and implementation.
 
 
@@ -488,9 +466,9 @@ To demonstrate this competency, students must show the ability to:
 **D.5.3 Verb Annotation**
 To provide clarity on competency expectations, the following verb annotations define the required actions:
 
-* **Understand** → Formal Grammars → *Differentiate, Compare, Classify*
-* **Apply** → Requirements Engineering → *Specify, Translate, Align*
-* **Apply** → Analytical and Critical Thinking → *Interpret, Justify, Evaluate*
+* **Understand** → Regular Languages → *Differentiate, Compare, Classify*
+* **Apply** → Requirements Engineering → *Align*
+* **Apply** → Analytical and Critical Thinking 
 
 
 
@@ -498,11 +476,31 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                                           | **Dispositions**                                     | **Knowledge**                               | **Skill**                                         |
 | -------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
-| **Differentiate the Classifications of Formal Grammars** | Collaborative, Responsible, Proactive, Investigative | Formal Grammars and Language Classification | **Understand (Differentiate, Compare, Classify)** |
-|                                                          |                                                      | Requirements Engineering                    | **Apply (Specify, Translate, Align)**             |
-|                                                          |                                                      | Analytical and Critical Thinking (FPK)      | **Apply (Interpret, Justify, Evaluate)**          |
+| **Differentiate the Classifications of Formal Grammars** | Collaborative, Responsible, Proactive, Investigative | Regular Languages | **Understand (Differentiate, Compare, Classify)** |
+|                                                          |                                                      | Requirements Engineering                    | **Apply (Align)**             |
+|                                                          |                                                      | Analytical and Critical Thinking (FPK)      | **Apply**          |
 
 
 
+
+
+## Summary Table of All Competencies
+
+| **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
+| ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
+| **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                        | **Apply (Use, Implement, Create)**        |
+|                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
+|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**    |
+|                          |                                                    |
+| **Determine Regular Expressions that Represent Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Regular Languages                         | **Understand (Interpret, Relate, Represent)** |
+|                                                           |                                                            | Requirements Analysis                     | **Apply (Decompose, Translate, Compare)** |
+|                                                           |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Test, Refine)**         |
+|                          |                                                    |
+| **Infer and Identify Patterns in Finite State Machines** | Inventive, Creative, Meticulous | Finite Automata                        | **Analyze (Evaluate, Compare)**        |
+|                                                          |                                 | Analytical and Critical Thinking (FPK) | **Apply (Infer, Justify, Interpret)**  |
+|                          |                                                    |
+| **Differentiate the Classifications of Formal Grammars** | Collaborative, Responsible, Proactive, Investigative | Regular Languages         | **Understand (Differentiate, Compare, Classify)** |
+|                                                          |                                                      | Requirements Engineering                    | **Apply (Align)**                                 |
+|                                                          |                                                      | Analytical and Critical Thinking (FPK)      | **Apply**                                         |
 
 

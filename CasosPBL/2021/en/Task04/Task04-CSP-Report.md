@@ -1,3 +1,4 @@
+# Competency Specification Report: Task04 - The Return of the Farmer Robot
 
 ## Introduction
 
@@ -33,7 +34,6 @@ The task requires a combination of computing and professional knowledge domains.
 
 ### Computing Knowledge
 
-Aligned with ACM CCS (2012):
 
 * **Finite Automata – Pushdown Automata (PDA)**
   Used to model the robot’s navigation with memory, enabling stack-based return logic.
@@ -47,7 +47,7 @@ Aligned with ACM CCS (2012):
 * **Modeling and Simulation**
   Applied through tools like JFLAP to test the correctness and feasibility of the proposed automaton.
 
-### Professional Knowledge (CC2020 FPK)
+### Professional Knowledge 
 
 * **Analytical and Critical Thinking**
   Enables decomposition of the navigation problem and evaluation of alternatives for the return path.
@@ -75,9 +75,6 @@ Apply formal computational models—specifically memory-based automata and forma
 5. **Simulate and test** the return logic using JFLAP, ensuring reliability and accuracy.
 
 
-Com base nas anotações e no formato solicitado, segue a seção **4. Competency Specification** com as competências A a E para a tarefa *"O Retorno do Robô Fazendeiro"*:
-
-
 
 ## 4. Competency Specification
 
@@ -85,13 +82,13 @@ Com base nas anotações e no formato solicitado, segue a seção **4. Competenc
 
 To fulfill **Objective 4 — Use simulation tools for finite automata**, we **reuse the competency "Test Computational Automata Using Simulators"** previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
 
-> **Testing Automata Using Simulators**
+> Testing Automata Using Simulators
 
 This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
 
 Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also **reuse the previously defined competency from Task01**:
 
-> **Write a Technical Report**
+> Collaborative Technical Report Writing
 
 This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
 
@@ -104,58 +101,83 @@ The reuse of these competencies supports the following principles:
 
 By **reusing validated competencies**, we ensure that students build upon previously acquired abilities, promote cumulative learning, and facilitate assessment practices based on observable and transferable performance indicators.
 
+
 ### 4.1 Competency A Specification
 
 #### A.1 Competency Title
 
-**Develop problem-solving solutions using Pushdown Automata**
+  Develop problem-solving solutions using Pushdown Automata
 
 #### A.2 Textual Description
 
 Design and implement a Pushdown Automaton (PDA) capable of representing a navigation strategy for a robotic system, focusing on the return path after food delivery. The solution must simulate how memory structures enable backtracking and route inference.
 
-#### A.3 Knowledge Specification
+### **A.3 Knowledge Specification**
 
-The following knowledge areas are critical for this competency:
+The following knowledge areas are essential for mastering this competency:
 
-* **Pushdown Automata – Finite Automata**
+* **Pushdown Automata and Finite Automata**
+  *Understand the principles of state-based computation with memory, focusing on stack operations, transition functions, and language recognition. Apply this knowledge to simulate navigation behavior that requires remembering and reversing sequences.*
+
 * **Requirements Engineering**
-* **Analytical and Critical Thinking (FPK)**
+  *Identify, structure, and formalize behavioral requirements derived from task analysis. Translate real-world navigation goals into functional and non-functional requirements relevant to PDA design.*
 
-#### A.4 Disposition Specification
+* **Analytical and Critical Thinking**
+  *Use systematic reasoning and problem decomposition to model navigation logic. Evaluate design alternatives and justify modeling choices based on behavioral constraints and system goals.*
 
-The task analysis highlights essential behavioral dispositions required to structure the solution effectively and collaboratively. These include:
 
-* Inventive
-* Collaborative
-* Responsible
-* Proactive
-* Creative
+### **A.4 Disposition Specification**
 
-#### A.5 Knowledge-Skill Pairing
+Effective engagement with this task requires the following behavioral dispositions:
 
-**A.5.1 Mapping Knowledge to Skills**
-To demonstrate this competency, students must:
+* **Inventive** – Propose novel approaches to modeling navigation logic using PDAs.
+* **Collaborative** – Work effectively in teams to refine shared solutions.
+* **Responsible** – Demonstrate accountability in modeling decisions and validation.
+* **Proactive** – Anticipate challenges in model behavior and adjust accordingly.
+* **Creative** – Construct innovative solutions that go beyond straightforward implementations.
 
-* Apply their understanding of **Pushdown Automata** to simulate navigation decisions.
-* Understand and structure **requirements** aligned with the system’s behavior.
-* Apply **analytical and critical thinking** to translate requirements into a functional model.
 
-**A.5.2 Bloom’s Taxonomy Alignment**
 
-* **Apply** is used for modeling and solving with Pushdown Automata and analytical reasoning.
-* **Understand** is employed for interpreting and organizing system requirements.
+### **A.5 Knowledge–Skill Pairing**
 
-**A.5.3 Verb Annotation**
-Develop, Apply, Interpret, Solve, Construct
+#### **A.5.1 Mapping Knowledge to Skills**
+
+To demonstrate this competency, students must be able to:
+
+* **Apply** knowledge of **Pushdown Automata** to model navigation strategies that require memory and backtracking, simulating return paths using stack-based logic.
+
+* **Apply** knowledge of **Requirements Engineering** to extract, structure, and prioritize behavioral specifications aligned with the robot’s goals.
+
+* **Employ** **Analytical and Critical Thinking** to deconstruct complex task requirements, evaluate the adequacy of models, and refine solutions through iterative reasoning.
+
+
+
+#### **A.5.2 Bloom’s Taxonomy Alignment**
+
+The primary cognitive processes involved in this competency are aligned with the following Bloom’s levels:
+
+* **Apply** – For using PDA concepts in system modeling and requirements-driven design.
+* **Analyze** – For breaking down requirements and validating stack-based behaviors.
+
+
+
+#### **A.5.3 Verb Annotation**
+
+Representative action verbs associated with this competency include:
+
+* *Develop*, *Apply*, *Model*, *Simulate*, *Interpret*, *Construct*, *Refine*, *Justify*
+
+
+
 
 #### A.6 Summary Table for Competency A
 
 | **Competency**                                            | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | --------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
-| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Apply (Solve, Develop)** |
-|                                                           |                                                                | Requirements Engineering               | **Understand**             |
+| Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Apply (Develop, Model)** |
+|                                                           |                                                                | Requirements Engineering               | **Apply**             |
 |                                                           |                                                                | Analytical and Critical Thinking (FPK) | **Apply**                  |
+
 
 
 
@@ -163,7 +185,7 @@ Develop, Apply, Interpret, Solve, Construct
 
 #### B.1 Competency Title
 
-**Interpret rule-based notation**
+  Develop rule-based notation
 
 #### B.2 Textual Description
 
@@ -171,33 +193,52 @@ Understand and interpret formal notations based on production rules, such as con
 
 #### B.3 Knowledge Specification
 
-* **Pushdown Automata – Finite Automata**
-* **Regular Languages – Context-Free Grammars**
-* **Analytical and Critical Thinking (FPK)**
+The following knowledge areas are essential for mastering this competency:
+
+* Context-Free Grammars and Regular Languages
+  * Understand how these formal languages define structured symbol sequences and how to construct grammars for recognizing or generating specific behavior patterns.
+
+* Pushdown Automata and Finite Automata
+  * Understand the correspondence between rule-based languages and automata capable of recognizing them, particularly the role of memory in parsing nested structures.
+
+* Analytical and Critical Thinking (FPK)
+  * Apply reasoning skills to interpret rule sets, validate symbolic behavior representations, and refine grammars for clarity, completeness, and correctness.
 
 #### B.4 Disposition Specification
 
-As this task involves rule interpretation and documentation modeling, the following dispositions are essential:
+The development of formal, rule-based models requires the following behavioral dispositions:
 
-* Inventive
-* Collaborative
-* Responsible
-* Proactive
-* Creative
+* Inventive – Propose creative grammar constructs to capture complex behaviors.
+
+* Collaborative – Co-develop and review rule-based models with peers.
+
+* Responsible – Ensure accuracy and consistency in symbolic representations.
+
+* Proactive – Anticipate rule interactions and model ambiguities.
+
+* Creative – Explore multiple grammar structures to represent the same behavior elegantly.
 
 #### B.5 Knowledge-Skill Pairing
 
 **B.5.1 Mapping Knowledge to Skills**
-Students must:
+To demonstrate this competency, students must be able to:
 
-* Understand **Pushdown Automata** and their correspondence with formal notations.
-* Apply **grammar rules** to document and simulate robot path decisions.
-* Apply **analytical thinking** to connect system states with symbolic rules.
+* Understand knowledge of Context-Free Grammars and Regular Languages to define symbolic representations of system behavior through production rules.
+
+* Apply knowledge of Automata (PDA and FA) to simulate and validate rule-based control logic in accordance with language constraints.
+
+* Employ Analytical and Critical Thinking to evaluate rule sets, identify ambiguities or redundancies, and improve grammar structures for better alignment with system requirements.
+
 
 **B.5.2 Bloom’s Taxonomy Alignment**
 
-* **Understand** for recognizing structure in rule-based models.
-* **Apply** for building behavior logic using context-free languages.
+This competency engages learners at the following cognitive levels:
+
+* **Understand** – To recognize, interpret, and describe the structure and purpose of rule-based models.
+
+* **Apply** – To construct grammars and use symbolic rules to represent and control system behavior.
+
+
 
 **B.5.3 Verb Annotation**
 Interpret, Apply, Recognize, Analyze
@@ -206,16 +247,19 @@ Interpret, Apply, Recognize, Analyze
 
 | **Competency**                | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | ----------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
-| Interpret rule-based notation | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Understand**             |
+| Interpret rule-based notation | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Understand**             |
 |                               |                                                                | Regular Languages                      | **Apply (Utilize, Solve)** |
-|                               |                                                                | Analytical and Critical Thinking (FPK) | **Apply**                  |
+|                               |                                                                | Analytical and Critical Thinking  | **Apply**                  |
+
+
+
 
 
 ### 4.3 Competency C Specification
 
 #### C.1 Competency Title
 
-**Differentiate classifications of formal grammars**
+  Differentiate classifications of formal grammars
 
 #### C.2 Textual Description
 
@@ -223,38 +267,52 @@ Understand and distinguish among formal grammar types (e.g., regular, context-fr
 
 #### C.3 Knowledge Specification
 
-* **Regular Languages – Formal Grammars and Language Classification**
-* **Analytical and Critical Thinking (FPK)**
+The following knowledge areas are essential for this competency:
+
+* **Formal Grammar Classification** (Regular and Context-Free Languages)
+  * Understand the Chomsky hierarchy, including grammar types, production rules, and the automata capable of recognizing each class of language.
+
+* **Analytical and Critical Thinking**
+  * Apply logical reasoning to differentiate grammar classes, analyze their modeling capabilities, and match them to appropriate system behaviors or constraints.
 
 #### C.4 Disposition Specification
 
-This classification task requires:
+Effectively performing this classification task requires the following dispositions:
 
-* Inventive
-* Collaborative
-* Responsible
-* Proactive
+* Inventive – Explore alternative representations for grammar-driven systems.
+
+* Collaborative – Engage in peer discussion to refine understanding of grammar distinctions.
+
+* Responsible – Maintain conceptual rigor and consistency when comparing formal models.
+
+* Proactive – Seek deeper insights into language hierarchies and their practical implications.
 
 #### C.5 Knowledge-Skill Pairing
 
 **C.5.1 Mapping Knowledge to Skills**
-Students must:
 
-* Understand grammar types and their expressive power.
-* Apply analytical reasoning to distinguish and relate them to robot behavior modeling.
+To demonstrate this competency, students must be able to:
+
+* Understand knowledge of Formal Grammar Classifications to recognize structural and functional distinctions among grammar types.
+
+* Apply Analytical and Critical Thinking to compare grammar properties, relate them to system modeling tasks, and determine the most suitable language class for a given behavior.
+
 
 **C.5.2 Bloom’s Taxonomy Alignment**
 
-* **Understand** for recognizing distinctions between grammar types.
-* **Apply** for linking grammars to system specifications.
+This competency primarily engages learners at the following cognitive levels:
+
+* Understand – For identifying, describing, and classifying types of grammars.
+
+* Apply – For associating grammar types with practical examples in behavior modeling.
 
 **C.5.3 Verb Annotation**
-Differentiate, Classify, Compare, Contrast
+Differentiate, Classify, Compare, Contrast, Identify, Justify
 
 #### C.6 Summary Table for Competency D
 
 | **Competency**                                   | **Dispositions**                                     | **Knowledge**                          | **Skill**                          |
 | ------------------------------------------------ | ---------------------------------------------------- | -------------------------------------- | ---------------------------------- |
-| Differentiate classifications of formal grammars | Inventive, Collaborative, Responsible, Proactive | Formal Grammars                        | **Understand (Compare, Contrast)** |
-|                                                  |                                                      | Analytical and Critical Thinking (FPK) | **Apply**                          |
+| Differentiate classifications of formal grammars | Inventive, Collaborative, Responsible, Proactive | Regular Languages                        | **Understand (Differentiate, Compare, Contrast)** |
+|                                                  |                                                      | Analytical and Critical Thinking | **Apply**                          |
 

@@ -87,6 +87,7 @@ To achieve the general objective, students are expected to:
 2. **Translate and align** these requirements with the computational capabilities and limitations of Turing Machines, ensuring a faithful and executable system design.
 3. **Evaluate** the adequacy of standard Turing Machines and determine when the use of **machine variants** (e.g., multi-tape, non-deterministic) is necessary to enhance expressiveness or performance.
 4. **Apply** the **Church-Turing Thesis** to justify the feasibility of the proposed system, connecting formal computation models with the intuitive concept of algorithmic problem solving.
+5.  Provide **Turing Machine** simulations in JFLAP format that demonstrate a functional solution to the problem.
 
 ### Importance of These Objectives
 
@@ -107,7 +108,7 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 
 ### Competency Reuse 
 
-To fulfill the objective to **"Use simulation tools for finite automata"**, we reuse the competency 
+To fulfill the objective to"provide **Turing Machine** simulations in JFLAP format that demonstrate a functional solution to the problem", we reuse the competency 
   > **Testing Automata Using Simulators** 
 
 previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
@@ -315,7 +316,7 @@ To demonstrate this competency, students must show the ability to:
 To provide clarity on competency expectations, the following verb annotations define the required actions:
 
 * **Apply** → Analytical and Critical Thinking → *Evaluate, Decide, Justify*
-* **Understand** → Turing Machine Variants → *Differentiate, Recognize, Explain*
+* **Understand** → Turing Machine  → *Differentiate, Recognize, Explain*
 * **Understand** → Church-Turing Thesis → *Interpret, Justify, Reflect*
 
 
@@ -324,19 +325,18 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                       | **Dispositions**                                     | **Knowledge**                          | **Skill**                                          |
 | ------------------------------------ | ---------------------------------------------------- | -------------------------------------- | -------------------------------------------------- |
-| **Identify Turing Machine Variants** | Investigative, Collaborative, Responsible, Proactive | Turing Machine Variants                | **Understand (Differentiate, Recognize, Explain)** |
+| **Identify Turing Machine Variants** | Investigative, Collaborative, Responsible, Proactive | Turing Machines                | **Understand (Differentiate, Recognize, Explain)** |
 |                                      |                                                      | Church-Turing Thesis                   | **Understand (Interpret, Justify)**                |
 |                                      |                                                      | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Justify)**              |
 
 
----
+
 
 ### 4.3 Competency C Specification
 
 ### C.1 Competency Title
 
 **Make Use of Turing Machine Variants**
-
 
 
 ### C.2 Textual Description
@@ -409,7 +409,7 @@ To demonstrate this competency, students must show the ability to:
 To provide clarity on competency expectations, the following verb annotations define the required actions:
 
 * **Apply** → Analytical and Critical Thinking → *Evaluate, Decide, Select*
-* **Apply** → Turing Machine Variants → *Use, Adapt, Implement*
+* **Apply** → Turing Machine  → *Use, Adapt, Implement*
 * **Understand** → Church-Turing Thesis → *Explain, Justify, Interpret*
 
 
@@ -418,9 +418,28 @@ To provide clarity on competency expectations, the following verb annotations de
 
 | **Competency**                          | **Dispositions**                                               | **Knowledge**                          | **Skill**                            |
 | --------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | ------------------------------------ |
-| **Make Use of Turing Machine Variants** | Inventive, Responsible, Proactive, Collaborative, Creative | Turing Machine Variants                | **Apply (Use, Adapt, Implement)**    |
+| **Make Use of Turing Machine Variants** | Inventive, Responsible, Proactive, Collaborative, Creative | Turing Machines                | **Apply (Use, Adapt, Implement)**    |
 |                                         |                                                                | Church-Turing Thesis                   | **Understand (Explain, Justify)**    |
 |                                         |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)** |
+
+
+
+
+## Summary Table of All Competencies – Task: Traffic Control
+
+| **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
+|----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
+| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Apply (Use, Implement, Execute)**                |
+|                                                    |                                                                | Requirements Analysis                  | **Apply (Interpret, Organize)**                    |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
+|                                                    |                                                                |                                        |                                                    |
+| **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |
+|                                                    |                                                                | Church-Turing Thesis                   | **Understand (Interpret, Justify)**                |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Justify)**              |
+|                                                    |                                                                |                                        |                                                    |
+| **Make Use of Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
+|                                                    |                                                                | Church-Turing Thesis                   | **Understand (Explain, Justify)**                  |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)**               |
 
 
 

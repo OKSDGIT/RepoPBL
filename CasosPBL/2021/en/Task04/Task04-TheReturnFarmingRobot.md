@@ -16,7 +16,7 @@ The students also noted that the **Food Delivery Module** from the original Farm
 
 The suggested tool for simulating the robot's navigation module and generating location sequences is **JFLAP**.
 
----
+
 
 ### **2. Process**
 
@@ -24,7 +24,7 @@ During the solution development process, the **Problem-Based Learning (PBL)** me
 
 The process must be documented using the **PBL Whiteboard**, which consists of the columns: QUESTIONS, FACTS, IDEAS/HYPOTHESES, and ACTIONS. In each team meeting, a version of the whiteboard must be created to document the steps taken to build the solution. Additionally, a shared document will be provided for filling out the **Logbook**, which must include meeting minutes, participant names, discussion points, and challenges encountered. This documentation will be an integral part of the group’s evaluation. Each team member's participation/contribution is crucial and will also be individually assessed based on observations by the tutors and feedback from peers.
 
----
+
 
 ### **3. Deliverables**
 
@@ -36,7 +36,7 @@ A team member must submit the following by **8:20 PM on April 28, 2021**, via UF
 
 The report must describe the system's operations and include at least **two examples** of its functionality. If a rule-based notation system was developed, the report must also include examples of location sequence generation. If not developed, the report should detail the main difficulties encountered.
 
----
+
 
 ### **4. Knowledge/Concepts Involved**
 
@@ -44,7 +44,7 @@ The report must describe the system's operations and include at least **two exam
     
     2. Context-Free Grammars  
 
----
+
 
 ### **5. Learning Objectives**
 

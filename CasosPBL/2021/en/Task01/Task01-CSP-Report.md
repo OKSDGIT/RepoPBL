@@ -589,38 +589,18 @@ To clarify expected learning outcomes, the following action verbs define key stu
 | **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Apply (Construct, Develop, Design) |
 |  |  | Requirements Analysis | Apply (Interpret, Implement, Organize) |
 |  |  | Analytical and Critical Thinking (FPK) | Apply |
-
----
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|----------------|------------------|---------------|-----------|
+|  |  |                                        |       |       
 | **Determine when to use a DFA or NFA** | Investigative, Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Understand (Compare) |
 |  |  | Analytical and Critical Thinking (FPK) | Apply (Evaluate, Decide) |
-
----
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|----------------|------------------|---------------|-----------|
+|  |  |                                        |       | 
 | **Testing Automata Using Simulators** | Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Apply (Experiment, Relate, Simulate) |
 |  |  | Problem Solving and Troubleshooting (FPK) | Apply (Diagnose, Debug, Refine) |
-
----
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|----------------|------------------|---------------|-----------|
+|  |  |                                        |       | 
 | **Determining Regular Expressions that Represent Automata** | Investigative, Collaborative, Responsible, Proactive, Creative | Automata over Infinite Objects | Understand |
 |  |  | Regular Languages | Apply |
 |  |  | Problem Solving and Troubleshooting (FPK) | Apply |
-
----
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|----------------|------------------|---------------|-----------|
+|  |  |                                        |       | 
 | **Relating Regular Expressions to Finite Automata** | Collaborative, Responsible, Proactive | Automata over Infinite Objects | Understand |
 |  |  | Regular Languages | Understand |
-
----
-
-| **Competency** | **Dispositions** | **Knowledge** | **Skill** |
-|----------------|------------------|---------------|-----------|
+|  |  |                                        |       | 
 | **Collaborative Technical Report Writing** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | Apply (Write, Structure, Revise, Refine) |
