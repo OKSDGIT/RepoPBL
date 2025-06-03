@@ -582,7 +582,7 @@ To clarify expected learning outcomes, the following action verbs define key stu
 
 
 
-# Summary Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
+## Summary Table of Competencies for Task: *The Vending Machine for Sodas and Snacks*
 
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |----------------|------------------|---------------|-----------|
