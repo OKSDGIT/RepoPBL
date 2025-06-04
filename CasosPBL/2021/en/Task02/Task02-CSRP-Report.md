@@ -8,6 +8,7 @@ This document presents the results of the competency specification review for th
 The review draws on expert judgment and is supported by a structured set of evaluation criteria. Feedback was collected from experienced instructors through guided interviews, enabling a detailed appraisal of the competency elements—knowledge, skills, and dispositions—mapped to the task. This report synthesizes the findings and offers recommendations to improve the coherence, clarity, and instructional value of the competency specifications.
 
 
+
 ## 2. Summary of Recommendations
 
 Based on the reviewer’s feedback, several key changes are recommended to improve the competency specification for Task 02. These recommendations address issues of overly fine detail, unnecessary theoretical content, and inconsistent tone in the current document:

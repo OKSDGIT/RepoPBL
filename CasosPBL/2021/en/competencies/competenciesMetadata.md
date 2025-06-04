@@ -6,7 +6,7 @@ Modeling and Simulation
 Regular Expressions
 Regular Languages
 Turing Machines
-Pushdown Automata
+Pushdown Automata (Push-down Automata)
 Context-Free Grammars
 Context-Free Languages
 

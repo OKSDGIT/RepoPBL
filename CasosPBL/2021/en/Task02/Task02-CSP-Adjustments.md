@@ -12,6 +12,12 @@ The review process, informed by the expert feedback from **P1 and P2**, identifi
 Based on these recommendations, **several refinements were implemented** to improve the specificity, clarity, and reusability of competencies.
 
 
+## **Review Findings and Implemented Adjustments**  
+
+### **Knowledge Granularity Refinement**  
+Following the reviewers' insights, **the knowledge classification system was updated from CC2012 to CS2013**, which offers a more **fine-grained** and **hierarchical** taxonomy. This change ensures **greater specificity**, making competencies **more reusable** and **better aligned with educational tasks**.  
+  - **"Requirements Analysis"** was **redefined** as **"Requirements Engineering"**.  
+  
 
 ## Revised Competency Specification for Task 02
 
