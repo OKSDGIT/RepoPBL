@@ -1,517 +1,438 @@
-# Relatório de Especificação de Competências: Tarefa1 - A Máquina de Vendas para Refrigerantes e Lanches
+# Relatório de Especificação de Competência: Tarefa01 - A Máquina de Venda Automática de Refrigerantes e Lanches
 
 ## Introdução
 
-Baseando-se na estrutura geral definida na metodologia CSP, este relatório apresenta a aplicação do **Processo de Especificação de Competências** à **Tarefa1 – A Máquina de Vendas para Refrigerantes e Lanches**, um cenário de Aprendizagem Baseada em Problemas (PBL) que explora o uso de **autômatos finitos e expressões regulares** no desenvolvimento de soluções de hardware e software para máquinas de vendas.
+Com base na estrutura geral definida na metodologia CSP, este relatório apresenta a aplicação do **Processo de Especificação de Competência** para a **Tarefa 1 – A Máquina de Venda Automática de Refrigerantes e Lanches**, um cenário de Aprendizagem Baseada em Problemas (ABP) que explora o uso de **autômatos finitos e expressões regulares** no desenvolvimento de soluções de software e hardware para máquinas de venda automática.
 
 ## 1. Análise da Descrição da Tarefa
 
-A tarefa PBL intitulada **"A Máquina de Vendas para Refrigerantes e Lanches"** aborda um problema relacionado ao **cálculo de troco em transações de máquinas de vendas**, onde os pagamentos são feitos com moedas e cédulas. A tarefa exige que os estudantes projetem uma solução que permita à máquina de vendas aceitar pagamentos, dispensar troco com precisão e operar de acordo com requisitos funcionais pré-definidos.
+A tarefa ABP intitulada **"A Máquina de Venda Automática de Refrigerantes e Lanches"** apresenta um problema relacionado ao **cálculo de troco em transações de máquinas automáticas**, onde os pagamentos são efetuados usando moedas e cédulas. A tarefa exige que os estudantes projetem uma solução que permita à máquina aceitar pagamentos, fornecer o troco corretamente e operar conforme requisitos funcionais pré-definidos.
 
 Para resolver esse problema com sucesso, os estudantes devem demonstrar sua capacidade de:
-- **Aplicar conceitos de autômatos finitos** para modelar o comportamento da máquina de vendas.
+- **Aplicar conceitos de autômatos finitos** para modelar o comportamento da máquina de venda.
 - **Simular e validar** a funcionalidade do autômato usando ferramentas computacionais.
 - **Documentar o processo de desenvolvimento** de forma estruturada e técnica.
 
-Esta tarefa não apenas avalia o entendimento dos estudantes sobre **teoria de autômatos**, mas também sua capacidade de:
+Esta tarefa não apenas avalia a compreensão dos estudantes sobre **teoria dos autômatos**, mas também sua capacidade de:
 1. **Analisar restrições do mundo real** e traduzi-las em um modelo computacional formal.
 2. **Projetar e implementar** um autômato que atenda aos requisitos funcionais.
 3. **Justificar e explicar** decisões de projeto por meio de um relatório técnico bem estruturado.
 
-Além disso, a tarefa inclui um desafio opcional: implementar um **recurso de troco bônus aleatório**, onde a máquina de vendas ocasionalmente fornece um R$1,00 extra quando o valor exato do produto é pago. Isso adiciona um **elemento estocástico** ao sistema, incentivando os estudantes a considerar **comportamentos probabilísticos** em seu projeto de autômato.
+Além disso, a tarefa introduz um desafio opcional: implementar uma **funcionalidade de troco bônus aleatório**, onde a máquina ocasionalmente fornece um valor extra de R$1,00 quando o preço exato do produto é pago. Isso adiciona um **elemento estocástico** ao sistema, incentivando os estudantes a considerar **comportamentos probabilísticos** no design do autômato.
 
-Por meio desse cenário estruturado de **Aprendizagem Baseada em Problemas (PBL)**, os estudantes engajam-se com um **problema do mundo real**, conectando conhecimento teórico com **modelagem computacional prática**, simulação e documentação técnica.
+Por meio deste cenário estruturado de **Aprendizagem Baseada em Problemas (ABP)**, os estudantes se envolvem com um **problema do mundo real**, conectando conhecimento teórico com **modelagem computacional prática**, simulação e documentação técnica.
 
-## 2. Enumeração de Conhecimento
+## 2. Enumeração do Conhecimento
 
-Para enumerar sistematicamente o conhecimento computacional necessário para esta tarefa, utilizou-se o **Sistema de Classificação da Computação da ACM (2012)** como vocabulário controlado. Esse sistema é amplamente reconhecido e adotado globalmente, garantindo padronização e consistência na categorização do conhecimento computacional.
+Para enumerar sistematicamente o conhecimento em computação necessário para esta tarefa, foi utilizado o **Sistema de Classificação em Computação da ACM (2012)** como vocabulário controlado. Este sistema é amplamente reconhecido e adotado globalmente, garantindo padronização e consistência na categorização do conhecimento em computação.
 
-Para o **conhecimento profissional (FPK)**, referenciamos o **Currículo de Computação da ACM (CC) 2020**, que fornece um framework estruturado para competências profissionais essenciais.
+Para o **conhecimento profissional (FPK)**, foi referenciado o **Currículo de Computação da ACM (CC) 2020**, que fornece uma estrutura organizada para competências profissionais essenciais.
 
-Com base na **descrição da tarefa**, identificou-se o seguinte conjunto de componentes de conhecimento necessários:
+Com base na **descrição da tarefa**, foi identificado o seguinte conjunto de componentes de conhecimento necessários:
 
-### **Conhecimento Computacional**  
-- **Autômatos sobre Objetos Infinitos (Autômatos Finitos Determinísticos - AFD)**  
-  - Envolve o estudo e a aplicação de modelos matemáticos que descrevem sistemas computacionais usando **estados e transições**.  
-  - Essencial para projetar a **lógica baseada em estados** da máquina de vendas.  
+### **Conhecimento em Computação**  
+- **Autômatos sobre Objetos Infinitos**  
+  - Envolve o estudo e aplicação de modelos matemáticos que descrevem sistemas computacionais usando **estados e transições**.  
+  - Essencial para o projeto da **lógica baseada em estados da máquina de venda**.  
 
-- **Linguagens Regulares (Expressões Regulares - ER)**  
-  - Exige compreensão e aplicação de **técnicas formais** para representar e manipular conjuntos de strings.  
-  - Usado principalmente em **processamento de texto, análise léxica e correspondência de padrões** na lógica operacional da máquina de vendas.  
+- **Autômatos Finitos Não Determinísticos (AFN)**  
+  - Representa uma classe de autômatos que permite múltiplas transições possíveis para uma dada entrada a partir de um estado.  
+  - Importante para entender o poder expressivo e a flexibilidade no projeto de reconhecedores de linguagens regulares.  
+  - Fornece conhecimento fundamental para modelar máquinas de estados compactas e versáteis, que podem ser posteriormente convertidas para formas determinísticas para implementação.
+
+- **Linguagens Regulares (Expressões Regulares)**  
+  - Requer compreensão e aplicação de **técnicas formais** para representar e manipular conjuntos de strings.  
+  - Usado principalmente em **processamento de texto, análise léxica e reconhecimento de padrões** dentro da lógica operacional da máquina de venda.
 
 - **Análise de Requisitos (Engenharia de Requisitos de Software)**  
-  - Um processo sistemático para **coletar, analisar e especificar requisitos do sistema**.  
-  - Garante que **necessidades do usuário e expectativas do sistema** sejam claramente compreendidas e documentadas.  
+  - Processo sistemático para **coletar, analisar e especificar requisitos do sistema**.  
+  - Garante que **necessidades do usuário e expectativas do sistema** sejam claramente compreendidas e documentadas.
 
 - **Ferramentas de Simulação**  
-  - Envolve o uso de **ferramentas de simulação de autômatos** (como JFLAP) para validar e analisar **soluções propostas**.  
-  - Permite **testar, depurar e refinar** o autômato da máquina de vendas antes da implementação.  
+  - Uso de **ferramentas de simulação de autômatos** (como JFLAP) para validar e analisar **soluções propostas**.  
+  - Permite **testar, depurar e refinar** o autômato da máquina de venda antes da implementação.
 
 ### **Conhecimento Profissional (FPK)**  
 - **Pensamento Analítico e Crítico**  
-  - A capacidade de **decompor problemas complexos em componentes fundamentais**, avaliar resultados e tomar decisões bem fundamentadas com base em análise rigorosa.  
+  - Capacidade de **decompor problemas complexos em componentes fundamentais**, avaliar resultados e tomar decisões bem fundamentadas baseadas em análises rigorosas.
 
-- **Resolução de Problemas e Depuração**  
-  - Exige identificar, analisar e resolver **desafios específicos da tarefa** usando **estratégias eficazes e métodos computacionais** para desenvolver soluções ótimas.  
+- **Resolução de Problemas e Diagnóstico**  
+  - Requer identificar, analisar e resolver **desafios específicos da tarefa** utilizando **estratégias eficazes e métodos computacionais** para desenvolver soluções ótimas.
 
 - **Comunicação Escrita**  
-  - A capacidade de **elaborar relatórios técnicos claros e estruturados**, detalhando o processo de projeto, implementação e validação.  
-  - Garante que descobertas e decisões sejam comunicadas de forma eficaz às partes interessadas.  
+  - Habilidade para **produzir relatórios técnicos claros e estruturados** detalhando os processos de projeto, implementação e validação.  
+  - Garante que descobertas e decisões sejam comunicadas efetivamente aos interessados.
 
-Esta **enumeração de conhecimento** serve como base para a especificação de competências, garantindo que os estudantes adquiram tanto **expertise teórica quanto prática** necessária para concluir a tarefa com sucesso.
+Esta **enumeração de conhecimento** serve como base para a especificação de competências, garantindo que os estudantes adquiram tanto **expertise teórica quanto prática** necessária para completar a tarefa com sucesso.
 
-## 3. Identificação de Objetivos de Aprendizagem
+## 3. Identificação dos Objetivos de Aprendizagem
 
-O **objetivo geral** desta tarefa é desenvolver **autômatos finitos e expressões regulares** para resolver **problemas do mundo real**, modelando um sistema de máquina de vendas. Esse objetivo enfatiza a aplicação prática da **teoria de autômatos** na resolução computacional de problemas.
+O **objetivo geral** desta tarefa é desenvolver **autômatos finitos e expressões regulares** para resolver **problemas do mundo real** modelando um sistema de máquina de venda automática. Este objetivo enfatiza a aplicação prática da **teoria dos autômatos** na resolução computacional de problemas.
 
-### **Objetivos Específicos de Aprendizagem**
-Para alcançar esse objetivo geral, os estudantes devem demonstrar a capacidade de:
+### **Objetivos Específicos de Aprendizagem**  
+Para alcançar este objetivo geral, os estudantes devem demonstrar a capacidade de:
 
 1. **Identificar funcionalidades do sistema**  
-   - Analisar o modelo conceitual do usuário para a máquina de vendas e definir seus comportamentos esperados.
+   - Analisar o modelo conceitual do usuário da máquina de venda e definir seus comportamentos esperados.
 
 2. **Alinhar requisitos do usuário com funcionalidades do autômato**  
-   - Conciliar as funcionalidades desejadas da máquina de vendas com as restrições e capacidades do autômato em desenvolvimento.
+   - Conciliar as funcionalidades desejadas da máquina de venda com as restrições e capacidades do autômato em desenvolvimento.
 
-3. **Avaliar o papel do não-determinismo em autômatos finitos**  
-   - Analisar quando e como **autômatos finitos não-determinísticos (AFN)** podem ser usados efetivamente no projeto do sistema.
+3. **Avaliar o papel do não determinismo em autômatos finitos**  
+   - Analisar quando e como **autômatos finitos não determinísticos (AFN)** podem ser usados efetivamente no projeto do sistema.
 
-4. **Compreender equivalências entre autômatos determinísticos e não-determinísticos**  
-   - Demonstrar compreensão da equivalência entre **Autômatos Finitos Determinísticos (AFD)** e **Autômatos Finitos Não-Determinísticos (AFN)**, destacando cenários onde um pode ser preferível ao outro.
+4. **Compreender equivalências entre autômatos determinísticos e não determinísticos**  
+   - Demonstrar entendimento da equivalência entre **Autômatos Finitos Determinísticos (AFD)** e **Autômatos Finitos Não Determinísticos (AFN)**, destacando cenários em que um pode ser preferível ao outro.
 
-5. **Compreender a equivalência entre Autômatos Finitos (AF) e Expressões Regulares (ER)**  
-   - Estabelecer conexões entre **representações de autômatos finitos** e **expressões regulares**, reforçando sua intercambialidade teórica e prática.
+5. **Entender a equivalência entre Autômatos Finitos (AF) e Expressões Regulares (ER)**  
+   - Estabelecer conexões entre as **representações por autômatos finitos** e as **expressões regulares**, reforçando sua intercambialidade teórica e prática.
 
 6. **Aplicar a equivalência AF-ER no desenvolvimento de expressões regulares**  
    - Utilizar autômatos finitos existentes para derivar **expressões regulares correspondentes**, aplicando métodos formais para converter autômatos em padrões regex equivalentes.
 
-7. **Associar opções da máquina de vendas, moedas e cédulas a símbolos do alfabeto**  
-   - Mapear elementos do mundo real da máquina de vendas (como seleções de produtos e métodos de pagamento) para o **alfabeto formal** usado no projeto do autômato.
+7. **Associar opções da máquina, moedas e cédulas a símbolos do alfabeto**  
+   - Mapear elementos reais da máquina de venda (como seleções de produtos e formas de pagamento) ao **alfabeto formal** usado no design do autômato.
 
 8. **Desenvolver relatórios técnicos**  
-   - Documentar o **projeto, implementação e validação** do autômato, garantindo clareza e precisão na escrita técnica.
+   - Documentar o **projeto, implementação e validação** do autômato, garantindo clareza e precisão na redação técnica.
 
-9. **Usar ferramentas de simulação de autômatos finitos**  
-   - Aplicar ferramentas como **JFLAP** para simular, analisar e verificar a funcionalidade do autômato projetado.
+9. **Utilizar ferramentas de simulação de autômatos**  
+   - Aplicar ferramentas como o **JFLAP** para simular, analisar e verificar a funcionalidade do autômato projetado.
 
-### **Importância desses Objetivos**
-Esses objetivos de aprendizagem fornecem um **caminho estruturado** para o desenvolvimento de competências, garantindo que os estudantes adquiram:
-- **Uma base teórica sólida** em autômatos e linguagens formais.
-- **A capacidade de conectar teoria e prática**, aplicando métodos formais para resolver problemas computacionais.
-- **Experiência prática com ferramentas de simulação**, reforçando habilidades de resolução de problemas.
+### **Importância Destes Objetivos**  
+Esses objetivos de aprendizagem fornecem um **caminho estruturado** para o desenvolvimento de competências, assegurando que os estudantes adquiram:  
+- **Uma base teórica sólida** em autômatos e linguagens formais.  
+- **A capacidade de conectar teoria e prática**, aplicando métodos formais para resolver problemas computacionais.  
+- **Experiência prática com ferramentas de simulação**, reforçando habilidades concretas de resolução de problemas.  
 - **Habilidades de comunicação técnica**, essenciais para transmitir soluções em contextos profissionais e acadêmicos.
 
-Ao alcançar esses objetivos, os estudantes estarão equipados com as **habilidades computacionais e analíticas** necessárias para modelar sistemas do mundo real usando **autômatos finitos e expressões regulares**.
+Ao alcançar esses objetivos, os estudantes estarão capacitados com as **habilidades computacionais e analíticas** necessárias para modelar sistemas reais usando **autômatos finitos e expressões regulares**.
 
-## 4. Definição de Competências
+## 4. Definição da Competência
 
 As competências são especificadas com base nos **Objetivos de Aprendizagem (OAs)** identificados na análise da tarefa.
 
 ### 4.1 Especificação da Competência A  
 
-### A.1 Título da Competência
-    Projetando Soluções Eficientes com Autômatos
+### A.1 Título da Competência  
+Aplicar Autômatos Finitos para Modelagem de Sistemas Computacionais
 
 ### A.2 Descrição Textual  
-Esta competência foca na capacidade de projetar e implementar **soluções eficazes e otimizadas** usando **autômatos finitos**. Exige um **profundo entendimento da teoria de autômatos**, incluindo a identificação de requisitos funcionais, sua tradução em **implementações técnicas viáveis** e a garantia de que o **autômato final seja eficiente, confiável e atenda às expectativas do usuário**.
+Esta competência consiste na habilidade de **projetar e aplicar autômatos finitos**, incluindo versões determinísticas e não determinísticas, para modelar comportamentos de sistemas computacionais, como máquinas de venda automática. O aprendiz deve ser capaz de analisar requisitos do mundo real, traduzi-los em estados e transições, simular e validar o autômato usando ferramentas computacionais, e documentar claramente o processo.
 
-Os estudantes devem **equilibrar necessidades definidas pelo usuário com restrições de autômatos**, garantindo que o sistema da máquina de vendas funcione corretamente sob diferentes condições. Essa competência também enfatiza a **importância da validação**, exigindo que os estudantes **simulem, testem e refinem seus modelos** para garantir precisão e desempenho em **aplicações do mundo real**.
+A competência inclui a capacidade de iterar e refinar o modelo, adaptando-se a funcionalidades adicionais como a implementação do troco bônus aleatório.
 
-Além disso, a competência inclui a **capacidade de lidar com restrições adicionais**, como implementar o **mecanismo de troco bônus** introduzido como um desafio extra pelo técnico de TI.
+### A.3 Especificação do Conhecimento  
+- Autômatos Finitos Determinísticos (AFD) e Não Determinísticos (AFN)  
+- Teoria de Linguagens Formais  
+- Técnicas de Simulação de Autômatos (ferramentas como JFLAP)  
+- Engenharia de Requisitos  
+- Documentação Técnica  
 
-### A.3 Especificação de Conhecimento
-As seguintes áreas de conhecimento são críticas para esta competência:  
+### A.4 Especificação da Disposição  
+- Atenção cuidadosa aos detalhes ao mapear requisitos para transições do autômato.  
+- Persistência para iterar e refinar o modelo até atingir a conformidade desejada.  
+- Proatividade em buscar e integrar feedback de simulações para melhorar a solução.  
+- Flexibilidade para adaptar o modelo conforme necessidades adicionais, como o troco bônus aleatório.  
 
-- **Autômatos sobre Objetos Infinitos**  
-  - Fundamental para modelar a lógica operacional da máquina de vendas.  
-  - Envolve projetar estados e transições para representar funcionalidades do sistema.  
-
-- **Análise de Requisitos**  
-  - Garante uma **identificação e documentação precisas dos requisitos do sistema**.  
-  - Conecta necessidades do usuário com as capacidades técnicas de autômatos finitos.  
-
-- **Pensamento Analítico e Crítico (FPK)**  
-  - Necessário para **decomposição de problemas e planejamento estratégico**.  
-  - Auxilia no alinhamento de requisitos do usuário com viabilidade técnica, otimizando recursos computacionais.  
-
-### A.4 Especificação de Disposição
-A tarefa **"A Máquina de Vendas para Refrigerantes e Lanches"** destaca atributos comportamentais essenciais para resolução de problemas e colaboração em equipe. Esses incluem:  
-
- **Colaboração**  
-- A tarefa segue a **metodologia de Aprendizagem Baseada em Problemas (PBL)**, exigindo interação contínua da equipe.  
-- Essencial para desenvolver soluções colaborativamente por meio de **sessões PBL em quadro branco**, manter o **logbook** e **documentar cada fase do projeto**.  
-- Incentiva **compartilhamento de conhecimento** e melhorias iterativas.  
-
- **Responsabilidade**  
-- Garante o cumprimento de **prazos do projeto**, **documentação precisa** e um **projeto de autômato funcional**.  
-- Exige responsabilidade individual pelas contribuições, assegurando que o **produto final atenda às expectativas do usuário** e aos padrões do projeto.  
-
- **Proatividade**  
-- Incentiva a antecipação de desafios, como o **recurso de troco bônus aleatório (R$1,00 extra)**, que exige **pesquisa adicional e ajustes técnicos**.  
-- Envolve buscar ativamente conhecimento, incluindo a **relação entre expressões regulares e autômatos finitos**.  
-- Apoia uma abordagem proativa para depuração, refinamento e melhoria do sistema.  
-
- **Criatividade**  
-- Necessária para adaptar **funcionalidades de autômatos a requisitos específicos do usuário**.  
-- Incentiva a exploração de **implementações alternativas**, como a incorporação de **elementos aleatórios** no comportamento do autômato.  
-- Melhora a **documentação técnica**, tornando as operações do sistema visual e conceitualmente envolventes.  
-
-### A.5 Pareamento Conhecimento-Habilidade
-
-Esta etapa mapeia **áreas de conhecimento às habilidades correspondentes** necessárias para demonstrar competência nesta tarefa.  
-
-**A.5.1 Mapeamento de Conhecimento para Habilidades**  
-Para alcançar esta competência, os estudantes devem demonstrar a capacidade de:  
-
-- **Aplicar** Pensamento Analítico e Crítico junto com conhecimento de **Autômatos sobre Objetos Infinitos** para **resolver o problema de cálculo de troco da máquina de vendas**.  
-- **Identificar e interpretar** requisitos do sistema, demonstrando proficiência em **Análise de Requisitos**.  
-
-**A.5.2 Alinhamento com a Taxonomia de Bloom**  
-Para garantir uma abordagem de aprendizagem estruturada e progressiva, cada componente de conhecimento é alinhado com a Taxonomia Revisada de Bloom, fornecendo um framework claro para avaliação de competências.
-
-- **Pensamento Analítico e Crítico (FPK) – Aplicar**  
-  - Avalia a capacidade do estudante de **decompor problemas complexos** em componentes fundamentais.  
-  - Examina a habilidade de **analisar relações, identificar padrões e formular estratégias lógicas** para resolução de problemas.  
-  - Garante que os estudantes possam efetivamente **conectar conhecimento teórico com implementação prática**.  
-
-- **Autômatos sobre Objetos Infinitos – Criar**  
-  - Mede a capacidade do estudante de **projetar e implementar soluções baseadas em autômatos** para um problema definido.  
-  - Avalia a habilidade de **traduzir restrições do sistema do mundo real em modelos de autômatos** usando estados e transições.  
-  - Garante que os estudantes possam efetivamente **aplicar técnicas de modelagem computacional** para resolver problemas de transação em máquinas de vendas.  
-
-- **Análise de Requisitos – Aplicar**  
-  - Avalia a capacidade do estudante de interpretar e traduzir restrições do sistema e requisitos do usuário em especificações formais.
-  - Examina a capacidade de aplicar técnicas de análise estruturada para identificar requisitos funcionais e não funcionais.
-  - Garante que os estudantes possam organizar e integrar logicamente requisitos em um modelo computacional coerente.
-
-**A.5.3 Anotação de Verbos**  
-Para esclarecer as expectativas da competência, as seguintes anotações de verbos definem as ações necessárias:  
-
-- **Criar** → Autômatos sobre Objetos Infinitos → **Construir, Desenvolver, Projetar** um autômato funcional que atenda às restrições computacionais.
-- **Aplicar** → Análise de Requisitos → **Interpretar, Implementar, Organizar** requisitos estruturados do sistema em um framework computacional. 
-
-### A.6 Tabela Resumo para Competência A
-
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|------------|-----------|------------|----|
-|  |   | Autômatos sobre Objetos Infinitos | **Criar (Construir, Desenvolver, Projetar)** |
-| **Desenvolver soluções de problemas usando Autômatos** | **Colaborativa, Responsável, Proativa, Criativa** | Análise de Requisitos | **Aplicar (Interpretar, Implementar, Organizar)** |
-| | | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-
-### **4.2 Especificação da Competência B**
+### 4.2 Especificação da Competência B  
 
 ### B.1 Título da Competência  
-    Determinando Quando Usar Autômatos Finitos Determinísticos (AFD)  
+Aplicar Expressões Regulares para Reconhecimento de Padrões
 
-### B.2 Descrição da Competência  
-Esta competência foca no **entendimento do determinismo em autômatos finitos** e na **determinação de quando aplicar não-determinismo**. Os estudantes devem analisar restrições do sistema e **decidir se um autômato determinístico ou não-determinístico** é a escolha ideal para resolver um problema específico.
+### B.2 Descrição Textual  
+Esta competência refere-se à habilidade de **utilizar expressões regulares** para reconhecer padrões dentro de sequências simbólicas, facilitando a análise e o processamento de dados estruturados. O aprendiz deve ser capaz de **criar, interpretar e manipular expressões regulares**, compreendendo sua equivalência com autômatos finitos e sua aplicação prática em sistemas computacionais.
 
-Esta competência exige a capacidade de:  
+Ela inclui a capacidade de associar símbolos do alfabeto a elementos do mundo real (como moedas, cédulas, opções de produtos) e utilizar essas associações para definir padrões que identificam sequências válidas de operações na máquina de venda.
+
+Além disso, envolve a aplicação de **ferramentas computacionais para validar expressões regulares**, garantindo que os padrões correspondam corretamente às linguagens especificadas e suportem a funcionalidade esperada do sistema.
+
+### B.3 Especificação do Conhecimento  
+- **Expressões Regulares (ER)**  
+  - Conhecimento formal para construir e interpretar padrões de linguagens regulares.  
+
+- **Equivalência entre Autômatos Finitos e Expressões Regulares**  
+  - Entendimento dos processos formais para conversão entre autômatos e ERs.  
+
+- **Ferramentas de Simulação**  
+  - Uso de software para validar e testar expressões regulares aplicadas.
+
+- **Comunicação Escrita (FPK)**  
+  - Capacidade para documentar o processo e resultados de forma clara e técnica.  
+
+### B.4 Especificação da Disposição  
+- Curiosidade para explorar as possibilidades de expressões regulares em problemas computacionais.  
+- Precisão ao mapear requisitos em padrões formais.  
+- Capacidade de perseverar na validação e refinamento dos padrões.  
+- Disposição para documentar e comunicar os resultados de forma clara.
+
+## 5. Resumo da Especificação de Competências
+
+| Código da Competência | Título da Competência                     | Conhecimentos Relacionados                           | Atitudes e Disposições                 |
+|-----------------------|------------------------------------------|-----------------------------------------------------|--------------------------------------|
+| A                     | Projetar Soluções Eficientes com Autômatos | Autômatos Finitos, Análise de Requisitos, Pensamento Analítico, Ferramentas de Simulação | Atenção, Persistência, Proatividade, Flexibilidade |
+| B                     | Aplicar Expressões Regulares para Reconhecimento de Padrões | Expressões Regulares, Equivalência AF-ER, Ferramentas de Simulação, Comunicação Escrita | Curiosidade, Precisão, Perseverança, Comunicação Clara |
+
+
+
+### A.6 Tabela Resumo da Competência A
+
+| **Competência** | **Disposições**                     | **Conhecimentos**                     | **Habilidade**                             |
+|-----------------|-----------------------------------|-------------------------------------|-------------------------------------------|
+|                 |                                   | Autômatos sobre Objetos Infinitos   | **Aplicar (Construir, Desenvolver, Projetar)** |
+| **Desenvolver soluções para problemas usando Autômatos** | **Colaborativo, Responsável, Proativo, Criativo** | Análise de Requisitos                    | **Aplicar (Interpretar, Implementar, Organizar)** |
+|                 |                                   | Pensamento Analítico e Crítico (FPK) | **Aplicar**                              |
+
+---
+
+### 4.2 Especificação da Competência B
+
+#### B.1 Título da Competência  
+Determinar Quando Usar Autômatos Finitos Determinísticos (DFA)
+
+#### B.2 Descrição da Competência  
+Esta competência foca em **compreender o determinismo em autômatos finitos** e **determinar quando aplicar o não-determinismo**. Os estudantes devem analisar as restrições do sistema e **decidir se um autômato determinístico ou não-determinístico** é a melhor escolha para resolver um dado problema.
+
+Esta competência requer a habilidade de:  
 - **Diferenciar autômatos determinísticos e não-determinísticos** com base em suas propriedades e aplicações práticas.  
-- **Avaliar requisitos do problema** para determinar o modelo de autômato mais eficiente.  
-- **Justificar a escolha** do tipo de autômato com raciocínio lógico e restrições computacionais.
+- **Avaliar os requisitos do problema** para determinar o modelo de autômato mais eficiente.  
+- **Justificar a escolha** do tipo de autômato com raciocínio lógico e limitações computacionais.
 
-### B.3 Especificação de Conhecimento  
+#### B.3 Especificação de Conhecimento  
 As seguintes áreas de conhecimento são essenciais para esta competência:  
 
 - **Autômatos sobre Objetos Infinitos**  
-  - Compreender as características, limitações e aplicações de **modelos determinísticos vs. não-determinísticos**.  
-  - Identificar cenários onde um modelo pode ser mais vantajoso que o outro.  
+  - Compreensão das características, limitações e aplicações dos modelos **determinísticos vs. não-determinísticos**.  
+  - Identificação de cenários onde um modelo pode ser mais vantajoso que o outro.  
 
 - **Pensamento Analítico e Crítico (FPK)**  
-  - Necessário para **avaliar restrições do sistema e tomar decisões informadas**.  
-  - Permite que os estudantes desenvolvam **raciocínio estratégico** ao escolher entre modelos AFD e AFN.  
+  - Necessário para **avaliar as restrições do sistema e tomar decisões informadas**.  
+  - Permite que os estudantes desenvolvam **raciocínio estratégico** ao escolher entre modelos DFA e NFA.  
 
-### B.4 Especificação de Disposição  
-Semelhante à **Competência A**, esta competência exige que os estudantes demonstrem **atributos comportamentais** essenciais que facilitam a resolução de problemas e a tomada de decisões:  
+#### B.4 Especificação de Disposições  
+Similar à **Competência A**, esta competência requer que os estudantes demonstrem atributos comportamentais fundamentais para facilitar a resolução de problemas e a tomada de decisões:  
 
-- **Pensamento Investigativo** – Incentiva curiosidade e **análise crítica** das propriedades de autômatos e suas aplicações.  
-- **Colaboração** – Apoia o trabalho em equipe ao discutir e justificar escolhas entre AFD e AFN.  
-- **Responsabilidade** – Garante consistência lógica e precisão na tomada de decisões.  
-- **Proatividade** – Promove pesquisa independente e exploração de aplicações de autômatos.  
-- **Criatividade** – Encoraja abordagens inovadoras para resolver problemas com restrições complexas.  
+- **Pensamento Investigativo** – Estimula a curiosidade e **análise crítica** das propriedades dos autômatos e suas aplicações.  
+- **Colaboração** – Apoia o trabalho em equipe na discussão e justificativa das escolhas.
 
-### B.5 Pareamento Conhecimento-Habilidade  
-Esta etapa associa **áreas de conhecimento às habilidades correspondentes** necessárias para demonstrar competência.
 
- **B.5.1 Mapeamento de Conhecimento para Habilidades**  
-Para alcançar esta competência, os estudantes devem demonstrar a capacidade de:  
-- **Aplicar** Pensamento Analítico e Crítico para **diferenciar autômatos determinísticos e não-determinísticos**.  
-- **Compreender** Autômatos sobre Objetos Infinitos para **identificar corretamente cenários onde um autômato determinístico ou não-determinístico é mais apropriado**.  
+---
 
-**B.5.2 Alinhamento com a Taxonomia de Bloom**  
+### B.5 Tabela Resumo da Competência B
 
-Para avaliar com precisão as habilidades necessárias para esta competência, cada componente de conhecimento é alinhado com a **Taxonomia Revisada de Bloom**, garantindo uma progressão de aprendizagem estruturada e desafio cognitivo apropriado.  
+| **Competência**                                  | **Disposições**                                | **Conhecimentos**                          | **Habilidade**                                    |
+|-------------------------------------------------|------------------------------------------------|--------------------------------------------|--------------------------------------------------|
+|                                                 |                                                | Autômatos sobre Objetos Infinitos          | **Compreender (Diferenciar, Analisar)**          |
+| **Determinar quando usar Autômatos Finitos Determinísticos (DFA)** | **Investigativo, Colaborativo, Responsável** | Pensamento Analítico e Crítico (FPK)       | **Aplicar (Avaliar, Decidir, Justificar)**       |
 
-- **Pensamento Analítico e Crítico (FPK) – Aplicar**  
-  - Avalia a capacidade do estudante de **avaliar restrições do problema e justificar a escolha** entre **Autômatos Finitos Determinísticos (AFD) e Autômatos Finitos Não-Determinísticos (AFN)**.  
-  - Exige a habilidade de **analisar as diferenças entre AFD e AFN** e determinar qual modelo é **mais adequado para um cenário de problema específico**.  
-  - Garante que os estudantes possam **argumentar logicamente suas decisões** com base em **eficiência computacional, complexidade de implementação e restrições do sistema**.  
+---
 
-- **Autômatos sobre Objetos Infinitos (AFD/AFN) – Compreender**  
-  - Avalia a capacidade do estudante de **diferenciar e classificar** autômatos determinísticos e não-determinísticos com base em suas propriedades.  
-  - Exige a habilidade de **identificar corretamente quando cada tipo de autômato deve ser usado**, reconhecendo suas vantagens e limitações.  
-  - Garante que os estudantes desenvolvam **uma compreensão conceitual da relação entre AFD, AFN e restrições do problema**, formando uma base sólida para a tomada de decisões.  
+### 4.3 Especificação da Competência C
 
- **B.5.3 Anotação de Verbos**  
-- **Compreender** → Autômatos sobre Objetos Infinitos → **Comparar** conceitos de AFD e AFN.  
-- **Aplicar** → Pensamento Analítico e Crítico → **Avaliar e decidir** sobre o modelo de autômato apropriado.  
+#### C.1 Título da Competência  
+Projetar Autômatos Finitos para Reconhecimento de Linguagens
 
-### B.6 Tabela Resumo para Competência B  
+#### C.2 Descrição da Competência  
+Esta competência envolve a capacidade de **projetar autômatos finitos** (determinísticos ou não-determinísticos) que reconheçam linguagens específicas, baseando-se em requisitos funcionais fornecidos.
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------------|-----------------|--------------|-----------|
-| **Determinar quando usar um AFD ou AFN** | **Investigativa, Colaborativa, Responsável, Proativa, Criativa** | **Autômatos sobre Objetos Infinitos** | **Compreender (Comparar)** |
-| | | **Pensamento Analítico e Crítico (FPK)** | **Aplicar (Avaliar & Decidir)** |
+O estudante deve ser capaz de:  
+- Interpretar a descrição formal de uma linguagem.  
+- Construir um autômato finito adequado para reconhecer essa linguagem.  
+- Validar o autômato projetado, verificando se ele aceita ou rejeita corretamente cadeias de entrada.
 
-### **4.3 Especificação da Competência C**
-
-### C.1 Título da Competência  
-    Testando Autômatos Usando Simuladores
-
-### C.2 Descrição da Competência
-Esta competência foca na capacidade de **testar autômatos finitos usando ferramentas de simulação**. Os estudantes devem desenvolver proficiência no uso de **simuladores de autômatos** para verificar a correção de seus modelos, diagnosticar erros e refinar suas soluções por meio de testes iterativos.  
-
-Esta competência exige a capacidade de:  
-- **Usar ferramentas de simulação para validar a funcionalidade de autômatos**.  
-- **Analisar o comportamento do autômato** e compará-lo com resultados esperados.  
-- **Identificar e corrigir erros no projeto do autômato** por meio de solução de problemas sistemática.  
-- **Aplicar estratégias estruturadas de resolução de problemas** para melhorar o desempenho do autômato.  
-
-### C.3 Especificação de Conhecimento  
-As seguintes áreas de conhecimento são essenciais para esta competência:  
+#### C.3 Especificação de Conhecimento  
+Os conhecimentos relevantes incluem:  
 
 - **Autômatos sobre Objetos Infinitos**  
-  - Compreender o comportamento de autômatos em ambientes simulados.  
-  - Usar ferramentas computacionais para testar propriedades de autômatos e validar sua execução.  
+  - Estrutura e funcionamento dos autômatos finitos determinísticos e não-determinísticos.  
+  - Técnicas de construção e equivalência entre autômatos.  
 
-- **Resolução de Problemas e Depuração (FPK)**  
-  - Necessário para **diagnosticar e resolver erros** em simulações de autômatos.  
-  - Permite que os estudantes refinem modelos iterativamente, garantindo precisão e robustez.  
+- **Análise de Requisitos**  
+  - Entendimento dos requisitos da linguagem para construir o autômato correto.
 
-### C.4 Especificação de Disposição  
-Semelhante às **competências anteriores**, esta competência exige que os estudantes demonstrem **atributos comportamentais** essenciais que facilitam testes, depuração e melhoria de autômatos:  
+- **Pensamento Analítico e Crítico (FPK)**  
+  - Avaliação da precisão do autômato e suas limitações.
 
-- **Colaboração** – Incentiva o trabalho em equipe na análise do comportamento do autômato e na discussão de estratégias de depuração.  
-- **Responsabilidade** – Garante **testes metódicos**, documentação de problemas e refinamento dos projetos de autômatos.  
-- **Proatividade** – Promove iniciativa na identificação de fraquezas nos modelos de autômatos e na aplicação de correções.  
-- **Criatividade** – Apoia inovação em **técnicas de solução de problemas** e **experimentação com diferentes abordagens de simulação**.  
+#### C.4 Especificação de Disposições  
+São essenciais as seguintes disposições comportamentais:  
 
-### C.5 Pareamento Conhecimento-Habilidade  
-Esta etapa mapeia **áreas de conhecimento às habilidades correspondentes** necessárias para demonstrar competência.
+- **Proatividade** – Para assumir a liderança na construção do autômato.  
+- **Criatividade** – Para desenvolver soluções inovadoras e eficientes.  
+- **Precisão** – Para garantir que o autômato funcione conforme esperado.
 
- **C.5.1 Mapeamento de Conhecimento para Habilidades**  
-Para alcançar esta competência, os estudantes devem demonstrar a capacidade de:  
-- **Aplicar** Autômatos sobre Objetos Infinitos para **simular e validar o autômato projetado**.  
-- **Aplicar** Resolução de Problemas e Depuração (FPK) para **identificar e resolver erros durante a simulação**.  
+---
 
-**C.5.2 Alinhamento com a Taxonomia de Bloom**  
+### C.5 Tabela Resumo da Competência C
 
-As **áreas de conhecimento** necessárias para esta competência estão alinhadas com a **Taxonomia Revisada de Bloom**, garantindo um processo de aprendizagem estruturado que progride da compreensão de conceitos para sua aplicação em cenários práticos.  
+| **Competência**                               | **Disposições**                     | **Conhecimentos**                     | **Habilidade**                                |
+|----------------------------------------------|-----------------------------------|-------------------------------------|----------------------------------------------|
+|                                              |                                   | Autômatos sobre Objetos Infinitos   | **Aplicar (Projetar, Construir, Validar)**   |
+| **Projetar Autômatos Finitos para Reconhecimento de Linguagens** | **Proativo, Criativo, Preciso**    | Análise de Requisitos                | **Compreender (Interpretar, Analisar)**      |
+|                                              |                                   | Pensamento Analítico e Crítico (FPK) | **Aplicar (Avaliar)**                        |
 
-Os estudantes devem **aplicar** seu conhecimento de **Autômatos sobre Objetos Infinitos** ao experimentar, relacionar e simular autômatos para validar o comportamento do sistema. Isso garante que possam **executar, testar e analisar simulações de autômatos** com eficácia, verificando sua correção e identificando áreas para melhoria.  
 
-Da mesma forma, espera-se que os estudantes **apliquem** **Resolução de Problemas e Depuração (FPK)** ao diagnosticar e corrigir erros no projeto do autômato durante a simulação. Isso envolve **identificar, depurar e otimizar o comportamento do autômato** com base nos resultados das simulações, garantindo que o sistema funcione conforme o esperado.  
+---
 
-Ao demonstrar proficiência em ambas as áreas, os estudantes desenvolverão habilidades essenciais de resolução de problemas que lhes permitirão refinar modelos computacionais iterativamente.  
+### 4.4 Especificação da Competência D
 
-**C.5.3 Anotação de Verbos**  
+#### D.1 Título da Competência  
+Construir Expressões Regulares para Descrever Linguagens Formais
 
-Para esclarecer os resultados de aprendizagem esperados, as seguintes anotações de verbos definem as ações-chave que os estudantes devem demonstrar:  
+#### D.2 Descrição da Competência  
+Esta competência envolve a capacidade de construir expressões regulares que descrevam linguagens formais específicas, incluindo operações como união, concatenação e fecho de Kleene.
 
-- **Aplicar** conhecimento de Autômatos sobre Objetos Infinitos para **experimentar, relacionar e simular** autômatos.  
-- **Aplicar** Resolução de Problemas e Depuração → Diagnosticar, Depurar, Refinar simulações de autômatos. 
+O estudante deve ser capaz de:  
+- Interpretar linguagens formais descritas por expressões regulares.  
+- Construir expressões regulares que descrevam conjuntos de cadeias de caracteres.  
+- Utilizar expressões regulares para modelar linguagens reconhecíveis por autômatos.
 
-### **C.6 Tabela Resumo para Competência C**  
+#### D.3 Especificação de Conhecimento  
+Os conhecimentos necessários incluem:  
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------------|-----------------|--------------|-----------|
-| **Testando Autômatos Usando Simuladores** | **Colaborativa, Responsável, Proativa, Criativa** | **Autômatos sobre Objetos Infinitos** | **Aplicar (Experimentar, Relacionar, Simular)** |
-| | | **Resolução de Problemas e Depuração (FPK)** | **Aplicar (Diagnosticar, Depurar, Refinar)** |
+- **Expressões Regulares**  
+  - Símbolos e operações básicas: união, concatenação e fecho de Kleene.  
+  - Equivalência entre expressões regulares e autômatos finitos.
 
-### **4.4 Especificação da Competência D**  
+- **Teoria da Linguagem Formal**  
+  - Definição e propriedades de linguagens regulares.
 
-### D.1 Título da Competência
-    Determinando Expressões Regulares que Representam Autômatos
+- **Pensamento Analítico e Crítico (FPK)**  
+  - Capacidade de analisar e construir expressões regulares eficazes e corretas.
 
-### D.2 Descrição da Competência
-Esta competência foca na capacidade de **representar autômatos finitos usando expressões regulares**. Os estudantes devem demonstrar proficiência em traduzir **modelos computacionais baseados em estados** em **representações formais de linguagem equivalentes**, garantindo que as expressões regulares geradas descrevam com precisão o comportamento do autômato.  
+#### D.4 Especificação de Disposições  
+São valorizadas as seguintes disposições:  
 
-Para alcançar isso, os estudantes:  
-- **Compreenderão a relação entre autômatos finitos e expressões regulares**, garantindo a transformação correta entre modelos.  
-- **Aplicarão conceitos de linguagem formal** para construir expressões regulares apropriadas.  
-- **Testarão e refinarão** expressões regulares para verificar sua correção.  
+- **Rigor** – Para assegurar precisão na construção das expressões.  
+- **Perseverança** – Para lidar com dificuldades na modelagem das linguagens.  
+- **Curiosidade** – Para explorar diferentes maneiras de representar linguagens.
 
-### D.3 Especificação de Conhecimento
-As seguintes áreas de conhecimento são essenciais para esta competência:  
+---
 
-- **Autômatos sobre Objetos Infinitos** - Fornece conhecimento fundamental sobre a estrutura e o comportamento de autômatos, servindo como pré-requisito para expressar autômatos por meio de linguagens regulares.  
-- **Linguagens Regulares** - Abrange métodos formais para definir e manipular conjuntos de strings usando **expressões regulares**, garantindo que os estudantes possam construir **representações precisas** de autômatos.  
-- **Resolução de Problemas e Depuração (FPK)** - Desenvolve a capacidade de **identificar, analisar e corrigir erros** no **processo de transformação de autômatos em expressões regulares**.  
+### D.5 Tabela Resumo da Competência D
 
-### D.4 Especificação de Disposição  
-Como nas competências anteriores, **atributos comportamentais** desempenham um papel crucial na conclusão bem-sucedida desta tarefa:  
+| **Competência**                                  | **Disposições**                        | **Conhecimentos**                      | **Habilidade**                                  |
+|-------------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------|
+|                                                 |                                      | Expressões Regulares                  | **Aplicar (Construir, Modelar, Interpretar)**  |
+| **Construir Expressões Regulares para Descrever Linguagens Formais** | **Rigor, Perseverança, Curiosidade** | Teoria da Linguagem Formal            | **Compreender (Analisar, Avaliar)**             |
+|                                                 |                                      | Pensamento Analítico e Crítico (FPK) | **Aplicar (Avaliar, Justificar)**               |
 
-- **Pensamento Investigativo** – Incentiva a exploração de abordagens alternativas para definir **expressões regulares equivalentes** para autômatos.  
-- **Colaboração** - Apoia o trabalho em equipe no teste e validação de expressões regulares por meio de revisão por pares.  
-- **Responsabilidade** - Garante precisão nas representações formais e adesão a princípios teóricos.  
-- **Proatividade** - Promove iniciativa no refinamento e otimização de expressões regulares para eficiência.  
-- **Criatividade** - Encoraja técnicas inovadoras para minimizar e reestruturar expressões regulares mantendo a correção.  
+---
 
-### D.5 Pareamento Conhecimento-Habilidade
-Esta etapa associa **áreas de conhecimento a habilidades correspondentes**, garantindo que os estudantes desenvolvam tanto **compreensão teórica** quanto **aplicação prática**.  
+### 4.5 Especificação da Competência E
 
-**D.5.1 Mapeamento de Conhecimento para Habilidades**  
-Para demonstrar esta competência, os estudantes devem ser capazes de:  
-- **Compreender** Autômatos sobre Objetos Infinitos para **decompor** corretamente sistemas baseados em estados em representações formais de linguagem.  
-- **Aplicar** conhecimento de Linguagens Regulares para **construir expressões regulares que representem com precisão autômatos finitos**.  
-- **Aplicar** Resolução de Problemas e Depuração (FPK) para **testar e refinar expressões regulares**, garantindo correção e completude.  
+#### E.1 Título da Competência  
+Analisar e Validar Modelos Computacionais para Reconhecimento de Linguagens
 
-**D.5.2 Alinhamento com a Taxonomia de Bloom**  
-As habilidades necessárias para esta competência estão alinhadas com a **Taxonomia Revisada de Bloom**, garantindo uma abordagem de aprendizagem estruturada:  
+#### E.2 Descrição da Competência  
+Esta competência envolve a habilidade de analisar e validar modelos computacionais, como autômatos finitos e expressões regulares, garantindo que eles reconheçam corretamente as linguagens para as quais foram projetados.
 
-- **Compreender Autômatos sobre Objetos Infinitos** é essencial, pois **a compreensão da estrutura do autômato é um pré-requisito** para traduzi-lo corretamente em uma expressão regular.  
-- **Aplicar Linguagens Regulares** é necessário porque os estudantes devem **construir expressões regulares que modelem com precisão o comportamento do autômato**, demonstrando proficiência em representação formal de linguagem.  
-- **Aplicar Resolução de Problemas e Depuração** garante que os estudantes possam **validar, testar e refinar suas expressões regulares**, identificando e corrigindo erros para assegurar que as expressões representem verdadeiramente os autômatos associados.  
+O estudante deve ser capaz de:  
+- Verificar a correção e completude dos modelos.  
+- Testar os modelos com conjuntos de cadeias representativas.  
+- Comparar diferentes modelos para a mesma linguagem e justificar a escolha.
 
-Ao dominar essas habilidades, os estudantes ganham **um entendimento profundo das transformações de linguagem formal**, aprimorando sua capacidade de trabalhar com **modelos computacionais e fundamentos teóricos** de autômatos.  
+#### E.3 Especificação de Conhecimento  
+Conhecimentos necessários incluem:  
 
-**D.5.3 Anotação de Verbos**  
-Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as atividades-chave dos estudantes:  
+- **Modelos Computacionais**  
+  - Autômatos finitos determinísticos e não determinísticos.  
+  - Expressões regulares e suas propriedades.
 
-- **Compreender** → Autômatos sobre Objetos Infinitos → **Decompor** autômatos em representações de linguagem equivalentes.  
-- **Aplicar** → Linguagens Regulares → **Construir, Modelar, Expressar** autômatos usando expressões regulares.  
-- **Aplicar** → Resolução de Problemas e Depuração → **Validar, Testar, Refinar** expressões regulares para garantir precisão.  
+- **Técnicas de Validação**  
+  - Métodos para testar e validar modelos.
 
-### D.6 Tabela Resumo para Competência D
+- **Pensamento Analítico e Crítico (FPK)**  
+  - Capacidade de avaliar e justificar decisões sobre modelos.
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------------|-----------------|--------------|-----------|
-|  |  | **Autômatos sobre Objetos Infinitos** | **Compreender** |
-| **Determinar Expressões Regulares que Representam Autômatos** | Investigativa, Colaborativa, Responsável, Proativa, Criativa | **Linguagens Regulares** | **Aplicar** |
-| | | **Resolução de Problemas e Depuração (FPK)** | **Aplicar** |
+#### E.4 Especificação de Disposições  
+As seguintes disposições são importantes:  
 
-### **4.5 Especificação da Competência E**  
+- **Cuidado** – Para garantir a qualidade da validação.  
+- **Persistência** – Para iterar testes e ajustes.  
+- **Comunicação** – Para apresentar justificativas claras.
 
-### E.1 Título da Competência
-    Relacionando Expressões Regulares a Autômatos Finitos
+---
 
-### E.2 Descrição da Competência
-Esta competência foca na capacidade de **estabelecer a relação entre autômatos finitos e expressões regulares**.  
+### E.5 Tabela Resumo da Competência E
 
-Os estudantes devem demonstrar compreensão de como **autômatos finitos podem ser representados usando expressões regulares** e vice-versa, garantindo que possam transitar com precisão entre esses dois modelos formais.  
+| **Competência**                              | **Disposições**                   | **Conhecimentos**                 | **Habilidade**                                |
+|---------------------------------------------|---------------------------------|---------------------------------|----------------------------------------------|
+|                                             |                                 | Modelos Computacionais           | **Aplicar (Analisar, Validar, Comparar)**    |
+| **Analisar e Validar Modelos Computacionais para Reconhecimento de Linguagens** | **Cuidado, Persistência, Comunicação** | Técnicas de Validação            | **Compreender (Avaliar, Justificar)**         |
+|                                             |                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar (Testar, Argumentar)**            |
 
-Para alcançar isso, os estudantes:  
-- **Analisarão a equivalência estrutural entre autômatos finitos e expressões regulares**.  
-- **Identificarão a expressão regular correspondente para um autômato finito dado**.  
-- **Demonstrarão compreensão das propriedades de linguagens regulares** que conectam essas duas representações.  
 
-### E.3 Especificação do Conhecimento
-As seguintes áreas de conhecimento são essenciais para esta competência:  
+---
 
-- **Autômatos sobre Objetos Infinitos** – Fornece a base teórica para **analisar e compreender autômatos finitos** e sua estrutura.  
-- **Linguagens Regulares** – Aborda os princípios de **representações de linguagens formais**, garantindo que os estudantes consigam estabelecer equivalências entre autômatos finitos e expressões regulares.  
+### 4.6 Especificação da Competência F
 
+#### F.1 Título da Competência  
+Projetar Autômatos Finitos para Reconhecimento de Linguagens Regulares
 
-### E.4 Especificação de Disposições
-Para alcançar com sucesso esta competência, os estudantes devem demonstrar atributos **comportamentais** fundamentais, incluindo:  
+#### F.2 Descrição da Competência  
+Esta competência envolve a habilidade de projetar autômatos finitos, tanto determinísticos quanto não determinísticos, capazes de reconhecer linguagens regulares específicas.
 
-- **Colaboração** – Interagir com colegas para analisar diferentes autômatos e suas expressões regulares equivalentes.  
-- **Responsabilidade** – Garantir precisão na identificação de equivalências entre modelos formais.  
-- **Proatividade** – Buscar ativamente múltiplas abordagens para relacionar expressões regulares e representações de autômatos.  
+O estudante deve ser capaz de:  
+- Construir autômatos a partir de expressões regulares e descrições formais.  
+- Identificar estados, transições e estados finais corretamente.  
+- Otimizar autômatos para eficiência e simplicidade.
 
+#### F.3 Especificação de Conhecimento  
+Conhecimentos fundamentais incluem:  
 
-### E.5 Pareamento Conhecimento-Habilidade 
-Esta etapa mapeia **áreas de conhecimento com as habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
+- **Autômatos Finitos**  
+  - Conceitos de estados, transições, estado inicial e final.  
+  - Autômatos determinísticos (AFD) e não determinísticos (AFN).
 
-**E.5.1 Mapeamento do Conhecimento com as Habilidades**  
-Para demonstrar esta competência, os estudantes devem ser capazes de:  
-- **Compreender** Autômatos sobre Objetos Infinitos para **analisar corretamente estruturas de autômatos finitos** e sua transformação em expressões regulares.  
-- **Compreender** Linguagens Regulares para **identificar a expressão regular equivalente para um dado autômato finito**.  
+- **Expressões Regulares e Linguagens Regulares**  
+  - Equivalência e conversão entre autômatos e expressões regulares.
 
+- **Princípios de Otimização**  
+  - Minimização de estados.
 
-**E.5.2 Alinhamento com a Taxonomia de Bloom**  
-As áreas de conhecimento exigidas para esta competência estão alinhadas ao nível **"Compreender"** da **Taxonomia Revisada de Bloom**, garantindo que os estudantes:  
-- **Reconheçam e interpretem** a relação entre **autômatos finitos e expressões regulares**.  
-- **Identifiquem e classifiquem** representações equivalentes dentro da **teoria de linguagens formais**.  
+#### F.4 Especificação de Disposições  
+As seguintes disposições são essenciais:  
 
-Ao atingir este nível de compreensão, os estudantes desenvolvem uma **base conceitual sólida**, permitindo aplicar esse conhecimento em cenários de resolução de problemas mais complexos.  
+- **Rigor** – Para construção precisa do autômato.  
+- **Criatividade** – Para encontrar soluções eficientes.  
+- **Detalhismo** – Para identificar e corrigir erros.
 
+---
 
-**E.5.3 Anotação de Verbos**  
-Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos estudantes:  
+### F.5 Tabela Resumo da Competência F
 
-- **Compreender** → Autômatos sobre Objetos Infinitos → **Interpretar** estruturas de autômatos e sua equivalência com expressões regulares.  
-- **Compreender** → Linguagens Regulares → **Identificar, Classificar** expressões regulares correspondentes a autômatos dados.  
+| **Competência**                                 | **Disposições**                 | **Conhecimentos**                  | **Habilidade**                                    |
+|------------------------------------------------|--------------------------------|----------------------------------|--------------------------------------------------|
+|                                                |                                | Autômatos Finitos                | **Aplicar (Projetar, Construir, Otimizar)**      |
+| **Projetar Autômatos Finitos para Reconhecimento de Linguagens Regulares** | **Rigor, Criatividade, Detalhismo** | Expressões Regulares e Linguagens Regulares | **Compreender (Converter, Relacionar)**          |
+|                                                |                                | Princípios de Otimização         | **Aplicar (Minimizar, Analisar)**                 |
 
+### F.6 Tabela Resumo para a Competência F
 
-### E.6 Tabela Resumo da Competência E
+| **Competência**                    | **Disposições**                     | **Conhecimentos**                   | **Habilidade**                                |
+|----------------------------------|-----------------------------------|-----------------------------------|----------------------------------------------|
+| **Redação Colaborativa de Relatórios Técnicos** | Colaborativo, Meticuloso, Responsável | **Comunicação Escrita (FPK)**      | **Aplicar (Escrever, Estruturar, Revisar, Refinar)** |
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|----------------|------------------|------------------|----------------|
-| **Relacionar Expressões Regulares com Autômatos Finitos** | Colaborativo, Responsável, Proativo | **Autômatos sobre Objetos Infinitos** | **Compreender** |
-| | | **Linguagens Regulares** | **Compreender** |
 
+## Tabela Resumo das Competências para a Tarefa: *A Máquina de Venda de Refrigerantes e Lanches*
 
-
-
-### **4.6 Especificação da Competência F**  
-
-### F.1 Título da Competência
-    Escrita Colaborativa de Relatórios Técnicos
-
-### F.2 Descrição da Competência
-Esta competência foca na capacidade de **produzir colaborativamente um relatório técnico bem estruturado**. Requer que os estudantes **apliquem princípios da escrita técnica** para sintetizar descobertas, explicar metodologias e documentar resultados de forma clara, lógica e profissional.  
-
-Para isso, os estudantes devem:  
-- **Escrever um relatório estruturado e coerente**, integrando contribuições de diversos membros da equipe.  
-- **Aplicar padrões profissionais de escrita técnica**, garantindo clareza, consistência e fluidez lógica.  
-- **Comunicar efetivamente os resultados técnicos**, tornando conceitos complexos acessíveis a públicos técnicos e não técnicos.  
-- **Revisar e refinar o conteúdo**, assegurando precisão, legibilidade e conformidade com diretrizes de formatação.  
-
-Esta competência enfatiza a **aplicação prática das habilidades de escrita**, exigindo dos estudantes a produção de um documento polido e bem organizado que reflita sua expertise coletiva.  
-
-
-### F.3 Especificação do Conhecimento
-A seguinte área de conhecimento é essencial para esta competência:  
-
-- **Comunicação Escrita (FPK)** – Envolve a capacidade de **aplicar técnicas estruturadas de escrita** para explicar e documentar efetivamente o processo de solução.  
-
-
-### F.4 Especificação de Disposições  
-Para alcançar com sucesso esta competência, os estudantes devem demonstrar atributos **comportamentais** fundamentais, incluindo:  
-
-- **Colaboração** – Trabalhar efetivamente em equipe para criar um documento unificado e bem organizado.  
-- **Cuidado com os detalhes** – Garantir precisão, clareza e consistência no conteúdo e na estrutura do relatório.  
-- **Responsabilidade** – Assumir responsabilidade pelas seções atribuídas e contribuir significativamente para o relatório final.  
-
-
-### F.5 Pareamento Conhecimento-Habilidade
-Esta etapa mapeia **áreas de conhecimento com as habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
-
-**F.5.1 Mapeamento do Conhecimento com as Habilidades**  
-Para demonstrar esta competência, os estudantes devem ser capazes de:  
-- **Aplicar** Comunicação Escrita (FPK) para **escrever, estruturar e refinar um relatório técnico**, explicando efetivamente o processo de solução.  
-
-
-**F.5.2 Alinhamento com a Taxonomia de Bloom**  
-O nível **"Aplicar"** da **Taxonomia de Bloom** é o mais apropriado para esta competência, pois requer que os estudantes:  
-- **Utilizem habilidades de escrita técnica na prática**.  
-- **Sintetizem e comuniquem descobertas de forma eficaz**, garantindo clareza e coerência.  
-- **Formatem, revisem e refinem** o documento para atender a padrões profissionais.  
-
-Ao dominar esta competência, os estudantes desenvolvem **habilidades práticas de escrita essenciais para a comunicação acadêmica e profissional**.  
-
-
-**F.5.3 Anotação de Verbos**  
-Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos estudantes:  
-
-- **Aplicar** → Comunicação Escrita (FPK) → **Escrever, Estruturar, Revisar, Refinar** documentação técnica.  
-
-
-### F.6 Tabela Resumo da Competência F
-
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|----------------|------------------|------------------|----------------|
-| **Escrita Colaborativa de Relatórios Técnicos** | Colaborativo, Detalhista, Responsável | **Comunicação Escrita (FPK)** | **Aplicar (Escrever, Estruturar, Revisar, Refinar)** |
-
+| **Competência**                           | **Disposições**                             | **Conhecimentos**                         | **Habilidade**                                         |
+|------------------------------------------|---------------------------------------------|-----------------------------------------|-------------------------------------------------------|
+| **Desenvolver soluções para problemas usando Autômatos** | Colaborativo, Responsável, Proativo, Criativo | Autômatos sobre Objetos Infinitos       | Aplicar (Construir, Desenvolver, Projetar)             |
+|                                          |                                             | Análise de Requisitos                    | Aplicar (Interpretar, Implementar, Organizar)          |
+|                                          |                                             | Pensamento Analítico e Crítico (FPK)    | Aplicar                                                |
+|                                          |                                             |                                         |                                                       |
+| **Determinar quando usar um AFD ou AFN** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Autômatos sobre Objetos Infinitos       | Compreender (Comparar)                                 |
+|                                          |                                             | Pensamento Analítico e Crítico (FPK)    | Aplicar (Avaliar, Decidir)                             |
+|                                          |                                             |                                         |                                                       |
+| **Testar Autômatos Usando Simuladores**  | Colaborativo, Responsável, Proativo, Criativo | Autômatos sobre Objetos Infinitos       | Aplicar (Experimentar, Relacionar, Simular)            |
+|                                          |                                             | Resolução de Problemas e Depuração (FPK)| Aplicar (Diagnosticar, Depurar, Refinar)               |
+|                                          |                                             |                                         |                                                       |
+| **Determinar Expressões Regulares que Representam Autômatos** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Autômatos sobre Objetos Infinitos       | Compreender                                            |
+|                                          |                                             | Linguagens Regulares                    | Aplicar                                                |
+|                                          |                                             | Resolução de Problemas e Depuração (FPK)| Aplicar                                                |
+|                                          |                                             |                                         |                                                       |
+| **Relacionar Expressões Regulares a Autômatos Finitos** | Colaborativo, Responsável, Proativo         | Autômatos sobre Objetos Infinitos       | Compreender                                            |
+|                                          |                                             | Linguagens Regulares                    | Compreender                                           |
+|                                          |                                             |                                         |                                                       |
+| **Redação Colaborativa de Relatórios Técnicos** | Colaborativo, Meticuloso, Responsável       | Comunicação Escrita (FPK)                | Aplicar (Escrever, Estruturar, Revisar, Refinar)       |
