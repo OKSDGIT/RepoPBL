@@ -46,7 +46,7 @@ The following knowledge areas are critical for this competency:
 * **Finite State Machines**
   Understand and apply the structure, behavior, and applications of deterministic and non-deterministic automata to model sequential systems.
 
-* **Requirements Analysis**
+* **Requirements Analysis (Engineering)**
   Identify, interpret, and translate system requirements into formal specifications for FSM design.
 
 * **Analytical and Critical Thinking**
@@ -57,7 +57,7 @@ The following knowledge areas are critical for this competency:
 
 * **Apply** knowledge of **Finite State Machines** to design models that reflect real-world behaviors through structured state transitions.
 
-* **Apply** **Requirements Analysis** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
+* **Apply** **Requirements Analysis (Engineering)** to understand the user’s expectations and translate them into clear formal specifications that guide FSM design.
 
 * **Apply** **Analytical and Critical Thinking (FPK)** to interpret the problem, analyze possible design paths, and justify modeling decisions based on logic and feasibility.
 
@@ -67,7 +67,7 @@ The following knowledge areas are critical for this competency:
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
 | **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**                        |
-|                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
+|                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)** |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
 
 
@@ -200,7 +200,7 @@ The following action verbs, aligned with Bloom’s Taxonomy, illustrate how each
 | **Competency**                                                    | **Dispositions**                                           | **Knowledge**                          | **Skill**                                     |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | --------------------------------------------- |
 | **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**            |
-|                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)**     |
+|                                                                   |                                                            | Requirements Engineering                  | **Apply (Interpret, Specify, Translate)**     |
 |                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**        |
 |                                        |                                                    |
 | **Determine Regular Expressions that Represent Automata**         | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Understand (Interpret, Relate, Represent)** |

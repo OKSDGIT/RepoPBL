@@ -51,7 +51,7 @@ This knowledge foundation ensures that the problem is addressed not only from a 
 * **Church-Turing Thesis**
   * Provides the theoretical basis for the task, reinforcing the equivalence between algorithmic reasoning and Turing-computable functions. Students are expected to ground their solutions in this foundational concept.
 
-* **Requirements Engineering**
+* **Requirements Analysis**
   * Enables the identification, analysis, and formalization of user needs (e.g., DERBA’s demand for nighttime traffic classification) into computational requirements that guide system design.
 
 * **Modeling and Simulation**
@@ -148,7 +148,7 @@ The following knowledge areas are critical for this competency:
 - **Turing Machines (nmT):**
     - Essential to achieving the overall objective, this knowledge involves understanding and applying the principles of Turing Machines to model the solution for traffic categorization and analysis.
 
-- **Requirements Engineering:**
+- **Requirements Analysis:**
     - Necessary to accurately identify and formalize the needs of DERBA technicians, ensuring that system requirements are well understood and properly implemented.
 
 - **Analytical and Critical Thinking (FPK):**
@@ -185,7 +185,7 @@ To achieve this competency, students must demonstrate the ability to:
 
 - **Use** *Turing Machines* to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
 
-- **Apply** *Requirements Engineering* to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
+- **Apply** *Requirements Analysis* to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
 
 
 **A.5.2 Bloom’s Taxonomy Alignment**  
@@ -195,7 +195,7 @@ To ensure a structured and progressive learning approach, each knowledge compone
 - **MTuring Machines - Apply**
 - Apply level is used to assess students’ ability to employ the concept of Turing Machines in modeling and solving the traffic control problem.
 
-- **Requirements Engineering - Apply**
+- **Requirements Analysis - Apply**
 - Apply level is used to evaluate whether students can interpret and structure system requirements based on the problem’s needs.
 
 - **Analytical and Critical Thinking (FPK) - Apply**
@@ -213,7 +213,7 @@ To provide clarity on competency expectations, the following verb annotations de
  **Verbs**: *Use*, *Implement*, *Execute*
 
 
-#### **Requirements Engineering – Apply**
+#### **Requirements Analysis – Apply**
 
 * **Interpret** the functional and non-functional needs described in the problem.
 * **Organize** those needs into formal specifications.

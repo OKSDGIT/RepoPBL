@@ -45,7 +45,7 @@ Based on the **task description**, the following set of required knowledge compo
   - Requires understanding and applying **formal techniques** to represent and manipulate string sets.  
   - Used primarily in **text processing, lexical analysis, and pattern matching** within the vending machine’s operational logic.  
 
-- **Requirements Analysis (Software Requirements Engineering)**  
+- **Requirements Analysis**  
   - A systematic process for **collecting, analyzing, and specifying system requirements**.  
   - Ensures that **user needs and system expectations** are clearly understood and documented.  
 

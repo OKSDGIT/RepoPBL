@@ -41,7 +41,7 @@ The task requires a combination of computing and professional knowledge domains.
 * **Regular Languages (Context-Free Grammars)**
   Supports the definition of formal rules and pattern generation for sequences of locations.
 
-* **Requirements Engineering**
+* **Requirements Analysis**
   Essential for identifying and formalizing the system’s functional requirements and constraints.
 
 * **Modeling and Simulation**
@@ -119,7 +119,7 @@ The following knowledge areas are essential for mastering this competency:
 * **Pushdown Automata and Finite Automata**
   *Understand the principles of state-based computation with memory, focusing on stack operations, transition functions, and language recognition. Apply this knowledge to simulate navigation behavior that requires remembering and reversing sequences.*
 
-* **Requirements Engineering**
+* **Requirements Analysis**
   *Identify, structure, and formalize behavioral requirements derived from task analysis. Translate real-world navigation goals into functional and non-functional requirements relevant to PDA design.*
 
 * **Analytical and Critical Thinking**
@@ -146,7 +146,7 @@ To demonstrate this competency, students must be able to:
 
 * **Apply** knowledge of **Pushdown Automata** to model navigation strategies that require memory and backtracking, simulating return paths using stack-based logic.
 
-* **Apply** knowledge of **Requirements Engineering** to extract, structure, and prioritize behavioral specifications aligned with the robot’s goals.
+* **Apply** knowledge of **Requirements Analysis** to extract, structure, and prioritize behavioral specifications aligned with the robot’s goals.
 
 * **Employ** **Analytical and Critical Thinking** to deconstruct complex task requirements, evaluate the adequacy of models, and refine solutions through iterative reasoning.
 
@@ -173,7 +173,7 @@ Representative action verbs associated with this competency include:
 | **Competency**                                            | **Dispositions**                                               | **Knowledge**                          | **Skill**                  |
 | --------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- | -------------------------- |
 | Develop problem-solving solutions using Pushdown Automata | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                      | **Apply (Develop, Model)** |
-|                                                           |                                                                | Requirements Engineering               | **Apply**             |
+|                                                           |                                                                | Requirements Analysis               | **Apply**             |
 |                                                           |                                                                | Analytical and Critical Thinking (FPK) | **Apply**                  |
 
 
@@ -313,4 +313,20 @@ Differentiate, Classify, Compare, Contrast, Identify, Justify
 | ------------------------------------------------ | ---------------------------------------------------- | -------------------------------------- | ---------------------------------- |
 | Differentiate classifications of formal grammars | Inventive, Collaborative, Responsible, Proactive | Regular Languages                        | **Understand (Differentiate, Compare, Contrast)** |
 |                                                  |                                                      | Analytical and Critical Thinking | **Apply**                          |
+
+
+
+## Summary Table of Competencies A, B, and C
+
+
+| **Competency**                                                | **Dispositions**                                           | **Knowledge**                          | **Skill**                                         |
+| ------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
+| **Develop problem-solving solutions using Pushdown Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Apply (Develop, Model)**                        |
+|                                                               |                                                            | Requirements Analysis                  | **Apply**                                         |
+|                                                               |                                                            | Analytical and Critical Thinking (FPK) | **Apply**                                         |
+| **Interpret rule-based notation**                             | Inventive, Collaborative, Responsible, Proactive, Creative | Pushdown Automata                      | **Understand**                                    |
+|                                                               |                                                            | Regular Languages                      | **Apply (Utilize, Solve)**                        |
+|                                                               |                                                            | Analytical and Critical Thinking       | **Apply**                                         |
+| **Differentiate classifications of formal grammars**          | Inventive, Collaborative, Responsible, Proactive           | Regular Languages                      | **Understand (Differentiate, Compare, Contrast)** |
+|                                                               |                                                            | Analytical and Critical Thinking       | **Apply**                                         |
 
