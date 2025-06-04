@@ -1,51 +1,48 @@
-# Relatório de Revisão e Ajustes da Especificação de Competências: Tarefa 1 - A Máquina de Venda de Refrigerantes e Lanches
+# Relatório de Resultados da Revisão e Ajustes da Especificação de Competências: Tarefa01 - A Máquina de Refrigerantes e Lanches
 
 ## **Introdução**  
 
-O processo de revisão, informado pelo feedback dos especialistas **P1 e P2**, identificou **áreas-chave para melhoria** no framework de especificação de competências. Esses insights foram categorizados em **cinco grandes temas**:  
-- **Granularidade do Conhecimento** → Garantir um nível apropriado de detalhamento.  
+O processo de revisão, baseado nos feedbacks dos especialistas **P1 e P2**, identificou **áreas-chave para aprimoramento** no modelo de especificação de competências. Essas percepções foram categorizadas em **cinco temas principais**:  
+- **Granularidade do Conhecimento** → Garantir um nível adequado de detalhamento.  
 - **Adequação do Conhecimento** → Alinhar as competências com conhecimentos relevantes e aplicáveis.  
 - **Vocabulário Controlado** → Padronizar a terminologia para melhorar a consistência.  
-- **Verbos da Taxonomia de Bloom** → Melhorar a clareza nas descrições de habilidades.  
+- **Verbos da Taxonomia de Bloom** → Melhorar a clareza na descrição das habilidades.  
 - **Clareza Textual** → Refinar descrições para evitar ambiguidades.  
 
 Com base nessas recomendações, **vários aprimoramentos foram implementados** para melhorar a especificidade, clareza e reutilização das competências.  
 
 
 
-## **Constatações da Revisão e Ajustes Implementados**  
+## **Resultados da Revisão e Ajustes Implementados**  
 
 ### **Aprimoramento da Granularidade do Conhecimento**  
-Seguindo os insights dos revisores, **o sistema de classificação do conhecimento foi atualizado de CC2012 para CS2013**, que oferece uma taxonomia mais **detalhada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas com tarefas educacionais**.  
+Com base nas observações dos revisores, **o sistema de classificação do conhecimento foi atualizado de CC2012 para CS2013**, que oferece uma taxonomia mais **detalhada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas às tarefas educacionais**.  
 
-### **Ajustes Específicos por Competência**  
+### **Ajustes Específicos nas Competências**  
 
 - **Competência A: "Desenvolver Soluções de Problemas Usando Autômatos"**  
   - O elemento de conhecimento **"Autômato Finito"** foi **redefinido** como **"Máquinas de Estados Finitos"**.  
   - **"Análise de Requisitos"** foi **redefinido** como **"Engenharia de Requisitos"**.  
-  - O componente de conhecimento **"Pensamento Analítico e Crítico (FPK)"** permaneceu **inalterado**.  
-  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.  
+ 
 
 - **Competência B: "Determinar Quando Usar um DFA ou um NFA"**  
-  - O título da competência foi **redefinido** como **"Justificar o Uso de Autômatos Finitos"**.  
+  - O título da competência foi **redefinido** como **"Justificar o Uso de Autômatos Finitos Determinísticos (DFA)"**.  
   - O conhecimento **"Autômato Finito"** foi **redefinido** como **"Autômatos Finitos Determinísticos (DFA)"**.  
   - **"Análise de Requisitos"** foi **redefinido** como **"Engenharia de Requisitos"**.  
-  - Um novo **par conhecimento-habilidade** foi adicionado: **"Pensamento Analítico e Crítico (FPK) - Aplicar"**, aumentando a clareza e profundidade da competência.  
+  - Um novo **par conhecimento-habilidade** foi adicionado: **"Pensamento Analítico e Crítico (FPK) - Aplicar"**, ampliando a clareza e profundidade da competência.  
 
 - **Competência C: "Testar Autômatos Usando Simuladores"**  
-  - O **elemento de conhecimento "Máquinas de Estados Finitos"** foi **redefinido** para maior clareza.  
-  - O **par conhecimento-habilidade "Resolução de Problemas e Solução de Problemas (FPK) - Aplicar"** permaneceu inalterado.  
-  - Um **novo par conhecimento-habilidade foi introduzido** → **"Modelagem e Simulação - Aplicar"**, garantindo que os alunos apliquem o conhecimento de modelagem ao testar autômatos usando simuladores.  
+  - O **elemento de conhecimento "Autômatos sobre Objetos Infinitos" foi substituído por "Máquinas de Estados Finitos"** para melhorar a clareza. 
+  - Um **novo par conhecimento-habilidade foi introduzido** → **"Modelagem e Simulação - Aplicar"**, garantindo que os estudantes apliquem seus conhecimentos de modelagem ao testar autômatos com simuladores.  
 
-- **Competências D e E: Mesclagem e Refinamento**  
-  - P2 recomendou a fusão das **Competências D e E**, pois eram redundantes.  
-  - As competências **"Determinar Expressões Regulares que Representam Autômatos"** e **"Relacionar Expressões Regulares com Autômatos Finitos"** foram **fundidas** em uma **única competência**: **"Definir Expressões Regulares para Autômatos Finitos."**  
-  - Refinamentos de conhecimento incluíram:  
+- **Competências D e E: Fusão e Aprimoramento**  
+   - As competências **"Determinar Expressões Regulares que Representam Autômatos"** e **"Relacionar Expressões Regulares com Autômatos Finitos"** foram **fundidas** em uma **única competência**: **"Definir Expressões Regulares para Autômatos Finitos."**  
+  - Ajustes no conhecimento incluíram:  
     - **"Autômato Finito - Compreender"** foi **redefinido** como **"Máquinas de Estados Finitos - Compreender."**  
     - **"Linguagens Regulares - Compreender"** foi **redefinido** como **"Expressões Regulares - Aplicar."**  
     - **"Pensamento Analítico e Crítico (FPK)"** permaneceu **inalterado**.  
 
-- **Competência F: "Escrever, em grupo, um Relatório Técnico"**  
+- **Competência F: "Escrita Colaborativa de Relatório Técnico"**  
   - A competência foi **redefinida** como **"Escrever um Relatório Técnico."**  
   - O conhecimento **"Relatório Técnico"** foi **redefinido** como **"Comunicação Escrita (FPK)."**  
   - O nível da Taxonomia de Bloom permaneceu **"Aplicar" (Escrever, Estruturar, Revisar, Refinar).**  
@@ -53,64 +50,142 @@ Seguindo os insights dos revisores, **o sistema de classificação do conhecimen
 
 
 ### **Padronização do Vocabulário Controlado**  
-Tanto P1 quanto P2 enfatizaram que o **uso de múltiplos verbos** nas descrições de competências é **benéfico**, pois **clarifica as ações esperadas** para cada par conhecimento-habilidade. A padronização de um **vocabulário controlado** assegura **maior consistência** e **alinhamento com objetivos de aprendizagem predefinidos**.  
+Tanto P1 quanto P2 enfatizaram que o **uso de múltiplos verbos** nas descrições das competências é **benéfico**, pois **esclarece as ações esperadas** para cada par conhecimento-habilidade. A padronização do **vocabulário controlado** assegura **maior consistência** e **alinhamento com os objetivos de aprendizagem predefinidos**.  
 
-Para aprimorar ainda mais a clareza, será estabelecido um **mapeamento estruturado de vocabulário**, definindo **termos preferenciais e sinônimos** para **manter a coerência entre diferentes especificações de competências**.  
-
-
-
-
-### **Padronização da Identificação de Competências para Reutilização**  
-
-Para melhorar a clareza, consistência e reutilização, os anotadores S1 e S2 revisaram os códigos de identificação de competências, implementando uma estratégia de renomeação estruturada. Esse ajuste garante que as competências possam ser reutilizadas de forma eficaz em múltiplas tarefas e contextos educacionais, reduzindo redundâncias e melhorando a organização.
-
-O sistema revisado de identificação de competências atende aos seguintes objetivos principais:
-
-- Melhor Estrutura Organizacional → Estabelecer um framework coerente e padronizado para gestão de competências.
-
-- Facilitação da Reutilização → Permitir que as competências sejam referenciadas e aplicadas consistentemente em diversas tarefas educacionais.
-
-- Alinhamento com o Framework de Anotação de Competências → Garantir que as definições de competências sigam uma abordagem estruturada e escalável.
-
-Ao atribuir identificadores únicos e estruturados às competências, essa abordagem simplifica o rastreamento, a recuperação e a integração das competências em diferentes ambientes de aprendizagem. Os novos códigos de competências padronizados (Cn), apresentados na Tabela 1, fornecem um sistema de referência claro que apoia o desenvolvimento estruturado e a aplicação fluida em modelos de aprendizagem baseados em competências.
-
- 
+Para ampliar ainda mais a clareza, será estabelecido um **mapeamento estruturado do vocabulário**, definindo **termos preferenciais e sinônimos** para **manter coerência entre diferentes especificações de competências**.  
 
 
 
 
-# **Tabela de Especificação de Competências - Ajustes**
 
- **Tabela 1 - Ajustes de Competências e novos Códigos**
+## **Ajustes nas Especificações de Competências**
+
+## **Especificação da Competência A**
+
+### A.1 Título da Competência
+
+    Desenvolver soluções de problemas usando Autômatos
+
+### A.2 Descrição da Competência
+
+Esta competência se refere à capacidade de **projetar, construir e validar soluções baseadas em autômatos** que resolvam problemas computacionais bem definidos. Espera-se que os estudantes interpretem os requisitos do sistema e modelem comportamentos utilizando **máquinas de estados finitos**, aplicando métodos formais para garantir a **consistência lógica e a correção operacional**.
+
+Os estudantes devem:
+
+* **Traduzir especificações de problemas em modelos de autômatos** com estados e transições.
+* **Implementar autômatos usando ferramentas apropriadas**, garantindo que seu comportamento esteja alinhado à lógica do sistema.
+* **Refinar e testar o autômato** por meio de simulação, tratando casos extremos e melhorando a robustez.
+* **Integrar restrições ou extensões** quando necessário, demonstrando flexibilidade e capacidade de adaptação na resolução de problemas.
+
+
+
+## **Especificação da Competência B**
+
+### B.1 Título da Competência
+
+    Justificar o uso de Autômatos Finitos Determinísticos (DFAs)
+
+### B.2 Descrição da Competência
+
+Esta competência foca na capacidade dos estudantes de **distinguir entre autômatos finitos determinísticos e não determinísticos**, e **avaliar qual modelo é mais adequado** para determinado problema. A ênfase está na compreensão das implicações do determinismo no projeto de autômatos e na tomada de decisões fundamentadas com base nas restrições e complexidade do sistema.
+
+Os estudantes devem ser capazes de:
+
+* **Comparar modelos DFA e NFA** com base em suas diferenças estruturais e comportamentais.
+* **Analisar os requisitos da tarefa** para identificar se o determinismo é essencial ou opcional.
+* **Selecionar e justificar** o modelo mais apropriado para implementação.
+
+
+
+## **Especificação da Competência C**
+
+### C.1 Título da Competência
+
+    Testar Autômatos Usando Simuladores
+    
+
+### C.2 Descrição da Competência
+
+Esta competência está relacionada ao **uso de ferramentas de simulação** (ex.: JFLAP) para verificar a correção e o comportamento de implementações de autômatos. A ênfase está no teste sistemático e no refinamento iterativo dos modelos de máquinas de estados.
+
+Os estudantes devem ser capazes de:
+
+* **Operar simuladores de autômatos** para testar comportamento de entrada/saída e transições.
+* **Interpretar os resultados da simulação**, identificando discrepâncias entre o comportamento esperado e o observado.
+* **Diagnosticar e corrigir erros** por meio de ciclos de depuração.
+* **Aplicar estratégias de resolução de problemas** para refinar o autômato até alcançar o desempenho desejado.
+
+
+
+## **Especificação da Competência D+E**
+
+### D+E.1 Título da Competência
+
+    Definir Expressões Regulares para Autômatos Finitos
+
+### D+E.2 Descrição da Competência
+
+Esta competência foca na capacidade de **relacionar expressões regulares a autômatos finitos**, tanto em nível teórico quanto prático.
+
+Os estudantes devem ser capazes de:
+
+* **Compreender a equivalência** entre expressões regulares e autômatos finitos.
+* **Construir expressões regulares** que representem a mesma linguagem aceita por um autômato dado.
+* **Traduzir estruturas de autômatos em expressões**, usando notação padrão e regras de simplificação.
+* **Validar a correção** comparando o comportamento de ambas as representações por meio de testes ou provas formais.
+
+
+## **Especificação da Competência F**
+
+### F.1 Título da Competência
+
+    Escrever um Relatório Técnico
+
+### F.2 Descrição da Competência
+
+Esta competência envolve a **produção colaborativa de um relatório técnico bem organizado** que comunique efetivamente o design, implementação e avaliação de soluções baseadas em autômatos.
+
+Os estudantes devem demonstrar a capacidade de:
+
+* **Escrever e estruturar um relatório** que sintetize o trabalho da equipe em uma narrativa coerente.
+* **Aplicar convenções de escrita técnica**, assegurando clareza, precisão e lógica.
+* **Documentar os resultados e raciocínios técnicos**, incluindo diagramas, representações formais e resultados de testes.
+* **Revisar e aperfeiçoar o relatório de forma colaborativa**, integrando feedback dos colegas e seguindo padrões de apresentação.
+
+
+
+## Tabela de Ajustes nas Competências
 
 | **ID**  | **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------|------------------|------------------|------------------|------------------|
-| (A) **C05** | **Desenvolver soluções de problemas usando Autômatos.** | Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Criar (Construir, Desenvolver, Projetar)** |
+|---------|--------|-----------|-----------|-------------------|
+| (A) | **Desenvolver soluções de problemas usando Autômatos.** | Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Aplicar (Construir, Desenvolver, Projetar)** |
 |         |                                   |                                 | Engenharia de Requisitos | **Aplicar (Interpretar, Implementar, Organizar)** |
 |         |                                   |                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (B) **C06** | **Justificar o uso de Autômatos Finitos Determinísticos (DFAs).** | Investigativo, Colaborativo, Responsável, Proativo | Autômatos Finitos Determinísticos (DFAs) | **Compreender (Comparar)** |
+|  |  |                                        |       |       
+| (B) | **Justificar o uso de Autômatos Finitos Determinísticos (DFAs).** | Investigativo, Colaborativo, Responsável, Proativo | Autômatos Finitos Determinísticos (DFAs) | **Compreender (Comparar)** |
 |         |                                   |                                 | Engenharia de Requisitos | **Aplicar** |
 |         |                                   |                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (C) **C07** | **Testar autômatos usando simuladores.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Aplicar (Experimentar, Relacionar, Simular)** |
+|  |  |                                        |       |       
+| (C) | **Testar autômatos usando simuladores.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Aplicar (Experimentar, Relacionar, Simular)** |
 |         |                                   |                                 | Resolução de Problemas e Solução de Problemas (FPK) | **Aplicar** |
 |         |                                   |                                 | Modelagem e Simulação | **Aplicar** |
-| (D+E) **C08** | **Definir Expressões Regulares para Autômatos Finitos.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Compreender** |
+|  |  |                                        |       |       
+| (D+E) | **Definir Expressões Regulares para Autômatos Finitos.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Compreender** |
 |         |                                   |                                 | Expressões Regulares | **Aplicar** |
 |         |                                   |                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (F) **C04** | **Escrever um relatório técnico.** | Colaborativo, Meticuloso, Responsável | Comunicação Escrita (FPK) | **Aplicar** |
+|  |  |                                        |       |       
+| (F) | **Escrever um relatório técnico.** | Colaborativo, Minucioso, Responsável | Comunicação Escrita (FPK) | **Aplicar** |
 
 
-A implementação de códigos estruturados de identificação de competências melhora a consistência, rastreabilidade e interoperabilidade entre diferentes contextos educacionais. Essa abordagem garante que as competências permaneçam bem definidas, adaptáveis e reutilizáveis, permitindo fácil integração em futuras especificações de competências e novos cenários de aprendizagem.
 
-Ao adotar identificadores de competências padronizados, o processo de anotação torna-se mais escalável e sustentável, estabelecendo a base para um modelo educacional baseado em competências mais estruturado e modular.
 
 
 ## **Conclusão**  
 
-O **processo de revisão da especificação de competências** resultou em **melhorias substanciais**, incorporando recomendações de especialistas para refinar definições de competências, **aumentar a especificidade, padronizar a terminologia e melhorar a clareza textual**.  
+O **processo de revisão da especificação de competências** resultou em **aperfeiçoamentos substanciais**, incorporando recomendações de especialistas para refinar definições, aumentar a especificidade, padronizar a terminologia e melhorar a clareza textual.  
 
-Ao **adotar uma taxonomia de conhecimento mais detalhada (CS2013)**, as competências tornaram-se **mais precisas e reutilizáveis**. Além disso, a **introdução de vocabulário controlado e mapeamento estruturado de terminologia** assegura **maior consistência nas descrições das competências**.  
+Ao adotar uma taxonomia de conhecimento mais detalhada (CS2013), as competências tornaram-se mais precisas e reutilizáveis. Além disso, a introdução de vocabulário controlado e mapeamento estruturado de termos garante maior consistência nas descrições.  
 
-A **fusão de competências redundantes** e os **ajustes nos elementos de conhecimento e habilidades** levaram a um **framework de competências mais coerente e estruturado**. Os **identificadores de competências revisados** também melhoram a **organização e reutilização em diferentes contextos educacionais**.  
+A fusão de competências redundantes e os ajustes nos elementos de conhecimento e habilidades resultaram em um modelo mais coerente e estruturado.  
 
-Seguindo em frente, **refinamentos iterativos contínuos** e **avaliações estruturadas por pares** continuarão sendo **essenciais** para manter um **modelo de especificação de competências de alta qualidade**. Esses aprimoramentos contribuirão para uma **abordagem de aprendizagem baseada em competências mais eficaz**, garantindo que as competências permaneçam **claras, aplicáveis e alinhadas com os objetivos educacionais**. 🚀  
+Para o futuro, *refinamentos iterativos contínuos e avaliações estruturadas por pares permanecerão essenciais para manter um modelo de especificação de competências de alta qualidade.* Esses aprimoramentos contribuirão para uma abordagem mais eficaz de aprendizagem baseada em competências, garantindo que as competências permaneçam claras, aplicáveis e alinhadas aos objetivos educacionais. 🚀
