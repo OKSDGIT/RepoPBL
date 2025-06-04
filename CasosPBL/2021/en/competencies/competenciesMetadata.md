@@ -4,9 +4,15 @@ Requirements Engineering
 Deterministic Finite Automata
 Modeling and Simulation
 Regular Expressions
+Regular Languages
+Turing Machines
+Pushdown Automata
+Context-Free Grammars
+Context-Free Languages
 
 Analytical and Critical Thinking
 Problem Solving and Troubleshooting
+Written Communication
 
 
 TASK01
