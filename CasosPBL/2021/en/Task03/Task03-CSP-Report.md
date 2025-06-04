@@ -210,7 +210,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 * **Apply** → Finite State Machines → *Use, Implement, Create*
 * **Apply** → Requirements Analysis → *Interpret, Specify, Translate*
-* **Apply** → Analytical and Critical Thinking → *Analyze, Justify, Evaluate*
+
 
 
 
@@ -221,7 +221,7 @@ To provide clarity on competency expectations, the following verb annotations de
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
 | **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite Automata                  | **Apply (Use, Implement, Create)**                        |
 |                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
-|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**    |
+|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
 
 
 
@@ -293,7 +293,7 @@ To demonstrate this competency, students must:
 
 * **Understand** → Regular Languages → *Interpret, Relate, Represent*
 * **Apply** → Requirements Analysis → *Decompose, Translate, Compare*
-* **Apply** → Analytical and Critical Thinking (FPK) → *Analyze, Test, Refine*
+
 
 
 
@@ -303,7 +303,7 @@ To demonstrate this competency, students must:
 | --------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | **Determine Regular Expressions that Represent Automata** | Inventive, Collaborative, Responsible, Proactive, Creative | Regular Languages                         | **Understand (Interpret, Relate, Represent)** |
 |                                                           |                                                            | Requirement Analisys                     | **Apply (Decompose, Translate, Compare)** |
-|                                                           |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Test, Refine)**         |
+|                                                           |                                                            | Analytical and Critical Thinking (FPK) | **Apply**         |
 
 
 
@@ -374,7 +374,6 @@ The **Analyze** level of Bloom’s Taxonomy is used to assess learners' ability 
 To clarify expectations, the following verbs are aligned with the knowledge areas at the Analyze level:
 
 * **Analyze** → Finite Automata → *Analyze, Evaluate, Compare*
-* **Apply** → Analytical and Critical Thinking (FPK) → *Infer, Justify, Interpret*
 
 
 
@@ -383,7 +382,7 @@ To clarify expectations, the following verbs are aligned with the knowledge area
 | **Competency**                                           | **Dispositions**                | **Knowledge**                          | **Skill**                              |
 | -------------------------------------------------------- | ------------------------------- | -------------------------------------- | -------------------------------------- |
 | **Infer and Identify Patterns in Finite State Machines** | Inventive, Creative, Meticulous | Finite Automata                  | **Analyze (Evaluate, Compare)** |
-|                                                          |                                 | Analytical and Critical Thinking (FPK) | **Apply (Infer, Justify, Interpret)**  |
+|                                                          |                                 | Analytical and Critical Thinking (FPK) | **Apply**  |
 
 
 

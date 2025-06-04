@@ -3,8 +3,6 @@
 **Authors**: Lais Salvador, Edeyson A. Gomes, Luiz Gavaza
 **Date**: March 21, 2022
 
----
-
 ## 1. Problem
 
 The company *SOS Florestal* is developing a prototype surveillance drone for forest monitoring, aimed at identifying events such as deforestation, river siltation, and forest fires. This drone will be equipped with a state-of-the-art optical module capable of zooming up to 60x, along with infrared and heat detection sensors. During monitoring, it transmits real-time images and videos to its base, allowing data analysis and identification of deforested areas, silted rivers, or fire outbreaks, including early-stage fires.
@@ -25,7 +23,6 @@ The company is also interested in investigating the feasibility of establishing 
 
 The recommended tool to simulate the drone surveillance module is [JFLAP](http://www.jflap.org).
 
----
 
 ## 2. Process
 
@@ -37,7 +34,7 @@ In addition, a shared document will be provided for teams to maintain a **Logboo
 
 This integrated approach ensures not only the organization and tracking of progress but also promotes continuous reflection and collaborative learning among participants.
 
----
+
 
 ## 3. Deliverables
 
@@ -45,7 +42,7 @@ One team member must upload to the UFBA Virtual Learning Environment (AVA), by *
 
 The report should describe the system's operations and include at least **two examples of system execution**. It should also address the company's interests regarding documentation and budgeting.
 
----
+
 
 ## 4. Schedule
 
@@ -55,7 +52,7 @@ The report should describe the system's operations and include at least **two ex
 | 03/31 | Tutorial Session – Problem 1 |
 | 04/03 | Solution Submission          |
 
----
+
 
 ## 5. Learning Resources
 
@@ -65,7 +62,7 @@ The report should describe the system's operations and include at least **two ex
 * **MENEZES, Paulo Blauth.**
   *Linguagens Formais e Autômatos*, 6th ed. Bookman, 2011.
 
----
+
 
 ## 6. Concepts Involved
 
@@ -74,7 +71,6 @@ The report should describe the system's operations and include at least **two ex
 3. Regular Expressions
 4. Chomsky Hierarchy
 
----
 
 ## 7. Learning Objectives
 
@@ -84,16 +80,19 @@ Develop the skills necessary to model, implement, and document computational sys
 
 ### 7.2 Specific Objectives
 
-1. Understand the fundamentals of Finite State Machines and their relationship with regular languages and regular expressions.
-2. Identify and characterize computational problems that can be modeled by finite automata and other recognizers.
-3. Model a surveillance system based on a Finite State Machine for simulation in JFLAP.
-4. Determine and justify the minimum number of states and transitions needed to meet specified requirements.
-5. Integrate and apply regular expressions to represent specific behaviors of the state machine.
-6. Describe in detail the functioning of the modeled system, including operations and concrete usage examples.
-7. Investigate and document the relationships between regular languages, automata, and regular expressions with examples applicable to the surveillance module.
-8. Propose automaton-based system solutions while meeting computational resource constraints.
-9. Record and share activity progress using tools such as the PBL whiteboard and logbook.
-10. Work in teams to integrate different types of knowledge and propose creative, well-founded solutions.
-11. Write technical reports in SBC format, clearly and thoroughly describing the proposed solution.
+1. **Model the system’s behavior using Finite State Machines (FSMs)** to represent event monitoring, transmission, and control actions of the drone.
+
+2. **Simulate and validate the FSM** using tools such as **JFLAP**, demonstrating correct operation and consistent handling of input scenarios (e.g., zoom level changes, new coordinates, transmission triggers).
+
+3. **Apply the concept of Regular Languages and Regular Expressions** to express behavior rules and transitions within the FSM.
+
+4. **Design a rule or formula** that estimates the **minimum number of states and transitions** in the FSM, based on the number of monitored events (e.g., deforestation, fire, siltation).
+
+5. **Produce a technical report** in SBC format that documents the design rationale, formal modeling process, simulation results, and mathematical justifications for decisions (e.g., budget estimations, modeling choices).
+
+
+
+
+
 
 

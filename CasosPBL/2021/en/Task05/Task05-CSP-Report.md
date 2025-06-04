@@ -52,9 +52,6 @@ The successful execution of this task requires mobilizing knowledge from both th
 * **Modeling and Simulation**
   Required for representing the robots’ behaviors formally and testing them through simulation environments like JFLAP.
 
-  * **Requirements Engineering**
-  Enables students to formalize and revise system specifications, such as enhancing existing modules and incorporating thresholds for herd sizes.
-
 
 ### Professional Knowledge (FPK)
 
@@ -86,14 +83,40 @@ Apply knowledge of Turing Machines to develop and integrate identification and n
 These learning objectives ensure that students combine theoretical and applied knowledge, strengthen algorithmic reasoning, and use simulation tools to prototype functional robotic systems aligned with formal models of computation.
 
 
-## 4. Competency Specification
+## **4. Competency Specification**
 
-To support these learning objectives, the competencies defined for Task 05 are **reused** from Task 02 (*Traffic Control*), as both tasks rely on the design, simulation, and documentation of systems modeled using Turing Machines. This reuse is intentional and pedagogically valuable for the following reasons:
+To support the learning objectives of Task 05, the **competency set defined for Task 02 (*Traffic Control*) is intentionally reused**, as both tasks involve the design, simulation, and documentation of systems modeled using **Turing Machines**. This strategic reuse ensures alignment between instructional goals and promotes coherence across the curriculum.
 
-* **Consistency**: Reinforces recurring cognitive and technical skills across different tasks, such as formal modeling and structured problem-solving.
-* **Efficiency**: Promotes a streamlined specification process by avoiding redundant competency definitions.
-* **Scalability**: Demonstrates how competencies can be applied across different but related domains, enhancing their generalizability and relevance.
-* **Traceability**: Supports a competency-based education model by making learning achievements persistent and verifiable across tasks.
+The decision not to revise or generate a new Competency Specification Review Process (CSRP) for Task 05 is justified by the following pedagogical and methodological considerations:
+
+* **Consistency**: Reinforces key cognitive processes and technical proficiencies—such as formal modeling, symbolic representation, and systematic problem-solving—through repeated application in varied contexts.
+
+* **Efficiency**: Eliminates redundancy in the specification process, allowing instructional focus to shift from redefinition to deeper engagement with the same competency framework.
+
+* **Scalability**: Demonstrates the applicability of well-structured competencies across multiple problem domains, fostering the transfer of learning and strengthening their instructional relevance.
+
+* **Traceability**: Enhances the visibility and continuity of learner progress by preserving competency alignment across tasks, thereby supporting a competency-based education model rooted in transparent and cumulative achievement tracking.
+
+As a result, Task 05 leverages an established and validated set of competencies without the need for additional review or adjustment.
 
 
+## 5. Competency Reuse Table
+
+| **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
+|----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
+| **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Apply (Use, Implement, Execute)**                |
+|                                                    |                                                                | Requirements Analysis                  | **Apply (Interpret, Organize)**                    |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
+|                                                    |                                                                |                                        |                                                    |
+| **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |              |                                      
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Justify)**              |
+|                                                    |                                                                |                                        |                                                    |
+| **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
+|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)**               |
+|  |                                        |       |       
+| **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
+|  |  |                                        |       |       
+| **Test automata using simulators.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
+|         |                                   |   Problem Solving and Troubleshooting (FPK) | **Apply** |
+|         |                                   |   Modeling and Simulation | **Apply** |
 

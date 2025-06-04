@@ -18,7 +18,7 @@ Based on these recommendations, **several refinements were implemented** to impr
 
     > Testing Automata Using Simulators 
 
-    > Collaborative Technical Report Writing
+    > Write a Technical Report
 
 
 ### Competency A Specification

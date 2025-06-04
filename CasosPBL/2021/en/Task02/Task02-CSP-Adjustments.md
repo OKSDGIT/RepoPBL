@@ -56,7 +56,7 @@ Through the use of critical reasoning and modeling skills, students are expected
 
 
 
- ## Competency Adjustments Table
+## Competency Adjustments Table
 
 | **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
 |----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|

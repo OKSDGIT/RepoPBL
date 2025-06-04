@@ -73,6 +73,8 @@ Esses objetivos de aprendizagem fornecem um caminho estruturado para o desenvolv
 
   - Comunicação e documentação: escrever um relatório técnico desenvolve a habilidade de registrar, justificar e comunicar soluções de forma clara e estruturada.
 
+
+
 ## 4. Definição de Competência
 
 As competências são especificadas com base nos **Objetivos de Aprendizagem (OAs)** identificados na análise da tarefa.

@@ -68,7 +68,7 @@ The following knowledge areas are critical for this competency:
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------- | ----------------------------------------- |
 | **Develop Problem-Solving Solutions Using Finite State Machines** | Inventive, Collaborative, Responsible, Proactive, Creative | Finite State Machines                  | **Apply (Use, Implement, Create)**                        |
 |                                                                   |                                                            | Requirements Analysis                  | **Apply (Interpret, Specify, Translate)** |
-|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply (Analyze, Justify, Evaluate)**    |
+|                                                                   |                                                            | Analytical and Critical Thinking (FPK) | **Apply**    |
 
 
 

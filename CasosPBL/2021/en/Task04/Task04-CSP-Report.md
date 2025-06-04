@@ -157,8 +157,6 @@ To demonstrate this competency, students must be able to:
 The primary cognitive processes involved in this competency are aligned with the following Bloom’s levels:
 
 * **Apply** – For using PDA concepts in system modeling and requirements-driven design.
-* **Analyze** – For breaking down requirements and validating stack-based behaviors.
-
 
 
 #### **A.5.3 Verb Annotation**
