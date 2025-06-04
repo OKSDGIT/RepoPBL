@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Este relatório documenta a revisão das especificações de competências associadas à tarefa de Aprendizagem Baseada em Problemas (PBL) "A Máquina de Vendas de Refrigerantes e Lanches". A revisão foi conduzida utilizando o processo estruturado Competency Specification Review Process (CSRP), com o objetivo de avaliar a clareza, precisão, alinhamento pedagógico e relevância das competências definidas, incluindo seus conhecimentos, habilidades e disposições associados.
+Este relatório documenta a revisão das especificações de competências associadas à tarefa de Aprendizagem Baseada em Problemas (ABP) "A Máquina de Vendas de Refrigerantes e Lanches". A revisão foi conduzida utilizando o processo estruturado Processo de Especificação e Revisão de Competências (PREC), com o objetivo de avaliar a clareza, precisão, alinhamento pedagógico e relevância das competências definidas, incluindo seus conhecimentos, habilidades e disposições associados.
 
 A análise foi baseada em entrevistas realizadas com dois instrutores experientes, utilizando um protocolo de entrevista estruturado. Em vez de apresentar uma transcrição completa do guia de entrevista, este relatório resume a estrutura do instrumento e sintetiza as percepções dos revisores. Os resultados da revisão são organizados de acordo com as principais etapas do CSRP, destacando pontos fortes, inconsistências e sugestões de melhoria no processo de especificação de competências.
 
@@ -56,7 +56,7 @@ A análise foi baseada em entrevistas realizadas com dois instrutores experiente
     - Identificar a equivalência entre **AF e ER**.  
     - Aplicar a equivalência entre **AF e ER** para desenvolver **ER com base em AF existentes**.  
 
-- *Da mesma forma, na **Competência B ('Equivalência de AFDs e AFNDs - Entender (Comparar)'),** o conhecimento sugerido não é coberto pela **descrição do caso PBL**, portanto deve ser removido."*  
+- *Da mesma forma, na **Competência B ('Equivalência de AFDs e AFNDs - Entender (Comparar)'),** o conhecimento sugerido não é coberto pela **descrição do caso ABP**, portanto deve ser removido."*  
 
 ## 2.6 Sugestões de Revisão
 
@@ -90,14 +90,14 @@ A análise foi baseada em entrevistas realizadas com dois instrutores experiente
 
 O **processo de revisão de especificação de competências** forneceu insights críticos sobre áreas que requerem melhorias, particularmente em relação à **granularidade do conhecimento, precisão textual e alinhamento das competências com os objetivos de aprendizagem da tarefa**. Guiado pelo feedback dos revisores, uma série de refinamentos direcionados será implementada para melhorar a **clareza, relevância e valor educacional** das especificações de competências.
 
-Uma conclusão central da revisão é que **o nível atual de granularidade do conhecimento é excessivamente amplo**, limitando a eficácia da anotação e reduzindo a precisão conceitual. Para resolver isso, uma **taxonomia de conhecimento mais estruturada e refinada** será adotada, permitindo maior especificidade e melhor alinhamento com o escopo real da tarefa. Como parte desse ajuste, **conceitos relacionados a Autômatos Finitos Não Determinísticos (AFND)**—que não estão presentes no cenário PBL—serão revisados ou removidos.
+Uma conclusão central da revisão é que **o nível atual de granularidade do conhecimento é excessivamente amplo**, limitando a eficácia da anotação e reduzindo a precisão conceitual. Para resolver isso, uma **taxonomia de conhecimento mais estruturada e refinada** será adotada, permitindo maior especificidade e melhor alinhamento com o escopo real da tarefa. Como parte desse ajuste, **conceitos relacionados a Autômatos Finitos Não Determinísticos (AFND)**—que não estão presentes no cenário ABP—serão revisados ou removidos.
 
 Além disso, **a clareza textual será significativamente aprimorada** com o refinamento de formulações vagas e a eliminação de descrições excessivamente prescritivas. Algumas declarações de competências foram consideradas muito genéricas ou muito diretivas. Para melhorar a coerência e usabilidade, **os títulos das competências serão reformulados**, **entradas redundantes (ex.: Competências D e E) serão fundidas**, e **conteúdo explicativo não ancorado na tarefa será removido**. A Competência B, em particular, será reestruturada para refletir com mais precisão seu foco pretendido.
 
-Vários **objetivos de aprendizagem e descrições de competências** também serão revisados para garantir que mapeiem diretamente às demandas da tarefa. Itens de conhecimento que não são **explicitamente necessários** pelo caso PBL serão removidos, evitando assim desalinhamento entre os resultados esperados e as competências realmente desenvolvidas.
+Vários **objetivos de aprendizagem e descrições de competências** também serão revisados para garantir que mapeiem diretamente às demandas da tarefa. Itens de conhecimento que não são **explicitamente necessários** pelo caso ABP serão removidos, evitando assim desalinhamento entre os resultados esperados e as competências realmente desenvolvidas.
 
-Olhando para frente, a integração de um **vocabulário padronizado e uma taxonomia de conhecimento estruturada** apoiará maior consistência, reusabilidade e alinhamento entre as tarefas PBL. A **natureza iterativa do CSRP** continuará sendo uma ferramenta valiosa para refinar e validar competências conforme os contextos de aprendizagem evoluem.
+Olhando para frente, a integração de um **vocabulário padronizado e uma taxonomia de conhecimento estruturada** apoiará maior consistência, reusabilidade e alinhamento entre as tarefas ABP. A **natureza iterativa do CSRP** continuará sendo uma ferramenta valiosa para refinar e validar competências conforme os contextos de aprendizagem evoluem.
 
 Ao implementar essas melhorias, o framework de competências se tornará **mais robusto, pedagogicamente sólido e reutilizável**, oferecendo maior suporte a estudantes, instrutores e designers de currículo engajados em **educação em computação baseada em competências**.
 
-> Essas revisões garantirão que a especificação de competências funcione não apenas como um instrumento de avaliação válido, mas também como um modelo instrucional reutilizável para futuras experiências de aprendizagem baseadas em PBL.
+> Essas revisões garantirão que a especificação de competências funcione não apenas como um instrumento de avaliação válido, mas também como um modelo instrucional reutilizável para futuras experiências de aprendizagem baseadas em ABP.
