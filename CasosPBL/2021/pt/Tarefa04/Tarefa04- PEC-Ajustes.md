@@ -1,115 +1,163 @@
+# Relatório de Resultados da Revisão e Ajustes na Especificação de Competências: Tarefa 04 – O Retorno do Robô Agricultor
 
-# Relatório de Revisão e Ajustes da Especificação de Competências: Tarefa 4 - O Retorno do Robô Fazendeiro
+## Introdução
 
-## **Introdução**  
+O processo de revisão, fundamentado no feedback dos especialistas **P1 e P2**, identificou **áreas-chave para melhoria** na estrutura de especificação de competências. Essas percepções foram categorizadas em **cinco temas principais**:  
+- **Granularidade do Conhecimento** → Garantir um nível adequado de detalhamento.  
+- **Adequação do Conhecimento** → Alinhar competências com conhecimentos relevantes e aplicáveis.  
+- **Vocabulário Controlado** → Padronizar a terminologia para aumentar a consistência.  
+- **Verbos da Taxonomia de Bloom** → Melhorar a clareza nas descrições das habilidades.  
+- **Clareza Textual** → Refinar as descrições para evitar ambiguidades.  
 
-O processo de revisão, informado pelo feedback dos especialistas **R1 e R2**, identificou **áreas-chave para melhoria** no framework de especificação de competências. Esses insights foram categorizados em **cinco grandes temas**:  
-- **Granularidade do Conhecimento** → Garantir um nível apropriado de detalhamento.  
-- **Adequação do Conhecimento** → Alinhar as competências com conhecimentos relevantes e aplicáveis.  
-- **Vocabulário Controlado** → Padronizar a terminologia para melhorar a consistência.  
-- **Verbos da Taxonomia de Bloom** → Melhorar a clareza nas descrições de habilidades.  
-- **Clareza Textual** → Refinar descrições para evitar ambiguidades.  
+Com base nessas recomendações, **vários aprimoramentos foram implementados** para melhorar a especificidade, clareza e reutilização das competências.
 
-Com base nessas recomendações, **vários aprimoramentos foram implementados** para melhorar a especificidade, clareza e reutilização das competências.  
+## Especificação Revisada da Competência para a Tarefa 04
 
+### Reutilização de Competências
 
-## **Constatações da Revisão e Ajustes Implementados**  
+> Testar Autômatos Usando Simuladores
 
-### **Aprimoramento da Granularidade do Conhecimento**  
-Seguindo os insights dos revisores, **o sistema de classificação do conhecimento foi atualizado de CC2012 para CS2013**, que oferece uma taxonomia mais **detalhada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas com tarefas educacionais**.  
+> Escrever um Relatório Técnico
 
-### **Ajustes Específicos por Competência**  
+### Especificação da Competência A
 
-- **Competência A: "Desenvolver Soluções de Problemas Usando Autômatos"**  
-  - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-  - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    
-  - O par de conheicmento **Hierarquia de Chomsky - Lembrar (reconhecer, relembrar)** foi **removido**.
-  - **"Análise de Requisitos"** foi **redefinido** como **"Engenharia de Requisitos"**.  
-  - O componente de conhecimento **"Pensamento Analítico e Crítico (FPK)"** permaneceu **inalterado**.  
-  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
- 
-- **Competência B: "Identificar as variações da Máquina de Turing"**   
-  - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    
-  - O par de conhecimento **Hierarquia de Chomsky - Lembrar (reconhecer, relembrar)** foi **removido**
-  - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-  - O conhecimento **"Pensamento Analítico e Crítico (FPK)"** **não foi redefinido**
-  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
+#### A.1 Título da Competência
 
+Desenvolver soluções para resolução de problemas usando Autômatos com Pilha
 
-- **Competência C: "Fazer uso das variações da Máquina de Turing"**  
-   - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-   -  O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-   - O conhecimento **"Pensamento Analítico e Crítico (FPK)"** **não foi redefinido**
-   - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
-     
- 
-  - **Competência D: "Testar Máquina de Turing Usando Simuladores"**  
-    - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-    - O **par conhecimento-habilidade "Resolução de Problemas e Solução de Problemas (FPK) - Aplicar"** permaneceu inalterado.  
-   
+#### A.2 Descrição Textual
 
-  - **Competência F: "Escrever, em grupo, um Relatório Técnico"**  
-    - A competência foi **redefinida** como **"Escrever um Relatório Técnico."**  
-    - O conhecimento **"Relatório Técnico"** foi **redefinido** como **"Comunicação Escrita (FPK)."**  
-    - O nível da Taxonomia de Bloom permaneceu **"Aplicar"**
-   
+Esta competência envolve a habilidade de projetar e implementar modelos computacionais usando Autômatos com Pilha (Pushdown Automata – PDA) para representar comportamentos que requerem decisões baseadas em memória. Espera-se que os alunos modelem e simulem sistemas nos quais a memória baseada em pilha seja essencial para tarefas como retrocesso, reconhecimento de estruturas aninhadas ou navegação sequencial.
 
-  ### **Padronização do Vocabulário Controlado**  
-Tanto R1 quanto R2 enfatizaram que o **uso de múltiplos verbos** nas descrições de competências é **benéfico**, pois **clarifica as ações esperadas** para cada par conhecimento-habilidade. A padronização de um **vocabulário controlado** assegura **maior consistência** e **alinhamento com objetivos de aprendizagem predefinidos**.  
+A aplicação dos PDAs pode abranger domínios como controle robótico, análise sintática de linguagens ou computação simbólica, e requer compreensão de como transições, entradas e operações na pilha interagem para produzir respostas sensíveis ao contexto. Os estudantes devem demonstrar capacidade de aplicar conceitos formais para construir modelos que sejam tanto teoricamente sólidos quanto eficazes na prática para resolver problemas envolvendo processos estruturados ou hierárquicos.
 
-Para aprimorar ainda mais a clareza, será estabelecido um **mapeamento estruturado de vocabulário**, definindo **termos preferenciais e sinônimos** para **manter a coerência entre diferentes especificações de competências**.  
+#### A.2 Tabela para a Competência A
 
+| **Competência**                                             | **Disposições**                                                | **Conhecimento**                 | **Habilidade**                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------- | ------------------------------- |
+| Desenvolver soluções para resolução de problemas usando Autômatos com Pilha | Inventivo, Colaborativo, Responsável, Proativo, Criativo      | Autômatos com Pilha             | **Aplicar (Desenvolver, Modelar)** |
+|                                                             |                                                               | Engenharia de Requisitos        | **Aplicar**                     |
+|                                                             |                                                               | Pensamento Analítico e Crítico | **Aplicar**                     |
 
+### Especificação da Competência B
 
+#### B.1 Título da Competência
 
-### **Padronização da Identificação de Competências para Reutilização**  
+Interpretar notação baseada em regras
 
-Para melhorar a clareza, consistência e reutilização, os anotadores S1 e S2 revisaram os códigos de identificação de competências, implementando uma estratégia de renomeação estruturada. Esse ajuste garante que as competências possam ser reutilizadas de forma eficaz em múltiplas tarefas e contextos educacionais, reduzindo redundâncias e melhorando a organização.
+#### B.2 Descrição Textual
 
-O sistema revisado de identificação de competências atende aos seguintes objetivos principais:
+Esta competência envolve a habilidade de compreender e interpretar notações formais baseadas em regras, tais como gramáticas livres de contexto, usadas para definir e controlar o comportamento de sistemas por meio de sequências estruturadas de símbolos. Espera-se que os alunos analisem como regras de produção regem sequências válidas de operações, permitindo a representação de lógica decisória, fluxos procedurais ou protocolos de comunicação.
 
-- Melhor Estrutura Organizacional → Estabelecer um framework coerente e padronizado para gestão de competências.
+Esta competência é aplicável a domínios que exigem modelagem simbólica, como processamento de linguagens, controle robótico e especificação formal. Enfatiza a compreensão da sintaxe e hierarquias de regras, bem como a capacidade de interpretar como tais notações definem restrições e orientam a execução em sistemas computacionais.
 
-- Facilitação da Reutilização → Permitir que as competências sejam referenciadas e aplicadas consistentemente em diversas tarefas educacionais.
+#### B.3 Especificação do Conhecimento
 
-- Alinhamento com o Framework de Anotação de Competências → Garantir que as definições de competências sigam uma abordagem estruturada e escalável.
+As seguintes áreas de conhecimento são essenciais para o domínio desta competência:
 
-Ao atribuir identificadores únicos e estruturados às competências, essa abordagem simplifica o rastreamento, a recuperação e a integração das competências em diferentes ambientes de aprendizagem. Os novos códigos de competências padronizados (Cn), apresentados na Tabela 1, fornecem um sistema de referência claro que apoia o desenvolvimento estruturado e a aplicação fluida em modelos de aprendizagem baseados em competências.
+* Gramáticas Livres de Contexto e Linguagens Regulares (Linguagens Livres de Contexto)
+  * Compreender como essas linguagens formais definem sequências estruturadas de símbolos e como construir gramáticas para reconhecer ou gerar padrões específicos de comportamento.
 
+* Autômatos com Pilha
+  * Compreender a correspondência entre linguagens baseadas em regras e autômatos capazes de reconhecê-las, particularmente o papel da memória na análise de estruturas aninhadas.
 
-# **Tabela de Especificação de Competências - Ajustes**
+* Pensamento Analítico e Crítico
+  * Aplicar habilidades de raciocínio para interpretar conjuntos de regras, validar representações simbólicas de comportamento e refinar gramáticas visando clareza, completude e correção.
 
- **Tabela 5 - Ajustes de Competências e novos Códigos**
+#### B.5 Associação Conhecimento-Habilidade
 
-| **ID**       | **Competência**                                      | **Disposições**                                  | **Conhecimento**                              | **Habilidade**                              |
-|--------------|------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|---------------------------------------------|
-| (A) **C05**  | **Desenvolver soluções de problemas usando a máquina de Turing.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Construir, Desenvolver, Projetar)** |
-|              |                                                      |                                                 | Engenharia de Requisitos | **Compreender (Interpretar, Organizar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (B) **C10**  | **Identificar as variações da Máquina de Turing**    | Investigativo, Colaborativo, Responsável, Proativo | Máquinas de Turing | **Compreender (Comparar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (C) **C11**  | **Fazer uso das variações da Máquina de Turing**     | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Selecionar, Utilizar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (D) **C07**  | **Testar Máquina de Turing usando Simulador**        | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Experimentar, Simular)** |
-|              |                                                      |                                                 | Resolução de Problemas (FPK) | **Aplicar** |
-|              |                                                      |                                                 | Modelagem e Simulação | **Aplicar** |
-| (E) **C04**  | **Escrever um relatório técnico.**                   | Colaborativo, Meticuloso, Responsável          | Comunicação Escrita (FPK) | **Aplicar** |              |
+**B.5.1 Mapeamento do Conhecimento para Habilidades**  
+Para demonstrar essa competência, os estudantes devem ser capazes de:
 
-A implementação de códigos estruturados de identificação de competências melhora a consistência, rastreabilidade e interoperabilidade entre diferentes contextos educacionais. Essa abordagem garante que as competências permaneçam bem definidas, adaptáveis e reutilizáveis, permitindo fácil integração em futuras especificações de competências e novos cenários de aprendizagem.
+* **Compreender** o conhecimento sobre Gramáticas Livres de Contexto e Linguagens Regulares para interpretar e construir representações baseadas em regras que definem sequências válidas de símbolos que governam o comportamento do sistema.  
+  * Verbos: Interpretar, Construir, Relacionar
 
-Ao adotar identificadores de competências padronizados, o processo de anotação torna-se mais escalável e sustentável, estabelecendo a base para um modelo educacional baseado em competências mais estruturado e modular.
+* **Compreender** o conhecimento sobre Autômatos com Pilha para reconhecer os mecanismos computacionais capazes de processar estruturas baseadas em regras — particularmente aquelas envolvendo hierarquia, recursão ou padrões aninhados — e relacionar esses modelos ao poder expressivo das gramáticas.  
+  * Verbos: Reconhecer, Explicar, Comparar
 
+* **Aplicar** Pensamento Analítico e Crítico para examinar conjuntos de regras, detectar inconsistências ou ambiguidades e refinar estruturas gramaticais para melhorar correção, clareza e aplicabilidade no domínio do sistema.  
+  * Verbos: Analisar, Refinar, Validar
 
-## **Conclusão**  
+#### B.6 Tabela para a Competência B
 
-O **processo de revisão da especificação de competências** resultou em **melhorias substanciais**, incorporando recomendações de especialistas para refinar definições de competências, **aumentar a especificidade, padronizar a terminologia e melhorar a clareza textual**.  
+| **Competência**                   | **Disposições**                                                | **Conhecimento**                 | **Habilidade**                                  |
+| -------------------------------- | ------------------------------------------------------------- | ------------------------------- | ---------------------------------------------- |
+| Interpretar notação baseada em regras | Inventivo, Colaborativo, Responsável, Proativo, Criativo      | Autômatos com Pilha             | **Compreender (Reconhecer, Explicar, Comparar)** |
+|                                  |                                                               | Gramáticas Livres de Contexto   | **Compreender (Interpretar, Construir, Relacionar)** |
+|                                  |                                                               | Linguagens Regulares            | **Compreender (Interpretar, Construir, Relacionar)** |
+|                                  |                                                               | Pensamento Analítico e Crítico  | **Aplicar (Refinar, Validar)**                   |
 
-Ao **adotar uma taxonomia de conhecimento mais detalhada (CS2013)**, as competências tornaram-se **mais precisas e reutilizáveis**. Além disso, a **introdução de vocabulário controlado e mapeamento estruturado de terminologia** assegura **maior consistência nas descrições das competências**.  
+### Especificação da Competência C
 
-A **fusão de competências redundantes** e os **ajustes nos elementos de conhecimento e habilidades** levaram a um **framework de competências mais coerente e estruturado**. Os **identificadores de competências revisados** também melhoram a **organização e reutilização em diferentes contextos educacionais**.  
+#### C.1 Título da Competência
 
-Seguindo em frente, **refinamentos iterativos contínuos** e **avaliações estruturadas por pares** continuarão sendo **essenciais** para manter um **modelo de especificação de competências de alta qualidade**. Esses aprimoramentos contribuirão para uma **abordagem de aprendizagem baseada em competências mais eficaz**, garantindo que as competências permaneçam **claras, aplicáveis e alinhadas com os objetivos educacionais**. 🚀  
+Diferenciar classificações de gramáticas formais
 
+#### C.2 Descrição Textual
+
+Esta competência foca na habilidade de compreender e diferenciar classes de gramáticas formais, como gramáticas regulares e livres de contexto, juntamente com seus respectivos modelos computacionais (por exemplo, autômatos finitos e autômatos com pilha). Espera-se que os alunos analisem as características estruturais e o poder expressivo de cada tipo de gramática e avaliem sua adequação para modelar diferentes tipos de sistemas de controle simbólico ou comportamentos baseados em linguagem.
+
+A competência apoia o entendimento crítico da hierarquia de Chomsky, permitindo aos estudantes classificar problemas segundo sua complexidade gramatical e tomar decisões informadas ao selecionar representações formais para projeto ou análise de sistemas.
+
+#### C.3 Especificação do Conhecimento
+
+As seguintes áreas de conhecimento são essenciais para o domínio desta competência:
+
+* Linguagens Livres de Contexto  
+  * Compreender os princípios das gramáticas livres de contexto, incluindo sua estrutura, regras de derivação e capacidade de descrever padrões hierárquicos. Reconhecer seus limites expressivos e os tipos de autômatos (por exemplo, autômatos com pilha) usados para reconhecê-las.
+
+* Linguagens Regulares  
+  * Compreender a definição e construção de gramáticas regulares e o uso correspondente de autômatos finitos para representar padrões planos ou repetitivos. Identificar as limitações das linguagens regulares em comparação com as livres de contexto.
+
+* Pensamento Analítico e Crítico  
+  * Aplicar raciocínio lógico para comparar classes gramaticais com base em estrutura, expressividade e requisitos computacionais. Avaliar qual tipo de gramática é mais apropriado para modelar comportamentos específicos e justificar a classificação com base em critérios formais.
+
+#### C.4 Associação Conhecimento-Habilidade
+
+##### C.4.1 Mapeamento do Conhecimento para Habilidades
+
+Para demonstrar efetivamente esta competência, os estudantes devem ser capazes de:
+
+* **Compreender** o conhecimento sobre Linguagens Livres de Contexto  
+  * Verbos associados: Reconhecer, Descrever, Diferenciar  
+  * Os alunos devem ser capazes de reconhecer características estruturais das gramáticas livres de contexto, descrever seus padrões de derivação e diferenciar seu poder expressivo do das linguagens regulares.
+
+* **Compreender** o conhecimento sobre Linguagens Regulares  
+  * Verbos associados: Identificar, Classificar, Comparar  
+  * Os alunos devem identificar características das gramáticas regulares e dos autômatos finitos, classificar construtos linguísticos conforme a complexidade gramatical e comparar linguagens regulares e livres de contexto em termos de expressividade e potencial de modelagem.
+
+* **Aplicar** Pensamento Analítico e Crítico  
+  * Os alunos devem analisar a adequação dos diferentes tipos de gramáticas para cenários específicos de modelagem, contrastar suas propriedades estruturais e computacionais e justificar a escolha de uma classe gramatical com base nos requisitos do sistema.
+
+#### C.5.2 Alinhamento com a Taxonomia de Bloom
+
+Esta competência envolve os seguintes níveis de processamento cognitivo:
+
+* **Compreender** – Para identificar, descrever e classificar tipos de gramáticas e suas características estruturais.
+
+* **Aplicar** – Para analisar necessidades de modelagem e selecionar classes gramaticais apropriadas com base em critérios formais e restrições do sistema.
+
+#### C.6 Tabela Resumo para a Competência C
+
+| **Competência**                            | **Disposições**                              | **Conhecimento**             | **Habilidade**                               |
+| ----------------------------------------- | ------------------------------------------- | ---------------------------- | -------------------------------------------- |
+| Diferenciar classificações de gramáticas formais | Inventivo, Colaborativo, Responsável, Proativo | Linguagens Regulares          | **Compreender (Identificar, Classificar, Comparar)** |
+|                                           |                                             | Linguagens Livres de Contexto | **Compreender (Reconhecer, Descrever, Diferenciar)** |
+|                                           |                                             | Pensamento Analítico e Crítico | **Aplicar**                                  |
+
+### **Tabela Resumo Unificada das Competências A, B e C**
+
+| **Competência**                                            | **Disposições**                                           | **Conhecimentos**               | **Habilidade**                                         |
+| --------------------------------------------------------- | -------------------------------------------------------- | ------------------------------ | ----------------------------------------------------- |
+| Desenvolver soluções para resolução de problemas usando Autômatos com Pilha | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Autômatos com Pilha            | **Aplicar** (*Desenvolver, Modelar*)                   |
+|                                                           |                                                          | Engenharia de Requisitos       | **Aplicar** (*Especificar, Estruturar*)                |
+|                                                           |                                                          | Pensamento Analítico e Crítico | **Aplicar** (*Decompor, Avaliar*)                      |
+|                                                           |                                                          |                              |                                                       |
+| Interpretar notação baseada em regras                      | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Autômatos com Pilha            | **Compreender** (*Reconhecer, Explicar, Comparar*)     |
+|                                                           |                                                          | Gramáticas Livres de Contexto  | **Compreender** (*Interpretar, Construir, Relacionar*) |
+|                                                           |                                                          | Linguagens Regulares           | **Compreender** (*Interpretar, Construir, Relacionar*) |
+|                                                           |                                                          | Pensamento Analítico e Crítico | **Aplicar** (*Aprimorar, Validar*)                      |
+|                                                           |                                                          |                              |                                                       |
+| Diferenciar classificações de gramáticas formais           | Inventivo, Colaborativo, Responsável, Proativo           | Linguagens Regulares           | **Compreender** (*Identificar, Classificar, Comparar*) |
+|                                                           |                                                          | Linguagens Livres de Contexto  | **Compreender** (*Reconhecer, Descrever, Diferenciar*) |
+|                                                           |                                                          | Pensamento Analítico e Crítico | **Analisar**                                           |
