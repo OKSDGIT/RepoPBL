@@ -35,13 +35,13 @@ The analysis was informed by interviews conducted with two experienced instructo
 
 ### 2.4 Textual Clarity in Competency Descriptions
 
-**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency D: 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
+**P1:** *"Some competency descriptions and knowledge-skill pairs need to be reevaluated to ensure they are more direct and free from ambiguity. For example, in Competency 'Determine Regular Expressions that Represent Automata,' I suggest rewording the title, as it is not sufficiently clear."*  
 
 **P2:** *"Several competencies need to be reformulated. Some descriptions are overly directive, while others are too generic. Greater clarity is needed so that readers fully understand what the task is asking.*  
 
 - *In **Competencies C and D**, the descriptive text about knowledge is unnecessary; I suggest removing the explanation regarding 'The Purpose of Modeling and Simulation' and 'Review of Regular Expressions.'*  
 
-- *Regarding **Competency D**, I suggest modifying the competency title from **'Determine Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
+- *Regarding **Competency D**, I suggest modifying the competency title from **'Determining Regular Expressions that Represent Automata'** to **'How to Relate Regular Expressions and Their Equivalent Automata.'** I believe this wording makes the competency clearer.*  
 
 - *Additionally, I recommend merging **Competencies D and E**, as they are identical."*  
 
