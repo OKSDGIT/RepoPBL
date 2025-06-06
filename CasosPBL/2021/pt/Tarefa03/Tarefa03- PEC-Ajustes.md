@@ -1,116 +1,208 @@
+# Relatório de Revisão e Ajustes na Especificação de Competências: Tarefa03 - Robô Agrícola
 
-# Relatório de Revisão e Ajustes da Especificação de Competências: Tarefa 3 - Robô Fazendeiro
+## Introdução  
 
+O processo de revisão, baseado no feedback dos especialistas **P1 e P2**, identificou **áreas-chave para melhoria** no framework de especificação de competências. Esses insights foram categorizados em **cinco temas principais**:  
+- **Granularidade do Conhecimento** → Garantir nível adequado de detalhamento  
+- **Adequação do Conhecimento** → Alinhar competências com conhecimentos relevantes  
+- **Vocabulário Controlado** → Padronizar terminologia para consistência  
+- **Verbos da Taxonomia de Bloom** → Melhorar clareza nas descrições de habilidades  
+- **Clareza Textual** → Refinar descrições para evitar ambiguidades  
 
-## **Introdução**  
+Com base nessas recomendações, **diversos refinamentos foram implementados** para melhorar a especificidade, clareza e reusabilidade das competências.
 
-O processo de revisão, informado pelo feedback dos especialistas **R1 e R2**, identificou **áreas-chave para melhoria** no framework de especificação de competências. Esses insights foram categorizados em **cinco grandes temas**:  
-- **Granularidade do Conhecimento** → Garantir um nível apropriado de detalhamento.  
-- **Adequação do Conhecimento** → Alinhar as competências com conhecimentos relevantes e aplicáveis.  
-- **Vocabulário Controlado** → Padronizar a terminologia para melhorar a consistência.  
-- **Verbos da Taxonomia de Bloom** → Melhorar a clareza nas descrições de habilidades.  
-- **Clareza Textual** → Refinar descrições para evitar ambiguidades.  
+## **Resultados da Revisão e Ajustes Implementados**  
 
-Com base nessas recomendações, **vários aprimoramentos foram implementados** para melhorar a especificidade, clareza e reutilização das competências.  
+### **Refinamento da Granularidade do Conhecimento**  
+Seguindo as sugestões dos revisores, **o sistema de classificação de conhecimento foi atualizado de CC2012 para CS2013**, que oferece uma taxonomia mais **detalhada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas** com tarefas educacionais.  
+  - **"Análise de Requisitos"** foi **redefinida** como **"Engenharia de Requisitos"**  
+  - **"Autômatos Finitos"** foi **redefinido** como **"Máquinas de Estados Finitos"**  
 
+## Especificação Revisada de Competências para Tarefa 03
 
-## **Constatações da Revisão e Ajustes Implementados**  
+### Reúso de Competências
 
-### **Aprimoramento da Granularidade do Conhecimento**  
-Seguindo os insights dos revisores, **o sistema de classificação do conhecimento foi atualizado de CC2012 para CS2013**, que oferece uma taxonomia mais **detalhada** e **hierárquica**. Essa mudança garante **maior especificidade**, tornando as competências **mais reutilizáveis** e **melhor alinhadas com tarefas educacionais**.  
+    > Testagem de Autômatos Usando Simuladores 
 
-### **Ajustes Específicos por Competência**  
+    > Redação Técnica Colaborativa de Relatórios
 
-- **Competência A: "Desenvolver Soluções de Problemas Usando Autômatos"**  
-  - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-  - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    
-  - O par de conheicmento **Hierarquia de Chomsky - Lembrar (reconhecer, relembrar)** foi **removido**.
-  - **"Análise de Requisitos"** foi **redefinido** como **"Engenharia de Requisitos"**.  
-  - O componente de conhecimento **"Pensamento Analítico e Crítico (FPK)"** permaneceu **inalterado**.  
-  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
- 
-- **Competência B: "Identificar as variações da Máquina de Turing"**   
-  - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    
-  - O par de conhecimento **Hierarquia de Chomsky - Lembrar (reconhecer, relembrar)** foi **removido**
-  - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-  - O conhecimento **"Pensamento Analítico e Crítico (FPK)"** **não foi redefinido**
-  - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
+### Especificação da Competência A  
 
+### A.1 Título da Competência
 
-- **Competência C: "Fazer uso das variações da Máquina de Turing"**  
-   - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-   -  O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-   - O conhecimento **"Pensamento Analítico e Crítico (FPK)"** **não foi redefinido**
-   - As habilidades associadas aos componentes de conhecimento acima **permaneceram inalteradas**.
-     
- 
-  - **Competência D: "Testar Máquina de Turing Usando Simuladores"**  
-    - O par de conhecimento **Tese de Church-Turing - Compreender** foi **removido**.
-    - O elemento de conhecimento **"Máquina de Turing"** **não foi redefinido**.
-    - O **par conhecimento-habilidade "Resolução de Problemas e Solução de Problemas (FPK) - Aplicar"** permaneceu inalterado.  
-   
+    Desenvolver Soluções de Resolução de Problemas Usando Máquinas de Estados Finitos
 
-  - **Competência F: "Escrever, em grupo, um Relatório Técnico"**  
-    - A competência foi **redefinida** como **"Escrever um Relatório Técnico."**  
-    - O conhecimento **"Relatório Técnico"** foi **redefinido** como **"Comunicação Escrita (FPK)."**  
-    - O nível da Taxonomia de Bloom permaneceu **"Aplicar"**
-   
+### A.2 Descrição Textual
 
-  ### **Padronização do Vocabulário Controlado**  
-Tanto R1 quanto R2 enfatizaram que o **uso de múltiplos verbos** nas descrições de competências é **benéfico**, pois **clarifica as ações esperadas** para cada par conhecimento-habilidade. A padronização de um **vocabulário controlado** assegura **maior consistência** e **alinhamento com objetivos de aprendizagem predefinidos**.  
+Projete e implemente soluções computacionais usando **Máquinas de Estados Finitos (MEFs)** para modelar sistemas caracterizados por estados e transições, em contextos reais e instrucionais. Esta competência enfatiza a capacidade de traduzir requisitos do sistema em modelos formais que sejam logicamente consistentes, verificáveis e alinhados com os princípios da teoria de autômatos.
 
-Para aprimorar ainda mais a clareza, será estabelecido um **mapeamento estruturado de vocabulário**, definindo **termos preferenciais e sinônimos** para **manter a coerência entre diferentes especificações de competências**.  
+Espera-se que os estudantes demonstrem proficiência em:
+- Analisar e interpretar especificações de sistemas;
+- Aplicar conhecimento teórico de MEFs para construir modelos comportamentais precisos;
+- Garantir que os modelos resultantes sejam funcionalmente corretos, logicamente sólidos e adequados ao propósito.
 
+Esta competência promove a integração de métodos formais e habilidades de resolução de problemas, preparando os estudantes para abordar tarefas de modelagem de sistemas com rigor e insight prático.
 
+### A.3 Especificação de Conhecimento
 
+As seguintes áreas de conhecimento são críticas para esta competência:
 
-### **Padronização da Identificação de Competências para Reutilização**  
+* **Máquinas de Estados Finitos**
+  Compreender e aplicar a estrutura, comportamento e aplicações de autômatos determinísticos e não-determinísticos para modelar sistemas sequenciais.
 
-Para melhorar a clareza, consistência e reutilização, os anotadores S1 e S2 revisaram os códigos de identificação de competências, implementando uma estratégia de renomeação estruturada. Esse ajuste garante que as competências possam ser reutilizadas de forma eficaz em múltiplas tarefas e contextos educacionais, reduzindo redundâncias e melhorando a organização.
+* **Engenharia de Requisitos**
+  Identificar, interpretar e traduzir requisitos do sistema em especificações formais para projeto de MEFs.
 
-O sistema revisado de identificação de competências atende aos seguintes objetivos principais:
+* **Pensamento Analítico e Crítico**
+  Decompor o problema, avaliar restrições e objetivos, e selecionar estratégias de modelagem apropriadas para guiar o processo de projeto.
 
-- Melhor Estrutura Organizacional → Estabelecer um framework coerente e padronizado para gestão de competências.
+### A.4 Pareamento Conhecimento-Habilidade
 
-- Facilitação da Reutilização → Permitir que as competências sejam referenciadas e aplicadas consistentemente em diversas tarefas educacionais.
+* **Aplicar** conhecimento de **Máquinas de Estados Finitos** para projetar modelos que reflitam comportamentos do mundo real através de transições de estado estruturadas.
 
-- Alinhamento com o Framework de Anotação de Competências → Garantir que as definições de competências sigam uma abordagem estruturada e escalável.
+* **Aplicar** **Engenharia de Requisitos** para entender as expectativas do usuário e traduzi-las em especificações formais claras que orientem o projeto de MEFs.
 
-Ao atribuir identificadores únicos e estruturados às competências, essa abordagem simplifica o rastreamento, a recuperação e a integração das competências em diferentes ambientes de aprendizagem. Os novos códigos de competências padronizados (Cn), apresentados na Tabela 1, fornecem um sistema de referência claro que apoia o desenvolvimento estruturado e a aplicação fluida em modelos de aprendizagem baseados em competências.
+* **Aplicar** **Pensamento Analítico e Crítico (FPK)** para interpretar o problema, analisar possíveis caminhos de projeto e justificar decisões de modelagem baseadas em lógica e viabilidade.
+
+### A.5 Tabela Resumo para Competência A
+
+| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
+|-----------------|-----------------|------------------|----------------|
+| **Desenvolver Soluções de Resolução de Problemas Usando Máquinas de Estados Finitos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Aplicar (Usar, Implementar, Criar)** |
+| | | Engenharia de Requisitos | **Aplicar (Interpretar, Especificar, Traduzir)** |
+| | | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
 
 
-# **Tabela de Especificação de Competências - Ajustes**
 
- **Tabela 5 - Ajustes de Competências e novos Códigos**
+### Especificação da Competência B
 
-| **ID**       | **Competência**                                      | **Disposições**                                  | **Conhecimento**                              | **Habilidade**                              |
-|--------------|------------------------------------------------------|-------------------------------------------------|-----------------------------------------------|---------------------------------------------|
-| (A) **C05**  | **Desenvolver soluções de problemas usando a máquina de Turing.** | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Construir, Desenvolver, Projetar)** |
-|              |                                                      |                                                 | Engenharia de Requisitos | **Compreender (Interpretar, Organizar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (B) **C10**  | **Identificar as variações da Máquina de Turing**    | Investigativo, Colaborativo, Responsável, Proativo | Máquinas de Turing | **Compreender (Comparar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (C) **C11**  | **Fazer uso das variações da Máquina de Turing**     | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Selecionar, Utilizar)** |
-|              |                                                      |                                                 | Pensamento Analítico e Crítico (FPK) | **Aplicar** |
-| (D) **C07**  | **Testar Máquina de Turing usando Simulador**        | Investigativo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Turing | **Aplicar (Experimentar, Simular)** |
-|              |                                                      |                                                 | Resolução de Problemas (FPK) | **Aplicar** |
-|              |                                                      |                                                 | Modelagem e Simulação | **Aplicar** |
-| (E) **C04**  | **Escrever um relatório técnico.**                   | Colaborativo, Meticuloso, Responsável          | Comunicação Escrita (FPK) | **Aplicar** |              |
+### B.1 Título da Competência
 
-A implementação de códigos estruturados de identificação de competências melhora a consistência, rastreabilidade e interoperabilidade entre diferentes contextos educacionais. Essa abordagem garante que as competências permaneçam bem definidas, adaptáveis e reutilizáveis, permitindo fácil integração em futuras especificações de competências e novos cenários de aprendizagem.
+  Projetar Expressões Regulares que Representam Autômatos Finitos
 
-Ao adotar identificadores de competências padronizados, o processo de anotação torna-se mais escalável e sustentável, estabelecendo a base para um modelo educacional baseado em competências mais estruturado e modular.
+### B.2 Descrição Textual
+
+Esta competência aborda a capacidade de entender e manipular a relação entre **representações de linguagem formal** e **modelos computacionais**. Espera-se que os aprendizes interpretem o comportamento de sistemas baseados em estados e os representem usando expressões simbólicas equivalentes, como expressões regulares.
+
+Envolve aplicar **análise sistemática** para identificar padrões comportamentais e requisitos, e construir ou validar representações formais que descrevam com precisão o comportamento pretendido do sistema. Os aprendizes devem demonstrar tanto compreensão conceitual de linguagens formais quanto competência prática no desenvolvimento de modelos corretos, expressivos e verificáveis.
+
+### B.3 Especificação de Conhecimento
+
+As seguintes áreas de conhecimento são essenciais para esta competência:
+
+* **Expressões Regulares**
+    * Compreender a sintaxe e semântica de expressões regulares, bem como seu papel na definição de linguagens formais. Os aprendizes devem reconhecer o poder expressivo e as limitações das expressões regulares e demonstrar capacidade de construí-las, transformá-las e validá-las em alinhamento com o comportamento do sistema.
+
+* **Máquinas de Estados Finitos (MEFs)**
+    * Compreender a estrutura e lógica operacional de MEFs, incluindo estados, transições e linguagens aceitas. Os aprendizes devem ser capazes de traduzir requisitos comportamentais em representações de MEFs e estabelecer equivalência formal entre MEFs e expressões regulares.
+
+* **Pensamento Analítico e Crítico**
+    * Empregar raciocínio analítico para interpretar restrições do sistema, avaliar corretude e otimizar modelos formais. Os aprendizes devem avaliar criticamente a adequação de expressões regulares e MEFs na representação de comportamentos pretendidos, identificando falhas, redundâncias ou ineficiências em sua estrutura.
+
+### B.4 Pareamento Conhecimento-Habilidade
+
+#### Mapeamento de Conhecimento para Habilidades
+
+Para demonstrar efetivamente esta competência, os estudantes devem ser capazes de:
+
+* **Interpretar** conhecimento de **Expressões Regulares** para analisar o comportamento de autômatos e construir representações simbólicas equivalentes que capturem a mesma linguagem aceita.
+
+* **Aplicar** conhecimento de **Máquinas de Estados Finitos (MEFs)** para decompor requisitos de sistema ou tarefa e traduzi-los em modelos formais expressos através de expressões regulares.
+
+* **Empregar** **Pensamento Analítico e Crítico** para avaliar sistematicamente, refinar e validar expressões regulares quanto à corretude, eficiência e alinhamento com o comportamento pretendido.
+
+#### Anotação de Verbos
+
+As seguintes associações de verbos ilustram como cada área de conhecimento apoia o desenvolvimento de habilidades cognitivas relevantes, baseadas na Taxonomia de Bloom:
+
+* **Compreender** → Expressões Regulares → Interpretar, Relacionar, Representar
+
+* **Aplicar** → Máquinas de Estados Finitos → Decompor, Traduzir, Construir
+
+* **Aplicar** → Pensamento Analítico e Crítico → Analisar, Testar, Refinar
+
+### B.5 Tabela Resumo para Competência B
+
+| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
+|-----------------|-----------------|------------------|----------------|
+| **Projetar Expressões Regulares que Representam Autômatos Finitos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos | **Compreender (Interpretar, Relacionar, Representar)** |
+| | | Expressões Regulares | **Aplicar (Decompor, Traduzir, Construir)** |
+| | | Pensamento Analítico e Crítico (FPK) | **Aplicar (Analisar, Testar, Refinar)** |
 
 
-## **Conclusão**  
 
-O **processo de revisão da especificação de competências** resultou em **melhorias substanciais**, incorporando recomendações de especialistas para refinar definições de competências, **aumentar a especificidade, padronizar a terminologia e melhorar a clareza textual**.  
+### B.4 Tabela Resumo da Competência B
 
-Ao **adotar uma taxonomia de conhecimento mais detalhada (CS2013)**, as competências tornaram-se **mais precisas e reutilizáveis**. Além disso, a **introdução de vocabulário controlado e mapeamento estruturado de terminologia** assegura **maior consistência nas descrições das competências**.  
+| **Competência**                                            | **Disposições**                                             | **Conhecimento**                              | **Habilidade**                                  |
+| ---------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------ |
+| **Determinar Expressões Regulares que Representam Autômatos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Máquinas de Estados Finitos                   | **Compreender (Interpretar, Relacionar, Representar)** |
+|                                                            |                                                             | Expressões Regulares                          | **Aplicar (Decompor, Traduzir, Construir)**     |
+|                                                            |                                                             | Pensamento Analítico e Crítico                | **Aplicar (Analisar, Testar, Refinar)**          |
 
-A **fusão de competências redundantes** e os **ajustes nos elementos de conhecimento e habilidades** levaram a um **framework de competências mais coerente e estruturado**. Os **identificadores de competências revisados** também melhoram a **organização e reutilização em diferentes contextos educacionais**.  
 
-Seguindo em frente, **refinamentos iterativos contínuos** e **avaliações estruturadas por pares** continuarão sendo **essenciais** para manter um **modelo de especificação de competências de alta qualidade**. Esses aprimoramentos contribuirão para uma **abordagem de aprendizagem baseada em competências mais eficaz**, garantindo que as competências permaneçam **claras, aplicáveis e alinhadas com os objetivos educacionais**. 🚀  
+### **C.1 Título da Competência**
 
+    Identificar Padrões em Máquinas de Estados Finitos
+
+
+### **C.2 Descrição Textual**
+
+Esta competência foca na habilidade de **analisar a estrutura e o comportamento das Máquinas de Estados Finitos (MEFs)** para identificar padrões recorrentes, regularidades ou redundâncias que influenciem a complexidade, eficiência e expressividade do modelo. Envolve reconhecer como categorias de entrada, lógica de transição e configurações de estados impactam o design e o desempenho de modelos computacionais.
+
+Espera-se que os estudantes demonstrem proficiência na análise de MEFs, identificação de padrões estruturais e aplicação do **pensamento analítico e crítico** para interpretar o comportamento do sistema, otimizar modelos e justificar decisões de projeto fundamentadas em raciocínio formal.
+
+
+### **C.3 Especificação do Conhecimento**
+
+As seguintes áreas de conhecimento são essenciais para esta competência:
+
+* **Máquinas de Estados Finitos (MEFs)**  
+  *Compreender as características estruturais das MEFs — incluindo estados, transições, determinismo e minimização — e como esses elementos impactam a representação e otimização de comportamentos computacionais.*
+
+* **Pensamento Analítico e Crítico**  
+  *Aplicar raciocínio lógico e reconhecimento de padrões para detectar estruturas subjacentes, formular inferências baseadas em evidências e tomar decisões informadas sobre o design e aprimoramento de MEFs.*
+
+
+### **C.5.1 Mapeamento do Conhecimento para Habilidades**
+
+Para demonstrar esta competência, os estudantes devem ser capazes de:
+
+* **Analisar** o conhecimento sobre **Máquinas de Estados Finitos** para examinar arquiteturas de estados, identificar padrões emergentes e avaliar como classificações de entrada influenciam transições e a complexidade do modelo.
+
+* **Aplicar** o conhecimento de **Pensamento Analítico e Crítico** para detectar regularidades estruturais, formular inferências fundamentadas e refinar representações de MEFs com base em requisitos específicos da tarefa e coerência lógica.
+
+
+### **C.5.3 Anotação de Verbos**
+
+Os seguintes verbos de ação, alinhados à Taxonomia de Bloom, ilustram como cada área de conhecimento apoia o desenvolvimento das habilidades relevantes:
+
+* **Analisar** → *Máquinas de Estados Finitos*  
+  → *Examinar*, *Avaliar*, *Comparar*
+
+* **Aplicar** → *Pensamento Analítico e Crítico*  
+  → *Inferir*, *Justificar*, *Interpretar*
+
+
+### C.6 Tabela Resumo da Competência C
+
+| **Competência**                                 | **Disposições**                | **Conhecimento**                        | **Habilidade**                                  |
+| ---------------------------------------------- | ------------------------------ | --------------------------------------- | ------------------------------------------------ |
+| **Identificar Padrões em Máquinas de Estados Finitos** | Inventivo, Criativo, Meticuloso | Máquinas de Estados Finitos             | **Analisar (Examinar, Avaliar, Comparar)**       |
+|                                                |                                | Pensamento Analítico e Crítico (FPK)   | **Aplicar (Inferir, Justificar, Interpretar)**   |
+
+
+
+### **Tabela Resumo Unificada das Competências A, B e C**
+
+| **Competência**                                                    | **Disposições**                                             | **Conhecimento**                             | **Habilidade**                                     |
+| ------------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------- |
+| **Desenvolver Soluções de Problemas Usando Máquinas de Estados Finitos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo   | Máquinas de Estados Finitos                  | **Aplicar (Usar, Implementar, Criar)**             |
+|                                                                    |                                                             | Engenharia de Requisitos                     | **Aplicar (Interpretar, Especificar, Traduzir)**   |
+|                                                                    |                                                             | Pensamento Analítico e Crítico (FPK)        | **Aplicar (Analisar, Justificar, Avaliar)**        |
+|                                                                    |                                                               |                                              |                                                    |
+| **Determinar Expressões Regulares que Representam Autômatos**      | Inventivo, Colaborativo, Responsável, Proativo, Criativo   | Máquinas de Estados Finitos                  | **Compreender (Interpretar, Relacionar, Representar)** |
+|                                                                    |                                                             | Expressões Regulares                         | **Aplicar (Decompor, Traduzir, Construir)**        |
+|                                                                    |                                                             | Pensamento Analítico e Crítico (FPK)        | **Aplicar (Analisar, Testar, Refinar)**            |
+|                                                                    |                                                               |                                              |                                                    |
+| **Identificar Padrões em Máquinas de Estados Finitos**             | Inventivo, Criativo, Meticuloso                             | Máquinas de Estados Finitos                  | **Analisar (Examinar, Avaliar, Comparar)**         |
+|                                                                    |                                                             | Pensamento Analítico e Crítico (FPK)        | **Aplicar (Inferir, Justificar, Interpretar)**     |

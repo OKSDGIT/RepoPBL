@@ -346,6 +346,6 @@ Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de 
 
 | **Competência** | **Atitudes** | **Conhecimentos** | **Habilidades** |
 |---------------|-----------------|--------------|-----------|
-| **Escreva um relatório Técnico** | Colaborativo, Meticuloso, Responsável | **Comunicação Escrita (FPK)** | **Aplicar** |
+| **Escreva, em grupo, um relatório Técnico** | Colaborativo, Meticuloso, Responsável | **Comunicação Escrita (FPK)** | **Aplicar** |
 
 

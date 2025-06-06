@@ -1,461 +1,459 @@
-# Relatório de Especificação de Competências: Tarefa 03 - Robô Fazendeiro 
+# Relatório de Especificação de Competências: Tarefa03 – O Robô Fazendeiro
 
 ## Introdução
 
-Este relatório aplica o Processo de Especificação de Competências (PEC) à tarefa "Robô Fazendeiro", 
-um cenário de Aprendizagem Baseada em Problemas (ABP) que explora conceitos de Máquinas de Turing, Modelagem Computacional e 
-Engenharia de Requisitos. O objetivo é desenvolver módulos de navegação e comunicação para os robôs, utilizando máquinas abstratas e simuladores.
+Este relatório aplica o **Processo de Especificação de Competências (PEC)** ao cenário de Aprendizagem Baseada em Problemas (ABP) intitulado **"O Robô Fazendeiro"**, que envolve estudantes no desenvolvimento de um sistema protótipo para **identificação de rebanhos** em ambientes de pecuária extensiva. O cenário é baseado em um desafio do mundo real proposto pela empresa *Farmer Robot*, que busca uma solução de baixo custo para automatizar a classificação de animais — bovinos, caprinos e suínos — utilizando um sistema robótico equipado com um módulo de identificação visual.
 
+Os estudantes devem modelar e simular o processo de tomada de decisão do robô utilizando **Máquinas de Estados Finitos (FSMs)** e **Expressões Regulares**, produzindo um protótipo funcional no ambiente **JFLAP**. A tarefa promove a integração de linguagens formais, modelagem computacional e raciocínio analítico em um ambiente de desenvolvimento colaborativo.
 
+Por meio da metodologia PEC, as competências são **derivadas e estruturadas** a partir da análise da descrição da tarefa, dos domínios de conhecimento requeridos, dos objetivos de aprendizagem específicos e das disposições comportamentais. O objetivo é definir uma estrutura de competências reutilizável e sensível ao contexto, que apoie tanto o **desenvolvimento técnico** quanto a **relevância educacional**.
 
 ## 1. Análise da Descrição da Tarefa
 
-A tarefa envolve a implementação de módulos para dois robôs em um ambiente agrícola, 
-utilizando uma máquina abstrata com acesso sequencial de leitura e gravação. Os alunos devem:  
+A tarefa *Farmer Robot* desafia os estudantes a prototiparem um módulo de tomada de decisão capaz de identificar a presença e a quantidade de rebanhos específicos (bovinos, caprinos e suínos) dentro de cercas de fazendas. Essa capacidade é crucial para automatizar a logística de pedidos de ração e otimizar práticas de gestão agropecuária.
 
-- **Modelar sistemas computacionais** usando Máquinas de Turing.  
-- **Simular o funcionamento** dos robôs em um ambiente controlado.  
-- **Documentar o processo** em um relatório técnico.  
+Para atender às necessidades operacionais e às restrições orçamentárias da empresa, os estudantes devem projetar uma **máquina de estados finitos** capaz de:
 
-**Competências avaliadas:**  
-1. Capacidade de **aplicar teorias computacionais** (Máquinas de Turing, Tese de Church-Turing).  
-2. **Implementar soluções práticas** para navegação e comunicação entre robôs.  
-3. **Comunicar resultados** de forma clara e estruturada.  
+* **Classificar animais** em categorias distintas de rebanhos com base em entrada visual;
+* **Detectar limiares mínimos de rebanho**, que acionam pedidos de entrega de ração;
+* **Representar o comportamento do módulo** por meio de uma simulação no JFLAP;
+* **Produzir expressões regulares** que formalizam a lógica do sistema;
+* **Investigar correlações** entre limiares de rebanho e o número mínimo de estados e transições exigidos.
 
+Além da solução técnica, os estudantes devem elaborar um **relatório técnico** no formato de artigo da SBC. Este relatório deve explicar o projeto do sistema, apresentar exemplos de uso e responder a perguntas da empresa relacionadas à **clareza da documentação** e à **estimativa de custo** com base na complexidade da máquina.
+
+Essa tarefa exige que os aprendizes:
+
+* **Apliquem conhecimento teórico** sobre FSMs e expressões regulares para projetar uma solução eficiente e expressiva computacionalmente;
+* **Traduza os requisitos das partes interessadas** em especificações formais e representações lógicas;
+* **Analise padrões e estruturas** dentro das FSMs para otimizar o projeto;
+* **Simule e valide** a solução utilizando ferramentas apropriadas (JFLAP);
+* **Colabore efetivamente**, documentando o processo de projeto por meio de artefatos estruturados da ABP, como diários de bordo e quadros-brancos.
+
+Por meio deste cenário baseado em problemas, espera-se que os estudantes integrem **teoria da computação**, **modelagem formal** e **raciocínio prático** em um protótipo funcional alinhado às necessidades de uma parte interessada do mundo real.
 
 ## 2. Enumeração de Conhecimentos
 
-### **Conhecimentos em Computação**  
-- **Máquinas de Turing**: Modelagem de sistemas computacionais para navegação e comunicação.  
-- **Tese de Church-Turing**: Fundamentos teóricos da computabilidade.  
-- **Hierarquia de Chomsky**: Classificação de linguagens formais para comunicação entre robôs.  
-- **Engenharia de Requisitos**: Definição de funcionalidades dos robôs.  
+Para concluir com sucesso a tarefa *Farmer Robot*, os estudantes devem recorrer a uma combinação de domínios de conhecimento teórico e profissional. Essas áreas de conhecimento estão alinhadas ao **Sistema de Classificação da Computação da ACM (2012)** para conhecimento fundamental em computação e ao framework **ACM/IEEE CC2020** para competências profissionais fundamentais (FPK).
 
-### **Conhecimentos Profissionais (FPK)**  
-- **Pensamento Analítico e Crítico**: Decomposição de problemas e tomada de decisões.  
-- **Modelagem e Simulação**: Criação de representações computacionais do ambiente agrícola.  
-- **Comunicação Escrita**: Elaboração de relatórios técnicos.  
+Essa base interdisciplinar de conhecimento apoia o desenvolvimento de um sistema eficaz e otimizado de tomada de decisão para classificação de animais e gestão de alimentação.
 
+### Conhecimento em Computação
 
+* **Máquinas de Estados Finitos (Autômatos Finitos)**  
+  Fundamentais para modelar a lógica de classificação do robô. As FSMs permitem aos estudantes projetar e simular o processo de decisão para detecção de rebanhos utilizando estados e transições bem definidos.
 
-## 3. Identificação dos Objetivos de Aprendizagem
+* **Expressões Regulares (Linguagens Regulares)**  
+  Utilizadas para representar o comportamento da FSM e validar se os padrões de entrada do robô correspondem aos formatos esperados de classificação animal.
 
-### **Objetivo Geral**  
-Desenvolver módulos de identificação e navegação para os robôs, utilizando Máquinas de Turing.  
+* **Engenharia de Requisitos**  
+  Permite a interpretação e tradução das demandas funcionais da empresa (ex.: baixo custo, limiares mínimos, interpretabilidade) em especificações de sistema e restrições de modelagem.
 
-### **Objetivos Específicos**  
-  - Compreender as novas demandas e funcionalidades relacionadas ao robô fazendeiro e ao robô alimentador.
-  - Investigar a máquina abstrata com acesso sequencial de leitura e gravação a um dispositivo de memória ilimitada e sua aplicação nos módulos dos robôs.
-  - Revisar a solução proposta para o problema de sinalização para envio de alimentos, permitindo que o fazendeiro especifique as quantidades mínimas de
-    indivíduos de cada rebanho como entradas para a máquina.
+* **Modelagem e Simulação**  
+  Apoia a criação, execução e refinamento das FSMs em ferramentas como o **JFLAP**, permitindo que os estudantes testem o comportamento do sistema e validem os resultados em cenários esperados.
 
+### Conhecimento Profissional (FPK)
 
-## Importância destes objetivos
+* **Raciocínio Analítico e Crítico**  
+  Essencial para decompor o problema em partes solucionáveis, identificar oportunidades de otimização (ex.: minimização de estados) e interpretar o comportamento do sistema por meio do raciocínio lógico.
 
-## 4. Definição de Competências
+* **Resolução de Problemas e Solução de Falhas**  
+  Necessário para resolver desafios de projeto e implementação, como padrões ambíguos, explosão de estados ou inconsistências nas expressões regulares.
 
-## A.1 Título da Competência:
-**Competência A: Desenvolver soluções de problemas usando a máquina de Turing**  
+* **Comunicação Escrita**  
+  Necessária para entregar um relatório técnico claro e bem estruturado, justificando as escolhas de projeto e comunicando soluções para partes interessadas com diferentes níveis de conhecimento técnico.
 
-#### **Descrição Textual**  
-Baseando-se no Objetivos de Aprendizagem (OA1), esta competência se concentra na capacidade de 
-“Compreender as novas demandas e funcionalidades relacionadas ao robô fazendeiro e ao robô alimentador”. 
-Pretende-se que o aluno demonstre que é capaz aplicar os conhecimentos sobre autômatos para resolver o 
-problema do Robô Fazendeiro e Robô alimentador.
+## 3. Identificação de Objetivos de Aprendizagem
 
+### Objetivo Geral
 
+Aplicar métodos formais — especificamente **Máquinas de Estados Finitos** e **Expressões Regulares** — para projetar e simular um sistema de tomada de decisão para classificação de rebanhos em um contexto agrícola robótico.
+
+### Objetivos de Aprendizagem Específicos
+
+1. **Modelar** o comportamento de um sistema de classificação de rebanhos utilizando Máquinas de Estados Finitos.
+2. **Gerar** Expressões Regulares que representem ou validem padrões aceitos pela FSM.
+3. **Identificar** o número mínimo de estados e transições necessários para um comportamento eficiente do sistema.
+4. **Analisar** correlações entre a complexidade da FSM e restrições do mundo real, como limiares de classificação e custo.
+5. **Traduzir** requisitos funcionais em especificações formais utilizando técnicas de Engenharia de Requisitos.
+6. **Testar e simular** FSMs utilizando ferramentas como o JFLAP para validar correção e efetividade.
+7. **Documentar** o comportamento do sistema, a lógica e as decisões de implementação utilizando escrita técnica estruturada.
+
+### Importância Desses Objetivos
+
+Esses objetivos servem como um **caminho estruturado para o desenvolvimento de competências**, permitindo que os estudantes:
+
+* Conectem **modelos formais abstratos** com **aplicações concretas do mundo real**;
+* Reforcem habilidades de **especificação formal**, **reconhecimento de padrões** e **raciocínio computacional**;
+* Desenvolvam autonomia na **avaliação de trade-offs** entre expressividade, complexidade e desempenho;
+* Aprimorem práticas **colaborativas e reflexivas**, como articular justificativas e compartilhar decisões de modelagem;
+* Reforcem competências essenciais alinhadas com **práticas profissionais de computação**, especialmente no contexto de sistemas embarcados e automação.
+
+## 4. Definições de Competências
+
+As competências são especificadas com base nos **Objetivos de Aprendizagem (OAs)** identificados na análise da tarefa.
+
+### Reutilização de Competências
+
+Para atender ao Objetivo 6, "Testar e simular MFEs usando ferramentas como o JFLAP para validar correção e eficácia", reutilizamos a competência previamente definida na Tarefa 01 – A Máquina de Refrigerantes e Lanches:
+
+> Testar Autômatos Usando Simuladores
+
+Essa competência continua totalmente relevante na tarefa atual, onde se espera que os estudantes validem seus modelos de autômatos por meio de ferramentas de simulação formal como o JFLAP. Os resultados de aprendizagem incluem a capacidade de executar, observar e analisar o comportamento dos autômatos em um ambiente simulado, garantindo a correção funcional e o alinhamento com as especificações do sistema.
+
+Além disso, como um dos entregáveis desta tarefa é um **relatório técnico** formatado segundo os padrões acadêmicos da **Sociedade Brasileira de Computação (SBC)**, também **reutilizamos a competência previamente definida na Tarefa 01**:
+
+> Escrita Colaborativa de Relatório Técnico
+
+Essa competência envolve o planejamento, estruturação e redação de um documento abrangente que comunique claramente o processo de resolução do problema, as decisões tomadas e as justificativas para o modelo implementado. Reforça habilidades essenciais em redação técnica, colaboração em equipe e documentação.
+
+A reutilização dessas competências apoia os seguintes princípios:
+
+* **Consistência pedagógica** no desenvolvimento de competências ao longo de diferentes tarefas de aprendizagem.
+* **Reconhecimento e reforço de habilidades transversais**, como documentação e validação baseada em ferramentas.
+* **Evitar redundâncias** por meio da rastreabilidade estruturada de competências.
+* **Alinhamento com a educação baseada em competências**, onde um resultado de aprendizagem bem definido pode ser demonstrado em múltiplos contextos instrucionais.
+
+Ao **reutilizar competências validadas**, garantimos que os estudantes construam sobre habilidades previamente adquiridas, promovendo a aprendizagem cumulativa e facilitando práticas de avaliação com base em indicadores de desempenho observáveis e transferíveis.
+
+### 4.1 Especificação da Competência A
+
+### A.1 Título da Competência
+
+Desenvolver Soluções de Resolução de Problemas Usando Máquinas de Estados Finitos
+
+### A.2 Descrição Textual
+
+Projetar e implementar soluções computacionais usando **Máquinas de Estados Finitos (MFEs)** para abordar problemas do mundo real ou instrucionais que envolvem modelagem de sistemas por meio de estados e transições. Esta competência reflete a capacidade do estudante de aplicar o conhecimento teórico de autômatos na construção de modelos confiáveis e verificáveis que atendam aos requisitos definidos do sistema.
+
+Espera-se que os estudantes demonstrem não apenas domínio das MFEs, mas também a capacidade de analisar os requisitos do sistema e aplicar raciocínio lógico para modelar comportamentos, assegurando que a solução seja teoricamente sólida e praticamente relevante.
 
 ### A.3 Especificação de Conhecimentos
 
- **-Máquinas de Turing:**
-    - Essenciais para implementar os módulos do robô fazendeiro e do robô alimentador.
-    - Permitem simular processos computacionais complexos, como navegação e comunicação entre robôs.
-    - Base teórica para modelar algoritmos e comportamentos dos robôs.
+As seguintes áreas de conhecimento são fundamentais para esta competência:
 
-**-Tese de Church-Turing**
-  - Formaliza o conceito de computabilidade, garantindo que as funções dos robôs sejam viáveis computacionalmente.
-  - Assegura que qualquer processo implementado nos robôs pode ser resolvido por uma Máquina de Turing.
+* **Autômatos Finitos (Máquinas de Estados Finitos)**
+  Compreender e aplicar a estrutura, o comportamento e as aplicações de autômatos determinísticos e não determinísticos para modelar sistemas sequenciais.
 
-**-Hierarquia de Chomsky**
-   - Classifica linguagens formais por complexidade, sendo útil na comunicação entre robôs e no desenvolvimento de seus módulos.
-   - Ajuda a definir linguagens adequadas para a interação e processamento de comandos nos sistemas robóticos.
+* **Análise de Requisitos**
+  Identificar, interpretar e traduzir os requisitos do sistema em especificações formais para o projeto da MFE.
 
-**-Engenharia de Requisitos**
-   - Crucial para definir as funcionalidades dos robôs, como rotas do robô alimentador e comunicação de suprimentos pelo robô fazendeiro.
-   - Envolve coleta, análise e especificação detalhada das necessidades do projeto.
+* **Raciocínio Analítico e Crítico (FPK)**
+  Decompor o problema, avaliar restrições e objetivos e selecionar estratégias adequadas de modelagem para orientar o processo de projeto.
 
-**-Pensamento Analítico e Crítico (FPK)**
-   - Fundamental para decompor o problema, avaliar soluções e tomar decisões alinhadas aos objetivos da equipe.
-   - Permite uma abordagem estruturada no desenvolvimento e refinamento das soluções propostas.
-   - 
-#### **Atitudes**  
+### A.4 Especificação de Disposições
 
-- ## Investigativo
-   - Atitude essencial para explorar o conceito de máquinas abstratas e aprimorar os módulos dos robôs.
-   - Requer pesquisa de soluções existentes, identificação de melhorias e análise da viabilidade de novas 
-  funcionalidades (como navegação e especificação de caminhos).
+Dada a natureza colaborativa da tarefa e a necessidade de desenvolvimento criativo de modelos, as seguintes disposições comportamentais são essenciais:
 
-- ## Colaboração
+* **Inventivo**
+  Propor estratégias de modelagem inovadoras e explorar diferentes maneiras de estruturar MFEs para refletir o comportamento do sistema.
 
-  - Trabalho em equipe seguindo a metodologia ABP.
-  - Colaboração para compartilhar ideias, resolver problemas e desenvolver soluções conjuntas.
-  - Documentação coletiva para garantir soluções bem fundamentadas.
- 
-- ## Responsabilidade
-    - Compromisso individual e coletivo para garantir o funcionamento dos módulos,
-    - a precisão da documentação e o cumprimento de prazos.
-     Cada membro deve assumir suas tarefas para que o produto final atenda aos requisitos técnicos e expectativas.
+* **Colaborativo**
+  Cooperar com os colegas na discussão dos requisitos, no projeto da máquina e na validação de seu comportamento.
 
- - ## Proatividade
-   - Necessidade de antecipar desafios, buscar informações extras e gerenciar possíveis problemas na integração dos robôs.
-   - Importante também para organizar a documentação e alinhar discussões nas reuniões com os objetivos do projeto.
+* **Responsável**
+  Assumir a responsabilidade pela qualidade da solução, garantindo consistência com as expectativas e prazos da tarefa.
 
-- ## Criatividade
-  - Papel fundamental na adaptação de soluções técnicas às necessidades do projeto.
-  - Desenvolvimento de ideias inovadoras para navegação eficiente e comunicação entre robôs.
-  - Inclui apresentação clara e visual do sistema, além de exemplos práticos que demonstrem o funcionamento dos módulos.
+* **Proativo**
+  Antecipar desafios de implementação e adaptar o projeto para melhorar a precisão e a funcionalidade.
 
- ## A.5 Mapeamento conhecimento-habilidade
+* **Criativo**
+  Transformar requisitos do sistema em modelos intuitivos e inovadores, tornando comportamentos abstratos operacionais por meio de estados e transições.
 
- Esta etapa mapeia as áreas de conhecimento para as habilidades correspondentes necessárias para demonstrar com sucesso a competência nesta tarefa.
- 
-  
-  **A.5.1 Mapeando conhecimento para habilidades**
-Para atingir essa competência, os alunos devem demonstrar a capacidade de:
+### A.5 Associação Conhecimento-Habilidade
 
-- Aplicar o conhecimento de Máquinas de Turing e Tese de Church-Turing para implementar módulos computacionais que permitam aos robôs navegar,
-  comunicar e executar suas funções de forma integrada.
-- Compreender a Hierarquia de Chomsky para projetar linguagens formais adequadas à interação entre os robôs,
-  garantindo precisão e eficiência na troca de informações.
-- Compreender as necessidades e requisitos dos sistemas com base em Engenharia de Requisitos, assegurando que
-  as funcionalidades dos robôs atendam às especificações da tarefa.
-- Aplicar o Pensamento analítico e crítico para planejar soluções, identificar desafios e propor alternativas
-  alinhadas aos objetivos da tarefa.
+Este passo mapeia as **áreas de conhecimento com as habilidades correspondentes** necessárias para demonstrar com sucesso a competência nesta tarefa.
 
-  
-**A.5.2 Alinhamento da Taxonomia de Bloom**
-Para garantir uma abordagem de aprendizagem estruturada e progressiva, cada componente de conhecimento é alinhado
-com a Taxonomia Revisada de Bloom, fornecendo uma estrutura clara para avaliação de competências.
+**A.5.1 Mapeamento de Conhecimento para Habilidades**
 
-   - **Máquinas de Turing:** Aplicar – Avaliar a capacidade do aluno de aplicar o conceito teórico de máquinas abstratas para criar módulos funcionais nos robôs.
-   - **Tese de Church-Turing:** Compreender – Avaliar se o aluno compreende os limites e possibilidades da computabilidade para assegurar a viabilidade técnica dos processos implementados.
-   - **Hierarquia de Chomsky:** Aplicar – Verificar se o aluno é capaz de usar o conhecimento sobre linguagens formais para projetar sistemas de comunicação eficazes entre os robôs.
-   - **Engenharia de Requisitos:** Compreender – Avaliar a habilidade do aluno de interpretar e organizar requisitos de maneira que garanta a funcionalidade esperada dos robôs.
-   - **Pensamento analítico e crítico (FPK):** Aplicar – Medir a capacidade do aluno de quebrar problemas complexos em partes manejáveis e de planejar soluções eficazes.
+Para demonstrar esta competência, os estudantes devem demonstrar a habilidade de:
 
-## A.5.3 Anotação verbal
-   - **Lembrar da Hierarquia de Chomsky - Reconhecer, Relembrar** gramáticas formais
+* **Aplicar** o conhecimento de **Autômatos Finitos** para projetar modelos que reflitam comportamentos reais por meio de transições de estado estruturadas.
 
+* **Aplicar** a **Análise de Requisitos** para entender as expectativas do usuário e traduzi-las em especificações formais claras que orientem o projeto da MFE.
 
-## A.6 Tabela Resumo da Competência A
+* **Aplicar** o **Raciocínio Analítico e Crítico (FPK)** para interpretar o problema, analisar possíveis caminhos de projeto e justificar as decisões de modelagem com base na lógica e na viabilidade.
 
-| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
-|------------|-----------|------------|----|
-|  |   | Máquinas de Turing  | **Aplicar** |
-| **Desenvolver soluções de problemas usando a máquina de Turing. ** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | Engenharia de Requisitos  | **Compreender** |
-| | | Pensamento analítico e crítico (FPK)| **Aplicar** |
+**A.5.2 Alinhamento com a Taxonomia de Bloom**
 
+* *Aplicar* é utilizado para todas as três áreas de conhecimento para avaliar a capacidade dos estudantes de transferir o conhecimento teórico para a prática.
 
-## 4.2 Especificação da Competência B
+**A.5.3 Anotação de Verbos**
 
- ## B.1 Título da Competência**
-Identificar as variações da Máquina de Turing 
+Para proporcionar clareza nas expectativas da competência, as seguintes anotações de verbos definem as ações exigidas:
 
-### B.2 Descrição Textual  
-Esta competência, alinhada ao OA2, concentra-se na investigação e aplicação de modelos computacionais abstratos, em especial a Máquina de Turing com acesso sequencial a uma memória ilimitada. Os principais pontos abordados incluem:
+* **Aplicar** → Máquinas de Estados Finitos → *Usar, Implementar, Criar*
+* **Aplicar** → Análise de Requisitos → *Interpretar, Especificar, Traduzir*
 
-- ## Fundamentos teóricos:
-    - Compreensão da Tese de Church-Turing e das variações da Máquina de Turing.
-    - Análise das capacidades desses modelos e sua aplicação nos módulos do Robô Fazendeiro e Robô Alimentador.
+### A.6 Tabela Resumo da Competência A
 
-- ## Requisitos e integração:
-    - Identificação e definição dos requisitos do sistema, alinhando necessidades dos usuários e restrições técnicas.
-    - Uso do Pensamento Analítico e Crítico (FPK) para desenvolver soluções inovadoras e eficientes.
+| **Competência**                                                     | **Disposições**                                             | **Conhecimento**                         | **Habilidade**                              |
+| ------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------- | ------------------------------------------- |
+| **Desenvolver Soluções de Resolução de Problemas Usando MFEs**      | Inventivo, Colaborativo, Responsável, Proativo, Criativo    | Autômatos Finitos                        | **Aplicar (Usar, Implementar, Criar)**       |
+|                                                                     |                                                             | Análise de Requisitos                    | **Aplicar (Interpretar, Especificar, Traduzir)** |
+|                                                                     |                                                             | Raciocínio Analítico e Crítico (FPK)    | **Aplicar**                                 |
 
-- ## Aplicação prática:
-    - Implementação desses conceitos abstratos em contextos reais, garantindo que as soluções atendam aos objetivos do projeto e resolvam desafios concretos.
+### 4.3 Especificação da Competência B
 
+### B.1 Título da Competência
+
+Determinar Expressões Regulares que Representam Autômatos
+
+### B.2 Descrição Textual
+
+Esta competência foca na compreensão da relação entre **expressões regulares** e **autômatos finitos**, permitindo aos estudantes interpretar estruturas de autômatos e expressar seu comportamento usando representações formais equivalentes. Também envolve aplicar a **análise de requisitos** para identificar necessidades do sistema e traduzi-las em componentes válidos de linguagens regulares.
+
+Os aprendizes devem demonstrar compreensão teórica das **linguagens regulares** e de seu poder expressivo, bem como a capacidade de aplicar análise sistemática para refinar ou validar as expressões regulares correspondentes a autômatos fornecidos.
 
 ### B.3 Especificação de Conhecimentos
-As seguintes áreas de conhecimento são importantes para essa competência:  
 
+As seguintes áreas de conhecimento são essenciais para esta competência:
 
-- ## Tese de Church-Turing
-    - Garante a viabilidade computacional dos módulos do Robô Fazendeiro e Robô Alimentador.
-    - Define os limites teóricos da computação, assegurando que as soluções propostas estejam dentro do escopo do que é resolvível por uma Máquina de Turing (e, por extensão, por sistemas computacionais reais).
+* **Linguagens Regulares**
+  * Compreender a sintaxe, a semântica e os limites expressivos das expressões regulares e sua equivalência formal com autômatos finitos.
 
-- ## Máquinas de Turing
-  - Modelam processos abstratos aplicáveis aos robôs, como:
-    -   Navegação do Robô Fazendeiro (gerenciamento de suprimentos).
-    -     Comunicação do Robô Alimentador (atendimento de demandas).
-    - Utilizam acesso sequencial a memória ilimitada, permitindo a representação formal de algoritmos e a garantia de que as tarefas sejam computáveis.
+* **Análise de Requisitos**
+  * Aplicar métodos para identificar, interpretar e traduzir requisitos do sistema ou da tarefa em especificações formais adequadas ao projeto de MFEs.
 
-- ## Pensamento Analítico e Crítico (FPK)
-  - Auxilia na decomposição de problemas complexos em etapas menores.
-    - Permite avaliar soluções alternativas de forma estruturada, assegurando decisões:
-    - Fundamentadas (com base em dados e modelos). Eficazes (alinhadas aos objetivos do projeto).
+* **Raciocínio Analítico e Crítico (FPK)**
+  * Aplicar o pensamento analítico para testar e refinar expressões regulares quanto à correção, minimalidade e adequação funcional.
 
-- ## Investigativa
-  - Exige análise aprofundada das variações da Máquina de Turing, buscando adaptações inovadoras para resolver os desafios do projeto.
+### B.4 Especificação de Disposições
 
-- ## Colaborativa
- –Requer trabalho em equipe para integrar conhecimentos, discutir soluções e documentar o processo de forma clara e consistente.
+As seguintes disposições comportamentais apoiam o desenvolvimento eficaz desta competência:
 
-- ## Responsável
-  - Implica comprometimento com a qualidade técnica, cumprimento de prazos e documentação adequada dos requisitos e soluções.
+* **Inventivo**
+  * Explorar expressões regulares alternativas que preservem a equivalência, otimizando para clareza ou minimalidade.
 
-- ## Proativa
-  - Envolve antecipar problemas, explorar alternativas e propor melhorias contínuas no projeto.
+* **Colaborativo**
+  * Analisar e validar cooperativamente a correspondência entre autômatos e expressões regulares.
 
-## B.5.3 Anotação verbal
-Para esclarecer as expectativas de competência, as seguintes anotações verbais definem as ações necessárias:
+* **Responsável**
+  * Garantir que as expressões construídas estejam formalmente corretas e alinhadas com os requisitos da tarefa.
 
- **- Compreender  Máquinas de Turing - comparar** as variações das Máquinas de Turing.
+* **Proativo**
+  * Tomar iniciativa em testar, iterar e aprimorar as expressões regulares produzidas.
 
+* **Criativo**
+  * Demonstrar criatividade em abordagens de modelagem que equilibrem simplicidade, precisão e expressividade.
 
-## B.6 Tabela Resumo da Competência B
+### B.5 Associação Conhecimento-Habilidade
 
+#### B.5.1 Mapeamento de Conhecimento para Habilidades
 
-| **Competência** | **Atitudes** | **Conhecimento** | **Habilidade** |
-|------------|-----------|------------|----|
-| **Identificar as variações da Máquina de Turing**  | | Máquinas de Turing  | **Compreender (comparar)** | 
-| |**Investigativo, Colaborativo, Responsável, Proativo** | 
-| |  | Pensamento analítico e crítico (FPK) | **Aplicar** |
+Para demonstrar esta competência, os estudantes devem:
 
+* **Compreender** o conhecimento de **Linguagens Regulares** para interpretar autômatos e expressar comportamentos equivalentes por meio de expressões regulares.
+* **Aplicar** o conhecimento de **Análise de Requisitos** para decompor descrições de tarefas e derivar representações relevantes da linguagem regular.
+* **Aplicar** o conhecimento de **Raciocínio Analítico e Crítico (FPK)** para refinar expressões regulares de forma iterativa.
 
-## 4.3 Especificação da Competência C
+#### B.5.2 Alinhamento com a Taxonomia de Bloom
 
-**C.1 Título da Competência**
-Fazer uso das variações da Máquina de Turing
+* *Compreender* → Linguagens Regulares  
+* *Aplicar* → Análise de Requisitos  
+* *Aplicar* → Raciocínio Analítico e Crítico (FPK)
 
+#### B.5.3 Anotação de Verbos
 
-**C.2 Descrição da Competência**
+* **Compreender** → Linguagens Regulares → *Interpretar, Relacionar, Representar*
+* **Aplicar** → Análise de Requisitos → *Decompor, Traduzir, Comparar*
 
-Esta competência, alinhada ao OA3, concentra-se na aplicação prática de variações da Máquina de Turing para resolver desafios específicos dos módulos do Robô Fazendeiro e Robô Alimentador. 
+### B.6 Tabela Resumo da Competência B
 
-## C.3 Especificação de Conhecimento
+| **Competência**                                               | **Disposições**                                             | **Conhecimento**                          | **Habilidade**                                  |
+| ------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------ |
+| **Determinar Expressões Regulares que Representam Autômatos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo    | Linguagens Regulares                      | **Compreender (Interpretar, Relacionar, Representar)** |
+|                                                               |                                                             | Análise de Requisitos                     | **Aplicar (Decompor, Traduzir, Comparar)**         |
+|                                                               |                                                             | Raciocínio Analítico e Crítico (FPK)     | **Aplicar**                                       |
 
-- ## Tese de Church-Turing
-  - Fornece a base teórica para avaliar a computabilidade das soluções
-  - Define os limites do que é possível implementar nos módulos robóticos
-  - Garante que as abordagens propostas sejam matematicamente fundamentadas
 
-- ## Máquinas de Turing
-  - Oferecem modelos computacionais para resolver problemas específicos:
-    - Comunicação entre robôs (sincronização e troca de informações)
-    - Navegação em ambientes dinâmicos (modelagem de percursos e obstáculos)
-    - Permitem selecionar variações adequadas para cada desafio do projeto
 
-- ## Pensamento Analítico e Crítico (FPK)
-   - Facilita a decomposição sistemática de problemas complexos
-  - Permite avaliar diferentes abordagens de implementação
-    - Assegura que as soluções sejam:
-      - Praticamente aplicáveis
-      - Eficientes computacionalmente
-      - Alinhadas com os objetivos do projeto
+### 4.3 Especificação da Competência C
 
- ## C.4 Especificação de disposição
+### C.1 Título da Competência
 
- - ## Investigativo
-   - Exploração sistemática das variações da Máquina de Turing
-   - Identificação de novas aplicações práticas nos sistemas robóticos.
-   - Pesquisa contínua para otimização dos módulos implementados
+Inferir e Identificar Padrões em Máquinas de Estados Finitos
 
--  ## Colaborativo
-  -  Trabalho cooperativo para integração dos módulos
-  -  Troca de conhecimentos e avaliação conjunta de estratégias
-  -  Alinhamento das soluções entre as diferentes partes do sistema
 
-- ## Responsável
-  - Compromisso com a documentação rigorosa
-  - Garantia da solidez teórica das implementações
-  - Verificação do atendimento a todos os requisitos
+### C.2 Descrição Textual
 
-- ## Proativo
-  - Antecipação de possíveis desafios operacionais
-  - Desenvolvimento de planos contingenciais
-  - Busca ativa por otimizações no sistema
+Analisar a estrutura e o comportamento de **Máquinas de Estados Finitos (FSMs)** para realizar inferências e identificar padrões emergentes que influenciam a complexidade e o desempenho do modelo. Esta competência envolve reconhecer relações entre classificações de entrada, transições de estado e a quantidade de estados necessários para uma modelagem eficaz.
 
-- ## Criativo
-  - Proposição de soluções inovadoras além do convencional
-  - Adaptação criativa dos modelos teóricos à prática
-  - Superação de expectativas no desenvolvimento do projeto
+Espera-se que os estudantes demonstrem a habilidade de **analisar FSMs**, detectar regularidades ou redundâncias de projeto e aplicar **Pensamento Analítico e Crítico (FPK)** para refinar e interpretar o comportamento do sistema.
 
 
-## C.5 Mapeamento conhecimento-habilidade
+### C.3 Especificação do Conhecimento
 
-Esta etapa mapeia áreas de conhecimento com as habilidades correspondentes necessárias para demonstrar competência.
+As seguintes áreas de conhecimento são críticas para esta competência:
 
-**C.5.1 Mapeando conhecimento para habilidades**
+* **Máquinas de Estados Finitos**
+  * Compreender as propriedades estruturais das FSMs, incluindo estados, transições e princípios de minimização, e como esses elementos influenciam a modelagem computacional.
 
-  
-  - **Compreender** a Tese de Church-Turing, interpretando seus conceitos fundamentais e analisando como eles influenciam a computabilidade dos módulos dos robôs.
-  - **Aplicar** Máquinas de Turing, selecionando variações específicas e utilizando-as para implementar soluções práticas nos módulos dos robôs.
-  - **Aplicar** Pensamento Analítico e Crítico (FPK), planejando e desenvolvendo estratégias para resolver problemas complexos, garantindo que as soluções sejam alinhadas às necessidades do projeto.
+* **Pensamento Analítico e Crítico (FPK)**
+  * Aplicar raciocínio lógico para identificar estruturas ocultas, tirar conclusões significativas e justificar decisões de projeto com base na identificação de padrões e na análise do modelo.
 
-**C.5.2 Alinhamento da Taxonomia de Bloom**
 
-- **Tese de Church-Turing**: O nível **Compreender** é utilizado para avaliar se o aluno consegue interpretar e explicar os conceitos fundamentais de computabilidade e sua aplicação prática nos robôs.
-- **Máquinas de Turing**: O nível **Aplicar (selecionar, utilizar)** é empregado para verificar se o aluno consegue identificar e usar variações específicas da Máquina de Turing para solucionar problemas práticos.
-- **Pensamento Analítico e Crítico (FPK):** O nível **Aplicar** é escolhido para avaliar se o aluno consegue utilizar habilidades analíticas para planejar e implementar soluções práticas que atendam às demandas dos robôs.
 
+### C.4 Especificação de Atitudes
 
-## C.5.3 Anotação verbal
+Dada a natureza abstrata da tarefa e as exigências cognitivas de reconhecimento de padrões e inferência, as seguintes atitudes comportamentais são essenciais:
 
-**Aplicar Máquinas de Turing - Selecionar**,  utilizar variações específicas.
+* **Inventivo**
+  * Abordar a análise de FSMs com originalidade, explorando interpretações não óbvias ou alternativas do comportamento estrutural.
 
+* **Criativo**
+  * Desenvolver métodos inovadores para visualizar, interpretar ou generalizar padrões baseados em estados.
 
-### **C.6 Tabela Resumo da Competência C**  
+* **Minucioso**
+  * Atentar cuidadosamente aos detalhes ao identificar semelhanças, redundâncias ou ineficiências no design de estados e transições.
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------------|-----------------|--------------|-----------|
-|  |  | **Máquinas de Turing** | **Aplicar (selecionar, utilizar)** |
-|Fazer uso das variações da Máquina de Turing | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | **Pensamento analítico e crítico (FPK)** | **Aplicar** |
 
+### **C.5 Pareamento Conhecimento-Habilidade**
 
+Esta seção mapeia as **áreas de conhecimento** com as **habilidades** correspondentes exigidas para demonstrar com sucesso esta competência.
 
-### **4.3 Especificação da Competência D**
+#### **C.5.1 Mapeamento do Conhecimento para Habilidades**
 
-### D.1 Título da Competência  
-    Testando Autômatos Usando Simuladores
+Para demonstrar esta competência, os estudantes devem:
 
-### D.2 Descrição da Competência
-Esta competência foca na capacidade de **testar autômatos finitos usando ferramentas de simulação**. Os estudantes devem desenvolver proficiência no uso de **simuladores de autômatos** para verificar a correção de seus modelos, diagnosticar erros e refinar suas soluções por meio de testes iterativos.  
+* **Analisar** o conhecimento sobre **Autômatos Finitos** para examinar estruturas de estados, reconhecer padrões e determinar como as categorias de entrada influenciam o número de estados e transições necessários.
+* **Aplicar** o conhecimento de **Pensamento Analítico e Crítico (FPK)** para realizar inferências fundamentadas, detectar regularidades comportamentais e refinar projetos de FSMs com base no raciocínio lógico e nas restrições da tarefa.
 
-Esta competência exige a capacidade de:  
-- **Usar ferramentas de simulação para validar a funcionalidade de autômatos**.  
-- **Analisar o comportamento do autômato** e compará-lo com resultados esperados.  
-- **Identificar e corrigir erros no projeto do autômato** por meio de solução de problemas sistemática.  
-- **Aplicar estratégias estruturadas de resolução de problemas** para melhorar o desempenho do autômato.  
 
-### D.3 Especificação de Conhecimento  
-As seguintes áreas de conhecimento são essenciais para esta competência:  
 
-- ## Tese de Church-Turing
-  - Define os limites teóricos da computação, garantindo que a Máquina de Turing opere dentro do que é computável.
-  - Orienta a interpretação dos resultados no simulador, ajudando a distinguir entre problemas de implementação e limitações computacionais intrínsecas.
+#### **C.5.2 Alinhamento com a Taxonomia de Bloom**
 
-- ## Máquinas de Turing
-  - Base para configurar e testar o simulador, incluindo:
-  - Definição de estados, transições e alfabetos.
-  - Simulação de diferentes entradas e análise das saídas.
-  - Permite validar soluções antes da implementação prática nos robôs.
+O nível **Analisar** da Taxonomia de Bloom é usado para avaliar a capacidade dos alunos de examinar os componentes das FSMs, explicar seu comportamento funcional e justificar melhorias estruturais ou comportamentais com base em evidências e raciocínio.
 
-- ## Resolução de Problemas (FPK)
-  - Identificação e correção de falhas durante os testes.
-  - Análise lógica dos resultados para ajustar a máquina (ex.: modificar estados ou regras de transição).
-  - Abordagem sistemática para otimizar o desempenho da Máquina de Turing simulada.
 
-- ## Modelagem e Simulação
-  - Criação de cenários que replicam desafios reais (ex.: comunicação entre robôs ou navegação em ambientes dinâmicos).
-  - Interpretação de dados para avaliar se a máquina atende aos requisitos do projeto.
-  - Iteração rápida, testando variações da Máquina de Turing sem custo de implementação física.
 
+#### **C.5.3 Anotação de Verbos**
 
-### D.4 Especificação de Disposição  
-Semelhante às **competências anteriores**, esta competência exige que os estudantes demonstrem **atributos comportamentais** essenciais que facilitam testes, depuração e melhoria de autômatos:  
+Para esclarecer as expectativas, os seguintes verbos estão alinhados às áreas de conhecimento no nível de Análise:
 
-- **Colaboração** – Incentiva o trabalho em equipe na análise do comportamento do autômato e na discussão de estratégias de depuração.  
-- **Responsabilidade** – Garante **testes metódicos**, documentação de problemas e refinamento dos projetos de autômatos.  
-- **Proatividade** – Promove iniciativa na identificação de fraquezas nos modelos de autômatos e na aplicação de correções.  
-- **Criatividade** – Apoia inovação em **técnicas de solução de problemas** e **experimentação com diferentes abordagens de simulação**.
-- **Investigativo** -  Exige análise aprofundada das variações da Máquina de Turing, buscando adaptações inovadoras para resolver os desafios do projeto. 
+* **Analisar** → Autômatos Finitos → *Analisar, Avaliar, Comparar*
 
-### D.5 Mapeamento Conhecimento-Habilidade  
-Esta etapa mapeia **áreas de conhecimento às habilidades correspondentes** necessárias para demonstrar competência.
 
- **D.5.1 Mapeamento de Conhecimento para Habilidades**  
- 
-Para alcançar esta competência, os estudantes devem demonstrar a capacidade de:  
-    - **Compreender** -  a Tese de Church-Turing, garantindo que a implementação da Máquina de Turing esteja alinhada aos limites da computabilidade e que os testes realizados no simulador sejam válidos dentro desses limites.
-    - **Aplicar** -  Máquinas de Turing configurando corretamente o simulador e testando as máquinas em diferentes cenários. O aluno deve ser capaz de interpretar os resultados, ajustar as entradas e estados e validar o comportamento da máquina.
-    - **Aplicar**  - a resolução de problemas e solução de problemas (FPK), identificando e resolvendo falhas nos testes da Máquina de Turing e propondo soluções eficientes para melhorar a implementação. 
-    - **Aplicar** -  Modelagem e Simulação, utilizando o simulador para criar cenários de teste representativos e interpretar os resultados obtidos, ajustando os parâmetros conforme necessário.
 
-**D.5.2 Alinhamento com a Taxonomia de Bloom**  
+### C.6 Tabela Resumo da Competência C
 
-As **áreas de conhecimento** necessárias para esta competência estão alinhadas com a **Taxonomia Revisada de Bloom**, garantindo um processo de aprendizagem estruturado que progride da compreensão de conceitos para sua aplicação em cenários práticos.  
+| **Competência**                                           | **Atitudes**                  | **Conhecimento**                        | **Habilidade**                           |
+| --------------------------------------------------------- | ----------------------------- | --------------------------------------- | ---------------------------------------- |
+| **Inferir e Identificar Padrões em Máquinas de Estados Finitos** | Inventivo, Criativo, Minucioso | Autômatos Finitos                       | **Analisar (Avaliar, Comparar)**         |
+|                                                           |                               | Pensamento Analítico e Crítico (FPK)   | **Aplicar (Inferir, Justificar, Interpretar)** |
 
-   - Tese de Church-Turing: O nível **Compreender** é utilizado para avaliar se o aluno consegue interpretar e explicar os conceitos fundamentais da Tese de Church-Turing, aplicando-os na configuração dos testes.
-   - Máquinas de Turing: O nível **Aplicar** é empregado para verificar se o aluno consegue configurar e utilizar o simulador para testar a Máquina de Turing de maneira eficaz.
-   - Resolução de problemas e solução de problemas (FPK): O nível **Aplicar** é escolhido para avaliar se o aluno consegue identificar problemas nos testes e implementar soluções para garantir a eficácia da Máquina de Turing.
-   - Modelagem e Simulação: O nível **Aplicar** é utilizado para verificar se o aluno consegue utilizar o simulador para modelar o comportamento da Máquina de Turing e interpretar os resultados obtidos nos testes.
- 
 
-**D.5.3 Anotação de Verbos**  
 
-Nenhum verbo especificado. 
+---
 
+### 4.4 Especificação da Competência D
 
-### **D.6 Tabela Resumo para Competência D**  
+### D.1 Título da Competência
 
-| **Competência** | **Disposições** | **Conhecimento** | **Habilidade** |
-|---------------|-----------------|--------------|-----------|
-| **Testar Máquina de Turing  usando Simulador** | **Investigativo, Colaborativo, Responsável, Proativo, Criativo** | **Tese de Church-Turing** | **Compreender** |
-| | | **Máquinas de Turing** | **Aplicar** |
-| | | **Resolução de problemas e solução de problemas (FPK)** | **Aplicar** |
-| | | **Modelagem e Simulação** | **Aplicar** |
+Diferenciar as Classificações das Gramáticas Formais
 
 
-### **4.6 Especificação de Competências E**  
+### D.2 Descrição Textual
 
-### E.1 Título da Competência
-    Escrever, em grupo, um relatório técnico.
+Compreender e diferenciar as diversas **classes de gramáticas formais** — conforme definidas pela hierarquia de Chomsky — com base em seu poder de geração e relação com autômatos. Esta competência envolve identificar características que distinguem gramáticas regulares, livres de contexto, sensíveis ao contexto e irrestritas, além de reconhecer sua aplicabilidade à resolução de problemas computacionais.
 
-### E.2 Descrição da competência
-Esta competência concentra-se na capacidade de **produzir colaborativamente um relatório técnico bem estruturado**. Exige que os alunos **apliquem os princípios da escrita técnica** para sintetizar descobertas, explicar metodologias e documentar resultados de forma clara, lógica e profissiona  
+No contexto da tarefa *Fazendeiro Robótico*, essa competência reforça a base teórica necessária para selecionar e justificar o modelo computacional apropriado (por exemplo, Autômato Finito) com base nas restrições e requisitos do sistema.
 
-Para isso, os alunos devem:
-- **Escrever um relatório estruturado e coerente**, integrando as contribuições de vários membros da equipe.
-- **Aplicar padrões profissionais de redação técnica**, garantindo clareza, consistência e fluxo lógico.
-- **Comunicar descobertas técnicas com eficácia**, tornando conceitos complexos acessíveis a públicos técnicos e não técnicos.
-- **Revisar e refinar o conteúdo**, garantindo precisão, legibilidade e aderência às diretrizes de formatação.
+Espera-se que os estudantes demonstrem **compreensão conceitual** da classificação das gramáticas e apliquem esse entendimento ao especificar comportamentos de sistemas, traduzindo requisitos em lógica executável por meio da **Engenharia de Requisitos** e do **Pensamento Analítico e Crítico (FPK).**
 
-Esta competência enfatiza a **aplicação prática das habilidades de escrita**, exigindo que os alunos produzam um documento refinado e bem organizado que reflita sua expertise coletiva.
 
+### D.3 Especificação do Conhecimento
 
-### E.3 Especificação de Conhecimento
-A seguinte área de conhecimento é essencial para esta competência:
+As seguintes áreas de conhecimento são críticas para esta competência:
 
-- **Comunicação Escrita (FPK)** – Envolve a capacidade de **aplicar técnicas de escrita estruturada** para explicar e documentar o processo de solução de forma eficaz.
+* **Linguagens Regulares**
+  Compreender a organização hierárquica das gramáticas e sua relação com as classes de autômatos e reconhecimento de linguagens.
 
+* **Engenharia de Requisitos**
+  Traduzir necessidades dos usuários em especificações de sistemas que sejam compatíveis com o poder expressivo do modelo de linguagem formal selecionado.
 
-### E.4 Especificação de disposição**  
-Para obter sucesso nesta competência, os alunos devem demonstrar **atributos comportamentais** essenciais, incluindo:
+* **Pensamento Analítico e Crítico (FPK)**
+  Interpretar restrições de sistema, avaliar a aplicabilidade das gramáticas e raciocinar sobre qual classificação melhor se adequa a um determinado problema computacional.
 
-- **Colaboração** – Trabalhar efetivamente em equipe para criar um documento unificado e bem organizado.
-- **Meticulosidade** – Garantir precisão, clareza e consistência no conteúdo e na estrutura do relatório.
-- **Responsabilidade** – Assumir a responsabilidade pelas seções atribuídas e contribuir significativamente para o relatório final.
 
 
-### E.5 Mapeamento Conhecimento-habilidade
-Esta etapa mapeia **áreas de conhecimento com habilidades correspondentes**, garantindo uma abordagem de aprendizagem estruturada.
+### D.4 Especificação de Atitudes
 
-**E.5.1 Mapeando Conhecimento para Habilidades**  
-Para demonstrar essa competência, os alunos devem ser capazes de:
-- **Aplicar** a Comunicação Escrita (FPK) para **escrever, estruturar e refinar um relatório técnico**, explicando efetivamente o processo de solução. 
+Dada a profundidade analítica e as demandas colaborativas da tarefa, as seguintes atitudes comportamentais são essenciais:
 
+* **Colaborativo**
+  Participar ativamente de discussões em equipe para classificar gramáticas e alinhá-las com estratégias de solução.
 
+* **Responsável**
+  Garantir precisão na classificação teórica e manter o alinhamento entre as especificações do sistema e os modelos computacionais.
 
-**E.5.2 Alinhamento da Taxonomia de Bloom**  
-O nível **"Aplicar"** da **Taxonomia de Bloom** é o mais apropriado para esta competência, pois exige que os alunos:
-- **Usem habilidades de escrita técnica na prática**.
-- **Sintetizem e comuniquem as descobertas de forma eficaz**, garantindo clareza e coerência.
-- **Formatem, revisem e refinem** o documento para atender aos padrões profissionais. 
+* **Proativo**
+  Antecipar limitações nas escolhas de modelagem e explorar alternativas dentro da hierarquia de Chomsky.
 
-Ao dominar essa competência, os alunos desenvolvem **habilidades práticas de escrita essenciais para a comunicação profissional e acadêmica**.
+* **Investigativo**
+  Explorar as implicações teóricas da escolha da gramática e examinar casos extremos na equivalência entre gramáticas e autômatos.
 
 
 
-**E.5.3 Anotação Verbal**  
-Para esclarecer os resultados de aprendizagem esperados, os seguintes verbos de ação definem as principais atividades dos alunos:
+### D.5 Pareamento Conhecimento-Habilidade
 
-- **Aplicar** → Comunicação Escrita (FPK) → **Escrever, Estruturar, Revisar, Refinar** documentação técnica.
+Esta etapa mapeia as **áreas de conhecimento com as habilidades** correspondentes necessárias para demonstrar a competência nesta tarefa.
 
-### D.6 Tabela Resumo para Competência E
+#### **D.5.1 Mapeamento do Conhecimento para Habilidades**
 
-| **Competência** | **Atitudes** | **Conhecimentos** | **Habilidades** |
-|---------------|-----------------|--------------|-----------|
-| **Escreva um relatório Técnico** | Colaborativo, Meticuloso, Responsável | **Comunicação Escrita (FPK)** | **Aplicar** |
+Para demonstrar esta competência, os estudantes devem demonstrar a capacidade de:
 
+* **Compreender** as classes de **Linguagens Regulares** e relacioná-las com os autômatos correspondentes e propriedades computacionais.
+
+* **Aplicar** a **Engenharia de Requisitos** para garantir que os modelos formais escolhidos atendam às necessidades das partes interessadas e às restrições do sistema.
+
+* **Aplicar** o **Pensamento Analítico e Crítico (FPK)** para raciocinar sobre a seleção de gramáticas, justificar escolhas de modelagem e interpretar implicações teóricas em contextos práticos.
+
+
+
+#### **D.5.2 Alinhamento com a Taxonomia de Bloom**
+
+* O nível *Compreender* é utilizado para avaliar a capacidade conceitual do aluno de classificar gramáticas e associá-las ao tipo correto de autômato.
+
+* O nível *Aplicar* é utilizado para avaliar a capacidade do aluno de traduzir requisitos de sistema e conhecimento teórico na seleção e implementação de modelos apropriados.
+
+
+
+#### **D.5.3 Anotação de Verbos**
+
+Para fornecer clareza sobre as expectativas da competência, as seguintes anotações de verbos definem as ações exigidas:
+
+* **Compreender** → Linguagens Regulares → *Diferenciar, Comparar, Classificar*
+* **Aplicar** → Engenharia de Requisitos → *Alinhar*
+* **Aplicar** → Pensamento Analítico e Crítico (FPK)
+
+
+
+### D.6 Tabela Resumo da Competência D
+
+| **Competência**                                            | **Atitudes**                                         | **Conhecimento**                            | **Habilidade**                                          |
+| ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------- |
+| **Diferenciar as Classificações das Gramáticas Formais**   | Colaborativo, Responsável, Proativo, Investigativo   | Linguagens Regulares                         | **Compreender (Diferenciar, Comparar, Classificar)**     |
+|                                                            |                                                      | Engenharia de Requisitos                     | **Aplicar (Alinhar)**                                   |
+|                                                            |                                                      | Pensamento Analítico e Crítico (FPK)        | **Aplicar**                                              |
+
+
+
+---
+
+## Tabela Resumo de Todas as Competências
+
+| **Competência**                                                       | **Atitudes**                                            | **Conhecimento**                          | **Habilidade**                                 |
+| --------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------- |
+| **Desenvolver Soluções de Problemas Usando Máquinas de Estados Finitos** | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Autômatos Finitos                        | **Aplicar (Usar, Implementar, Criar)**         |
+|                                                                       |                                                         | Análise de Requisitos                    | **Aplicar (Interpretar, Especificar, Traduzir)**|
+|                                                                       |                                                         | Pensamento Analítico e Crítico (FPK)     | **Aplicar (Analisar, Justificar, Avaliar)**    |
+| **Determinar Expressões Regulares que Representam Autômatos**         | Inventivo, Colaborativo, Responsável, Proativo, Criativo | Linguagens Regulares                     | **Compreender (Interpretar, Relacionar, Representar)** |
+|                                                                       |                                                         | Análise de Requisitos                    | **Aplicar (Decompor, Traduzir, Comparar)**     |
+|                                                                       |                                                         | Pensamento Analítico e Crítico (FPK)     | **Aplicar (Analisar, Testar, Refinar)**        |
+| **Inferir e Identificar Padrões em Máquinas de Estados Finitos**     | Inventivo, Criativo, Minucioso                         | Autômatos Finitos                        | **Analisar (Avaliar, Comparar)**               |
+|                                                                       |                                                         | Pensamento Analítico e Crítico (FPK)     | **Aplicar (Inferir, Justificar, Interpretar)** |
+| **Diferenciar as Classificações das Gramáticas Formais**             | Colaborativo, Responsável, Proativo, Investigativo      | Linguagens Regulares                     | **Compreender (Diferenciar, Comparar, Classificar)** |
+|                                                                       |                                                         | Engenharia de Requisitos                 | **Aplicar (Alinhar)**                          |
+|                                                                       |                                                         | Pensamento Analítico e Crítico (FPK)     | **Aplicar**                                     |
 

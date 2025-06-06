@@ -1,145 +1,72 @@
-# Relatório de Revisão de Especificações de Competências: Tarefa 4 - O Retorno do Robô Fazendeiro 
-## 1. Introdução
+# Relatório de Revisão da Especificação de Competências: Tarefa 04 – O Retorno do Robô Agricultor
 
-Este relatório documenta a revisão das especificações de competências associadas à tarefa de Aprendizagem Baseada 
-em Problemas (ABP) "O Retorno do Robô Fazendeiro". 
-A revisão segue o Processo de Revisão de Especificações de Competências (PREC) estruturado e visa avaliar a precisão, 
-clareza, relevância e alinhamento pedagógico das competências definidas, incluindo seus componentes de conhecimento, 
-habilidade e disposição.
+## **1. Introdução**
 
-A revisão baseia-se na familiaridade dos avaliadores com a Taxonomia Revisada de Bloom e é estruturada em torno das 
-principais etapas descritas na metodologia PREC.
+Este relatório documenta os resultados da revisão da especificação de competências para a tarefa de Aprendizagem Baseada em Problemas (ABP) intitulada **“O Retorno do Robô Agricultor.”**
 
-## 2. Análise da Descrição da Tarefa
+A revisão foi realizada utilizando a metodologia estruturada definida pelo **Processo de Revisão da Especificação de Competências (PREC)**. O objetivo foi avaliar as competências propostas quanto à clareza, alinhamento cognitivo, relevância pedagógica e adequação contextual dentro da tarefa.
 
-| **Aspecto** | **Avaliação** | **Comentários** |
-|-------------------------|----------------|---------------|
-| Título da Tarefa | Claro | |
-| Descrição do Problema | Claro | O problema está bem contextualizado. |
-| Desenvolvimento da Solução | Apropriado | Inclui restrições e o processo esperado. |
-| Resultados Esperados | Bem Especificados | Os artefatos estão definidos, mas nem todas as competências se alinham. |
+Feedbacks de especialistas foram obtidos por meio de entrevistas guiadas com instrutores experientes, que avaliaram a coerência e validade instrucional das competências, incluindo seus componentes de conhecimento, habilidade e disposições. Este documento sintetiza esses achados e apresenta recomendações baseadas em evidências para refinar as definições de competências, garantindo que sejam bem delimitadas, acionáveis e alinhadas com os resultados de aprendizagem pretendidos da tarefa.
 
-> _Os revisores compreenderam claramente a tarefa, seus objetivos e os resultados esperados. No entanto, alguns elementos de conhecimento listados 
-nas competências não são diretamente inferidos a partir da descrição do problema._
+## **2. Resumo das Recomendações**
 
-## 3. Revisão do Conhecimento Enumerado
+Com base no feedback dos revisores, várias adequações são recomendadas para melhorar a qualidade e relevância das competências definidas para a Tarefa 04. Essas recomendações focam na melhoria da **especificidade do conhecimento**, **precisão terminológica** e **alinhamento com os níveis da Taxonomia de Bloom** para todas as competências identificadas.
 
-| **Critério** | **Avaliação** | **Comentários** |
-|---------------------------|----------------|--------------|
-| Abrangência | Talvez | Detalhes ausentes sobre Tese de Church-Turing e Hierarquia de Chomsky não claramente incluído na taxonomia. |
-| Relevância | Talvez | Alguns conhecimentos listados não são utilizados na prática (por exemplo, Hierarquia de Chomsky). |
-| Adequação | Não |Tese de Church-Turing e Hierarquia de Chomsky não são exigidos pela tarefa. |
+### **2.1. Granularidade e Relevância do Conhecimento**
 
-> _Considere o alinhamento com uma taxonomia estruturada._
+* Os componentes atuais de conhecimento foram considerados **muito amplos ou desalinhados** com os objetivos específicos de aprendizagem desta tarefa.
+* O uso de **“Autômatos Finitos”** como item de conhecimento deve ser substituído por **“Autômatos com Pilha (PDA)”**, que refletem mais precisamente a complexidade e os requisitos do comportamento modelado.
+* Os elementos de conhecimento devem estar explicitamente ligados às **demandas específicas de modelagem do contexto**, especialmente onde as transições de estado baseadas em memória são críticas (ex.: navegação de retorno).
 
-## 4. Revisão dos Objetivos de Aprendizagem (OAs)
+### **2.2. Refinamento das Competências por Área da Tarefa**
 
-| **Critério** | **Avaliação** | **Comentários** |
-|---------------------------|----------------|--------------|
-| Abrangência | Talvez | Alguns objetivos de aprendizagem estejam desalinhados ou excessivamente abstratos. |
-| Relevância | Talvez | Objetivos que envolvam Tese de Church-Turing e Hierarquia de Chomsky não são fundamentados na tarefa. |
-| Adequação | Talvez | Alguns devem ser removidos ou reformulados para refletir as demandas reais da tarefa. |
+A tabela abaixo resume as refinamentos específicos recomendados para cada competência associada à Tarefa 04:
 
-> _Garanta que os OAs forneçam direcionamento pedagógico e mapeiem significativamente as competências._
+#### a. **Desenvolver Soluções para Resolução de Problemas Usando Autômatos**
 
+* **Substituir conhecimento**:
 
-## 5. Revisão das Definições de Competência
+  * De: *Autômatos Finitos*  
+  * Para: *Autômatos com Pilha (PDA)*  
+* Justificativa: PDAs refletem melhor a memória baseada em pilha necessária para modelar caminhos de retorno na navegação robótica.
 
-### 5.1 Competência A
+#### b. **Interpretar Notação Baseada em Regras**
 
-| **Subcomponente** | **Avaliação** | **Comentários** |
-|----------------------------|----------------|--------------|
-| Título da Competência | Não | 
-| Descrição – Clareza | Talvez | Aplicável |
-| Descrição – Aplicação | Não | Descreve conhecimento não exigida pela tarefa. |
-| Descrição – Alinhamento à Tarefa | Não | Desalinhado com o que a tarefa exige. |
-| Descrição – Escopo do Conteúdo | Não | Inclui conceitos teóricos não utilizados. |
+* **Substituir conhecimento**:
 
+  * De: *Autômatos Finitos*  
+  * Para: *Autômatos com Pilha (PDA)*  
+* **Atualizar conhecimento em linguagens**:
 
-#### 5.1.1 Especificação de Conhecimento
+  * De: *Linguagens Regulares*  
+  * Para: *Gramáticas Livres de Contexto* e *Linguagens Livres de Contexto*  
+* **Nível da Taxonomia de Bloom**:
 
-| **Critério** | **Avaliação** | **Comentários** |
-|---------------------------|----------------|--------------|
-| Uso de Conhecimento Profissional/Teórico | Talvez | Inclui conceitos válidos, mas não se aplica aqui. |
-| Abrangência | Sim | Completo, mas nem sempre relevante. |
-| Relevância | Talvez | Deveria remover o conteúdo relacionado à Tese de Church-Turing e Hierarquia de Chomsky. |
-| Adequação | Sim | Aplicável |
+  * Alinhar com *Compreender* — com foco em interpretar e relacionar estruturas simbólicas baseadas em regras.
 
-#### 5.1.2 Especificação de Disposição
+#### c. **Diferenciar Classificações de Gramáticas Formais**
 
-| **Critério** | **Avaliação** | **Comentários** |
-|---------------------------|----------------|--------------|
-| Alinhamento com a Competência | Sim | Adequado. |
-| Cobertura e Relevância | Sim | Bem escolhido. |
+* **Substituir conhecimento**:
 
-#### 5.1.3 Pares Conhecimento-Habilidade
+  * De: *Autômatos Finitos*  
+  * Para: *Autômatos com Pilha (PDA)*  
+* **Atualizar conhecimento em linguagens**:
 
-| **Critério** | **Avaliação** | **Comentários** |
-|----------------------------------|----------------|--------------|
-| Alinhamento Bloom | Sim | Os níveis são aceitáveis. |
-| Verbos Anotados – Clareza | Sim | Melhorar a clareza da descrição. |
-| Revisões Sugeridas | Sim | Remover o par conhecimento-habilidade envolvendo equivalência.
+  * De: *Linguagens Regulares*  
+  * Para: *Gramáticas Livres de Contexto* e *Linguagens Livres de Contexto*  
+* **Nível da Taxonomia de Bloom**:
 
+  * Alinhar com *Compreender* — apoiando os aprendizes a reconhecer distinções entre tipos de gramáticas e seus autômatos correspondentes.
 
-### 5.2 Competência B, C e D
-Seguem a mesma explicação da Competência A
+## **3. Conclusão e Próximos Passos**
 
+A revisão da especificação de competências para a **Tarefa 04 – O Retorno do Robô Agricultor** revelou importantes oportunidades de refinamento, especialmente no alinhamento entre as demandas cognitivas específicas da tarefa e os componentes de conhecimento associados. Ao substituir referências genéricas a autômatos por **Autômatos com Pilha (PDA)** e atualizar o conteúdo de linguagens formais para focar em **Gramáticas Livres de Contexto** e **Linguagens Livres de Contexto**, as especificações revisadas refletem melhor a complexidade e os objetivos educacionais da tarefa.
 
-# Análise de Adequação de Componentes Curriculares
+As mudanças propostas também aprimoram a precisão do alinhamento com a Taxonomia de Bloom, garantindo que os resultados de aprendizagem esperados enfatizem processos cognitivos apropriados como *compreender*, *aplicar* e *analisar* sistemas baseados em regras e mecanismos de controle dirigidos por memória.
 
-## Sugestão R1 - Ajuste de Granularidade
+Para assegurar que esses refinamentos sejam implementados com sucesso, os seguintes próximos passos são recomendados:
 
-### Problema Identificado
-- **Granularidade excessiva** nos descritores de competências e conhecimentos
+1. **Atualizar a documentação formal das competências** para incorporar os componentes de conhecimento revisados, mapeamentos de habilidades e anotações de verbos alinhados aos níveis da Taxonomia de Bloom.  
+2. **Revalidar as competências revisadas** por meio de uma revisão subsequente com instrutores, focando na clareza instrucional, coerência e aplicabilidade às avaliações de aprendizagem.
 
-### Propostas de Modificação
-1. **Conhecimentos Envolvidos**:
-   - Eliminar itens não alinhados com o texto-base:
-     - Tese de Church-Turing 
-     - Hierarquia de Chomsky 
-
-2. **Matriz de Competências**:
-   - **Competência A**:
-     - Remover pares conhecimento-habilidade não desenvolvidos:
-       - Tese de Church-Turing → Compreender
-       - Hierarquia de Chomsky → Lembrar (reconhecer, relembrar)
-   
-   - **Competência B**:
-     - Excluir conhecimento não trabalhado:
-       - Tese de Church-Turing → Compreender
-
-   - **Competência C**:
-     - Excluir 
-       - Tese de Church-Turing → Compreender
-
-   - **Competência D**:
-     - Ambos os revisores concordam com a Remoção:  
-       - Tese de Church-Turing → Compreender
-
-## Sugestão R2 - Balanceamento Descritivo
-
-### Diagnóstico Geral
-- **Desequilíbrio na formulação**:
-  - Alternância entre direcionamento excessivo e generalização inadequada
-
-### Recomendações Específicas
-1. **Núcleo de Conhecimentos**:
-   - **Consenso avaliadores**: Exclusão de:
-     - Hierarquia de Chomsky 
-
-2. **Descritores de Competências**:
-   - **Competência A**:
-     - **Remoção**:
-       - Tese de Church-Turing → Compreender
-       - Hierarquia de Chomsky → Lembrar
-
-   - **Competência B**:
-     - **Exclusões**:
-       - Conteúdo não abordado:
-         - Tese de Church-Turing → Compreender
-       - Descrição extensiva:
-         - "Máquinas de Turing, ou um modelo formal equivalente de computação universal → Compreender (comparar)"
-
-   - **Competência D**:
-       - **Remoção**:
-         - Tese de Church-Turing → Compreender
+Ao executar esses passos, a estrutura de competências para a Tarefa 04 se tornará mais robusta pedagogicamente, cognitivamente adequada e melhor preparada para guiar os estudantes na modelagem e análise de sistemas de controle simbólicos usando métodos formais.
