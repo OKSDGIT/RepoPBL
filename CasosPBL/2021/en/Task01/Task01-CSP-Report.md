@@ -215,7 +215,7 @@ To provide clarity on competency expectations, the following verb annotations de
 | **Competency** | **Dispositions** | **Knowledge** | **Skill** |
 |------------|-----------|------------|----|
 |  |   | Automata over Infinite Objects | **Apply (Construct, Develop, Design)** |
-| **Develop problem solutions using Automata** | **Collaborative, Responsible, Proactive, Creative** | Requirements Analysis | **Apply (Interpret, Implement, Organize)** |
+| **Develop problem solutions using Automata** | Collaborative, Responsible, Proactive, Creative | Requirements Analysis | **Apply (Interpret, Implement, Organize)** |
 | | | Analytical and Critical Thinking (FPK) | **Apply** |
 
 
@@ -303,7 +303,7 @@ To accurately assess the required skills for this competency, each knowledge com
 ### **4.3 Competency C Specification**
 
 ### C.1 Competency Title  
-    Test Computational Automata Using Simulators (Testing Automata Using Simulators)
+    Test Automata Using Simulators
 
 ### C.2 Competency Description
 This competency refers to the ability to simulate and evaluate the behavior of computational models—such as Finite Automata, Pushdown Automata, and Turing Machines—using specialized tools like JFLAP or equivalent. It ensures that students can test automata-based solutions for correctness, completeness, and alignment with formal specifications.

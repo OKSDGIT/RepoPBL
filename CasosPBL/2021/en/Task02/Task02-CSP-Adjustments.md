@@ -76,8 +76,7 @@ Through the use of critical reasoning and modeling skills, students are expected
 | **Apply Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
 |                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)**               |
 |  |                                        |       |       
-| **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication (FPK) | **Apply** |
-|  |  |                                        |       |       
-| **Test automata using simulators.** | Investigative, Collaborative, Responsible, Proactive, Creative | Finite State Machines | **Apply (Experiment, Relate, Simulate)** |
-|         |                                   |   Problem Solving and Troubleshooting (FPK) | **Apply** |
-|         |                                   |   Modeling and Simulation | **Apply** |
+| **Write a technical report.** | Collaborative, Meticulous, Responsible | Written Communication | **Apply** |
+|                                        |                                                    |
+| **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
+|                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |

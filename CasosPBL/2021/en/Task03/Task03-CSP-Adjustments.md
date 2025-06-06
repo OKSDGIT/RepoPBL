@@ -27,6 +27,10 @@ Following the reviewers' insights, **the knowledge classification system was upd
 
     > Collaborative Technical Report Writing
 
+    > Define Regular Expressions for Finite Automata
+
+The competency “Define Regular Expressions for Finite Automata,” originally specified in Task 01, was revised for enhanced clarity and comprehension.
+
 
 ### Competency A Specification  
 
@@ -83,7 +87,7 @@ The following knowledge areas are critical for this competency:
 
 ### B.1 Competency Title
 
-  Design Regular Expressions that Represent Finite Automata
+  Define Regular Expressions for Finite Automata
 
 ### **B.2 Textual Description**
 

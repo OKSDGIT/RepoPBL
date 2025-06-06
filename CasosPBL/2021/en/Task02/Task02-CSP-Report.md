@@ -108,16 +108,9 @@ Competencies are specified based on the **Learning Objectives (LOs)** identified
 
 ### Competency Reuse 
 
-To fulfill the objective to"provide **Turing Machine** simulations in JFLAP format that demonstrate a functional solution to the problem", we reuse the competency 
-  > **Testing Automata Using Simulators** 
+Since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we reuse the previously defined competency from *Task01*:
 
-previously defined in *Task01 – The Vending Machine for Sodas and Snacks*:
-
-This competency remains fully relevant in the current task, where students are expected to validate their automaton models through formal simulation tools such as JFLAP. The learning outcomes include the ability to execute, observe, and analyze automata behavior in a simulated environment, ensuring functional correctness and alignment with system specifications.
-
-Additionally, since one of the deliverables for this task is a **technical report** formatted according to the academic standards of the **Brazilian Computer Society (SBC)**, we also reuse the previously defined competency from *Task01*:
-
-> **Collaborative Technical Report Writing**
+> Collaborative Technical Report Writing
 
 This competency involves planning, structuring, and composing a comprehensive document that clearly communicates the problem-solving process, decisions made, and justifications for the implemented model. It reinforces essential skills in technical writing, team collaboration, and documentation.
 
@@ -336,7 +329,7 @@ To provide clarity on competency expectations, the following verb annotations de
 
 ### C.1 Competency Title
 
-**Make Use of Turing Machine Variants**
+  Make Use of Turing Machine Variants
 
 
 ### C.2 Textual Description
@@ -425,21 +418,106 @@ To provide clarity on competency expectations, the following verb annotations de
 
 
 
+### 4.4 Competency D Specification
+
+### D.1 Competency Title
+
+  Test Turing Machines Using Simulators
+
+### D.2 Competency Description
+
+This competency involves the ability to simulate and assess the behavior of **Turing Machines** using dedicated computational tools such as **JFLAP** or equivalent simulators. It ensures that students can validate Turing Machine models by checking their correctness, completeness, and adherence to formal problem specifications.
+
+This competency requires learners to demonstrate the ability to:
+
+* **Effectively utilize simulation tools** to execute and test Turing Machine configurations and transitions.
+* **Interpret and evaluate Turing Machine behavior** by comparing simulation results with expected outputs derived from formal definitions.
+* **Diagnose design errors and inconsistencies**, iteratively refining machine configurations through systematic testing.
+* **Apply analytical and structured problem-solving strategies** to enhance the performance and correctness of Turing Machine implementations.
+
+
+
+### D.3 Knowledge Specification
+
+The following knowledge areas are fundamental for achieving this competency:
+
+* **Turing Machines**
+
+  * Understanding the formal structure and execution model of Turing Machines.
+  * Utilizing simulation tools to test state transitions, tape movements, and halting conditions.
+
+* **Problem Solving and Troubleshooting (FPK)**
+
+  * Critical for identifying design flaws, unexpected behaviors, or infinite loops during simulation.
+  * Enables students to debug and optimize Turing Machine behavior systematically.
+
+
+
+### D.4 Disposition Specification
+
+Consistent with previous competencies, this one also demands the demonstration of key behavioral dispositions that support effective simulation and debugging of Turing Machines:
+
+* **Collaboration** – Fosters group work in analyzing complex machine behaviors and co-developing correction strategies.
+* **Responsibility** – Emphasizes systematic testing, traceability of errors, and accountability in model refinement.
+* **Proactivity** – Encourages initiative in identifying hidden flaws and improving machine logic.
+* **Creativity** – Supports innovative approaches to designing and troubleshooting machine configurations and transition functions.
+
+
+
+### D.5 Knowledge-Skill Pairing
+
+**D.5.1 Mapping Knowledge to Skills**
+To fulfill this competency, students must be able to:
+
+* **Apply** knowledge of Turing Machines to **simulate, evaluate, and verify machine execution**.
+* **Apply** Problem Solving and Troubleshooting (FPK) to **diagnose, debug, and refine Turing Machine configurations**.
+
+**D.5.2 Bloom’s Taxonomy Alignment**
+This competency aligns with **Bloom’s Revised Taxonomy** at the **Apply** level, where students operationalize theoretical understanding through practical execution and analysis.
+
+* Students must **apply** their understanding of **Turing Machines** by constructing, simulating, and analyzing machine behavior using formal inputs and observing outputs and halting conditions.
+* They must also **apply** **Problem Solving and Troubleshooting (FPK)** skills to locate errors in transition functions or logic, revise configurations, and ensure that machines terminate with correct results.
+
+These activities foster higher-order thinking and develop practical competencies aligned with algorithmic reasoning and formal methods.
+
+**D.5.3 Verb Annotation**
+To clarify learning expectations, the following verb annotations highlight key actions:
+
+* **Apply** Turing Machines → **Simulate, Evaluate, Verify** machine behavior.
+* **Apply** Problem Solving and Troubleshooting → **Diagnose, Debug, Refine** machine logic.
+
+
+
+### **D.6 Summary Table for Competency D**
+
+| **Competency**                               | **Dispositions**                                    | **Knowledge**                                 | **Skill**                              |
+| -------------------------------------------- | --------------------------------------------------- | --------------------------------------------- | -------------------------------------- |
+| **Testing Turing Machines Using Simulators** | **Collaborative, Responsible, Proactive, Creative** | **Turing Machines**                           | **Apply (Simulate, Evaluate, Verify)** |
+|                                              |                                                     | **Problem Solving and Troubleshooting (FPK)** | **Apply (Diagnose, Debug, Refine)**    |
+
+
+
+
+
 ## Summary Table of All Competencies – Task: Traffic Control
 
 | **Competency**                                     | **Dispositions**                                               | **Knowledge**                          | **Skill**                                          |
 |----------------------------------------------------|----------------------------------------------------------------|----------------------------------------|----------------------------------------------------|
 | **Develop Problem-Solving Solutions Using Turing Machines** | Collaborative, Responsible, Proactive, Creative, Inventive | Turing Machines                        | **Apply (Use, Implement, Execute)**                |
 |                                                    |                                                                | Requirements Analysis                  | **Apply (Interpret, Organize)**                    |
-|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Decompose, Identify)**                    |
+|                                                    |                                                                | Analytical and Critical Thinking | **Apply (Decompose, Identify)**                    |
 |                                                    |                                                                |                                        |                                                    |
 | **Identify Turing Machine Variants**               | Investigative, Collaborative, Responsible, Proactive           | Turing Machines                 | **Understand (Differentiate, Recognize, Explain)** |
 |                                                    |                                                                | Church-Turing Thesis                   | **Understand (Interpret, Justify)**                |
-|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Justify)**              |
+|                                                    |                                                                | Analytical and Critical Thinking  | **Apply (Evaluate, Decide, Justify)**              |
 |                                                    |                                                                |                                        |                                                    |
 | **Make Use of Turing Machine Variants**            | Inventive, Responsible, Proactive, Collaborative, Creative     | Turing Machines                 | **Apply (Use, Adapt, Implement)**                  |
 |                                                    |                                                                | Church-Turing Thesis                   | **Understand (Explain, Justify)**                  |
-|                                                    |                                                                | Analytical and Critical Thinking (FPK) | **Apply (Evaluate, Decide, Select)**               |
+|                                                    |                                                                | Analytical and Critical Thinking | **Apply (Evaluate, Decide, Select)**               |
+|                                        |                                                    |
+| **Testing Turing Machines Using Simulators** | Collaborative, Responsible, Proactive, Creative | Turing Machines                           | **Apply (Simulate, Evaluate, Verify)** |
+|                                              |                                                     | Problem Solving and Troubleshooting | **Apply (Diagnose, Debug, Refine)**    |
+
 
 
 

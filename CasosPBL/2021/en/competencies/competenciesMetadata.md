@@ -1,4 +1,4 @@
-Knowledges:
+Knowledges <http://example.org/cs2013/> .
 Finite State Machines
 Requirements Engineering
 Deterministic Finite Automata
@@ -10,12 +10,14 @@ Pushdown Automata (Push-down Automata)
 Context-Free Grammars
 Context-Free Languages
 
+Knowledges <http://purl.org/cc2020/foundational#>
 Analytical and Critical Thinking
 Problem Solving and Troubleshooting
 Written Communication
 
 
 TASK01
+
 Title: Develop problem solutions using Automata
 Description: This competency refers to the ability to design, construct, and validate automaton-based solutions that address well-defined computational problems. Students are expected to interpret system requirements and model behavior using finite state machines, applying formal methods to ensure logical consistency and operational correctness.
 Dispositions: Collaborative, Responsible, Proactive, Creative
@@ -85,6 +87,7 @@ KnowledgeSkill:
 
 
 TASK02
+
 Title: Write a Technical Report
 Title: Test Automata Using Simulators
 
