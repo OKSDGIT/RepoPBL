@@ -9,7 +9,7 @@ Authors: Edeyson Gomes &nbsp;  Jéssica Santana
 ### **1. Introduction**  
 The company **Farmer Robot** is developing a prototype robot to identify herds in livestock farms where animals roam freely (extensive livestock farming). This robot is equipped with a highly advanced visualization module capable of classifying animals as bovine, caprine, or swine. To improve farm management—such as selecting the appropriate feed for each herd—it is essential to identify which herds are present in the enclosures. To minimize transportation costs for delivering feed, the robot must send feed requests when it identifies a minimum number of individuals in a given herd. These minimum quantities are predefined with the farm owner. However, the Farmer Robot company has not yet developed the module responsible for performing this identification.  
 
-A technician at Farmer Robot, who is also a student in one of UFBA's Computing courses, brought this problem to their classmates so they could collaboratively develop a prototype for the robot's identification module. Due to budget constraints, Farmer Robot is seeking the most cost-effective solution for this initial prototype.  
+A technician at Farmer Robot, who is also a student in one of X's Computing courses, brought this problem to their classmates so they could collaboratively develop a prototype for the robot's identification module. Due to budget constraints, Farmer Robot is seeking the most cost-effective solution for this initial prototype.  
 
 During their initial research, the students determined that a simple finite state machine could solve the problem. How they reached this conclusion is an interesting question. Additionally, the students discovered a mathematical expression frequently used in protocols, which is easy to understand and could be part of the solution's documentation. This expression can be constructed once the solution is implemented using a finite state machine. The students presented this possibility in a meeting, and the company expressed interest in learning more about this aspect.  
 
@@ -27,7 +27,7 @@ The process must be documented using the **PBL whiteboard**, which consists of t
 
 
 ### **3. Deliverables**  
-A team member must submit the following by **8:20 PM on March 31, 2021**, via UFBA's virtual learning environment (AVA):  
+A team member must submit the following by **8:20 PM on March 31, 2021**, via X's virtual learning environment (AVA):  
 
 1. A file for the **JFLAP simulator** containing the robot's identification module. 
 
