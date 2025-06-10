@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Bahia Department of Transport Infrastructure (DERBA).
+This report applies the **Competency Specification Process (CSP)** to the Problem-Based Learning (PBL) scenario entitled **"Traffic Control"**, which engages students in designing a computational solution using **Turing Machines** to address vehicle monitoring and classification on highways. The task integrates formal methods and systems thinking to model a real-world problem posed by the Department of Transport Infrastructure.
 
 Through the CSP methodology, competencies are extracted and structured based on the analysis of the task description, relevant knowledge domains, learning objectives, and behavioral dispositions. The goal is to define a robust competency framework aligned with both **technical skill development** and **collaborative problem solving**.
 
@@ -10,14 +10,14 @@ Through the CSP methodology, competencies are extracted and structured based on 
 
 ## 1. Task Description Analysis
 
-The *Traffic Control* task challenges students to develop a formal computational solution that addresses a real-world issue identified by the **Bahia Department of Transport Infrastructure (DERBA)**: the deterioration of highways due to excessive pressure from nighttime heavy vehicle traffic.
+The *Traffic Control* task challenges students to develop a formal computational solution that addresses a real-world issue identified by the **Department of Transport Infrastructure**: the deterioration of highways due to excessive pressure from nighttime heavy vehicle traffic.
 
 To support pavement wear prevention efforts, students must design a system capable of:
 
 * **Processing sensor data** collected from vehicle entries and exits on the Aratu highway;
 * **Classifying vehicles** into three weight categories (light, heavy, and very heavy);
 * **Counting occurrences** for each category during the previous night; and
-* **Identifying the most frequent category**, enabling DERBA to prioritize interventions.
+* **Identifying the most frequent category**, enabling the Department of Transport Infrastructure to prioritize interventions.
 
 The system must be modeled using **Turing Machines**, reflecting a theoretical yet expressive model of computation. Deliverables include one or more **JFLAP-based Turing Machine files** and a **technical report** compliant with SBC formatting standards, clearly explaining the classification logic, design rationale, and simulation process.
 
@@ -52,7 +52,7 @@ This knowledge foundation ensures that the problem is addressed not only from a 
   * Provides the theoretical basis for the task, reinforcing the equivalence between algorithmic reasoning and Turing-computable functions. Students are expected to ground their solutions in this foundational concept.
 
 * **Requirements Analysis**
-  * Enables the identification, analysis, and formalization of user needs (e.g., DERBA’s demand for nighttime traffic classification) into computational requirements that guide system design.
+  * Enables the identification, analysis, and formalization of user needs (e.g., Department of Transport Infrastructure’s demand for nighttime traffic classification) into computational requirements that guide system design.
 
 * **Modeling and Simulation**
   * Involves abstracting system behaviors into formal representations and validating them through tools such as **JFLAP**. This knowledge area supports iterative refinement and verification of the proposed solution.
@@ -66,7 +66,7 @@ This knowledge foundation ensures that the problem is addressed not only from a 
   * Essential for addressing implementation issues, such as handling non-standard input formats, optimizing tape usage, or debugging Turing Machine simulations.
 
 * **Written Communication**
-  * Needed to produce a well-structured and technically sound report that documents the design rationale, implementation decisions, and validation strategies. This ensures that results are effectively communicated to technical and non-technical audiences, such as DERBA.
+  * Needed to produce a well-structured and technically sound report that documents the design rationale, implementation decisions, and validation strategies. This ensures that results are effectively communicated to technical and non-technical audiences, such as Department of Transport Infrastructure.
 
 
 
@@ -83,7 +83,7 @@ This objective highlights the practical application of theoretical computer scie
 
 To achieve the general objective, students are expected to:
 
-1. **Identify** system requirements and constraints based on stakeholder input, particularly the needs expressed by DERBA for traffic data analysis and classification.
+1. **Identify** system requirements and constraints based on stakeholder input, particularly the needs expressed by Department of Transport Infrastructure for traffic data analysis and classification.
 2. **Translate and align** these requirements with the computational capabilities and limitations of Turing Machines, ensuring a faithful and executable system design.
 3. **Evaluate** the adequacy of standard Turing Machines and determine when the use of **machine variants** (e.g., multi-tape, non-deterministic) is necessary to enhance expressiveness or performance.
 4. **Apply** the **Church-Turing Thesis** to justify the feasibility of the proposed system, connecting formal computation models with the intuitive concept of algorithmic problem solving.
@@ -142,7 +142,7 @@ The following knowledge areas are critical for this competency:
     - Essential to achieving the overall objective, this knowledge involves understanding and applying the principles of Turing Machines to model the solution for traffic categorization and analysis.
 
 - **Requirements Analysis:**
-    - Necessary to accurately identify and formalize the needs of DERBA technicians, ensuring that system requirements are well understood and properly implemented.
+    - Necessary to accurately identify and formalize the needs of Department of Transport Infrastructure technicians, ensuring that system requirements are well understood and properly implemented.
 
 - **Analytical and Critical Thinking (FPK):**
     - Fundamental for planning and developing the solution, enabling students to analyze available information, evaluate alternative strategies, and propose approaches that balance accuracy and efficiency.
@@ -155,7 +155,7 @@ The analysis of the **Traffic Control on Aratu Road*** task highlights key behav
 - Work closely with team members to design and integrate all parts of the system, share insights, and ensure a cohesive solution.
 
 **Responsible**
-- Demonstrate commitment to the quality of the solution, meeting deadlines, and ensuring that DERBA's technical requirements are fully addressed.
+- Demonstrate commitment to the quality of the solution, meeting deadlines, and ensuring that Department of Transport Infrastructure's technical requirements are fully addressed.
 
 **Proactive**
 - Anticipate potential implementation challenges, propose improvements, and adapt the computational model to increase the accuracy of vehicle classification.
@@ -178,7 +178,7 @@ To achieve this competency, students must demonstrate the ability to:
 
 - **Use** *Turing Machines* to represent and simulate the logic of counting and categorizing vehicles, ensuring that the model correctly processes the data and delivers an efficient solution to the problem.
 
-- **Apply** *Requirements Analysis* to correctly identify and specify the essential requirements of the system. Students must elicit DERBA’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
+- **Apply** *Requirements Analysis* to correctly identify and specify the essential requirements of the system. Students must elicit Department of Transport Infrastructure’s needs, interpret sensor data, and define criteria for traffic analysis, ensuring that user requirements are translated into practical functionalities in the developed solution.
 
 
 **A.5.2 Bloom’s Taxonomy Alignment**  
