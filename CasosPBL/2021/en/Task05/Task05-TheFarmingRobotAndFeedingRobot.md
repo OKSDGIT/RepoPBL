@@ -1,8 +1,8 @@
 # **Problem 5 (Task): The Farmer Robot and the Feeder Robot**
  
-Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
+Authors:  
 
-Contributor: Edeyson Gomes
+Contributor: 
  
 ## Task: The Farmer Robot and the Feeder Robot
 
@@ -10,7 +10,7 @@ Contributor: Edeyson Gomes
 
 The company **Farmer Robot** was highly satisfied with the solutions proposed for the problems of signaling food delivery and the robot's return to the starting point. Now, the innovation department is excited about implementing a new functionality and introducing a new robot: the Farmer Robot, while traversing herds and issuing food delivery alerts, must also communicate the path the **Feeder Robot** should follow to deliver the appropriate supplies to the herd. This new robot, the Feeder Robot, is in its prototype phase, with the initial demand focusing on implementing its navigation module.
 
-Meanwhile, the UFBA student team responsible for developing the initial Farmer Robot modules, upon studying the new demands, found in the literature an **abstract machine with sequential read and write access to an unlimited memory device**. This machine can incorporate the Farmer Robot's modules as well as the Feeder Robot's navigation module. This finding was shared with the company's innovation team, which then proposed enhancements to the Farmer Robot modules. For example, upon reviewing the solution proposed for the food delivery signaling problem, the students realized they could improve it by allowing the farmer to specify the minimum quantities of herd members as inputs to the machine. 
+Meanwhile, the X student team responsible for developing the initial Farmer Robot modules, upon studying the new demands, found in the literature an **abstract machine with sequential read and write access to an unlimited memory device**. This machine can incorporate the Farmer Robot's modules as well as the Feeder Robot's navigation module. This finding was shared with the company's innovation team, which then proposed enhancements to the Farmer Robot modules. For example, upon reviewing the solution proposed for the food delivery signaling problem, the students realized they could improve it by allowing the farmer to specify the minimum quantities of herd members as inputs to the machine. 
 
 Additionally, after several meetings with the innovation team, it was decided—both to standardize documentation and to train the maintenance team—that the same **abstract machine model** should be used to implement both the enhanced Farmer Robot navigation module and the Feeder Robot navigation module.
 
@@ -30,7 +30,7 @@ The process must be documented using the **PBL Whiteboard**, which consists of t
 
 ### **3. Deliverables**
 
-A team member must submit the following by **8:20 PM on May 24, 2021**, via UFBA's virtual learning platform (AVA):  
+A team member must submit the following by **8:20 PM on May 24, 2021**, via X's virtual learning platform (AVA):  
 
 1. A file for the **JFLAP simulator** containing the Farmer Robot's identification and navigation modules as well as the Feeder Robot's navigation module.  
 2. A **report**, written in the SBC (Brazilian Computing Society) article format, that thoroughly details the design and functionality of the developed modules for the robots.  
