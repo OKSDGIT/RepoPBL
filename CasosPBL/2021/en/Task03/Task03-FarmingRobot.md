@@ -1,8 +1,8 @@
 ﻿# **Problem 3 (Task): Farmer Robot**
  
-Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  Roberta Oliveira  &nbsp; Daniel Cason
+Authors: 
  
-Authors: Edeyson Gomes &nbsp;  Jéssica Santana
+Authors: 
 
 ## **Task: The Farmer Robot**
 
