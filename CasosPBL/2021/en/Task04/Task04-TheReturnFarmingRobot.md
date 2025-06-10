@@ -1,8 +1,8 @@
 ﻿# **Problem 4 (Task): The farmer robot returns**
  
- Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp; Roberta Oliveira &nbsp; Jessica Santana &nbsp; Otávio Neto
+ Authors: 
  
- Contributors: Edeyson Gomes
+ Contributors: 
  
 ## **Task: The Return of the Farmer Robot**
 
@@ -10,7 +10,7 @@
 
 The company **Farmer Robot** was highly satisfied with the proposed solution for signaling food delivery and is now excited about implementing a new functionality: in addition to navigating through the herd and sending food delivery alerts, the robot must also be capable of returning to its starting point to perform another task. The company already has "external sensor" kits to guide the robot to the herds, but the challenge is figuring out how to make the robot return to its starting point. As previously agreed with the farmer, the robot should still issue food delivery alerts based on the minimum number of herd members detected.
 
-The UFBA student team responsible for developing the initial prototype studied this navigation problem and realized that a simple finite state machine (FSM) is insufficient to solve it. Understanding how they reached this conclusion is an interesting question. Upon further exploration of the problem of returning to the starting point, the students observed that adding an **auxiliary memory device** to the FSM could model a solution to support the robot's navigation.
+The X student team responsible for developing the initial prototype studied this navigation problem and realized that a simple finite state machine (FSM) is insufficient to solve it. Understanding how they reached this conclusion is an interesting question. Upon further exploration of the problem of returning to the starting point, the students observed that adding an **auxiliary memory device** to the FSM could model a solution to support the robot's navigation.
 
 The students also noted that the **Food Delivery Module** from the original Farmer Robot problem could be extended with the proposed navigation module. Alternatively, the two modules could operate as separate solutions running in parallel, with some form of communication between them. Additionally, the company expressed interest in a **notation system** to specify rules for generating location sequences, to aid in documenting and improving the robot's navigation module.
 
@@ -28,7 +28,7 @@ The process must be documented using the **PBL Whiteboard**, which consists of t
 
 ### **3. Deliverables**
 
-A team member must submit the following by **8:20 PM on April 28, 2021**, via UFBA's virtual learning environment (AVA):  
+A team member must submit the following by **8:20 PM on April 28, 2021**, via X's virtual learning environment (AVA):  
 
 1. A file for the **JFLAP simulator** containing the robot's navigation module.  
 
