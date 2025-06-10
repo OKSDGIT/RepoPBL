@@ -1,8 +1,8 @@
 # **Problem 1 (Task): The vending machine for sodas and snacks**
 
-Authors: Luiz Gavaza  &nbsp;  Lais Salvador  &nbsp;   David Moises &nbsp;    Roberta Oliveira
+Authors: 
 
-Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
+Contributors: 
 
 21 de September de 2020
 
@@ -12,7 +12,7 @@ Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
 
 The company **Refrigerantes e Salgados S.A.** decided to develop new solutions for their vending machines for soft drinks and snacks, based on well-structured hardware and software designs, accompanied by precise and user-friendly documentation.
 
-The idea emerged during a conversation between one of the company’s IT technicians and a group of students from the Department of Computer Science at UFBA. They realized that certain state machines, known as automata, can support the functionalities of vending machines while requiring minimal memory and being simple to configure.
+The idea emerged during a conversation between one of the company’s IT technicians and a group of students from the Department of Computer Science at ???. They realized that certain state machines, known as automata, can support the functionalities of vending machines while requiring minimal memory and being simple to configure.
 
 The company’s machines need to be configured to sell at least three (3) products, accept coins and banknotes of R$1.00 and R$2.00, and provide change. The company’s product portfolio includes soft drinks priced at R$3.00 and R$5.00, as well as snacks priced at R$5.00 and R$7.00.
 
@@ -32,7 +32,7 @@ Additionally, a shared document will be provided to record the **Logbook**, as d
 
 ### **3. Deliverable**
 
-You must submit your deliverable on the **UFBA LMS (Moodle)** platform by **20:20 on October 13, 2020**, in the designated space. The submission should include:
+You must submit your deliverable on the ** LMS (Moodle)** platform by **20:20 on October 13, 2020**, in the designated space. The submission should include:
 
 1. **Automaton File**:  
    An automaton representing a vending machine for soft drinks and snacks that can be tested/simulated using JFLAP. The automaton must reflect the intended functionalities and operations of the vending machine.
