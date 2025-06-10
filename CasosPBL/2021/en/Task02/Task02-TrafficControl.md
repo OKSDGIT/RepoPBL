@@ -1,14 +1,14 @@
 ﻿# **Problem 2 (Task): Traffic Control**
   
-Authors: Luiz Gavaza &nbsp; Lais Salvador &nbsp;  David Moisés
+Authors: 
 
-Contributors: Edeyson Gomes &nbsp;  Jéssica Santana
+Contributors: 
 
 ## **Task: Traffic Control**
 
 ### **1. Introduction**
 
-One of the problems affecting Brazilian highways is the **large number of potholes.** There are many causes for this issue: **the alternation between rain and sun** is one of them. Another reason is **the pressure exerted by heavy vehicles** on the roads during the night, a period when these vehicles move more freely on the highways. On the Aratu Road in Salvador, many potholes have been identified by technicians from the **Bahia Department of Transport Infrastructure (DERBA),** causing various incidents and occasionally serious accidents.
+One of the problems affecting Brazilian highways is the **large number of potholes.** There are many causes for this issue: **the alternation between rain and sun** is one of them. Another reason is **the pressure exerted by heavy vehicles** on the roads during the night, a period when these vehicles move more freely on the highways. On the Aratu Road in Salvador, many potholes have been identified by technicians from the **Department of Transport Infrastructure,** causing various incidents and occasionally serious accidents.
 
 The technicians at this department believe it is possible to reduce pressure on the pavement and, consequently, minimize the problem of potholes if they have access to daily reports on the number of vehicles traveling on the road at night.
 
@@ -16,7 +16,7 @@ Based on this data, the idea is to create **a pavement wear prevention plan.** T
 
 Additionally, there are already sensors installed at the entrance and exit of the Aratu Road that allow vehicles to be identified and categorized. The technicians would like a solution that, based on the information from these sensors, **can determine how many vehicles from each category traveled during the previous night** and **identify which category had the most vehicles.**
 
-The current cohort of the Theory of Computation class is studying Turing Machines and believes **they can design a system with such functionalities.** As a result, they contacted DERBA technicians **to offer some solutions to this problem.**
+The current cohort of the Theory of Computation class is studying Turing Machines and believes **they can design a system with such functionalities.** As a result, they contacted the technicians **to offer some solutions to this problem.**
 
 ### 2. Process
 
@@ -28,7 +28,7 @@ The description of this process will be part of the group evaluation. During thi
 
 ### **3. Deliverable**
 
-You are required to upload to Moodle UFBA by **6:00 PM on January 12, 2020**, in the designated area: 
+You are required to upload to Moodle by **6:00 PM on January 12, 2020**, in the designated area: 
 
 1. One or more files containing **Turing Machines** (in JFLAP format) that provide a solution to the problem.
 
